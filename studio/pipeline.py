@@ -191,8 +191,9 @@ def write_review(run_dir, sets):
     (run_dir / "review_prompts.md").write_text("\n".join(pl))
 
 
-def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_after=None):
-    """stop_after: None (fully automatic), "compose" (stop after the object list + prompts for review), "dry" (with sets_file: only write prompts, no API)."""
+def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_after=None, keep_order=False):
+    """stop_after: None (fully automatic), "compose" (stop after the object list + prompts for review), "dry" (with sets_file: only write prompts, no API).
+    keep_order: with sets_file, keep the card order and colours of the file (e.g. an approved list); otherwise layout.arrange shuffles them."""
     t0 = time.time()
     n = variants or config.VARIANTS
     run_dir = config.RUNS_DIR / (name or f"{datetime.now():%Y%m%d-%H%M}_{slug(theme)}")
@@ -206,6 +207,9 @@ def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_aft
     if sets_file:  # object list written or edited by a human: skip the composer
         from .compose import validate
         sets = json.loads(Path(sets_file).read_text())
+        if not keep_order:
+            from .layout import arrange
+            arrange(sets)
         errs = validate(sets, len(sets))
         save_json(run_dir / "compose" / "sets.json", sets)
         save_json(run_dir / "compose" / "validation.json", errs)
@@ -220,7 +224,7 @@ def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_aft
     if stop_after in ("compose", "dry"):
         save_state(run_dir, sets, usage)
         print(f"[checkpoint] review {run_dir}/review_sets.md and review_prompts.md; edit {run_dir}/compose/sets.json if needed, then run:\n"
-              f"  python3 -m studio new --theme \"{theme}\" --sets {run_dir}/compose/sets.json --name <new-name>")
+              f"  python3 -m studio new --theme \"{theme}\" --sets {run_dir}/compose/sets.json --keep-order --name <new-name>")
         return run_dir
     for v in sets:
         print(f"[compose] {v['id']}. {v['set_name']}: " + ", ".join(f"{c['name']}({c['category']})" for c in v["cards"]))

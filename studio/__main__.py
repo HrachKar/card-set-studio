@@ -4,6 +4,7 @@
        [--stop-after compose]          # checkpoint: stop after the object list + prompts (review_sets.md, review_prompts.md)
        [--sets runs/<run>/compose/sets.json]   # continue from an approved / edited object list (skips the composer)
        [--sets file.json --stop-after dry]     # only write prompts for a ready list, no API calls
+       [--keep-order]                          # with --sets: keep the file's card order and colours (else code shuffles them)
   python -m studio regen --run runs/<run> --card B4 [--object "a red barn"] [--name "Barn"] [--category 4] [--note "..."]
   python -m studio pick  --run runs/<run> --card B4 --file r2_1.png     # choose a candidate by hand
   python -m studio retest --from runs/<run> --cards A4,B4 --name <new-run>   # same cards, current prompts
@@ -20,6 +21,7 @@ def main():
     a.add_argument("--variants", type=int); a.add_argument("--candidates", type=int); a.add_argument("--rounds", type=int)
     a.add_argument("--name")
     a.add_argument("--sets", help="JSON with ready sets (hand-written or edited): skip the composer")
+    a.add_argument("--keep-order", action="store_true", help="with --sets: keep card order and background colours from the file")
     a.add_argument("--stop-after", choices=["compose", "dry"], help="compose: stop after the object list and prompts for review; dry: with --sets, only write prompts (no API)")
     r = sub.add_parser("regen"); r.add_argument("--run", required=True); r.add_argument("--card", required=True)
     r.add_argument("--object"); r.add_argument("--name"); r.add_argument("--category", type=int); r.add_argument("--note", default="")
@@ -45,7 +47,7 @@ def main():
     if args.cmd == "new":
         if args.rounds:
             config.MAX_ROUNDS = args.rounds
-        pipeline.new_run(args.theme, args.wishes, args.variants, args.name, args.sets, args.stop_after)
+        pipeline.new_run(args.theme, args.wishes, args.variants, args.name, args.sets, args.stop_after, args.keep_order)
     elif args.cmd in ("regen", "pick"):
         vid, n = args.card[0].upper(), int(args.card[1:])
         if args.cmd == "pick":
