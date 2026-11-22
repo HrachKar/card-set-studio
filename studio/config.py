@@ -17,6 +17,8 @@ GAME_SIZE = (430, 480)
 VARIANTS = 3          # set variants per theme
 CANDIDATES = 3        # images per card per round (3 since 20.11: more choice against distortions)
 MAX_ROUNDS = 2        # round 2 regenerates only cards where no candidate passed the gate
+MAX_RUN_USD = float(os.environ.get("CARDSET_MAX_RUN_USD", 12))  # budget cap per run (Hrach 22.11): once the estimate passes it, no new
+                     # re-generation rounds start; the card keeps its best candidate. Round 1 always runs. 0 = no cap
 WORKERS = 4           # parallel image requests (org limit: 20 input images/min, 3 refs per call)
 PASS_SCORE = 9        # judge total 0-10 (5 checklist items x 0-2, analysis/rating-checklist.md). 9 matched Hrach on 16/20 of ww-01 (8 gave 14/20)
 
