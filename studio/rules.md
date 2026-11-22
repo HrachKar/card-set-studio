@@ -42,10 +42,10 @@ The game designer may edit this file; the composer agent reads it on every run.
 - The object is shown whole, in its normal shape and proportions: no melted, bent or invented versions.
 
 ## Diversity inside a set (this is what makes a set feel rich)
-- Mix object classes: tool/equipment, food or drink, clothing/accessory, transport or architecture, nature element, furniture/device. Never put two items of the same class next to each other in the order.
+- Mix object classes: tool/equipment, food or drink, clothing/accessory, transport or architecture, nature element, furniture/device. The order in the window is set later by code (studio/layout.py): it never puts two items of the same class side by side.
 - Mix real-world scales: hand-sized (whistle, ticket), furniture/device size (chair, machine), big (lighthouse, ferris wheel, bus). In the frame everything is drawn at the same visual size.
 - Mix silhouettes: vertical, horizontal, round.
-- Neighbouring cards in the order must have different background colours. The set should look rainbow-like in the 5x2 window. Background colour must contrast with the object colour (blue bottle on yellow, red booth on green, orange honey on turquoise). Use clean colours: sky blue, blue, yellow, orange, green, purple, pink, red, turquoise, lilac, peach, mint.
+- Background colour: give each card of categories 1-3 a field "bg_options" with 2-3 colours that contrast with the object (blue bottle on yellow, red booth on green, orange honey on turquoise). Use clean colours: sky blue, blue, yellow, orange, green, purple, pink, red, turquoise, lilac, peach, mint. Do NOT plan the colour layout: code picks one option per card (neighbours differ, at most 3 cards of one temperature in a row, the set palette tilts warm or cool, no colour pattern repeated between variants). Not a rainbow: reference sets often keep one dominant colour family.
 
 ## Categories (depth-of-frame scale). All 4 must be present.
 Target split for 10 cards: cat1 = 3, cat2 = 2, cat3 = 3, cat4 = 2 (each may deviate by ±1, minimum 1 each).
@@ -68,10 +68,10 @@ Target split for 10 cards: cat1 = 3, cat2 = 2, cat3 = 3, cat4 = 2 (each may devi
 - 1-2 English words, nouns, short, sometimes playful (Bounce, Chains, Gallery, Cargo Barrel, Captain's Cap).
 
 ## Main card
-- One card per variant is the main symbol of the genre (field "hero": true): the thing a player would draw to say the genre (saloon, dragon, starship, hero tower). It is the last card in the window order (highest rarity).
+- One card per variant is the main symbol of the genre (field "hero": true): the thing a player would draw to say the genre (saloon, dragon, starship, hero tower). It is the last card in the window (highest rarity); its category can be any.
 
 ## Order
-- Cards are listed in window order (row 1 = cards 1-5, row 2 = cards 6-10). Spread categories so the grid has rhythm; neighbours (left/right and above/below) do not share a background colour.
+- Do not plan the order. Code (studio/layout.py) shuffles cards per variant and set: main card last, at most 2 cards of one category in a row, no fixed slots (category 1 is not always card 1 and 6), different layouts in every variant and set. Reason (Hrach 22.11): a hand-planned order turned into one template repeated in every set.
 
 ## No protected IP (stop-list)
 - Generic archetypes are ALLOWED and wanted (cape, domino mask, gloves, round shield, hammer, robot suit, jetpack, starfighter, wizard hat, sword in stone). Forbidden are only SPECIFIC designs and names of known franchises, even renamed: trademarked names and symbols (lightsaber, droid, Jedi/Sith, blue milk, the bat symbol, the S-shield, Mjolnir, the One Ring, sorting hat, golden snitch) and exact signature designs (X-wing/TIE silhouettes, the red-and-gold Iron Man helmet, the red-white-blue star shield, the horned dragonborn helmet). A rooftop signal spotlight, a phone booth, a utility belt or a round shield with the set's OWN symbol is an archetype and is allowed.

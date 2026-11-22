@@ -2,15 +2,16 @@
 
 Three passes, every one logged to <run>/compose/:
   1. draft    - the composer writes the sets following studio/rules.md
-  2. code     - validate(): split 3/2/3/2, neighbour colours, required fields (violations are sent back)
+  2. code     - validate(): split 3/2/3/2, required fields (violations are sent back)
   3. critic   - a second call reviews every card like a lead designer ("is the theme obvious without the caption?",
                 "does the place match the set name?", "is it physically sensible?") and returns a corrected JSON
+After that studio/layout.py (code, no API) shuffles the card order and picks background colours (Hrach 22.11).
 The composer model is set in config.TEXT_MODEL (or passed in); OpenAI and Gemini models are supported.
 """
 import json, os, re
 from collections import Counter
 
-from . import config
+from . import config, layout
 from .util import save_json, Usage
 
 SCHEMA_HINT = """Return JSON:
@@ -23,7 +24,7 @@ SCHEMA_HINT = """Return JSON:
    "concept": "one sentence: which place/situation of the theme this set shows",
    "palette": "one sentence on the colour mood",
    "motif": "one simple silhouette used as a background pattern on 2-3 cards, e.g. 'horseshoe'",
-   "cards": [  // exactly 10, in window order
+   "cards": [  // exactly 10; the order in the window is decided later by code (studio/layout.py)
      {"n": 1,
       "name": "1-2 English words",
       "object": "short iconic English description of ONE object, colour and theme marker included, e.g. 'a brown cowboy hat with a red band and curled brim'",
@@ -33,7 +34,7 @@ SCHEMA_HINT = """Return JSON:
       "scale": "hand|furniture|big",
       "silhouette": "vertical|horizontal|round",
       "category": 1,
-      "bg_color": "one clean colour word, contrasting the object",
+      "bg_options": ["2-3 clean colour words from the rules list that contrast with the object; code picks one"],
       "bg_treatment": "cat1/2: sunburst rays | vertical stripes | diagonal stripes | soft waves | concentric circles | soft gradient | faint repeating pattern of <motif> silhouettes; cat3: faint repeating pattern of <motif> silhouettes | plain wall with light glow | simple <matching> interior; cat4: leave empty",
       "surface": "cat3 only: realistic surface from one of the genre's places that fits the object; otherwise empty",
       "environment": "cat4 only: one of the genre's places as a bright environment; otherwise empty",
@@ -51,7 +52,7 @@ A. Archetype test (first and most important): would a child name this object amo
 3. Physical sense: does the object stand/grow where it really would?
 4. Readability without caption, kid-friendly, not boring.
 5. Whole variant: does it read as the whole genre, not one corner of it?
-Then FIX the sets: replace failing objects (keep the category split, neighbour colours and diversity rules), sharpen theme markers, fix surfaces/environments. If a whole variant fails rule 5, rebuild it around a better place.
+Then FIX the sets: replace failing objects (keep the category split, bg_options and diversity rules), sharpen theme markers, fix surfaces/environments. If a whole variant fails rule 5, rebuild it around a better place.
 Return JSON: {"review": [{"card": "A6", "problem": "...", "fix": "..."}], "variants": [ ...full corrected variants in the same schema... ]}
 
 RULES:
@@ -100,12 +101,8 @@ def validate(variants, n_expected):
             if cnt.get(cat, 0) < 1 or abs(cnt.get(cat, 0) - t) > 1:
                 errs.append(f"variant {vid}: category {cat} has {cnt.get(cat, 0)} cards, target {t}±1 (min 1)")
         for i, c in enumerate(cards):
-            right = cards[i + 1] if i % 5 < 4 and i + 1 < 10 else None
-            below = cards[i + 5] if i < 5 else None
-            for nb, where in ((right, "right"), (below, "below")):
-                if nb and int(c.get("category", 0)) != 4 and int(nb.get("category", 0)) != 4 and \
-                        c.get("bg_color", "").lower() == nb.get("bg_color", "").lower():
-                    errs.append(f"variant {vid}: card {i+1} and its {where} neighbour share bg colour '{c.get('bg_color')}'")
+            if int(c.get("category", 0)) != 4 and not (c.get("bg_options") or c.get("bg_color")):
+                errs.append(f"variant {vid}: card {i+1} has no bg_options (2-3 colours that contrast with the object)")
             if int(c.get("category", 0)) == 3 and not c.get("surface"):
                 errs.append(f"variant {vid}: card {i+1} is cat3 but has no surface")
             if int(c.get("category", 0)) == 4 and not c.get("environment"):
@@ -191,6 +188,7 @@ def compose(theme, wishes, n_variants, run_dir, usage: Usage, max_attempts=3, mo
             print(f"[compose:critic] {len(full.get('review', []))} cards fixed")
         else:
             variants = draft  # critic output broke the rules: keep the validated draft
+    layout.arrange(variants)  # order and background colours are chosen by code, not by the composer (Hrach 22.11)
     for v in variants:  # the context must reach the image prompt, not get lost between steps
         for card in v["cards"]:
             card["set_context"] = v.get("context", "")
