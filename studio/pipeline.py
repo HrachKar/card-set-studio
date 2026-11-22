@@ -39,6 +39,11 @@ def process_card(run_dir, vid, card, usage, rounds=None, start_round=1, note="")
     hist = card.setdefault("history", [])
     fix = note
     for rnd in range(start_round, start_round + (rounds or config.MAX_ROUNDS)):
+        if rnd > start_round and config.MAX_RUN_USD and usage.usd() >= config.MAX_RUN_USD:
+            card["budget_stop"] = dict(round=rnd, usd=usage.usd(), cap=config.MAX_RUN_USD)
+            print(f"[budget] {vid}{card['n']} {card['name']}: run cost ~${usage.usd()} >= cap ${config.MAX_RUN_USD}, "
+                  f"round {rnd} skipped, best existing candidate kept")
+            break
         p = prompts.build(card, fix)
         (d / f"prompt_r{rnd}.txt").write_text(p)
         futs = [img_pool().submit(render.generate, p, card["category"], d / f"r{rnd}_{i}.png", usage)
@@ -150,6 +155,8 @@ def write_report(run_dir, variants, usage, elapsed=None):
     u = usage.report()
     L.append(f"Images generated: {u['images']}, LLM calls: {u['llm_calls']}, cost estimate: ~${u['usd_estimate']}"
              + (f", time: {elapsed/60:.1f} min" if elapsed else ""))
+    stops = [f"{v['id']}{c['n']}" for v in variants for c in v["cards"] if c.get("budget_stop")]
+    L.append(f"Budget cap: ${config.MAX_RUN_USD or '-'} per run" + (f"; reached, re-generation skipped for {', '.join(stops)}" if stops else ", not reached"))
     L += ["", "![overview](sheets/overview.png)", ""]
     for v in variants:
         L += [f"## {v['id']}. {v['set_name']}", "", f"**Context:** {v.get('context', '')}", "", v.get("concept", ""), "", f"Palette: {v.get('palette','')}. Motif: {v.get('motif','')}.", "",
@@ -200,7 +207,7 @@ def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_aft
     run_dir.mkdir(parents=True, exist_ok=True)
     save_json(run_dir / "request.json", dict(theme=theme, wishes=wishes, variants=n, text_model=config.TEXT_MODEL,
                                              image_model=config.IMAGE_MODEL, candidates=config.CANDIDATES,
-                                             max_rounds=config.MAX_ROUNDS, pass_score=config.PASS_SCORE,
+                                             max_rounds=config.MAX_ROUNDS, max_run_usd=config.MAX_RUN_USD, pass_score=config.PASS_SCORE,
                                              started=datetime.now().isoformat(timespec="seconds")))
     usage = Usage()
     print(f"[run] {run_dir}")
