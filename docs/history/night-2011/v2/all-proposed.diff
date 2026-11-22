@@ -1,0 +1,253 @@
+--- studio/prompts.py	2026-11-20 13:31:31.551575000 +0000
++++ night-2011/v2/proposed/prompts.py	2026-11-20 22:40:28.926184000 +0000
+@@ -1,14 +1,16 @@
+ """Step 2. Card spec (from the composer) -> image prompt. Templates per category follow analysis section 3."""
+ 
+-STYLE = ("stylized 3D casual mobile game collectible card art, animated-movie look, "
++STYLE = ("stylized 3D casual mobile game collectible card art, warm animated-movie look, "
+          "soft rounded chunky shapes, slightly exaggerated proportions, no outlines, "
+-         "stylized material textures with medium detail, soft diffuse warm lighting, "
+-         "glossy highlights, soft contact shadow, the object is the most saturated element, "
+-         "background slightly softer, single object centered, fills about 75% of the width, "
+-         "top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, "
++         "every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) "
++         "with soft hand-painted texture and medium detail, matte or satin surfaces, "
++         "warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, "
++         "the object is the most saturated element, background slightly softer, single object centered, "
++         "fills about 75% of the width, top 12% of the frame kept clear, simplified forms, "
+          "thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details")
+ NEG = ("No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, "
+-       "outlines, photorealism, dark gloomy tones, clutter, people, animals.")
++       "outlines, photorealism, dark gloomy tones, clutter, people, "
++       "glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow.")
+ 
+ 
+ def scene(c):
+@@ -21,7 +23,7 @@
+         return (f"{obj} standing on a plain flat floor of lighter {col}, {view or 'three-quarter view slightly from above'}. "
+                 f"Behind it a plain vertical {col} wall with {bg}. No environment details")
+     if cat == 3:
+-        return (f"{obj} placed on {c.get('surface') or 'a realistic wooden table'} (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), "
++        return (f"{obj} placed on {c.get('surface') or 'a realistic wooden table'} (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), "
+                 f"the whole object visible with space around it, {view or 'three-quarter view slightly from above'}. "
+                 f"Behind it a volumetric background: a saturated {col} wall with {bg} and a gentle light glow "
+                 f"behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette")
+@@ -37,7 +39,7 @@
+          f"create a new card illustration of {scene(c)}. Style: {STYLE}. Vertical 9:10 composition. {NEG}")
+     if c.get("set_context"):
+         p += (f" Context of this card set: {c['set_context']}. Let this context shape only the surface, environment and "
+-              f"background mood; show no people, no animals and no other objects from that day.")
++              f"background mood; show no people and no other objects from that day.")
+     if fix_note:
+         p += f" Important: {fix_note}"
+     return p
+--- studio/judge.py	2026-11-19 17:40:41.807860000 +0000
++++ night-2011/v2/proposed/judge.py	2026-11-20 22:40:28.934330000 +0000
+@@ -9,7 +9,7 @@
+ 
+ from . import config
+ 
+-HARD = ["text_or_numbers", "people_or_animals", "object_cropped", "several_main_objects",
++HARD = ["text_or_numbers", "people", "object_cropped", "several_main_objects",
+         "frame_or_border", "wrong_object", "wrong_category", "dark_or_photoreal", "broken_geometry"]
+ 
+ CAT_DESC = {
+@@ -21,11 +21,11 @@
+ 
+ RUBRIC = f"""You are the art lead of a casual mobile game (the reference game). Grade card illustrations against the style references,
+ using the same checklist the human game designer uses. Each item: 2 = yes, 1 = almost, 0 = no.
+-- style: could sit in the game window next to the references, same artist: chunky toy-like rounded forms, smooth stylized materials, no outlines, no fine AI-style texture (fibers, strands, gritty wood, tiny rocks/grass), not realistic.
++- style: could sit in the game window next to the references, same artist: chunky rounded forms, real materials (wood, metal, fabric, food) rendered softly with warm light, no outlines, NOT glossy plastic toy, chrome or neon, no fine AI-style texture (fibers, strands, gritty wood, tiny rocks/grass), not realistic.
+ - readability: at fingernail size, without a caption, it is instantly clear what the object is; one clear silhouette.
+ - category: correct depth of frame for the requested category (see below); in category 4 the object is big and dominant.
+ - colour: clean bright background contrasting the object; the object is the most saturated spot; nothing dark, dim or muddy.
+-- defects: 2 = no text/digits, no extra objects, no people/animals, not cropped (cat 1-3), no broken geometry, top 12% free.
++- defects: 2 = no text/digits, no extra objects, no people, not cropped (cat 1-3), no broken geometry, top 12% free.
+ Be strict: AI images often look fine at first glance but fail on style (too detailed, too realistic). Give 2 for style only if you really cannot tell it apart from the references.
+ Hard defects (list any that apply): {", ".join(HARD)}.
+ Note "object_cropped" only applies to categories 1-3. Simple pictorial emblems are fine; any letters or digits are a defect.
+--- studio/compose.py	2026-11-20 22:12:49.153039000 +0000
++++ night-2011/v2/proposed/compose.py	2026-11-21 13:28:34.937527599 +0000
+@@ -18,8 +18,8 @@
+   {"id": "A",
+    "set_name": "1-2 English words",
+    "archetypes": "the 15-20 first objects a player names for this genre, comma-separated; most cards come from this list",
+-   "context": "ONE sentence naming the typical places of the genre, e.g. 'A visitor's day in the Wild West: the town street, the desert trail, a campfire by the canyon'",
+-   "place": "the 2-4 typical places the day goes through and what is physically there, e.g. 'frontier town street with boardwalks; desert trail with cacti; campfire by a red canyon'",
++   "context": "the genre in a few words, e.g. 'Wild West'",
++   "place": "3-4 typical places of the genre and what is physically there, e.g. 'frontier town street with boardwalks; desert trail with cacti; campfire by a red canyon'",
+    "concept": "one sentence: which place/situation of the theme this set shows",
+    "palette": "one sentence on the colour mood",
+    "motif": "one simple silhouette used as a background pattern on 2-3 cards, e.g. 'horseshoe'",
+@@ -28,15 +28,15 @@
+       "name": "1-2 English words",
+       "object": "short iconic English description of ONE object, colour and theme marker included, e.g. 'a brown cowboy hat with a red band and curled brim'",
+       "theme_marker": "the concrete visual detail that makes it read as the theme without caption",
+-      "moment": "when and why this object appears in the day of the context, e.g. 'morning coffee before riding out'",
++      "moment": "where in the genre world it lives, e.g. 'saloon', 'campfire'",
+       "class": "equipment|food|drink|clothing|accessory|transport|architecture|nature|furniture|device|other",
+       "scale": "hand|furniture|big",
+       "silhouette": "vertical|horizontal|round",
+       "category": 1,
+       "bg_color": "one clean colour word, contrasting the object",
+       "bg_treatment": "cat1/2: sunburst rays | vertical stripes | diagonal stripes | soft waves | concentric circles | soft gradient | faint repeating pattern of <motif> silhouettes; cat3: faint repeating pattern of <motif> silhouettes | plain wall with light glow | simple <matching> interior; cat4: leave empty",
+-      "surface": "cat3 only: realistic surface that belongs to the set's place; otherwise empty",
+-      "environment": "cat4 only: the set's place as a bright environment; otherwise empty",
++      "surface": "cat3 only: realistic surface from one of the genre's places that fits the object; otherwise empty",
++      "environment": "cat4 only: one of the genre's places as a bright environment; otherwise empty",
+       "view": "camera angle, e.g. 'slightly tilted for dynamism' (cat1), 'three-quarter view slightly from above' (cat2/3), 'frontal, slightly from below' (tall cat4)"
+      }
+    ]}
+@@ -45,14 +45,12 @@
+ CRITIC = """You are a strict lead game designer reviewing card sets made by a junior designer for a casual mobile game collection.
+ Check EVERY card against the rules below, especially:
+ A. Archetype test (first and most important): would a child name this object among the first 20 things of the genre? Hybrids (a theme sign stuck on food, furniture or a random thing: cape cookie, mask locker, hero doorway) and invented gadgets fail: replace them with a real archetype. At least half of the cards show real non-plastic materials.
+-0. Context: does the variant have one concrete day of one person in one place? Replaceability test, card by card: could this object be swapped for a random object of the same theme without losing sense? If yes, it is a catalogue item, not part of THIS day: replace it with something this person really meets in this day, and give it a real "moment". All variants must share ONE header (same set_name, context, place, palette, motif) and differ only in the object pick; any card must fit into any other variant. If variants drift into different sub-themes, routes or professions, rewrite them to the common header.
+-   Day test: list the day of the person hour by hour (morning / midday / evening) and check that the 10 objects are what THIS person actually handles or sees in those hours. The day must cover the WHOLE genre world (town, road, camp...), not one profession.
+-   Invented objects (things that do not exist in films of this genre, e.g. "food synth", "star disc") fail: replace them with real, iconic ones.
++0. Genre: the set covers the WHOLE genre (no narrower sub-theme, place, profession or day). Class quotas: at most 2 per class, at most 2 wearables, at least 6 classes, no class is mandatory. No hybrids (theme sign on a random object); magic is at most one adjective. Invented objects (things that do not exist in films of this genre) fail: replace them with real, iconic ones.
+ 1. Theme without caption: cover the name, look at the object alone. Would a player instantly name the theme? Generic objects (plain rope, stool, kettle, modern boots, sandwich, generic station) fail unless the theme marker clearly changes the silhouette.
+-2. Place: does the card belong to the set's place? Do cat3 surfaces and cat4 environments match the set name (no house interior in a desert camp)?
++2. Place: do cat3 surfaces and cat4 environments come from the genre's places and fit the object (no house interior for a desert cactus)?
+ 3. Physical sense: does the object stand/grow where it really would?
+ 4. Readability without caption, kid-friendly, not boring.
+-5. Whole variant: is the set's place itself clearly inside the theme?
++5. Whole variant: does it read as the whole genre, not one corner of it?
+ Then FIX the sets: replace failing objects (keep the category split, neighbour colours and diversity rules), sharpen theme markers, fix surfaces/environments. If a whole variant fails rule 5, rebuild it around a better place.
+ Return JSON: {"review": [{"card": "A6", "problem": "...", "fix": "..."}], "variants": [ ...full corrected variants in the same schema... ]}
+ 
+@@ -94,7 +92,7 @@
+         if not v.get("place"):
+             errs.append(f"variant {vid}: no place")
+         if not v.get("context"):
+-            errs.append(f"variant {vid}: no context (one day of who, where)")
++            errs.append(f"variant {vid}: no context (the genre)")
+         if len(cards) != 10:
+             errs.append(f"variant {vid}: {len(cards)} cards instead of 10"); continue
+         cnt = Counter(int(c.get("category", 0)) for c in cards)
+@@ -113,7 +111,7 @@
+             if int(c.get("category", 0)) == 4 and not c.get("environment"):
+                 errs.append(f"variant {vid}: card {i+1} is cat4 but has no environment")
+             if not c.get("moment"):
+-                errs.append(f"variant {vid}: card {i+1} has no moment (when/why in the day)")
++                errs.append(f"variant {vid}: card {i+1} has no moment (where in the genre world)")
+             if not c.get("theme_marker"):
+                 errs.append(f"variant {vid}: card {i+1} has no theme_marker")
+             if len(c.get("name", "").split()) > 2:
+@@ -122,8 +120,8 @@
+         uses = sum(1 for c in cards if motif and motif in (c.get("bg_treatment") or "").lower())
+         if uses > 3:
+             errs.append(f"variant {vid}: motif used on {uses} cards, max 3")
+-    STOP = ("blue milk", "cantina", "lightsaber", "droid", "jedi", "sith", "macrobinocular", "x-wing", "tie fighter",
+-            "bat", "change booth", "phone booth", "snitch", "sorting hat", "dragonborn", "mjolnir")
++    STOP = ("blue milk", "lightsaber", "droid", "jedi", "sith", "x-wing", "tie fighter",
++            "batman", "bat symbol", "superman", "snitch", "sorting hat", "dragonborn", "mjolnir")
+     for v in variants:
+         for c in v.get("cards", []):
+             txt = f"{c.get('name','')} {c.get('object','')}".lower()
+@@ -136,7 +134,7 @@
+             seen.update({(c.get("name") or "x").split()[-1].lower().rstrip("s") for c in v.get("cards", [])})
+         for w, k in seen.items():
+             if k > 2:
+-                errs.append(f"object type '{w}' appears in {k} variants, max 2: replace it in one variant with another object of the same day")
++                errs.append(f"object type '{w}' appears in {k} variants, max 2: replace it in one variant with another object of the genre")
+     for f in ("set_name", "context", "place", "palette", "motif"):  # 3 alternatives of ONE set (Hrach 20.11)
+         vals = {(v.get(f) or "").strip().lower() for v in variants}
+         if len(vals) > 1:
+--- studio/rules.md	2026-11-20 22:12:48.762213000 +0000
++++ night-2011/v2/proposed/rules.md	2026-11-21 13:28:34.936888036 +0000
+@@ -3,19 +3,26 @@
+ These rules come from the analysis of the reference collection (Summer).
+ The game designer may edit this file; the composer agent reads it on every run.
+ 
+-## Start from the ARCHETYPES of the genre (most important, do this first)
+-- The collection is "Movies"; a set is ONE WHOLE GENRE (Wild West, Space Opera, Superheroes...). Do not narrow it to one profession or one location.
+-- First write the archetype list: the 15-20 objects a player names FIRST when hearing the genre, the things every film of the genre has (Wild West: cowboy hat, sheriff star, saloon, stagecoach, cactus, lasso, boots with spurs, horseshoe, wanted poster without text, water tower). Pick the 10 cards of a variant mostly from this list. A card that is not on the list needs a reason a child would understand.
+-- An archetype is a GENERIC type, not a specific film's design: a cape, a domino mask, a hero tower, a big war hammer, an armoured robot suit, a magic sword, a starfighter, a space helmet. Only specific trademarked designs are forbidden (see the stop-list).
+-- FORBIDDEN: hybrids that put a theme sign on a random thing (a cookie shaped like a cape, a locker with a mask painted on, a hero-branded doorway, a "power smoothie"). If the genre has few real objects, use its architecture, vehicles, gadgets and nature (hero tower, rescue jet, comms watch, city rooftop water tank), never invent food or furniture "in the style of" the genre.
+-- Real materials: each object is made of what it is made of in the films (leather, wood, steel, brass, fabric, glass, stone, real food). Avoid sets where every object is glossy coloured plastic: at least half of the cards must show non-plastic materials, like the reference cards (bottle, honey jar, pie, wooden helm).
+-- Context is a light frame, not the starting point: the field "context" names the typical places of the genre (town, road, camp) so that surfaces and environments of cat 3-4 match. Do not invent a story that drags in non-archetypal objects. Field "moment" may be short.
+-- The person never appears on the cards (no people, no animals).
+-- The collection is about movies, but the set shows the WORLD of the film, not the film set: no cameras, clapperboards, spotlights, film reels or stage props.
++## The set is the WHOLE GENRE; fill CLASS QUOTAS (most important)
++- Hierarchy: the collection theme is "Movies"; the sub-theme of a set is the GENRE (Wild West, Heroic Fantasy, Space Opera, Superheroes...). There is NO narrower sub-theme inside the set: no single place, profession, route or "day of a visitor".
++- Every card is a DIFFERENT representative of the genre, taken from anywhere in its world, like Seafaring: spyglass, buoy, map, ship, anchor, helm, captain's cap, lighthouse, cargo barrel. Not a wardrobe, not a catalogue of one kind of thing.
++- Class quotas for the 10 cards. Classes: building/place, vehicle, creature (animals, fantastic creatures, robots), food or drink, artifact (a magic or genre item you hold), household item (furniture, device, container, tool), nature, symbol (badge, medal, emblem object, crown), costume, weapon (a genre archetype shown as an item, never in use).
++  - at most 2 cards per class;
++  - at most 2 wearable items per set (hat, mask, cape, boots, gloves, helmet, crown all count);
++  - at least 6 different classes per set;
++  - no class is mandatory: only the diversity counts.
++- Each card must be one of the first things a player names for the genre (recognizable at a glance). NO hybrids at all: never stick a theme sign on a random thing (cape cookie, mask locker, hero smoothie, emblem mug, hero cereal). Real collection sets have none. Magic or genre flavour is at most ONE adjective on a real object (Frozen Rose, Ice Castle, Magic Portal, Golden Apple).
++- Real materials: at least half of the cards show wood, metal, fabric, ceramic, stone or real food. No neon, no chrome; at most 2 glowing elements per set.
++- No people (gold cards are out of scope). No film-set props (cameras, clapperboards).
++
++## Two steps: candidates, then selection
++- Step 1 (composer) writes 25-30 candidates for the genre, each with class, category guess, wearable yes/no, and a one-line reason why a player knows it.
++- Step 2 (selector, a separate pass that did not write the list) picks 10 by: recognizability at fingernail size, class quotas, all 4 categories (3/2/3/2 ±1), different silhouettes and scales. It writes why each rejected strong candidate was dropped.
++- Variants: variant A is the selector's best 10; B and C are alternative picks from the same candidate pool (same header), overlapping by up to 4 cards, each still obeying the quotas.
+ 
+ ## What a set is
+-- A set = 10 archetypal objects of ONE genre world, placed in its typical places (e.g. "Wild West" = town, trail and camp), not one profession.
+-- Each card = ONE recognizable everyday object, the first association with the theme. Silhouette must read instantly at thumbnail size (fingernail-sized on a phone). No abstract, rare or "clever" items. No people, no animals, no characters on any card.
++- A set = 10 different representatives of ONE genre.
++- Each card = ONE recognizable everyday object, the first association with the theme. Silhouette must read instantly at thumbnail size (fingernail-sized on a phone). No abstract, rare or "clever" items. No people or characters (they belong to gold cards, which the task excludes). Animals and creatures ARE allowed as objects (horse, dragon, owl, robot), drawn in the same chunky style.
+ - One idea per card. A pair of linked items is allowed only if they read as one whole (sunscreen + sunglasses).
+ - No text, letters, numbers or logos on objects. Simple pictorial emblems are fine (a star on a badge).
+ 
+@@ -24,12 +31,10 @@
+ - The marker must come from the object's own shape (spurs, fringe, pointed toe, saddle horn), not from stamping a theme emblem on a generic object. Printed or embossed emblems (a horseshoe on a pot, a trunk, a barrel) are allowed on at most 2 cards per set.
+ - Every card has a field theme_marker: the concrete visual detail that makes it read as the theme. "Western style" is not a marker; "spurs and a pointed toe" is.
+ - Prefer the genre's archetypes (sheriff star, saddle, cowboy hat, saloon, covered wagon, horseshoe) over everyday objects with a marker. Never create a new object by attaching a theme sign to an everyday one.
+-- Objects in a set must be linked to each other through the set's place: they are things you would actually see in THAT place.
+ 
+-## Places must match the day
+-- Field "place" lists the 2-4 typical places the day goes through (e.g. frontier town street, desert trail, campfire by a canyon). Every category 3 surface and category 4 environment must be one of these places (Desert Camp: sand, flat stones by the campfire, a wooden crate, desert with red mesas). Never an interior that contradicts the place (no house for a camp).
++## Places come from the genre
++- Field "place" lists 3-4 typical places of the genre (e.g. Wild West: frontier town street, saloon, desert trail, campfire by a canyon). They are only a source for category 3 surfaces and category 4 environments, not a story. Each surface/environment must be one of them and match the object.
+ - Physical sense: things stand where they really stand (a cactus grows in sand or a clay pot, never from a wooden floor; a kettle sits on campfire stones or a crate, not on "something").
+-- Stay inside the broad theme: for "Wild West" a railway station is only acceptable if it is unmistakably western (water tower, steam locomotive with a cowcatcher in the desert); a generic station is out.
+ 
+ ## Common sense (a real person must believe the picture)
+ - Category 1 and 2 show an object ALONE, so it must be a complete freestanding thing that makes sense on its own: a hat, boots, a lantern, a saddle on its stand. Never a part of a building or a fixed installation pulled out of its place (a door, a window, a wall, a gate, a pump, a counter) on an abstract floor or in the air. Such objects go to category 3-4 inside their place, or are not used.
+@@ -50,32 +55,27 @@
+ 4. Object inside its real environment (sky with clouds, sea, field, desert, interior hall), environment simplified and blurred, object stays the central hero; large objects may be cropped by the frame edge. Big things that live in a place (lighthouse, ferris wheel, roller coaster, buoy in the sea).
+ 
+ ## Mood
+-- Always bright, friendly, daytime (or warm golden hour). Never night, darkness, gloom, danger or violence; weapons only as harmless toys/props. Category 4 environments are bright with a light sky.
++- Always bright, friendly, daytime (or warm golden hour). Never night, darkness, gloom, blood or violence in action (a sword on a stand is fine, a fight is not). Category 4 environments are bright with a light sky.
+ - The object never has the same hue as its background colour.
+ 
+-- Family audience, mostly kids: no alcohol, tobacco, gambling and NO weapons, not even toy ones (no revolvers, rifles, cap guns, knives, dynamite). For a western use the sheriff star, an empty holster belt, a lasso instead. Anything that reads as alcohol is also out (a mug of root beer reads as beer).
++- Genre weapons are allowed as objects when they are archetypes of the genre (revolver in a holster, sword, shield, war hammer, bow, tournament lance), shown as an item, never in use. Alcohol, tobacco and gambling: not banned by the task; avoid by default, the designer may allow.
+ - Every object must be understood WITHOUT its caption at thumbnail size: avoid objects that need a name to be recognized (a hand pump, a gold pan with nuggets, a sluice box) and boring utility items (a dinner triangle). Prefer objects with a bold, iconic silhouette.
+-- Avoid objects made of thin lattices, wires or spokes only (wind pump tower), they lose style at small size.
+ 
+ ## Thematic background motif
+ - Pick 1 simple motif silhouette from the theme (horseshoe for western, star for space). Use it as a background pattern on 2-3 cards of the set, not more. Other cards use rays/stripes/waves/circles/gradient.
+ 
+ ## Names
+-- 1-2 English words, short, sometimes playful (Bounce, Chains, Gallery, Cargo Barrel, Captain's Cap).
++- 1-2 English words, nouns, short, sometimes playful (Bounce, Chains, Gallery, Cargo Barrel, Captain's Cap).
++
++## Main card
++- One card per variant is the main symbol of the genre (field "hero": true): the thing a player would draw to say the genre (saloon, dragon, starship, hero tower). It is the last card in the window order (highest rarity).
+ 
+ ## Order
+ - Cards are listed in window order (row 1 = cards 1-5, row 2 = cards 6-10). Spread categories so the grid has rhythm; neighbours (left/right and above/below) do not share a background colour.
+ 
+-## Variants (3 alternatives of ONE set, not 3 sub-themes)
+-- All variants share ONE header: the same set_name, context (the same day), place (the same 2-4 places), palette and motif. Write the header once and copy it into every variant word for word.
+-- Variants differ ONLY in which 10 objects are picked from that day. The game designer mixes 30 cards into one final set of 10, so every card must fit into any other variant without looking foreign.
+-- Do NOT give variants different routes, professions, accents or sub-themes. Iconic objects may repeat between variants (about a third overlap is fine).
+-- Keep every variant faithful to all the rules above; the objects of one variant still must not repeat inside it.
+-- One object type (cape, belt, boots, tower...) appears in at most 2 of the 3 variants. Fill the rest with other things of the same day, so the 30 cards give the designer a real choice.
+-
+ ## No protected IP (stop-list)
+-- Generic archetypes are ALLOWED and wanted (cape, domino mask, gloves, round shield, hammer, robot suit, jetpack, starfighter, wizard hat, sword in stone). Forbidden are only SPECIFIC designs and names of known franchises, even renamed: lightsaber, blue milk, cantina, droid, jedi/sith robes, X-wing/TIE silhouettes, macrobinoculars, bat-shaped anything, a spotlight projecting an emblem in the sky, a red-blue phone booth for changing clothes, a red-and-gold Iron Man helmet, a round red-white-blue star shield, Mjolnir's square head with a short leather-wrapped handle, the One Ring, a sorting hat, a golden snitch, horned dragonborn helmets.
++- Generic archetypes are ALLOWED and wanted (cape, domino mask, gloves, round shield, hammer, robot suit, jetpack, starfighter, wizard hat, sword in stone). Forbidden are only SPECIFIC designs and names of known franchises, even renamed: trademarked names and symbols (lightsaber, droid, Jedi/Sith, blue milk, the bat symbol, the S-shield, Mjolnir, the One Ring, sorting hat, golden snitch) and exact signature designs (X-wing/TIE silhouettes, the red-and-gold Iron Man helmet, the red-white-blue star shield, the horned dragonborn helmet). A rooftop signal spotlight, a phone booth, a utility belt or a round shield with the set's OWN symbol is an archetype and is allowed.
+ - Test: would a lawyer say "that is THE <franchise> item"? Then change the shape and colours until it is just the archetype.
+ 
+-## OPEN QUESTION for the game designer (not decided)
+-- The weapons rule above forbids all weapons, even toys. Archetypes of fantasy and superheroes include a hammer, a sword, a shield. Until the designer decides, shields, armour and tools are allowed; swords and war hammers are NOT used.
++## Note for the report
++- Weapons and animals were banned in earlier versions by our own inference (family audience). The task does not require it and collection cards are not 16+ scenes, so the ban was lifted on 20.11 (Hrach).

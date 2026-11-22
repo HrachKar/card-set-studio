@@ -1,0 +1,61 @@
+--- studio/rules.md	2026-11-20 22:12:48.762213000 +0000
++++ night-2011/v2/proposed/rules.md	2026-11-20 22:36:51.379140582 +0000
+@@ -3,18 +3,25 @@
+ These rules come from the analysis of the reference collection (Summer).
+ The game designer may edit this file; the composer agent reads it on every run.
+ 
+-## Start from the ARCHETYPES of the genre (most important, do this first)
+-- The collection is "Movies"; a set is ONE WHOLE GENRE (Wild West, Space Opera, Superheroes...). Do not narrow it to one profession or one location.
+-- First write the archetype list: the 15-20 objects a player names FIRST when hearing the genre, the things every film of the genre has (Wild West: cowboy hat, sheriff star, saloon, stagecoach, cactus, lasso, boots with spurs, horseshoe, wanted poster without text, water tower). Pick the 10 cards of a variant mostly from this list. A card that is not on the list needs a reason a child would understand.
+-- An archetype is a GENERIC type, not a specific film's design: a cape, a domino mask, a hero tower, a big war hammer, an armoured robot suit, a magic sword, a starfighter, a space helmet. Only specific trademarked designs are forbidden (see the stop-list).
+-- FORBIDDEN: hybrids that put a theme sign on a random thing (a cookie shaped like a cape, a locker with a mask painted on, a hero-branded doorway, a "power smoothie"). If the genre has few real objects, use its architecture, vehicles, gadgets and nature (hero tower, rescue jet, comms watch, city rooftop water tank), never invent food or furniture "in the style of" the genre.
+-- Real materials: each object is made of what it is made of in the films (leather, wood, steel, brass, fabric, glass, stone, real food). Avoid sets where every object is glossy coloured plastic: at least half of the cards must show non-plastic materials, like the reference cards (bottle, honey jar, pie, wooden helm).
+-- Context is a light frame, not the starting point: the field "context" names the typical places of the genre (town, road, camp) so that surfaces and environments of cat 3-4 match. Do not invent a story that drags in non-archetypal objects. Field "moment" may be short.
+-- The person never appears on the cards (no people, no animals).
+-- The collection is about movies, but the set shows the WORLD of the film, not the film set: no cameras, clapperboards, spotlights, film reels or stage props.
++## Start from ONE SUB-THEME, then fill CLASS QUOTAS (most important)
++- The collection is "Movies"; the genre is given (Wild West, Space Opera...). A set is ONE SUB-THEME of the genre: an iconic place or activity that every film of the genre has (Wild West -> frontier town; Space Opera -> life on a starship; Superheroes -> the heroes' headquarters; Fantasy -> the magic kingdom). Name it in "context" in a few words. No "one day of a visitor" story.
++- Every card is a DIFFERENT representative of this sub-theme, like Seafaring: spyglass, buoy, map, ship, anchor, helm, captain's cap, lighthouse, cargo barrel. Not a wardrobe, not a catalogue of one kind of thing.
++- Class quotas for the 10 cards. Classes: building/place, vehicle, creature (only if the designer allows animals; robots count here), food or drink, artifact (a magic or genre item you hold), household item (furniture, device, container, tool), nature, symbol (badge, medal, emblem object, crown), costume.
++  - at most 2 cards per class;
++  - at most 1 wearable item per set (hat, mask, cape, boots, gloves, helmet, crown all count);
++  - at least 6 different classes per set;
++  - at least 1 food or drink and at least 1 building/place or vehicle.
++- Each card must be one of the first things a player names for this sub-theme (recognizable at a glance). FORBIDDEN: hybrids that stick a theme sign on a random thing (cape cookie, mask locker, hero smoothie). An emblem on an everyday container (a mug, a box) is allowed on at most 1 card.
++- Real materials: at least half of the cards show wood, metal, fabric, ceramic, stone or real food. No neon, no chrome; at most 2 glowing elements per set.
++- No people, no weapons (see Mood). No film-set props (cameras, clapperboards).
++
++## Two steps: candidates, then selection
++- Step 1 (composer) writes 25-30 candidates for the sub-theme, each with class, category guess, wearable yes/no, and a one-line reason why a player knows it.
++- Step 2 (selector, a separate pass that did not write the list) picks 10 by: recognizability at fingernail size, class quotas, all 4 categories (3/2/3/2 ±1), different silhouettes and scales. It writes why each rejected strong candidate was dropped.
++- Variants: variant A is the selector's best 10; B and C are alternative picks from the same candidate pool (same header), overlapping by up to 4 cards, each still obeying the quotas.
+ 
+ ## What a set is
+-- A set = 10 archetypal objects of ONE genre world, placed in its typical places (e.g. "Wild West" = town, trail and camp), not one profession.
++- A set = 10 different representatives of ONE sub-theme of the genre.
+ - Each card = ONE recognizable everyday object, the first association with the theme. Silhouette must read instantly at thumbnail size (fingernail-sized on a phone). No abstract, rare or "clever" items. No people, no animals, no characters on any card.
+ - One idea per card. A pair of linked items is allowed only if they read as one whole (sunscreen + sunglasses).
+ - No text, letters, numbers or logos on objects. Simple pictorial emblems are fine (a star on a badge).
+@@ -26,7 +33,7 @@
+ - Prefer the genre's archetypes (sheriff star, saddle, cowboy hat, saloon, covered wagon, horseshoe) over everyday objects with a marker. Never create a new object by attaching a theme sign to an everyday one.
+ - Objects in a set must be linked to each other through the set's place: they are things you would actually see in THAT place.
+ 
+-## Places must match the day
++## Places must match the sub-theme
+ - Field "place" lists the 2-4 typical places the day goes through (e.g. frontier town street, desert trail, campfire by a canyon). Every category 3 surface and category 4 environment must be one of these places (Desert Camp: sand, flat stones by the campfire, a wooden crate, desert with red mesas). Never an interior that contradicts the place (no house for a camp).
+ - Physical sense: things stand where they really stand (a cactus grows in sand or a clay pot, never from a wooden floor; a kettle sits on campfire stones or a crate, not on "something").
+ - Stay inside the broad theme: for "Wild West" a railway station is only acceptable if it is unmistakably western (water tower, steam locomotive with a cowcatcher in the desert); a generic station is out.
+@@ -66,13 +73,6 @@
+ ## Order
+ - Cards are listed in window order (row 1 = cards 1-5, row 2 = cards 6-10). Spread categories so the grid has rhythm; neighbours (left/right and above/below) do not share a background colour.
+ 
+-## Variants (3 alternatives of ONE set, not 3 sub-themes)
+-- All variants share ONE header: the same set_name, context (the same day), place (the same 2-4 places), palette and motif. Write the header once and copy it into every variant word for word.
+-- Variants differ ONLY in which 10 objects are picked from that day. The game designer mixes 30 cards into one final set of 10, so every card must fit into any other variant without looking foreign.
+-- Do NOT give variants different routes, professions, accents or sub-themes. Iconic objects may repeat between variants (about a third overlap is fine).
+-- Keep every variant faithful to all the rules above; the objects of one variant still must not repeat inside it.
+-- One object type (cape, belt, boots, tower...) appears in at most 2 of the 3 variants. Fill the rest with other things of the same day, so the 30 cards give the designer a real choice.
+-
+ ## No protected IP (stop-list)
+ - Generic archetypes are ALLOWED and wanted (cape, domino mask, gloves, round shield, hammer, robot suit, jetpack, starfighter, wizard hat, sword in stone). Forbidden are only SPECIFIC designs and names of known franchises, even renamed: lightsaber, blue milk, cantina, droid, jedi/sith robes, X-wing/TIE silhouettes, macrobinoculars, bat-shaped anything, a spotlight projecting an emblem in the sky, a red-blue phone booth for changing clothes, a red-and-gold Iron Man helmet, a round red-white-blue star shield, Mjolnir's square head with a short leather-wrapped handle, the One Ring, a sorting hat, a golden snitch, horned dragonborn helmets.
+ - Test: would a lawyer say "that is THE <franchise> item"? Then change the shape and colours until it is just the archetype.
