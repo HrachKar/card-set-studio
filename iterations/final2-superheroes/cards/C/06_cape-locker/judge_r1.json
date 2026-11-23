@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a teal freestanding locker with a cape-shaped door cutout and rounded mask hooks on the side standing on a plain flat floor of lighter lilac, three-quarter view slightly from above. Behind it a plain vertical lilac wall with faint repeating pattern of shield silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city patrol route: morning in a hidden gadget lab, late morning on a downtown sidewalk, midday across sunny rooftops, and sunset at a plaza lookout.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 18.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 16.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong Township-like toy style, clear teal locker with cape cutout and mask hooks; slightly tight at the top.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Hero locker",
+     "defects": [
+      "Red cape inside has no visible hanger or attachment, making it appear to float behind the door opening.",
+      "Side yellow mask-shaped hook mounts are unusual/nonstandard and the gray hook parts appear fused directly into them rather than built as separate hardware."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable locker and requested elements are clear; top clearance is a bit tight and the extra badge details add mild clutter.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Superhero locker",
+     "defects": [
+      "Cape appears to grow through a cape-shaped opening in the door with no visible hanger or support, making the construction impossible.",
+      "Side mask-and-hook accessories are fused together; the yellow hooks attach directly under the masks without clear wall brackets or pegs.",
+      "The side accessories look partly floating/on the surface rather than mechanically attached to the cabinet."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best overall: clean chunky style, clear cape locker silhouette and hooks; only slightly too close to the top edge.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "costume wardrobe",
+     "defects": [
+      "Cape/dress decoration appears fused into the front door rather than hanging from a clear support.",
+      "Yellow round button on the cape sits over the cutout with no obvious attachment point.",
+      "Side masks and yellow hooks are merged into the side panel as decorative shapes, not functional separate parts."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

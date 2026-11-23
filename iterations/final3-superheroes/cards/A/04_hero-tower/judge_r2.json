@@ -1,0 +1,123 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white-and-red superhero headquarters tower with cape-shaped roof fins and a round starburst window in its real environment: bright downtown plaza with a pale sky and soft distant skyscrapers; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a bright green-dominant background and leave the top 12% of the card empty above the tower.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 18.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 21.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 18.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong match: toy-like rounded hero tower, clear cape fins and starburst window. Top clearance is a bit tight.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Large red-and-yellow wing-like side pieces are attached to the upper tower like a cape; they are unsupported and not a normal lighthouse part.",
+      "Side wing pieces are not perfectly symmetric: the left and right ends have different curl and thickness.",
+      "Lower front buttress blocks around the doorway are uneven in shape and placement, with mismatched left and right supports."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best overall: very readable, chunky stylized materials, correct environment and green bright background. Top ornament is slightly too close to the edge.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Large wing-like roof/eaves are asymmetrical; left and right curls have different shapes and thicknesses.",
+      "Upper lantern window band has uneven pane widths and misaligned vertical dividers.",
+      "Small white bracket blocks under the lantern are irregular in size/spacing and some appear fused into the trim.",
+      "Stone block seams on the tower do not wrap consistently and are warped/misaligned between sections.",
+      "Lower side buttresses/base supports are not symmetrical; left and right supports differ in angle and shape."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good style and readable superhero tower, but composition is a little crowded with low top clearance and side mass near the frame.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Front red circular window has uneven, irregular star/spoke geometry rather than clean radial panes.",
+      "Upper lantern window mullions are unevenly spaced and slightly warped around the cylinder.",
+      "Large red side roof/awning appears to merge into the tower body with no clear structural seam or support.",
+      "Front white buttresses/supports are not perfectly symmetric in width and angle, especially around the doorway.",
+      "Lower side sections and windows are partially fused into the main tower mass, with unclear separations."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

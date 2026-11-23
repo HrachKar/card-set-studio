@@ -1,0 +1,118 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and yellow stagecoach with four big wooden wheels and a luggage rack in its real environment: desert trail with sand, cacti and red mesas under a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 17.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear stagecoach hero in environment, but rendering is a bit glossy toy-like rather than fully matching the soft reference style.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Stagecoach",
+     "defects": [
+      "No visible hitch pole, horse shafts, or driver seat at the front, making it incomplete as a real stagecoach.",
+      "Far front wheel is noticeably smaller and lacks a clear central hub compared with the near front wheel; perspective does not fully explain it.",
+      "Front axle/undercarriage is simplified and partly disconnected-looking, with dark cylindrical pieces not clearly joined to both front wheels.",
+      "Right lantern has an awkward curved bracket that appears to attach ambiguously/fuse into the lamp top rather than a normal wall mount.",
+      "Roof luggage and railing intersect visually in places, especially around the right crate and rail posts.",
+      "Some roof rail posts and trim pieces are rounded/melted into the body rather than cleanly joined."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best readable stagecoach with luggage rack and four wheels; colours and framing work, though style is slightly plastic/glossy.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Stagecoach",
+     "defects": [
+      "Three wheels are visible on one side/front area, making the wheel layout confusing for a normal four-wheeled coach.",
+      "The front wheel pair appears mismatched: the near front wheel is much larger than the small far/front wheel.",
+      "No tow pole, shafts, or hitch are present at the front, so the coach could not be pulled by horses.",
+      "The front driver's bench/footboard assembly looks partly fused into the side body instead of being clearly supported by a frame.",
+      "Some lantern mounts and yellow knobs are asymmetric, with extra paired knobs on one front corner but not the other."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and well framed, but the dark rail/metal and shiny finish make it less like the reference style.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Stagecoach",
+     "defects": [
+      "Possible extra small partial wheel visible underneath the coach between the two large wheels; it is much smaller than the other wheels and not clearly attached to an axle.",
+      "Rear/side diagonal beam protrudes from the left side of the coach in an unclear direction, making the front/back construction ambiguous.",
+      "Front bench/seat area on the right is simplified and partly fused into the side body rather than having clear supports."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

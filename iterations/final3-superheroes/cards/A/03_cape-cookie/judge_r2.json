@@ -1,0 +1,129 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden cookie cut like a flowing superhero cape with red icing along the high collar placed on painted wooden counter of a downtown plaza snack cart (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 17.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 17.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 16.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear cape-cookie shape and good purple background, but the decorative scalloped strip at the bottom feels like an extra distracting element.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind",
+     "severe_distortion"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Magic boot",
+     "defects": [
+      "Foot and leg are fused into one melted, curtain-like mass with no clear ankle joint.",
+      "No distinct heel or sole, so it is not constructed like a wearable boot.",
+      "Bottom edge is wavy with multiple rounded lobes that look like extra toes or a skirt hem.",
+      "Toe/front curls upward and blends into the side of the boot in an unnatural way.",
+      "Red cuff/strap and upper rim merge together ambiguously instead of forming separate attached pieces.",
+      "Top opening is asymmetrical and not clearly hollow inside."
+     ],
+     "distortion": "severe",
+     "match": false
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded toy-like cookie cape, clear silhouette, correct tabletop setting, bright clean colours, no major defects.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Golden dress",
+     "defects": [
+      "Dress has a rigid hollow tube-like top rather than a normal wearable bodice with visible armholes or closure",
+      "Red collar/trim and belt appear fused into one continuous raised piece with unclear construction",
+      "Left and right red trim shapes are asymmetric and do not match",
+      "Lower hem is very uneven and wavy, with the left side forming an exaggerated protruding flap",
+      "Skirt and bodice are fused into a solid sculptural form, making the garment look more like an impossible molded object than fabric"
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong readable cape cookie with good colour and setting; slightly more dominant in frame but still acceptable for category 3.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind",
+     "severe_distortion"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Golden boot",
+     "defects": [
+      "Boot body is melted into a skirt-like flared cone instead of a realistic foot-and-shaft shape",
+      "No visible sole, heel, or flat bottom; the base is a wavy scalloped edge",
+      "Toe/front on the left curls up into a hollow tube-like fold instead of a closed boot toe",
+      "Red trim is anatomically inconsistent: the rim, vertical strips, and horizontal band fuse together in an impossible harness shape",
+      "Gold medallion appears embedded into the red band with unclear attachment",
+      "Overall construction does not match a real wearable boot"
+     ],
+     "distortion": "severe",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

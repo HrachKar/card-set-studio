@@ -1,0 +1,62 @@
+{
+ "Окно 1": {
+  "version": "V2_noplastic",
+  "cards": {
+   "1": "Township: clean/cat4_lifeguard.png",
+   "2": "ours: 5. Food Tray",
+   "3": "ours: 2. Potion",
+   "4": "Township: clean/cat3_cheeseplate.png",
+   "5": "ours: 3. Pilot Seat",
+   "6": "Township: clean/cat1_pizza.png",
+   "7": "ours: 4. Saddle",
+   "8": "Township: clean/cat2_sunblock.png",
+   "9": "ours: 6. Hero Jet",
+   "10": "ours: 1. Space Helmet"
+  }
+ },
+ "Окно 2": {
+  "version": "V3_both",
+  "cards": {
+   "1": "ours: 3. Pilot Seat",
+   "2": "ours: 1. Space Helmet",
+   "3": "Township: clean/cat4_antiquity.png",
+   "4": "Township: clean/cat2_beachbag.png",
+   "5": "Township: clean/cat3_basket.png",
+   "6": "Township: clean/cat1_lollipop.png",
+   "7": "ours: 2. Potion",
+   "8": "ours: 5. Food Tray",
+   "9": "ours: 4. Saddle",
+   "10": "ours: 6. Hero Jet"
+  }
+ },
+ "Окно 3": {
+  "version": "V1_no3d",
+  "cards": {
+   "1": "ours: 2. Potion",
+   "2": "Township: clean/cat2_lemontree.png",
+   "3": "ours: 1. Space Helmet",
+   "4": "ours: 4. Saddle",
+   "5": "Township: clean/cat4_fieldball.png",
+   "6": "ours: 6. Hero Jet",
+   "7": "Township: clean/cat1_fanfold.png",
+   "8": "ours: 5. Food Tray",
+   "9": "ours: 3. Pilot Seat",
+   "10": "Township: clean/cat3_pie.png"
+  }
+ },
+ "Окно 4": {
+  "version": "ctrl",
+  "cards": {
+   "1": "Township: clean/cat3_bumpers.png",
+   "2": "Township: clean/cat1_honey.png",
+   "3": "Township: clean/cat4_lighthouse.png",
+   "4": "ours: 4. Saddle",
+   "5": "ours: 5. Food Tray",
+   "6": "ours: 2. Potion",
+   "7": "ours: 6. Hero Jet",
+   "8": "Township: clean/cat2_teacup.png",
+   "9": "ours: 1. Space Helmet",
+   "10": "ours: 3. Pilot Seat"
+  }
+ }
+}

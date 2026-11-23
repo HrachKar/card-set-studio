@@ -1,0 +1,27 @@
+[
+ {
+  "card": "B1",
+  "problem": "A rolled bedroll is too generic; at thumbnail size it does not read as Gold Rush Camp.",
+  "fix": "Replace it with a gold pan filled with bright nuggets, which is an instant gold-rush icon."
+ },
+ {
+  "card": "B2",
+  "problem": "A plain gold pan is a bit generic and the theme read depends too much on the contents.",
+  "fix": "Swap it to a prospector pickaxe with a chipped iron head and rope-wrapped handle."
+ },
+ {
+  "card": "B3",
+  "problem": "A water canteen is a common camping object and does not strongly say gold rush.",
+  "fix": "Replace it with a brass miner lantern with a top hook and hooded cap."
+ },
+ {
+  "card": "B5",
+  "problem": "A water barrel is too generic for this set and does not clearly signal the mining camp situation.",
+  "fix": "Replace it with a small ore cart with metal rims and a few shiny rocks."
+ },
+ {
+  "card": "B6",
+  "problem": "A plain shovel is boring and not specific enough to the place/theme.",
+  "fix": "Replace it with a camp kettle on stones, a more believable mining-camp object."
+ }
+]

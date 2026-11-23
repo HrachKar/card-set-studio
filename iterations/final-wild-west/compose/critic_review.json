@@ -1,0 +1,47 @@
+[
+ {
+  "card": "A3",
+  "problem": "The empty holster is allowed for a peaceful sheriff set, but the original 'cartridge loops' could read as ammunition and push the card toward weapons.",
+  "fix": "Keep the empty holster belt, but show only stitched empty leather slots with no cartridges."
+ },
+ {
+  "card": "A6",
+  "problem": "The horseshoe-shaped key ring repeats the horseshoe idea used in the camp variant and weakens cross-variant diversity.",
+  "fix": "Change it to old iron jail keys on a simple ring with a small sheriff-star fob."
+ },
+ {
+  "card": "A9",
+  "problem": "The horseshoe caps repeat the horseshoe idea and make the hitching rail feel like a decorated catalogue item.",
+  "fix": "Use a chunky frontier hitching rail with carved rope grooves, placed on the dusty street edge beside the wooden boardwalk."
+ },
+ {
+  "card": "B2",
+  "problem": "A plain bedroll can read as generic camping rather than Wild West.",
+  "fix": "Sharpen it into a striped cowboy bedroll with leather saddle straps and a visible frontier blanket flap."
+ },
+ {
+  "card": "B8",
+  "problem": "The horseshoe bolo slide repeats horseshoe objects already implied in the run, and the item feels more like a catalogue accessory than a camp-day moment.",
+  "fix": "Replace it with a tied red cowboy neckerchief laid out for supper, with a clear triangular bandana silhouette and western knot."
+ },
+ {
+  "card": "B motif",
+  "problem": "The horseshoe background motif competes with removed horseshoe objects and risks cross-variant repetition.",
+  "fix": "Change the motif to a saguaro silhouette and use it only on two backgrounds."
+ },
+ {
+  "card": "C2",
+  "problem": "An ore cart on a plain category-2 floor has weak physical sense because mine carts need rails.",
+  "fix": "Move it to category 3 on a short rusty rail track laid in rocky sand at the claim."
+ },
+ {
+  "card": "C8",
+  "problem": "A single gold nugget is readable as treasure but not strongly Wild West or specific to the prospector's working day.",
+  "fix": "Replace it with a brass prospector balance scale weighing nuggets, making the gold-claim job visible."
+ },
+ {
+  "card": "C10",
+  "problem": "The spare wagon wheel is a generic frontier prop and could be swapped for many random western objects without changing the prospector's day.",
+  "fix": "Replace it with a rough ore crate filled with gold-streaked rocks near the mine supply pile."
+ }
+]

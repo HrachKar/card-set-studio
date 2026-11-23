@@ -1,0 +1,845 @@
+{
+ "source": "runs/ww-01",
+ "cards": [
+  "A9",
+  "B2",
+  "A4",
+  "A6",
+  "B3",
+  "B5"
+ ],
+ "models": {
+  "gpt2-high": [
+   "openai",
+   "gpt-image-2",
+   "high"
+  ],
+  "gpt2-med": [
+   "openai",
+   "gpt-image-2",
+   "medium"
+  ],
+  "gpt25f-med": [
+   "openai",
+   "gpt-image-2.5-flare",
+   "medium"
+  ],
+  "gpt25s-med": [
+   "openai",
+   "gpt-image-2.5-sunburst",
+   "medium"
+  ],
+  "gpt26f-med": [
+   "openai",
+   "gpt-image-2.6-flare",
+   "medium"
+  ],
+  "gpt26s-med": [
+   "openai",
+   "gpt-image-2.6-sunburst",
+   "medium"
+  ],
+  "gpt26f-high": [
+   "openai",
+   "gpt-image-2.6-flare",
+   "high"
+  ],
+  "gpt1mini-med": [
+   "openai",
+   "gpt-image-1-mini",
+   "medium"
+  ],
+  "nbpro": [
+   "gemini",
+   "gemini-3-pro-image",
+   null
+  ],
+  "nb2": [
+   "gemini",
+   "gemini-3.1-flash-image",
+   null
+  ]
+ },
+ "results": [
+  {
+   "model": "gpt2-high",
+   "card": "A9",
+   "file": "gpt2-high_A9.png",
+   "sec": 87.4,
+   "tokens": [
+    7172,
+    560,
+    244
+   ],
+   "usd": 0.2209,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-high",
+   "card": "B2",
+   "file": "gpt2-high_B2.png",
+   "sec": 85.7,
+   "tokens": [
+    7172,
+    1185,
+    248
+   ],
+   "usd": 0.2259,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-high",
+   "card": "A4",
+   "file": "gpt2-high_A4.png",
+   "sec": 85.6,
+   "tokens": [
+    7172,
+    1146,
+    323
+   ],
+   "usd": 0.2259,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-high",
+   "card": "A6",
+   "file": "gpt2-high_A6.png",
+   "sec": 85.0,
+   "tokens": [
+    7172,
+    1146,
+    318
+   ],
+   "usd": 0.2259,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-high",
+   "card": "B3",
+   "file": "gpt2-high_B3.png",
+   "sec": 85.0,
+   "tokens": [
+    7172,
+    1815,
+    305
+   ],
+   "usd": 0.2312,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-high",
+   "card": "B5",
+   "file": "gpt2-high_B5.png",
+   "sec": 85.8,
+   "tokens": [
+    7172,
+    1815,
+    298
+   ],
+   "usd": 0.2312,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "A9",
+   "file": "gpt2-med_A9.png",
+   "sec": 28.5,
+   "tokens": [
+    1793,
+    560,
+    244
+   ],
+   "usd": 0.0595,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "B2",
+   "file": "gpt2-med_B2.png",
+   "sec": 32.8,
+   "tokens": [
+    1793,
+    1185,
+    248
+   ],
+   "usd": 0.0645,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "A4",
+   "file": "gpt2-med_A4.png",
+   "sec": 31.1,
+   "tokens": [
+    1793,
+    1146,
+    323
+   ],
+   "usd": 0.0646,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "A6",
+   "file": "gpt2-med_A6.png",
+   "sec": 30.1,
+   "tokens": [
+    1793,
+    1146,
+    318
+   ],
+   "usd": 0.0645,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "B3",
+   "file": "gpt2-med_B3.png",
+   "sec": 29.6,
+   "tokens": [
+    1793,
+    1815,
+    305
+   ],
+   "usd": 0.0698,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt2-med",
+   "card": "B5",
+   "file": "gpt2-med_B5.png",
+   "sec": 29.6,
+   "tokens": [
+    1793,
+    1815,
+    298
+   ],
+   "usd": 0.0698,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "A9",
+   "file": "gpt25f-med_A9.png",
+   "sec": 13.5,
+   "tokens": [
+    459,
+    560,
+    274
+   ],
+   "usd": 0.0196,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "B2",
+   "file": "gpt25f-med_B2.png",
+   "sec": 16.2,
+   "tokens": [
+    459,
+    1185,
+    278
+   ],
+   "usd": 0.0246,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "A4",
+   "file": "gpt25f-med_A4.png",
+   "sec": 19.3,
+   "tokens": [
+    459,
+    1146,
+    353
+   ],
+   "usd": 0.0247,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "A6",
+   "file": "gpt25f-med_A6.png",
+   "sec": 15.8,
+   "tokens": [
+    459,
+    1146,
+    348
+   ],
+   "usd": 0.0247,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "B3",
+   "file": "gpt25f-med_B3.png",
+   "sec": 17.3,
+   "tokens": [
+    459,
+    1815,
+    335
+   ],
+   "usd": 0.03,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25f-med",
+   "card": "B5",
+   "file": "gpt25f-med_B5.png",
+   "sec": 15.7,
+   "tokens": [
+    459,
+    1815,
+    328
+   ],
+   "usd": 0.0299,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "A9",
+   "file": "gpt25s-med_A9.png",
+   "sec": 20.1,
+   "tokens": [
+    459,
+    560,
+    274
+   ],
+   "usd": 0.0196,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "B2",
+   "file": "gpt25s-med_B2.png",
+   "sec": 21.3,
+   "tokens": [
+    459,
+    1185,
+    278
+   ],
+   "usd": 0.0246,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "A4",
+   "file": "gpt25s-med_A4.png",
+   "sec": 20.7,
+   "tokens": [
+    459,
+    1146,
+    353
+   ],
+   "usd": 0.0247,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "A6",
+   "file": "gpt25s-med_A6.png",
+   "sec": 20.2,
+   "tokens": [
+    459,
+    1146,
+    348
+   ],
+   "usd": 0.0247,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "B3",
+   "file": "gpt25s-med_B3.png",
+   "sec": 18.6,
+   "tokens": [
+    459,
+    1815,
+    335
+   ],
+   "usd": 0.03,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt25s-med",
+   "card": "B5",
+   "file": "gpt25s-med_B5.png",
+   "sec": 28.1,
+   "tokens": [
+    459,
+    1815,
+    328
+   ],
+   "usd": 0.0299,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "A9",
+   "file": "gpt26f-med_A9.png",
+   "sec": 10.2,
+   "tokens": [
+    1515,
+    560,
+    274
+   ],
+   "usd": 0.0513,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "B2",
+   "file": "gpt26f-med_B2.png",
+   "sec": 10.2,
+   "tokens": [
+    1515,
+    1185,
+    278
+   ],
+   "usd": 0.0563,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "A4",
+   "file": "gpt26f-med_A4.png",
+   "sec": 8.9,
+   "tokens": [
+    1515,
+    1146,
+    353
+   ],
+   "usd": 0.0564,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "A6",
+   "file": "gpt26f-med_A6.png",
+   "sec": 62.1,
+   "tokens": [
+    1515,
+    1146,
+    348
+   ],
+   "usd": 0.0564,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "B3",
+   "file": "gpt26f-med_B3.png",
+   "sec": 11.3,
+   "tokens": [
+    1515,
+    1815,
+    335
+   ],
+   "usd": 0.0616,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-med",
+   "card": "B5",
+   "file": "gpt26f-med_B5.png",
+   "sec": 10.7,
+   "tokens": [
+    1515,
+    1815,
+    328
+   ],
+   "usd": 0.0616,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "A9",
+   "file": "gpt26s-med_A9.png",
+   "sec": 19.2,
+   "tokens": [
+    1515,
+    560,
+    274
+   ],
+   "usd": 0.0513,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "B2",
+   "file": "gpt26s-med_B2.png",
+   "sec": 19.3,
+   "tokens": [
+    1515,
+    1185,
+    278
+   ],
+   "usd": 0.0563,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "A4",
+   "file": "gpt26s-med_A4.png",
+   "sec": 20.2,
+   "tokens": [
+    1515,
+    1146,
+    353
+   ],
+   "usd": 0.0564,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "A6",
+   "file": "gpt26s-med_A6.png",
+   "sec": 18.6,
+   "tokens": [
+    1515,
+    1146,
+    348
+   ],
+   "usd": 0.0564,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "B3",
+   "file": "gpt26s-med_B3.png",
+   "sec": 23.1,
+   "tokens": [
+    1515,
+    1815,
+    335
+   ],
+   "usd": 0.0616,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26s-med",
+   "card": "B5",
+   "file": "gpt26s-med_B5.png",
+   "sec": 21.1,
+   "tokens": [
+    1515,
+    1815,
+    328
+   ],
+   "usd": 0.0616,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "A9",
+   "file": "gpt26f-high_A9.png",
+   "sec": 9.9,
+   "tokens": [
+    1816,
+    560,
+    274
+   ],
+   "usd": 0.0603,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "B2",
+   "file": "gpt26f-high_B2.png",
+   "sec": 10.8,
+   "tokens": [
+    1816,
+    1185,
+    278
+   ],
+   "usd": 0.0654,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "A4",
+   "file": "gpt26f-high_A4.png",
+   "sec": 12.7,
+   "tokens": [
+    1816,
+    1146,
+    353
+   ],
+   "usd": 0.0654,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "A6",
+   "file": "gpt26f-high_A6.png",
+   "sec": 9.7,
+   "tokens": [
+    1816,
+    1146,
+    348
+   ],
+   "usd": 0.0654,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "B3",
+   "file": "gpt26f-high_B3.png",
+   "sec": 12.1,
+   "tokens": [
+    1816,
+    1815,
+    335
+   ],
+   "usd": 0.0707,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt26f-high",
+   "card": "B5",
+   "file": "gpt26f-high_B5.png",
+   "sec": 11.2,
+   "tokens": [
+    1816,
+    1815,
+    328
+   ],
+   "usd": 0.0706,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "A9",
+   "file": "gpt1mini-med_A9.png",
+   "sec": 12.2,
+   "tokens": [
+    1056,
+    140,
+    244
+   ],
+   "usd": 0.0093,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "B2",
+   "file": "gpt1mini-med_B2.png",
+   "sec": 12.2,
+   "tokens": [
+    1056,
+    314,
+    248
+   ],
+   "usd": 0.0097,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "A4",
+   "file": "gpt1mini-med_A4.png",
+   "sec": 11.7,
+   "tokens": [
+    1056,
+    294,
+    323
+   ],
+   "usd": 0.0098,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "A6",
+   "file": "gpt1mini-med_A6.png",
+   "sec": 12.8,
+   "tokens": [
+    1056,
+    294,
+    318
+   ],
+   "usd": 0.0098,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "B3",
+   "file": "gpt1mini-med_B3.png",
+   "sec": 12.6,
+   "tokens": [
+    1056,
+    476,
+    305
+   ],
+   "usd": 0.0102,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "gpt1mini-med",
+   "card": "B5",
+   "file": "gpt1mini-med_B5.png",
+   "sec": 13.7,
+   "tokens": [
+    1056,
+    476,
+    298
+   ],
+   "usd": 0.0102,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "A9",
+   "file": "nbpro_A9.png",
+   "sec": 14.2,
+   "tokens": [
+    1324,
+    1011,
+    0
+   ],
+   "usd": 0.1609,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "B2",
+   "file": "nbpro_B2.png",
+   "sec": 15.8,
+   "tokens": [
+    1359,
+    1016,
+    0
+   ],
+   "usd": 0.1651,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "A4",
+   "file": "nbpro_A4.png",
+   "sec": 19.9,
+   "tokens": [
+    1401,
+    1095,
+    0
+   ],
+   "usd": 0.1703,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "A6",
+   "file": "nbpro_A6.png",
+   "sec": 19.3,
+   "tokens": [
+    1365,
+    1090,
+    0
+   ],
+   "usd": 0.166,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "B3",
+   "file": "nbpro_B3.png",
+   "sec": 16.8,
+   "tokens": [
+    1332,
+    1070,
+    0
+   ],
+   "usd": 0.162,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nbpro",
+   "card": "B5",
+   "file": "nbpro_B5.png",
+   "sec": 14.2,
+   "tokens": [
+    1347,
+    1064,
+    0
+   ],
+   "usd": 0.1638,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "A9",
+   "file": "nb2_A9.png",
+   "sec": 17.8,
+   "tokens": [
+    1518,
+    1011,
+    0
+   ],
+   "usd": 0.0916,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "B2",
+   "file": "nb2_B2.png",
+   "sec": 7.9,
+   "tokens": [
+    1417,
+    1016,
+    0
+   ],
+   "usd": 0.0855,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "A4",
+   "file": "nb2_A4.png",
+   "sec": 11.0,
+   "tokens": [
+    1599,
+    1095,
+    0
+   ],
+   "usd": 0.0965,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "A6",
+   "file": "nb2_A6.png",
+   "sec": 10.9,
+   "tokens": [
+    1563,
+    1090,
+    0
+   ],
+   "usd": 0.0943,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a close-up of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the camera is close, the object is big and fills 85-95% of the frame and may be cropped by the frame edges, the environment is reduced to two or three large simple shapes (for example ground and sky with a few fluffy clouds), no small rocks, grass blades, distant buildings or other small details, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "B3",
+   "file": "nb2_B3.png",
+   "sec": 9.8,
+   "tokens": [
+    1495,
+    1070,
+    0
+   ],
+   "usd": 0.0902,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  },
+  {
+   "model": "nb2",
+   "card": "B5",
+   "file": "nb2_B5.png",
+   "sec": 13.4,
+   "tokens": [
+    1580,
+    1064,
+    0
+   ],
+   "usd": 0.0953,
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+  }
+ ]
+}

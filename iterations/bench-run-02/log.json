@@ -1,0 +1,49 @@
+{
+ "prompts": {
+  "1": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown cowboy hat, floating in the air, slightly tilted for dynamism, no surface. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "2": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of cowboy boots with spurs standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with a faint repeating pattern of horseshoe silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "3": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a leather saddle placed on a realistic wooden table top (visible wood planks, the surface occupies the lower quarter of the frame), the whole saddle visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated teal wall with a soft repeating pattern of horseshoe silhouettes and a gentle light glow behind the object, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "4": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green saguaro cactus in a sunny desert with red rock mesas and blue sky with fluffy clouds; the cactus is the clear central hero, environment simplified and softly blurred, bright daylight. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+ },
+ "refs": {
+  "1": [
+   "clean/cat1_bottle.png",
+   "clean/cat1_honey.png",
+   "arts/window_seafaring_anchor.png"
+  ],
+  "2": [
+   "clean/cat2_mojito.png",
+   "arts/cat2_phone-booth_430x480.png",
+   "clean/cat2_teacup.png"
+  ],
+  "3": [
+   "arts/cat3_helm_430x480.png",
+   "clean/cat3_coffeepot.png",
+   "arts/cat3_captains-cap_430x480.png"
+  ],
+  "4": [
+   "arts/cat4_lighthouse_430x480.png",
+   "clean/cat4_fieldball.png",
+   "clean/cat4_coaster.png"
+  ]
+ },
+ "models": {
+  "gptimg": "GPT Image 2 (high)"
+ },
+ "results": [
+  {
+   "model": "gptimg",
+   "cat": 3,
+   "i": 0,
+   "file": "gptimg_cat3_0.png",
+   "sec": 66.8
+  },
+  {
+   "model": "gptimg",
+   "cat": 3,
+   "i": 1,
+   "file": "gptimg_cat3_1.png",
+   "sec": 68.6
+  }
+ ]
+}

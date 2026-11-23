@@ -1,0 +1,236 @@
+{
+ "results": [
+  {
+   "card": "A7",
+   "name": "Stagecoach",
+   "base": "arts/cat4_lighthouse_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a red and yellow western stagecoach with high wheels, curved roof, luggage rack and empty front shafts. Change the environment to: sunny main street with dusty road, wooden storefronts and pale mesas in the distance, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "A7_reskin0.png",
+   "sec": 84,
+   "new": {
+    "guess": "stagecoach",
+    "defects": [
+     "Only one wheel is visible on each side; a stagecoach-style coach would normally have front and rear wheel pairs, so the second axle/wheels are missing or impossibly hidden.",
+     "The passenger door is on the front face directly above the horse shafts; real carriages usually have side doors and a driver/bench at the front, making the construction impractical.",
+     "The two forward shafts are unsupported at their front ends and have no crossbar or harness connection.",
+     "Left and right wheel/spoke shapes are slightly mismatched."
+    ],
+    "distortion": "minor",
+    "match": true
+   },
+   "old": {
+    "guess": "Stagecoach",
+    "defects": [
+     "Partially visible underside wheel is much smaller than the other wheels and is oddly positioned, making the wheel set look inconsistent.",
+     "Pulling shafts extend forward with no visible yoke or connector and appear to attach awkwardly to the underside rather than a clear front axle assembly.",
+     "Far-side wheels are missing or hidden inconsistently for a four-wheeled coach."
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  },
+  {
+   "card": "A7",
+   "name": "Stagecoach",
+   "base": "clean/cat4_antiquity.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a red and yellow western stagecoach with high wheels, curved roof, luggage rack and empty front shafts. Change the environment to: sunny main street with dusty road, wooden storefronts and pale mesas in the distance, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "A7_reskin1.png",
+   "sec": 65,
+   "new": {
+    "guess": "Stagecoach",
+    "defects": [
+     "Only two wheels are visible; the far-side wheels/axles are not represented, making the carriage read like a two-wheeled coach from this angle.",
+     "The front hitch/drawbar is depicted as two parallel blunt rods that float forward without any crossbar, yoke, or clear attachment point to the carriage frame.",
+     "The underside/axle structure is simplified and partly melted together under the body, with supports not clearly connecting to both wheels.",
+     "The front luggage/bench box is fused into the side of the coach rather than sitting on a clearly defined platform."
+    ],
+    "distortion": "minor",
+    "match": true
+   },
+   "old": {
+    "guess": "stagecoach",
+    "defects": [
+     "Driver's bench is mounted on the outside/front side of the coach in an awkward sideways position and is not connected to a proper driver's platform or footrest.",
+     "Two front hitch shafts protrude from under the coach but do not connect clearly to an axle, yoke, or horse harness.",
+     "Far-side lower wheel is only partially formed/visible under the body and appears much smaller than the near front wheel.",
+     "Roof luggage/rail details are simplified and partly fused into the roof, with posts seeming to grow out of the roof edge."
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  },
+  {
+   "card": "B7",
+   "name": "Chuck Wagon",
+   "base": "arts/cat4_lighthouse_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a green canvas chuck wagon with wooden wheels, rear cook box and rolled canvas cover. Change the environment to: sunny sandy camp with campfire stones, scattered crates and distant red mesas, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "B7_reskin0.png",
+   "sec": 86,
+   "new": {
+    "guess": "covered wagon",
+    "defects": [
+     "Small dark wheel-like part under the cabinet is much smaller than the other wheels and appears to float or be disconnected instead of matching a normal fourth wagon wheel.",
+     "Visible wheels are inconsistent in size and placement; the left and right wheels do not align cleanly on a shared axle.",
+     "Right large wheel/spokes are warped and partially merged into the wagon side.",
+     "Cabinet/cupboard is built into the open end of the covered wagon in an impractical way for a real wagon.",
+     "Canvas cover and wooden cabinet intersect awkwardly, with the cover appearing to wrap around and fuse into the front cabinet area."
+    ],
+    "distortion": "minor",
+    "match": true
+   },
+   "old": {
+    "guess": "covered wagon",
+    "defects": [
+     "front-left wheel is only a partial crescent with no visible hub or axle, so it reads as an incomplete/hidden wheel",
+     "main large wheel has no clear axle or support connection to the wagon body",
+     "tow bar attaches to the underside/front block at an unclear angle and looks slightly fused into the frame"
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  },
+  {
+   "card": "B7",
+   "name": "Chuck Wagon",
+   "base": "clean/cat4_antiquity.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a green canvas chuck wagon with wooden wheels, rear cook box and rolled canvas cover. Change the environment to: sunny sandy camp with campfire stones, scattered crates and distant red mesas, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "B7_reskin1.png",
+   "sec": 89,
+   "new": {
+    "guess": "covered wagon",
+    "defects": [
+     "No hitch, tow bar, or handle is attached to the front of the wagon, so it has no way to be pulled.",
+     "The visible wheels do not appear to share clear front and rear axles; they look like separate wheels mounted at different depths under the body.",
+     "The wheels are inconsistent in size and construction: the right wheel is much smaller/warped compared with the two larger wheels, and the spoke layouts do not match exactly.",
+     "Some lower wooden supports around the right wheel merge into the wheel/axle area instead of forming a clear frame."
+    ],
+    "distortion": "minor",
+    "match": true
+   },
+   "old": {
+    "guess": "covered wagon",
+    "defects": [
+     "A third visible wheel/partial wheel appears under the left side, making the wheel layout ambiguous for a four-wheeled wagon.",
+     "The visible wheels are inconsistent in size and placement; the large middle wheel and smaller rear/right wheel do not align clearly to the same axle system.",
+     "No continuous axle is visible connecting the left and right wheels, and the large wheel appears attached only visually to the side of the wagon.",
+     "The hitch/drawbar protrudes from the left side while the wagon body/cooking cabinet orientation makes front vs. rear construction unclear.",
+     "The green canvas cover is an overly smooth single molded form with no clear support bows or realistic attachment points.",
+     "Some straps and side brackets appear fused into the canvas and wooden side rail rather than wrapping around distinct parts.",
+     "No text or digits visible."
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  },
+  {
+   "card": "A9",
+   "name": "Hitching Rail",
+   "base": "arts/cat3_helm_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a weathered wooden frontier hitching rail with two chunky posts, carved rope grooves and a low boardwalk step behind it. Change the surface to: dusty street edge beside a raised wooden boardwalk, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "A9_reskin0.png",
+   "sec": 47,
+   "new": {
+    "guess": "Wooden railing",
+    "defects": [],
+    "distortion": "none",
+    "match": true
+   },
+   "old": {
+    "guess": "wooden fence",
+    "defects": [],
+    "distortion": "none",
+    "match": false
+   }
+  },
+  {
+   "card": "A9",
+   "name": "Hitching Rail",
+   "base": "arts/cat3_captains-cap_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a weathered wooden frontier hitching rail with two chunky posts, carved rope grooves and a low boardwalk step behind it. Change the surface to: dusty street edge beside a raised wooden boardwalk, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "A9_reskin1.png",
+   "sec": 52,
+   "new": {
+    "guess": "wooden fence",
+    "defects": [
+     "Horizontal rail penetrates/fuses directly into both vertical posts with no clear mortise, bracket, or visible joint.",
+     "Left post cap is warped with a bite-like cutout/notch on the side where the rail meets it, unlike the right cap.",
+     "Post caps and decorative bands are slightly asymmetric in shape and groove placement."
+    ],
+    "distortion": "minor",
+    "match": false
+   },
+   "old": {
+    "guess": "wooden hitching post",
+    "defects": [],
+    "distortion": "none",
+    "match": true
+   }
+  },
+  {
+   "card": "C2",
+   "name": "Ore Cart",
+   "base": "arts/cat3_helm_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a rusty iron ore cart with a deep tub, small rail wheels and chunky rivets on a short rail track. Change the surface to: short rusty rail track laid in rocky sand at the desert claim, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "C2_reskin0.png",
+   "sec": 56,
+   "new": {
+    "guess": "Mine cart",
+    "defects": [],
+    "distortion": "none",
+    "match": true
+   },
+   "old": {
+    "guess": "minecart",
+    "defects": [
+     "Front wheels are not clearly seated on the rails and appear partly floating or intersecting the rail beams.",
+     "Wheel/axle construction is unclear: the visible wheels are attached to chunky brackets without a continuous axle, and the rear wheels are mostly missing/hidden inconsistently.",
+     "Rails and sleepers are misaligned: the metal rails run like simple rectangular bars and do not convincingly match the wheel positions.",
+     "Some rivets are unevenly placed and asymmetrical between matching cart panels."
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  },
+  {
+   "card": "C2",
+   "name": "Ore Cart",
+   "base": "arts/cat3_captains-cap_430x480.png",
+   "prompt": "Image 1 is a finished card illustration from the game. Edit it: replace ONLY the main object with a rusty iron ore cart with a deep tub, small rail wheels and chunky rivets on a short rail track. Change the surface to: short rusty rail track laid in rocky sand at the desert claim, in the same simplified style. Keep exactly: the rendering style, lighting, camera angle, the object's size and position in the frame, the depth of field and the amount of detail. The new object must be complete, symmetric and physically correct, no extra or fused parts. No text, no people, no animals.",
+   "file": "C2_reskin1.png",
+   "sec": 81,
+   "new": {
+    "guess": "Mine cart",
+    "defects": [
+     "Wheels do not clearly sit on the rails; the front rail runs in front of/through their contact area and the alignment is inconsistent.",
+     "Only two main wheels are clearly modeled; the far-side wheel pair is missing or hidden inconsistently.",
+     "A partial dark wheel-like shape appears under the rear right, making the wheel count/read unclear.",
+     "Wheel mounts look like separate hanging brackets with no continuous axle connecting the wheels.",
+     "Rail track construction is awkward: ties are short separate blocks instead of spanning both rails, and the rails terminate/align inconsistently."
+    ],
+    "distortion": "minor",
+    "match": true
+   },
+   "old": {
+    "guess": "Mine cart",
+    "defects": [
+     "Wheels do not clearly sit on the rails; the metal rails appear to pass behind or through the wheels instead of supporting them.",
+     "Track construction is malformed: the wooden sleepers are short separate blocks rather than cross-ties spanning both rails.",
+     "Front wheel mounts are asymmetric and somewhat melted into the cart body, with the left and right brackets shaped differently.",
+     "Rear wheels/axle are only partial dark shapes and not clearly connected to the cart."
+    ],
+    "distortion": "minor",
+    "match": true
+   }
+  }
+ ],
+ "usage": {
+  "images": 8,
+  "image_out": 9880,
+  "image_in": 5196,
+  "text_in_img": 1130,
+  "llm_calls": 32,
+  "llm_in": 14582,
+  "llm_out": 15042,
+  "usd_estimate": 0.87
+ }
+}

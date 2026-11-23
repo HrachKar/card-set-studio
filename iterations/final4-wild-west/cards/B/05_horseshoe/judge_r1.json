@@ -1,0 +1,115 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny iron horseshoe with nail holes, open end up, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 14.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 15.8,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear horseshoe with good orange background, but metal rendering is a bit too realistic/glossy for the reference style.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Horseshoe",
+     "defects": [
+      "Asymmetric nail-hole pattern: three holes on the left branch and two on the right instead of mirrored pairs.",
+      "Nail holes vary noticeably in size, shape, and angle.",
+      "The two raised end caps are different shapes and angles, and appear fused into the shoe rather than cleanly attached.",
+      "Left and right branches are not perfectly matched in curvature and thickness."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded horseshoe, clear silhouette, clean orange patterned background, no defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "horseshoe",
+     "defects": [
+      "Nail holes are not mirrored: there are five holes, with an extra single hole near the bottom instead of matching left/right pairs.",
+      "The holes have uneven spacing and slightly different sizes between the two arms.",
+      "The two end caps are oversized rounded blocks fused onto the ends rather than normal tapered horseshoe heels, and they are not perfectly matching.",
+      "The U-shaped band thickness is slightly uneven along the inner curve and near the tips."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and well framed, but the metallic texture/highlights feel slightly too realistic and AI-rendered.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Horseshoe",
+     "defects": [
+      "Left and right arms are noticeably asymmetric: the left arm is thicker and bows outward more, while the right arm is straighter and narrower.",
+      "Top end pads are unequal in size and shape; the left cap is larger and wider than the right.",
+      "Nail holes are unevenly spaced and not mirrored between the two sides; hole sizes vary slightly."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

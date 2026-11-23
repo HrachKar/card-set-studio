@@ -1,0 +1,495 @@
+{
+ "jobs": [
+  {
+   "card": "Space Helmet",
+   "label": "W",
+   "version": "V3_both",
+   "refs": [
+    "clean/cat1_fanfold.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space helmet with an orange visor, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "1_W.png",
+   "result": {
+    "file": "1_W.png",
+    "sec": 15.1,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Space Helmet",
+   "label": "X",
+   "version": "V2_noplastic",
+   "refs": [
+    "clean/cat1_fanfold.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space helmet with an orange visor, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "1_X.png",
+   "result": {
+    "file": "1_X.png",
+    "sec": 16.5,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Space Helmet",
+   "label": "Y",
+   "version": "ctrl",
+   "refs": [
+    "clean/cat1_bottle.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space helmet with an orange visor, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "1_Y.png",
+   "result": {
+    "file": "1_Y.png",
+    "sec": 17.9,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Space Helmet",
+   "label": "Z",
+   "version": "V1_no3d",
+   "refs": [
+    "clean/cat1_bottle.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space helmet with an orange visor, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "1_Z.png",
+   "result": {
+    "file": "1_Z.png",
+    "sec": 16.1,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Potion",
+   "label": "W",
+   "version": "ctrl",
+   "refs": [
+    "clean/cat1_bottle.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass potion bottle with pink liquid and a cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "2_W.png",
+   "result": {
+    "file": "2_W.png",
+    "sec": 17.6,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Potion",
+   "label": "X",
+   "version": "V3_both",
+   "refs": [
+    "clean/cat1_fanfold.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass potion bottle with pink liquid and a cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and soft waves. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "2_X.png",
+   "result": {
+    "file": "2_X.png",
+    "sec": 14.9,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Potion",
+   "label": "Y",
+   "version": "V2_noplastic",
+   "refs": [
+    "clean/cat1_fanfold.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass potion bottle with pink liquid and a cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "2_Y.png",
+   "result": {
+    "file": "2_Y.png",
+    "sec": 18.8,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Potion",
+   "label": "Z",
+   "version": "V1_no3d",
+   "refs": [
+    "clean/cat1_bottle.png",
+    "clean/cat1_honey.png",
+    "arts/window_seafaring_anchor.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass potion bottle with pink liquid and a cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and soft waves. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "2_Z.png",
+   "result": {
+    "file": "2_Z.png",
+    "sec": 13.3,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Pilot Seat",
+   "label": "W",
+   "version": "V1_no3d",
+   "refs": [
+    "clean/cat2_mojito.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a padded orange starship pilot seat with chunky armrests standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "3_W.png",
+   "result": {
+    "file": "3_W.png",
+    "sec": 16.7,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Pilot Seat",
+   "label": "X",
+   "version": "V2_noplastic",
+   "refs": [
+    "clean/cat2_lemontree.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a padded orange starship pilot seat with chunky armrests standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "3_X.png",
+   "result": {
+    "file": "3_X.png",
+    "sec": 20.1,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Pilot Seat",
+   "label": "Y",
+   "version": "ctrl",
+   "refs": [
+    "clean/cat2_mojito.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a padded orange starship pilot seat with chunky armrests standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "3_Y.png",
+   "result": {
+    "file": "3_Y.png",
+    "sec": 15.7,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Pilot Seat",
+   "label": "Z",
+   "version": "V3_both",
+   "refs": [
+    "clean/cat2_lemontree.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a padded orange starship pilot seat with chunky armrests standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "3_Z.png",
+   "result": {
+    "file": "3_Z.png",
+    "sec": 17.1,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Saddle",
+   "label": "W",
+   "version": "V1_no3d",
+   "refs": [
+    "clean/cat2_mojito.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "4_W.png",
+   "result": {
+    "file": "4_W.png",
+    "sec": 19.2,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Saddle",
+   "label": "X",
+   "version": "ctrl",
+   "refs": [
+    "clean/cat2_mojito.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "4_X.png",
+   "result": {
+    "file": "4_X.png",
+    "sec": 17.5,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Saddle",
+   "label": "Y",
+   "version": "V2_noplastic",
+   "refs": [
+    "clean/cat2_lemontree.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "4_Y.png",
+   "result": {
+    "file": "4_Y.png",
+    "sec": 19.2,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Saddle",
+   "label": "Z",
+   "version": "V3_both",
+   "refs": [
+    "clean/cat2_lemontree.png",
+    "arts/cat2_phone-booth_430x480.png",
+    "clean/cat2_teacup.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "4_Z.png",
+   "result": {
+    "file": "4_Z.png",
+    "sec": 18.5,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Food Tray",
+   "label": "W",
+   "version": "V3_both",
+   "refs": [
+    "arts/cat3_helm_430x480.png",
+    "clean/cat3_pie.png",
+    "arts/cat3_captains-cap_430x480.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with compartments of colourful food placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "5_W.png",
+   "result": {
+    "file": "5_W.png",
+    "sec": 18.8,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Food Tray",
+   "label": "X",
+   "version": "V2_noplastic",
+   "refs": [
+    "arts/cat3_helm_430x480.png",
+    "clean/cat3_pie.png",
+    "arts/cat3_captains-cap_430x480.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with compartments of colourful food placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "5_X.png",
+   "result": {
+    "file": "5_X.png",
+    "sec": 18.2,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Food Tray",
+   "label": "Y",
+   "version": "ctrl",
+   "refs": [
+    "arts/cat3_helm_430x480.png",
+    "clean/cat3_coffeepot.png",
+    "arts/cat3_captains-cap_430x480.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with compartments of colourful food placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "5_Y.png",
+   "result": {
+    "file": "5_Y.png",
+    "sec": 19.4,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Food Tray",
+   "label": "Z",
+   "version": "V1_no3d",
+   "refs": [
+    "arts/cat3_helm_430x480.png",
+    "clean/cat3_coffeepot.png",
+    "arts/cat3_captains-cap_430x480.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with compartments of colourful food placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "5_Z.png",
+   "result": {
+    "file": "5_Z.png",
+    "sec": 19.1,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Hero Jet",
+   "label": "W",
+   "version": "ctrl",
+   "refs": [
+    "arts/cat4_lighthouse_430x480.png",
+    "clean/cat4_fieldball.png",
+    "clean/cat4_coaster.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek blue hero jet with swept wings over the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "6_W.png",
+   "result": {
+    "file": "6_W.png",
+    "sec": 19.7,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Hero Jet",
+   "label": "X",
+   "version": "V3_both",
+   "refs": [
+    "arts/cat4_lighthouse_430x480.png",
+    "clean/cat4_fieldball.png",
+    "clean/cat4_antiquity.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek blue hero jet with swept wings over the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "6_X.png",
+   "result": {
+    "file": "6_X.png",
+    "sec": 18.0,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Hero Jet",
+   "label": "Y",
+   "version": "V1_no3d",
+   "refs": [
+    "arts/cat4_lighthouse_430x480.png",
+    "clean/cat4_fieldball.png",
+    "clean/cat4_coaster.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (painting manner, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek blue hero jet with swept wings over the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: hand-painted casual mobile game collectible card illustration, digital painting with volume, looks painted by an artist, not a 3D render, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, 3D render look, CGI, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "6_Y.png",
+   "result": {
+    "file": "6_Y.png",
+    "sec": 19.7,
+    "size": [
+     864,
+     960
+    ]
+   }
+  },
+  {
+   "card": "Hero Jet",
+   "label": "Z",
+   "version": "V2_noplastic",
+   "refs": [
+    "arts/cat4_lighthouse_430x480.png",
+    "clean/cat4_fieldball.png",
+    "clean/cat4_antiquity.png"
+   ],
+   "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek blue hero jet with swept wings over the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, baked food) with soft hand-painted texture and medium detail, matte surfaces with painted brush shading, warm soft diffuse lighting like a sunny afternoon, highlights only as a few soft pale painted strokes on rounded edges, no specular hotspots, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, specular hotspots, reflections, wet shine, chrome, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+   "file": "6_Z.png",
+   "result": {
+    "file": "6_Z.png",
+    "sec": 18.3,
+    "size": [
+     864,
+     960
+    ]
+   }
+  }
+ ],
+ "usage": {
+  "images": 24,
+  "image_out": 29640,
+  "image_in": 25804,
+  "text_in_img": 9392,
+  "llm_calls": 0,
+  "llm_in": 0,
+  "llm_out": 0,
+  "usd_estimate": 1.14
+ },
+ "sec": 110
+}

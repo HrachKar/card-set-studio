@@ -1,0 +1,117 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and black steam locomotive with a big funnel chimney and a cowcatcher in its real environment: railroad across the desert with red mesas and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the locomotive feel like softly painted metal and wood rather than a glossy plastic toy, and leave more empty sky at the top.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 19.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 20.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 19.9,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear steam train in the right environment, but it feels a bit like a glossy toy render and the funnel intrudes into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "steam locomotive",
+     "defects": [
+      "front headlamp is mounted off to the side of the smokestack/smokebox rather than centered on the front",
+      "large smokestack/funnel is exaggerated and oddly shaped for a real locomotive",
+      "front gray cylinder under the boiler appears partly disconnected or floating beside the wheel area",
+      "small tender wheels at the rear are partially hidden and do not align clearly with the rail",
+      "cowcatcher slats are simplified and fused into the top and bottom frames"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best silhouette and very readable locomotive with cowcatcher, but the finish is too plastic/glossy and the top 12% is not clear.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "steam train",
+     "defects": [
+      "Front headlight is mounted off to the side of the smokebox instead of centered on the front.",
+      "Small rear wheel under the cab appears only partly connected and not aligned with the other wheels.",
+      "Front small wheel is tucked behind the cowcatcher/boiler and appears slightly misaligned with the track.",
+      "Visible wheels are inconsistent in size and placement for a single side of the locomotive, giving the wheel layout an unrealistic toy-like construction."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and dominant, but slightly too shiny toy-like for the reference style, with insufficient top headroom.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Steam locomotive",
+     "defects": [
+      "Headlight is mounted off-center on the side edge of the smokebox rather than centered on the front.",
+      "Connecting rod attaches to the centers of the driving wheels instead of offset crank pins, so the mechanism would not work.",
+      "No visible front support wheel or truck under the smokebox/cowcatcher area.",
+      "Smokestack is an exaggerated inverted cone with no clear open chimney hole."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": "Make the train less glossy/plastic and more softly painted in Township style, with clear empty sky in the top 12%."
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

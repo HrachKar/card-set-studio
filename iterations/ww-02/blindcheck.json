@@ -1,0 +1,303 @@
+[
+ {
+  "card": "A1",
+  "name": "Star Badge",
+  "guess": "Sheriff badge",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A2",
+  "name": "Covered Wagon",
+  "guess": "Covered wagon",
+  "defects": [
+   "Right/front wheel is only a partial visible crescent behind the drawbar, smaller than the other wheels and not clearly connected to an axle.",
+   "The tongue/drawbar appears as two thick beams that merge into the wagon underside with no clear pivot or hitch hardware.",
+   "Canvas cover ribs and side panels are lumpy and melted together rather than forming consistent separate hoops.",
+   "Front canvas opening and wooden front board overlap awkwardly, making the interior support structure unclear."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A3",
+  "name": "Cornbread",
+  "guess": "Cornbread",
+  "defects": [
+   "Top crust is split into oversized rounded pillow-like sections instead of a continuous natural crust",
+   "Central exposed crumb area makes the surrounding crust look slightly fused/melted"
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A4",
+  "name": "Cowboy Boots",
+  "guess": "cowboy boots",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A5",
+  "name": "Water Tower",
+  "guess": "Water tower",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A6",
+  "name": "Oil Lantern",
+  "guess": "lantern",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A7",
+  "name": "Rocking Chair",
+  "guess": "rocking chair",
+  "defects": [
+   "Top back rail is asymmetrical: the left end blends into the rail while the right end looks like a separate rounded block.",
+   "Back slats are unevenly spaced and slightly warped/tilted.",
+   "Lower front crossbar appears to intersect the front legs rather than join cleanly."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A8",
+  "name": "Prickly Cactus",
+  "guess": "Cactus",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A9",
+  "name": "Wagon Wheel",
+  "guess": "wagon wheel",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A10",
+  "name": "Apple Pie",
+  "guess": "Cherry pie",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "B1",
+  "name": "Canteen",
+  "guess": "Canteen",
+  "defects": [
+   "Top cap is tilted/off-center on the neck and does not seat cleanly.",
+   "Blue ring handle behind the cap has no clear attachment point and appears fused into the cap/neck area.",
+   "Shoulder strap disappears behind the bottle and reappears without a clear continuous path.",
+   "Front horizontal strap ends at side keepers with unclear continuation around the back of the canteen.",
+   "Buckle/slider on the upper strap is simplified and appears partly fused to the strap rather than threaded through it."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B2",
+  "name": "Canvas Tent",
+  "guess": "Teepee tent",
+  "defects": [
+   "Small orange pole nub on the rear-left side appears to grow out of the canvas rather than continuing as a visible structural pole.",
+   "Front rolled tie/peg cylinders look fused into the slanted poles and fabric instead of being clearly strapped on.",
+   "Left and right front rolled tie assemblies are asymmetric in placement and attachment.",
+   "Some front fabric flaps have melted/soft edges and unclear connections to the poles and floor."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B3",
+  "name": "Bean Pot",
+  "guess": "pot of beans",
+  "defects": [
+   "Wooden spoon head is malformed: it looks like a spoon/fork hybrid with split prongs instead of a normal solid bowl.",
+   "Spoon bowl appears partly melted into or hidden by the beans, making its exact edge unclear.",
+   "Pot handles are slightly asymmetric in shape and attachment position."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B4",
+  "name": "Red Bandana",
+  "guess": "red bandana",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B5",
+  "name": "Saguaro",
+  "guess": "cactus",
+  "defects": [
+   "small flower behind the main top flower is partially hidden and has no visible stem or clear attachment point"
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B6",
+  "name": "Rope Loop",
+  "guess": "Lasso",
+  "defects": [
+   "The knot is modeled as a smooth collar or band around the rope rather than a real tied knot.",
+   "Several rope segments at the knot appear to merge or penetrate each other with no clear over-under path.",
+   "The lower dangling section forms a closed teardrop loop with no visible loose free end, making the lasso construction physically impossible.",
+   "The rope topology is ambiguous where the large loop enters the knot; it is unclear which strand continues through."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B7",
+  "name": "Camp Stool",
+  "guess": "folding stool",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B8",
+  "name": "Skillet Bread",
+  "guess": "cornbread skillet",
+  "defects": [
+   "Only one clear pour spout is visible on the skillet rim; the matching opposite spout is missing or hidden, making the pan asymmetrical.",
+   "The cornbread wedges are fused together at the center rather than clearly separated by cuts.",
+   "The small side fire pit is not positioned under the skillet and appears decorative rather than functional for heating it."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B9",
+  "name": "Trail Boots",
+  "guess": "Hiking boots",
+  "defects": [
+   "Laces have no visible bow, knot, or loose ends; the cords terminate into the eyelet blocks.",
+   "Several lace segments appear fused into solid yellow eyelet pads rather than passing through real hooks or holes.",
+   "The over-under routing of the crossed laces is inconsistent and partly melted together.",
+   "Some outsole tread blocks are uneven, rounded, and slightly fused/melted together instead of separate rugged lugs."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B10",
+  "name": "Enamel Kettle",
+  "guess": "Kettle",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C1",
+  "name": "Pocket Watch",
+  "guess": "Pocket watch",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C2",
+  "name": "Steam Engine",
+  "guess": "steam train",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C3",
+  "name": "Depot Sandwich",
+  "guess": "sandwich",
+  "defects": [
+   "The visible lower bread slice reads as a rounded rectangle while the top slice is triangular, making the sandwich construction geometrically inconsistent."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C4",
+  "name": "Conductor Cap",
+  "guess": "Police cap",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "C5",
+  "name": "Station Clock",
+  "guess": "alarm clock",
+  "defects": [
+   "clock face has unevenly spaced tick marks and appears to be missing at least one hour marker"
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C6",
+  "name": "Coal Shovel",
+  "guess": "Hand shovel",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C7",
+  "name": "Platform Bench",
+  "guess": "park bench",
+  "defects": [
+   "Small support block under the right side of the seat appears suspended and does not clearly reach the floor.",
+   "Some seat/back planks merge into the side posts without clear separate ends, giving slightly fused construction."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C8",
+  "name": "Picnic Basket",
+  "guess": "picnic basket",
+  "defects": [
+   "Woven strips are not a consistent over-under construction; several bands merge into each other and terminate abruptly.",
+   "Only the right handle pivot is clearly built; the left handle attachment is missing or hidden, making the handle look partly grown out of the lid/side.",
+   "Handle arch is slightly asymmetric in thickness and curvature, especially near the right attachment.",
+   "Front latch strap blends into the lid edge and has no clear matching catch on the basket body."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C9",
+  "name": "Depot House",
+  "guess": "train station",
+  "defects": [
+   "Left and right side roof supports/brackets are asymmetric and slightly melted into the roof edge and wall.",
+   "Brick courses are inconsistent and warped around the arches and corners.",
+   "The front door halves and window panes are slightly uneven/asymmetric.",
+   "Railroad track at the bottom has warped/uneven sleepers and rails that appear as extra parallel strips rather than clean continuous rails.",
+   "No text or digits are present."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C10",
+  "name": "Travel Trunk",
+  "guess": "Treasure chest",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ }
+]

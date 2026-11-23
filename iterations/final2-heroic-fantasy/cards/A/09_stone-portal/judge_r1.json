@@ -1,0 +1,113 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a circular ancient stone portal with floating blocks and a gentle blue magical center in its real environment: sunlit mountain ruins with flat stones, soft grass, and distant warm cliffs; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 20.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear stone portal and strong hero framing; style is close, but the blue-sky background is not mint and red accents feel a bit too saturated.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic portal",
+     "defects": [
+      "Floating stone cubes around the portal are unconnected to any structure, though this may be an intentional magical effect.",
+      "The glowing blue portal/vortex is an impossible physical construction in real life.",
+      "Left and right red side plaques are slightly different in size and placement on the ring.",
+      "Stone blocks around the circular ring are unevenly sized and not perfectly aligned, with some seams not matching cleanly."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable circular portal with good chunky forms; background is clean but not mint, and the glow is slightly over-saturated.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic portal",
+     "defects": [
+      "Several stone blocks float unconnected above and beside the arch.",
+      "The object is a glowing magical portal, which is not a real-world construction.",
+      "Gold plaques contain spiral-like glyphs resembling stylized text/symbols."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clean toy-like stone portal, dominant in landscape, readable and polished; background is blue rather than mint.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic portal",
+     "defects": [
+      "Several stone blocks float unconnected around the top of the portal.",
+      "The glowing swirling portal surface is a magical/non-real physical element rather than a real constructed part."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

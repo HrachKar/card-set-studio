@@ -1,0 +1,44 @@
+{
+ "composers": {
+  "P": {
+   "images": 0,
+   "image_out": 0,
+   "image_in": 0,
+   "text_in_img": 0,
+   "llm_calls": 2,
+   "llm_in": 6721,
+   "llm_out": 20192,
+   "usd_estimate": 0.21
+  },
+  "Q": {
+   "images": 0,
+   "image_out": 0,
+   "image_in": 0,
+   "text_in_img": 0,
+   "llm_calls": 2,
+   "llm_in": 6995,
+   "llm_out": 16189,
+   "usd_estimate": 0.17
+  },
+  "R": {
+   "images": 0,
+   "image_out": 0,
+   "image_in": 0,
+   "text_in_img": 0,
+   "llm_calls": 2,
+   "llm_in": 7032,
+   "llm_out": 28078,
+   "usd_estimate": 0.29
+  }
+ },
+ "preview_images": {
+  "images": 60,
+  "image_out": 63360,
+  "image_in": 18210,
+  "text_in_img": 16886,
+  "llm_calls": 0,
+  "llm_in": 0,
+  "llm_out": 0,
+  "usd_estimate": 2.13
+ }
+}

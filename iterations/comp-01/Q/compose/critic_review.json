@@ -1,0 +1,17 @@
+[
+ {
+  "card": "A8",
+  "problem": "The bean pot is close to a generic camp pot; a small horseshoe emblem alone is a weak theme marker and does not strongly change the silhouette at thumbnail size.",
+  "fix": "Keep the food slot, but make it a more iconic chuckwagon bean pot: three stubby legs, arched bail handle, horseshoe-shaped side handles, visible beans, and a crate/campfire surface."
+ },
+ {
+  "card": "A10",
+  "problem": "A plain wagon wheel can read as old farm decor rather than instantly Wild West, and spoke-only objects can become weak at small size.",
+  "fix": "Turn it into a spare covered-wagon wheel assembly with a short axle, thick spokes, leather straps, and a curved white canvas bow attached, standing in the desert camp."
+ },
+ {
+  "card": "B2",
+  "problem": "Batwing swing doors can imply a saloon, which risks an alcohol association and is not specifically tied to the sheriff street place.",
+  "fix": "Make them sheriff office swing doors: same western half-door silhouette, but with a sheriff-star cutout and black iron hinges, no saloon cue."
+ }
+]

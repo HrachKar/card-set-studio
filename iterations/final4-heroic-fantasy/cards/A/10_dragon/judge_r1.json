@@ -1,0 +1,120 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly green dragon sleeping curled on a pile of gold coins in its real environment: a bright cave mouth with piles of gold and a blue sky outside; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear friendly sleeping dragon on coins, strong category 4 setting; cave arch crowds the top safe area a bit.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Sleeping dragon",
+     "defects": [
+      "Only one wing is visible; the matching wing is missing or completely hidden without a clear attachment point.",
+      "Visible wing has an oddly thick, fused green rim and the orange membrane attaches to the body in an unclear, melted way.",
+      "Body, hind leg, and curled tail merge into one continuous green mass, making the anatomy hard to separate.",
+      "Some red back spikes appear partially embedded in or fused with the body rather than attached as separate spines.",
+      "Only one front paw is clearly visible; the other foreleg/paw is missing or hidden.",
+      "Dragon is a fantasy creature that does not exist in real life.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 7
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable and close to the soft rounded game style; top edge is partly occupied by the cave arch.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "sleeping dragon",
+     "defects": [
+      "Only one wing is visible; the matching wing is missing or completely hidden.",
+      "Visible wing structure is slightly fused into the back/neck area, with supports blending together unnaturally.",
+      "Some limbs are partly merged into the body coil, making the front paws/body connection unclear.",
+      "Tail/body coil connection is ambiguous, with the foreground tail wrapping in a slightly impossible-looking way."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best hero scale and clear silhouette, bright colours; cave arch slightly infringes on the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Sleeping dragon",
+     "defects": [
+      "rear/left wing is ambiguous and appears fused into the body/other wing rather than having a clear separate shoulder joint",
+      "visible wing membranes and green outer rims merge into the back with unclear attachment points",
+      "curled body, tail, and hind leg blend together, making the limb boundaries hard to distinguish",
+      "only one hind foot/leg is clearly visible; the matching hind limb is missing or fully hidden",
+      "front paws are partly merged into the head/body, with some claws appearing crowded together"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

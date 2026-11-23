@@ -1,0 +1,58 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a beige A-frame cowboy canvas tent with rolled flaps and a horseshoe hanging by the entrance in its real environment: sunny desert camp with sand, wooden crates, campfire stones and blurred red mesas; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Use a clean peach sky/background and remove extra props like the campfire, crates and cactus, keeping only a large beige A-frame canvas tent with rolled flaps and a horseshoe.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 16.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close Township-like chunky tent, clear A-frame with horseshoe and rolled flaps; background is more blue than peach and the poles intrude into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear and well-stylized canvas tent in environment, but small stitch details are slightly busy, background is mostly blue rather than peach, and the top safe area is not free.",
+    "mean": 8,
+    "hard": [],
+    "pass": false
+   }
+  ],
+  "best": "A",
+  "fix": "Use a peach-toned background and leave the top 12% of the image empty above the tent."
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png"
+ ]
+}

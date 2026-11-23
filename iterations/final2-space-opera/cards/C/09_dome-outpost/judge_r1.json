@@ -1,0 +1,113 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded white frontier dome building with blue porthole windows, a small antenna and orange landing lights in its real environment: bright domed frontier outpost in a red canyon with twin suns and a clear warm sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear rounded dome outpost in the right toy-like style, but background is not mint and the antenna intrudes into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Space dome",
+     "defects": [
+      "Top antenna/cap is slightly off-center and stacked parts do not align perfectly with the dome axis.",
+      "Upper window band has uneven pane widths and warped vertical dividers; the right pane is truncated differently from the left.",
+      "Dome panel seams are inconsistent and do not mirror left-to-right; several seams stop abruptly at windows or change curvature unnaturally.",
+      "Left and right circular side windows are asymmetric in size, ovalness, rim thickness, and placement.",
+      "Central round window rim is not perfectly circular and its surrounding dome panels are unevenly spaced.",
+      "Orange horizontal belt around the dome changes thickness and alignment, especially near the side windows.",
+      "Base ring block segments are uneven sizes and do not line up symmetrically across the front.",
+      "Left and right front buttress/side supports differ in width, angle, and height.",
+      "Small yellow side lights are not matching shapes or placed at the same height.",
+      "Door arch sides and inner blue door panels are slightly asymmetric; the center seam is not perfectly centered.",
+      "Stairs are slightly uneven in width and alignment, with side blocks not mirrored."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 11
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best silhouette and very close to the reference style; dominant hero object, but the sky is blue/desert rather than mint and top margin is not free.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Space base",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and chunky, with good portholes and lights, but not mint background and the antenna is too close to the top edge.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "dome house",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": "Use a mint sky/background and leave the top 12% empty above the antenna."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a long white starliner with aqua panoramic windows, rounded wings and three pink glowing engines in its real environment: bright open sky over pale royal landing terraces with distant soft planet shapes; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning browsing a neon star bazaar, noon on a royal landing terrace, afternoon aboard an orbital liner, and sunset at an asteroid observatory.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear toy-like starliner with three pink engines and good silhouette; background is bright but blue rather than requested lilac.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Futuristic jet",
+     "defects": [
+      "Opposite main wing is missing or replaced by a small red ventral fin under the fuselage, so the wing pair is not symmetrical.",
+      "Three rear thrusters are arranged unevenly; the lower engines appear partially fused together and not clearly attached to the fuselage.",
+      "Tail assembly is asymmetrical: only one horizontal tailplane is visible and the vertical fin blends into the body in a soft, melted way.",
+      "Side window frames are irregular in size and spacing, with some windows merging into the fuselage curvature unnaturally.",
+      "Panel seams on the nose and body do not line up cleanly and create impossible segmented construction."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: long rounded white starliner, aqua windows, three glowing pink engines, strong central hero; background is not lilac.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Futuristic airplane",
+     "defects": [
+      "Three engine pods/nozzles are placed in a row under the fuselage rather than as a symmetric left-right pair arrangement.",
+      "No matching engines are visible on the far side, making the underside propulsion layout asymmetric.",
+      "The visible main wings are asymmetric: the left/front wing is large and broad, while the opposite wing appears as a much smaller rear fin-like piece.",
+      "Engine pods look partially fused into the belly/wing area instead of being clearly mounted with pylons.",
+      "Tailplane and rear fuselage surfaces blend together with soft, unclear joints."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable and dominant, good stylized finish; slightly cropped but acceptable for category 4, background is blue not lilac.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "airplane",
+     "defects": [
+      "Three glowing underside pods/wheels/thrusters are visible instead of a plausible paired engine or landing-gear layout.",
+      "Underside pods are different sizes and not symmetrically paired.",
+      "The glowing pods appear fused directly into the belly/wing underside with no clear pylons, struts, axles, or mounts.",
+      "Near wing and far wing are mismatched in size/shape beyond perspective, giving an asymmetric wing layout.",
+      "Tail assembly is simplified and awkward: only one clear vertical fin is visible and the horizontal stabilizer surfaces are unclear/merged into the tail base.",
+      "Passenger windows/cockpit canopy are merged into a continuous curved glass band rather than distinct realistic cockpit and cabin windows.",
+      "Overall construction is a fantasy hover-plane rather than a real aircraft design."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 7
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

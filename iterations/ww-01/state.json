@@ -1,0 +1,2441 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Main Street",
+   "concept": "A sunny frontier town main street, from the saloon porch to the dusty road out into the desert.",
+   "palette": "Bright toy-like western colours with warm yellows, turquoise skies, cactus greens, and cheerful red accents.",
+   "motif": "star",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Cowboy Hat",
+     "object": "a tan cowboy hat with a red band",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan cowboy hat with a red band, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 74.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 76.0,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized 3D match with warm chunky shapes and sky-blue ray background; clearly a tan cowboy hat with red band, though the crown shape is slightly less iconic.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent category fit and instant read as a tan cowboy hat with red band; clean silhouette, saturated colors, and close reference-style rendering.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Water Pump",
+     "object": "a dark green iron hand water pump",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark green iron hand water pump standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 72.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 76.5,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized 3D match with chunky rounded iron pump; yellow floor/background fits, though striped wall is slightly less plain.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very clear dark green hand water pump with clean silhouette and good reference-like rendering; background is suitable but not fully plain due to stripes.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.0,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Root Beer",
+     "object": "a frosty amber root beer mug with white foam",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a polished wooden saloon bar",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a frosty amber root beer mug with white foam placed on a polished wooden saloon bar (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 79.0,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 79.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 6,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear root beer mug on wood with green wall, but glass and condensation are a bit too realistic versus chunky stylized refs.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 7,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong category match and instantly readable; warmer, rounder, more game-like, though still slightly realistic in glass texture.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a frosty amber root beer mug with white foam placed on a polished wooden saloon bar (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: bright saturated green wall, warm light wooden counter, no dark vignette",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 79.4,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 79.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 7,
+          "category": 9,
+          "readability": 9,
+          "object": 9,
+          "defects": [
+           "dark_or_photoreal"
+          ],
+          "comment": "Clear root beer mug on wood with green background, but glass, droplets, and lighting are a bit too realistic and detailed for the reference style.",
+          "mean": 8.5,
+          "hard": [
+           "dark_or_photoreal"
+          ],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 8,
+          "category": 9,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized mug with readable foam and amber drink; fits the wood surface and green background well, though still slightly glossy/realistic in the glass.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 8.75,
+      "passed": true,
+      "hard": []
+     },
+     "pinned": "r2_1.png"
+    },
+    {
+     "n": 4,
+     "name": "Covered Wagon",
+     "object": "a cream canvas covered wagon with red wooden wheels",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "peach",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds",
+     "view": "three-quarter side view, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cream canvas covered wagon with red wooden wheels in its real environment: sunny prairie road with pale grass, distant mesas, and a blue sky with fluffy clouds; three-quarter side view, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 96.7,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 86.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D match; clear covered wagon in a landscape, with cream canvas and red wheels. Background is blue rather than peach.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very clear hero wagon with chunky rounded forms, warm lighting, cream canvas, and red wooden wheels. Good environment, though not peach background.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Star Badge",
+     "object": "a shiny gold sheriff star badge with a simple blue center",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of star silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny gold sheriff star badge with a simple blue center, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and faint repeating pattern of star silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 76.2,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 89.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very close to reference style: chunky glossy 3D badge, floating on a simple purple patterned background; clear sheriff star with blue center.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D rendering with strong silhouette, warm shiny gold, simple blue center, and clean purple background; reads instantly.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Tall Cactus",
+     "object": "a bright green saguaro cactus with tiny pink blossoms",
+     "class": "nature",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "orange",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny desert sand with red rock hills and a clear light-blue sky",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bright green saguaro cactus with tiny pink blossoms in its real environment: sunny desert sand with red rock hills and a clear light-blue sky; frontal, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 83.2,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 94.1,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D cactus in a desert environment; chunky rounded form, bright colors, clear silhouette, pink blossoms visible.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very strong match with warm stylized 3D rendering and correct desert setting; slightly busier shape but still reads clearly.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Saloon Doors",
+     "object": "a pair of honey-brown swinging saloon doors",
+     "class": "architecture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of honey-brown swinging saloon doors standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 77.3,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 79.3,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 9,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong match: stylized rounded 3D honey-brown saloon doors on plain turquoise floor/background, clear silhouette and readable details.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 9,
+          "readability": 8,
+          "object": 9,
+          "defects": [],
+          "comment": "Also very close in style and category; reads as saloon doors, though the angled view and narrower doors make the silhouette slightly less instant than A.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.0,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Gold Pan",
+     "object": "a dark metal gold pan with bright yellow nuggets",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "faint repeating pattern of star silhouettes",
+     "surface": "a dusty rough wooden table",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark metal gold pan with bright yellow nuggets placed on a dusty rough wooden table (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with faint repeating pattern of star silhouettes and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 80.7,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 84.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear dark metal gold pan with riffles and bright nuggets on a wood surface against a red soft background; slightly more realistic metal but very close.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 8,
+          "defects": [],
+          "comment": "Strong chunky stylized rendering and clear thumbnail read, but the two side handles make it feel a bit like a cooking pan rather than a classic gold pan.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Oil Lantern",
+     "object": "a red metal oil lantern with a warm yellow glass globe",
+     "class": "device",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "mint",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 77.9,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 71.7,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized 3D match with chunky red lantern and warm yellow globe on mint striped background; reads clearly.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent classic oil lantern silhouette, floating on simple mint patterned background; very clear and on style.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Water Trough",
+     "object": "a weathered blue wooden water trough with silver bands",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a weathered blue wooden water trough with silver bands standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 78.4,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 77.3,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized 3D match; clear blue wooden trough with silver bands, though background has wavy decoration instead of fully plain pink.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Very readable trough with good chunky 3D rendering and correct materials; subtle patterned wall slightly reduces category match.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 8.75,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Ranch Yard",
+   "concept": "A cheerful working ranch yard with porch comforts, trail gear, and sunny open-range tools.",
+   "palette": "Fresh ranch colours mix straw yellow, barn red, denim blue, leafy green, and soft pink highlights.",
+   "motif": "horseshoe",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Coiled Lasso",
+     "object": "a tan rope lasso coiled into a neat loop",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan rope lasso coiled into a neat loop, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 71.9,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 78.3,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 8,
+          "object": 8,
+          "defects": [],
+          "comment": "Strong stylized 3D match on turquoise striped background; reads as a coiled rope, though the lasso loop is a bit small and less clear.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D coiled lasso with clear knot and loop, floating cleanly on the requested turquoise patterned background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Ranch Boots",
+     "object": "a pair of brown leather cowboy boots with pale stitching shapes",
+     "class": "clothing",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown leather cowboy boots with pale stitching shapes standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 79.4,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 78.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 8,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear pair of brown cowboy boots with pale stitching; good warm stylized 3D, slightly more realistic/detail-heavy than references.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Best match: chunky rounded stylized boots, clean saturated yellow floor/background, instantly readable with correct stitching.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.0,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Camp Coffee",
+     "object": "a blue enamel coffee pot with a white speckled finish",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "mint",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a red-and-white checkered tablecloth",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel coffee pot with a white speckled finish placed on a red-and-white checkered tablecloth (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 79.6,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 75.0,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 10,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Clear blue speckled enamel coffee pot on textured cloth with mint wall; slightly less chunky and more realistic than references.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D shape, clean silhouette, blue speckled enamel finish, and correct tabletop/mint background setup.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Ranch Windmill",
+     "object": "a silver ranch windmill with a red tail vane",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "peach",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny ranch field with golden grass, a low fence, and a pale blue sky with soft clouds",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver ranch windmill with a red tail vane in its real environment: sunny ranch field with golden grass, a low fence, and a pale blue sky with soft clouds; frontal, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 99.7,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 83.6,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D match with clear silver windmill and red tail in a ranch landscape; background is blue rather than peach.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 9,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Very readable central ranch windmill with chunky rounded 3D rendering and red tail vane; environment fits, though sky is not peach.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Hay Bale",
+     "object": "a golden rectangular hay bale tied with green twine",
+     "class": "nature",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "simple barn interior",
+     "surface": "a dusty wooden barn floor",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rectangular hay bale tied with green twine placed on a dusty wooden barn floor (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple barn interior and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 85.5,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 83.8,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear golden hay bale with green twine on wood floor and red barn-like background; slightly over-detailed straw but matches style well.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D hay bale, good chunky rectangular form, green twine, warm lighting, textured wood surface and red interior background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Red Bandana",
+     "object": "a red bandana tied in a soft knot with white dot patterns",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red bandana tied in a soft knot with white dot patterns, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 80.5,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 73.9,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D rendering with rounded cloth folds, clear red bandana, white dots, and green patterned background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Very clear floating red bandana with soft knot and dot pattern; excellent silhouette and matching green simple background.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Water Bucket",
+     "object": "a shiny silver metal bucket with a pale wooden handle",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny silver metal bucket with a pale wooden handle standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 76.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 74.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear shiny metal bucket on pink wall and lighter floor; stylized 3D fits well, though metal is slightly realistic and wooden grip is off to one side.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 8,
+          "category": 9,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Very readable silver bucket with centered pale wooden handle; matches category composition and pink background, with only slightly realistic metal rendering.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Chuck Wagon",
+     "object": "a blue chuck wagon with a cream canvas top and orange wheels",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "sky blue",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny dirt ranch track with simple fence rails, green shrubs, and a bright clouded sky",
+     "view": "three-quarter side view, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue chuck wagon with a cream canvas top and orange wheels in its real environment: sunny dirt ranch track with simple fence rails, green shrubs, and a bright clouded sky; three-quarter side view, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 81.6,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 86.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Very close to reference style with soft chunky 3D shapes; clear blue covered chuck wagon in outdoor sky setting.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D wagon, clear cream canvas top and orange wheels, strong environment and silhouette.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Dinner Triangle",
+     "object": "a black iron dinner triangle with a small wooden striker",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black iron dinner triangle with a small wooden striker, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 75.9,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 88.0,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 8,
+          "defects": [],
+          "comment": "Strong stylized 3D match on purple patterned background; reads clearly, though the closed triangle and rope make it slightly less like a true dinner triangle.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear black iron dinner triangle with wooden striker, floating on a purple simple background; excellent object accuracy and readability.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Porch Rocker",
+     "object": "a white wooden rocking chair with a blue cushion",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "orange",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white wooden rocking chair with a blue cushion standing on a plain flat floor of lighter orange, three-quarter view slightly from above. Behind it a plain vertical orange wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 77.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 78.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very close stylized 3D look with chunky rounded white wooden rocker and clear blue cushion; orange floor/background fits, though subtle wall stripes make it slightly less plain.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 8,
+          "category": 9,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear rocking chair with blue cushion in the right setup; nice soft 3D style, but the turned legs/spindles add a bit more fine detail than the references.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Gold Camp",
+   "concept": "A bright Gold Rush prospector camp beside a small mine entrance and sunny wooden work area.",
+   "palette": "Golden nuggets, dusty browns, clear blues, and candy-bright accent backgrounds keep the mining scene friendly.",
+   "motif": "pickaxe",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Pickaxe",
+     "object": "a steel pickaxe with a warm brown wooden handle",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a steel pickaxe with a warm brown wooden handle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 86.6,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 68.7,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D rendering with warm yellow striped background; clear floating steel pickaxe, slightly busy at the head.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Clean chunky 3D pickaxe, centered and floating on yellow striped background; instantly readable silhouette.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Sluice Box",
+     "object": "a light wooden sluice box with shiny blue water inside",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "sky blue",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a light wooden sluice box with shiny blue water inside standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 73.2,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 78.6,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D match; clear light wooden sluice box with shiny blue water and riffles on a plain sky-blue floor/background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 8,
+          "defects": [],
+          "comment": "Strong style and category fit, but the shape reads a bit more like a chunky water slide or trough than a sluice box.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Gold Nugget",
+     "object": "a chunky bright gold nugget with soft orange shadows",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "a dark rough wooden work table",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky bright gold nugget with soft orange shadows placed on a dark rough wooden work table (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with faint repeating pattern of pickaxe silhouettes and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 80.6,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 91.8,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Clear bright gold nugget on wood with purple volumetric background; slightly too faceted and detailed but strong fit.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 9,
+          "defects": [],
+          "comment": "Very readable chunky gold nugget with rounded stylized 3D rendering, warm light, wood surface, and purple background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Mine Cart",
+     "object": "a dark gray ore mine cart with small red wheels",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "orange",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny mine yard with simple wooden rails, pale dust, timber supports, and a light blue sky",
+     "view": "three-quarter side view, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark gray ore mine cart with small red wheels in its real environment: sunny mine yard with simple wooden rails, pale dust, timber supports, and a light blue sky; three-quarter side view, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 102.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 86.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D mine cart in a mine setting; red wheels read clearly, though the form is a bit bulky and detailed.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Very clear dark gray ore cart with red wheels, central hero in a warm mine environment; excellent silhouette and readability.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Miner Hat",
+     "object": "a tan prospector hat with a small silver candle holder on the brim",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan prospector hat with a small silver candle holder on the brim, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 79.2,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 77.7,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Very close to reference style: chunky rounded 3D, warm lighting, turquoise ray background. The tan prospector hat and silver candle holder on the brim read clearly.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 8,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong stylized 3D look and correct floating category/background. The candle holder is clear but slightly more side-mounted, and the hollow crown shape makes the hat a bit less instantly readable.",
+          "mean": 9.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Canvas Tent",
+     "object": "a cream canvas prospector tent with brown wooden poles",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "green",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny camp clearing with sandy ground, small shrubs, and distant warm hills under a bright sky",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cream canvas prospector tent with brown wooden poles in its real environment: sunny camp clearing with sandy ground, small shrubs, and distant warm hills under a bright sky; frontal, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 82.2,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 85.2,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 8,
+          "readability": 9,
+          "object": 8,
+          "defects": [],
+          "comment": "Strong stylized 3D match with warm lighting and clear hero tent; environment fits, though it reads a bit more like a teepee and the background is more desert than green.",
+          "mean": 8.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 9,
+          "readability": 10,
+          "object": 9,
+          "defects": [],
+          "comment": "Excellent chunky stylized 3D tent, very readable silhouette, central in a landscape; only minor issue is the background is desert rather than distinctly green.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Trail Canteen",
+     "object": "a round blue metal canteen with a tan strap",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "red",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round blue metal canteen with a tan strap, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: red with soft gradient and concentric circles. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 91.6,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 76.1,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 9,
+          "defects": [],
+          "comment": "Strong match to the stylized 3D reference style; clear floating blue round canteen with tan strap on red patterned background.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent stylized 3D rendering, clear round blue canteen with prominent tan strap, floating on simple red gradient background.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.5,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Assay Scale",
+     "object": "a brass balance scale with two small round pans",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brass balance scale with two small round pans standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with faint repeating pattern of pickaxe silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 78.7,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 72.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 8,
+          "category": 8,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D brass scale with clear pans; background/floor fit, though the patterned wall is not fully plain and the thin chains add detail.",
+          "mean": 8.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 8,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Best match: clean chunky 3D balance scale, instantly readable silhouette, good mint floor and wall; only slight issue is the non-plain wall pattern.",
+          "mean": 9.25,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9.25,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Supply Crate",
+     "object": "a square wooden supply crate with pale metal corner plates",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "pink",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a rough stone mine floor",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a square wooden supply crate with pale metal corner plates placed on a rough stone mine floor (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 86.0,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 85.4,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 9,
+          "object": 10,
+          "defects": [],
+          "comment": "Strong stylized 3D match with warm lighting, chunky crate, pale metal corner plates, pink volumetric background and textured stone surface; diagonal planks add slight visual busyness.",
+          "mean": 9.5,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 10,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent match to reference style and category: clean chunky wooden supply crate, clear pale metal plates, readable silhouette, pink background, realistic textured stone surface.",
+          "mean": 10.0,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10.0,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Prospector Shovel",
+     "object": "a blue steel shovel with a smooth brown wooden handle",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "blue",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue steel shovel with a smooth brown wooden handle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: blue with soft gradient and faint repeating pattern of pickaxe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 78.1,
+         "size": [
+          1152,
+          1280
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 76.8,
+         "size": [
+          1152,
+          1280
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Very close to reference style with rounded glossy 3D forms, clear floating shovel silhouette, and simple blue patterned background.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 9,
+          "category": 10,
+          "readability": 10,
+          "object": 10,
+          "defects": [],
+          "comment": "Excellent match: chunky stylized 3D blue shovel with wooden handle, floating on a clean blue patterned background and instantly readable.",
+          "mean": 9.75,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9.75,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 62,
+  "image_out": 444664,
+  "image_in": 69322,
+  "text_in_img": 14368,
+  "llm_calls": 32,
+  "llm_in": 36229,
+  "llm_out": 12708
+ }
+}

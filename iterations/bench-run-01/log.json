@@ -1,0 +1,262 @@
+{
+ "prompts": {
+  "1": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown cowboy hat, floating in the air, slightly tilted for dynamism, no surface. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "2": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of cowboy boots with spurs standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with a faint repeating pattern of horseshoe silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "3": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a leather saddle resting on a wooden fence rail, three-quarter view slightly from above. Simple background: warm orange wall with light rays, softly blurred. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+  "4": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green saguaro cactus in a sunny desert with red rock mesas and blue sky with fluffy clouds; the cactus is the clear central hero, environment simplified and softly blurred, bright daylight. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical portrait composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals."
+ },
+ "refs": {
+  "1": [
+   "clean/cat1_bottle.png",
+   "clean/cat1_honey.png",
+   "arts/window_seafaring_anchor.png"
+  ],
+  "2": [
+   "clean/cat2_mojito.png",
+   "arts/cat2_phone-booth_430x480.png",
+   "clean/cat2_teacup.png"
+  ],
+  "3": [
+   "arts/cat3_helm_430x480.png",
+   "clean/cat3_coffeepot.png",
+   "arts/cat3_captains-cap_430x480.png"
+  ],
+  "4": [
+   "arts/cat4_lighthouse_430x480.png",
+   "clean/cat4_fieldball.png",
+   "clean/cat4_coaster.png"
+  ]
+ },
+ "models": {
+  "gptimg": "GPT Image 2 (high)",
+  "gpt15": "GPT Image 1.5 (high)",
+  "nbpro": "Nano Banana Pro (gemini-3-pro-image)",
+  "nb2": "Nano Banana 2 (gemini-3.1-flash-image)"
+ },
+ "results": [
+  {
+   "model": "gptimg",
+   "cat": 1,
+   "i": 0,
+   "file": "gptimg_cat1_0.png",
+   "sec": 75.7
+  },
+  {
+   "model": "gptimg",
+   "cat": 1,
+   "i": 1,
+   "file": "gptimg_cat1_1.png",
+   "sec": 61.0
+  },
+  {
+   "model": "gptimg",
+   "cat": 2,
+   "i": 0,
+   "file": "gptimg_cat2_0.png",
+   "sec": 62.9
+  },
+  {
+   "model": "gptimg",
+   "cat": 2,
+   "i": 1,
+   "file": "gptimg_cat2_1.png",
+   "sec": 64.6
+  },
+  {
+   "model": "gptimg",
+   "cat": 3,
+   "i": 0,
+   "file": "gptimg_cat3_0.png",
+   "sec": 65.7
+  },
+  {
+   "model": "gptimg",
+   "cat": 3,
+   "i": 1,
+   "file": "gptimg_cat3_1.png",
+   "sec": 64.6
+  },
+  {
+   "model": "gptimg",
+   "cat": 4,
+   "i": 0,
+   "file": "gptimg_cat4_0.png",
+   "sec": 63.1
+  },
+  {
+   "model": "gptimg",
+   "cat": 4,
+   "i": 1,
+   "file": "gptimg_cat4_1.png",
+   "sec": 103.3
+  },
+  {
+   "model": "gpt15",
+   "cat": 1,
+   "i": 0,
+   "file": "gpt15_cat1_0.png",
+   "sec": 32.9
+  },
+  {
+   "model": "gpt15",
+   "cat": 1,
+   "i": 1,
+   "file": "gpt15_cat1_1.png",
+   "sec": 32.7
+  },
+  {
+   "model": "gpt15",
+   "cat": 2,
+   "i": 0,
+   "file": "gpt15_cat2_0.png",
+   "sec": 35.8
+  },
+  {
+   "model": "gpt15",
+   "cat": 2,
+   "i": 1,
+   "file": "gpt15_cat2_1.png",
+   "sec": 33.4
+  },
+  {
+   "model": "gpt15",
+   "cat": 3,
+   "i": 0,
+   "file": "gpt15_cat3_0.png",
+   "sec": 33.7
+  },
+  {
+   "model": "gpt15",
+   "cat": 3,
+   "i": 1,
+   "file": "gpt15_cat3_1.png",
+   "sec": 34.8
+  },
+  {
+   "model": "gpt15",
+   "cat": 4,
+   "i": 0,
+   "file": "gpt15_cat4_0.png",
+   "sec": 36.5
+  },
+  {
+   "model": "gpt15",
+   "cat": 4,
+   "i": 1,
+   "file": "gpt15_cat4_1.png",
+   "sec": 37.0
+  },
+  {
+   "model": "nbpro",
+   "cat": 1,
+   "i": 0,
+   "file": "nbpro_cat1_0.png",
+   "sec": 17.7
+  },
+  {
+   "model": "nbpro",
+   "cat": 1,
+   "i": 1,
+   "file": "nbpro_cat1_1.png",
+   "sec": 17.3
+  },
+  {
+   "model": "nbpro",
+   "cat": 2,
+   "i": 0,
+   "file": "nbpro_cat2_0.png",
+   "sec": 21.8
+  },
+  {
+   "model": "nbpro",
+   "cat": 2,
+   "i": 1,
+   "file": "nbpro_cat2_1.png",
+   "sec": 20.9
+  },
+  {
+   "model": "nbpro",
+   "cat": 3,
+   "i": 0,
+   "file": "nbpro_cat3_0.png",
+   "sec": 17.4
+  },
+  {
+   "model": "nbpro",
+   "cat": 3,
+   "i": 1,
+   "file": "nbpro_cat3_1.png",
+   "sec": 17.3
+  },
+  {
+   "model": "nbpro",
+   "cat": 4,
+   "i": 0,
+   "file": "nbpro_cat4_0.png",
+   "sec": 17.2
+  },
+  {
+   "model": "nbpro",
+   "cat": 4,
+   "i": 1,
+   "file": "nbpro_cat4_1.png",
+   "sec": 14.9
+  },
+  {
+   "model": "nb2",
+   "cat": 1,
+   "i": 0,
+   "file": "nb2_cat1_0.png",
+   "sec": 7.8
+  },
+  {
+   "model": "nb2",
+   "cat": 1,
+   "i": 1,
+   "file": "nb2_cat1_1.png",
+   "sec": 7.8
+  },
+  {
+   "model": "nb2",
+   "cat": 2,
+   "i": 0,
+   "file": "nb2_cat2_0.png",
+   "sec": 13.0
+  },
+  {
+   "model": "nb2",
+   "cat": 2,
+   "i": 1,
+   "file": "nb2_cat2_1.png",
+   "sec": 11.8
+  },
+  {
+   "model": "nb2",
+   "cat": 3,
+   "i": 0,
+   "file": "nb2_cat3_0.png",
+   "sec": 9.0
+  },
+  {
+   "model": "nb2",
+   "cat": 3,
+   "i": 1,
+   "file": "nb2_cat3_1.png",
+   "sec": 8.8
+  },
+  {
+   "model": "nb2",
+   "cat": 4,
+   "i": 0,
+   "file": "nb2_cat4_0.png",
+   "sec": 10.5
+  },
+  {
+   "model": "nb2",
+   "cat": 4,
+   "i": 1,
+   "file": "nb2_cat4_1.png",
+   "sec": 8.4
+  }
+ ]
+}

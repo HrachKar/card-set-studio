@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a warm yellow glass globe, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 77.9,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 71.7,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 9,
+    "category": 10,
+    "readability": 9,
+    "object": 9,
+    "defects": [],
+    "comment": "Strong stylized 3D match with chunky red lantern and warm yellow globe on mint striped background; reads clearly.",
+    "mean": 9.25,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 9,
+    "category": 10,
+    "readability": 10,
+    "object": 10,
+    "defects": [],
+    "comment": "Excellent classic oil lantern silhouette, floating on simple mint patterned background; very clear and on style.",
+    "mean": 9.75,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

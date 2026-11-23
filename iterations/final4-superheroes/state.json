@@ -1,0 +1,4869 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Superheroes",
+   "context": "Superheroes",
+   "place": "hero headquarters with metal floors and big screens; training room; science lab; city rooftops with a bright skyline; downtown street",
+   "palette": "bold comic colours on bright clean backgrounds",
+   "motif": "small star burst",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Hero Emblem",
+     "object": "a big round metal hero emblem with a golden star burst",
+     "theme_marker": "star burst emblem",
+     "moment": "HQ",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big round metal hero emblem with a golden star burst, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear emblem on correct orange ray background, but the blue rim reads a bit plastic/toy-like and the object enters the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Star shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well-framed for category 1, but the metallic rim is a little too realistic/glossy and the top margin is not free enough.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Star shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match to the requested golden metal emblem, bright and readable, but the brushed shiny metal is too realistic for the reference style and it intrudes into the top 12%.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "star badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Make the emblem more softly rendered and matte, with simpler chunky metal surfaces and a little more empty orange background at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big round metal hero emblem with a golden star burst, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the emblem more softly rendered and matte, with simpler chunky metal surfaces and a little more empty orange background at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky emblem, clear star burst, bright orange rays, clean and uncropped.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "star shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but the grey rim is a bit too brushed/realistic metal for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "star badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear emblem on correct orange background, but metallic rim has slightly realistic brushed texture and muted finish.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "star shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Supercomputer",
+     "object": "a big headquarters computer with three curved screens and chunky buttons",
+     "theme_marker": "three big screens",
+     "moment": "HQ",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a metal floor of hero headquarters",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big headquarters computer with three curved screens and chunky buttons placed on a metal floor of hero headquarters (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear three-screen headquarters computer on a surface; close chunky mobile style, but slightly too glossy/plastic compared with references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and on-category, but toy-like glossy rendering and the top emblem intrudes into the free top area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Control Console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean silhouette and good category setup, but overly simplified and plastic-toy looking; less convincing as a headquarters supercomputer.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Cape Stand",
+     "object": "a flowing red fabric cape with a golden clasp on a wooden stand",
+     "theme_marker": "flowing cape on a stand",
+     "moment": "HQ",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a flowing red fabric cape with a golden clasp on a wooden stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cape on wooden stand, warm rounded Township-like rendering; top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Royal Cape",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable flowing red cape with clasp and stand, good purple card setup; top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "red cape",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong clean silhouette and correct materials/background; slightly tight at the top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Red cape",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Comms Badge",
+     "object": "a round silver communicator badge with a blue light",
+     "theme_marker": "badge with a light",
+     "moment": "HQ",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of small star burst silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round silver communicator badge with a blue light, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of small star burst silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the winged shield makes it busier and more toy-like than the references; top clearance is tight.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Wi-Fi booster",
+           "defects": [
+            "gold wing plates are not symmetrical: the left side has straighter stacked feathers while the right side has a longer curved upper feather and a shorter lower feather",
+            "outer metal rim segments are uneven and do not align cleanly around the circle",
+            "top blue dome/cap is slightly off-center relative to the circular body",
+            "some gray rim pieces appear fused into the body rather than separate fitted panels"
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear communicator badge with good green background, but the metallic/plastic finish is a bit too glossy and top clearance is tight.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Wi-Fi Beacon",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best overall: clear round badge, strong silhouette and colour contrast; still slightly too polished/toy-like for perfect Township style.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Wi-Fi booster",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round silver communicator badge with a blue light, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of small star burst silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 14.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear round communicator icon on green, but a bit glossy toy-like and the top light intrudes into the reserved top area.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Wi-Fi bomb",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky, readable round comms badge with blue light and clean green background; only minor issue is top antenna close to the top margin.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Wi-Fi badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "More like a winged lightning emblem than a communicator badge, with busier details and a slightly toy-like finish; top margin is tight.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "radio communicator",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Phone Booth",
+     "object": "a red city phone booth with glass panels and a round lamp on top",
+     "theme_marker": "classic red booth",
+     "moment": "street",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a city sidewalk with paving stones",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red city phone booth with glass panels and a round lamp on top placed on a city sidewalk with paving stones (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township fit: clear red phone booth on tiled surface with yellow wall; top lamp is a bit too close to the upper safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "phone booth",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and nicely styled, but the added lightning emblem makes it slightly less faithful; top lamp also crowds the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "phone booth",
+           "defects": [
+            "Interior telephone handset/cord are indistinct and look partially melted together; the cord does not clearly connect at both ends.",
+            "Side window frame spacing is slightly inconsistent, with panes not matching the front window proportions/perspective.",
+            "Round door knob is attached to a narrow glass-divider area rather than a solid door stile."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky game style and clear object, though the lightning symbol is an unnecessary emblem and the top clearance is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "telephone booth",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Hero Mask",
+     "object": "a blue domino mask with pointed corners",
+     "theme_marker": "eye mask with pointed corners",
+     "moment": "rooftops",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue domino mask with pointed corners, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear mask on correct pink floating background, but slightly glossy/plastic and top point is too close to the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "superhero mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed, but material has a subtle fine AI/plastic texture rather than soft Township rendering.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "superhero mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded mask, clear silhouette, bright contrast, good framing and simple category 1 background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "superhero mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Punching Bag",
+     "object": "a red leather punching bag with a fist-shaped dent on a stand",
+     "theme_marker": "dent in the bag",
+     "moment": "training",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red leather punching bag with a fist-shaped dent on a stand standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear red punching bag on a stand, good chunky game style and colour; top area is not free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Punching bag",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable bag with fist dent, strong silhouette and matching soft rounded style; top 12% is occupied.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "punching bag",
+           "defects": [
+            "The gold hanging ring and red top straps appear partially fused/intersecting rather than clearly linked through separate holes or loops.",
+            "The fist-shaped dent on the front is an unrealistic permanent sculpted depression for a real punching bag."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good dominant object and clear material, readable dent; top clearance is too tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "punching bag",
+           "defects": [
+            "The front of the bag has an impossible fist-shaped molded indentation with raised knuckle-like blobs, rather than a realistic fabric dent.",
+            "The hanging connector is ambiguous: the gray peg and gold ring appear to intersect/fuse instead of being a clear hook-and-ring assembly.",
+            "The red suspension straps merge into the top of the bag with no visible rear/side straps, making the bag look supported by an incomplete harness."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Hero Jet",
+     "object": "a sleek blue hero jet with swept wings over the city",
+     "theme_marker": "swept wings",
+     "moment": "rooftops",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "city rooftops with a bright skyline",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek blue hero jet with swept wings over the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hero jet over city, but it feels like a glossy plastic toy and the tail is too close to the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Toy jet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed for category 4, but the shiny toy-like plastic finish keeps it from matching the softer reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "toy jet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong central silhouette and bright city-sky setting, but still too glossy and toy-like rather than softly rendered painted metal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "toy jet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Meteor Crystal",
+     "object": "a green meteor crystal under a glass dome",
+     "theme_marker": "crystal under glass",
+     "moment": "lab",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white science lab bench",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green meteor crystal under a glass dome placed on a white science lab bench (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear object and good red background, but base/glass feel a bit too glossy and toy-like; top margin is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Green meteorite",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable meteor crystal in dome, but rock is a little too faceted/realistic and polished; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "glowing meteorite",
+           "defects": [
+            "Front gold wing decorations on the base are not perfectly symmetric in shape and spacing between left and right sides",
+            "Front feet are slightly different in size and shape"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky soft forms, clear green meteor crystal under dome, good category and colour; only top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "green meteorite",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Hero Tower",
+     "object": "a tall hero headquarters tower with a round top and a big golden star burst emblem",
+     "theme_marker": "round top with emblem",
+     "moment": "city",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "downtown city with tall buildings and a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall hero headquarters tower with a round top and a big golden star burst emblem in its real environment: downtown city with tall buildings and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good Township-like rounded hero tower, clear star emblem and environment; top clearance is not free and flag is a small extra detail.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "lighthouse",
+           "defects": [
+            "Top lantern window panes and cream supports are unevenly spaced and slightly mismatched around the ring",
+            "Decorative red-and-yellow wing panels behind the star are not symmetrical and appear partly fused into the star/belt",
+            "Lower wall block seams and side buttresses are inconsistent between left and right sides"
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear tall headquarters tower with round top and golden star burst, bright clean city setting; top 12% is not free.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lighthouse",
+           "defects": [
+            "Lantern-room window panels and mullions are uneven in width, spacing, and angle.",
+            "The red circular balcony/ring around the lantern is slightly warped, with inconsistent thickness and curvature.",
+            "Small cream support blocks under the upper ring are asymmetric and not aligned evenly.",
+            "Stone block seams on the lighthouse body are irregular and do not match cleanly from side to side.",
+            "Red vertical buttresses differ slightly in width and angle, and their connections to the base and upper ring look awkward.",
+            "Lower side annexes are asymmetric in size and projection, with the left side partially merged behind the tower compared with the right."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable tower and emblem, correct category and colours; slightly more cropped/close-up and top clearance is not free.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lighthouse",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall hero headquarters tower with a round top and a big golden star burst emblem in its real environment: downtown city with tall buildings and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hero tower with star emblem, bright and chunky; top of tower intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lighthouse",
+           "defects": [
+            "Upper window mullions are unevenly spaced and slightly different widths from left to right.",
+            "Cream support blocks under the upper red ring are irregular and appear partly fused into the ring/wall.",
+            "Yellow star emblem wings are asymmetric, with side bars not matching perfectly in length and alignment.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: tall dominant hero headquarters tower, readable star burst and warm casual rendering; flag/finial enter top safe area.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lighthouse",
+           "defects": [
+            "Upper balcony/window ring is slightly warped, with unevenly sized glass panels and mullions.",
+            "White support blocks under the upper red ring are irregular in size and spacing, and appear partly fused into the ring.",
+            "Side wall columns have uneven segment sizes and slight asymmetry between left and right sides."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable tower and emblem, clean bright scene; top finial is too close to the frame edge.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lighthouse",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_2.png",
+      "score": 9,
+      "passed": false,
+      "hard": [
+       "not_recognized_blind"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Superheroes",
+   "context": "Superheroes",
+   "place": "hero headquarters with metal floors and big screens; training room; science lab; city rooftops with a bright skyline; downtown street",
+   "palette": "bold comic colours on bright clean backgrounds",
+   "motif": "small star burst",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Power Gloves",
+     "object": "a pair of big padded red hero gloves with yellow cuffs",
+     "theme_marker": "chunky padded fists",
+     "moment": "training",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of big padded red hero gloves with yellow cuffs, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear floating red gloves on sky-blue rays, but material is a bit too realistic/textured and top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "boxing gloves",
+           "defects": [
+            "Both gloves appear to have the thumb on the same side, so the pair is not mirrored like a real left/right set.",
+            "The thumbs are simplified into rounded pads that seem partly fused into the front face rather than clearly wrapping from the side."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable pair of padded hero gloves with good colour and category fit; slightly too realistic/leathery for exact game style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Boxing gloves",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and readability with clean blue ray background; still a little too detailed/realistic in glove material.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "boxing gloves",
+           "defects": [
+            "front/right glove has no clearly defined thumb; the side/thumb area is fused into the main glove body",
+            "knuckle segments are somewhat uneven and melted together, especially on the front/right glove"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Trophy Case",
+     "object": "a glass trophy case with golden cups and a villain's broken helmet",
+     "theme_marker": "trophies and a broken villain helmet",
+     "moment": "hall",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a polished stone floor of the hero hall",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a glass trophy case with golden cups and a villain's broken helmet placed on a polished stone floor of the hero hall (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township style, clear trophy case with cups and broken helmet; warm yellow background and tiled floor. Top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Trophy Cabinet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean rounded game style and very readable display case; helmet break is less obvious but acceptable. Top clearance is slightly tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "trophy case",
+           "defects": [
+            "Top winged shield ornament has mismatched/asymmetric wings and feather shapes.",
+            "Helmet on the lower shelf is warped and fragmented, with an unattached curved shard sitting beside it.",
+            "Right side of the helmet has an irregular hole/crack that makes the form read as melted or broken rather than a coherent helmet.",
+            "Small trophies are not symmetric with each other; their handles and bases differ in shape and size.",
+            "No text or digits present."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best overall: clear glass case, golden cups, and visibly broken helmet; strong colour and correct category. Top area is a little crowded.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Trophy case",
+           "defects": [
+            "Small trophies have asymmetric handles; some handle curls appear uneven or not cleanly connected to the cups.",
+            "Large central trophy handles are mismatched in shape and curl size.",
+            "Helmet is warped/impossible: the front face guard has jagged, broken-looking plates and an uneven lower edge rather than a coherent helmet construction.",
+            "Helmet side pieces are asymmetric; the visible round side disk and gold trim look stuck on rather than structurally integrated."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Utility Belt",
+     "object": "a yellow belt with pouches and a round buckle on a stand",
+     "theme_marker": "pouches all around",
+     "moment": "HQ",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a yellow belt with pouches and a round buckle on a stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear utility belt on a stand, but the red cushion and glossy toy-like finish make it less like the soft material style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Utility belt",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed for category 2, but the belt looks a bit too smooth and plastic/glossy.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "utility belt",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and clear object, with good purple background, but still slightly plastic and polished rather than soft real material.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "utility belt",
+           "defects": [
+            "No obvious geometric defects; parts appear connected and coherent.",
+            "No text or digits visible."
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Hero Shield",
+     "object": "a round blue hero shield with a white wing emblem",
+     "theme_marker": "round shield with wing emblem",
+     "moment": "HQ",
+     "class": "weapon",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of small star burst silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round blue hero shield with a white wing emblem, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of small star burst silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear shield on orange background, but wood/metal texture is a bit too detailed and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Winged Shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky, readable blue shield with wing emblem; only issue is the top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "winged shield",
+           "defects": [
+            "Left and right wing ornaments are not mirror-symmetric; the left wing is much shorter and has different feather shapes than the right wing.",
+            "Feather lobes on the left wing look partially fused into a melted, unclear cluster.",
+            "Rivets around the gold rim are unevenly spaced and not consistently aligned to the circular rim."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correct object, but oversized with more realistic material texture and tight top margin.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Winged shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Lab Flask",
+     "object": "a round glass flask with bubbling purple liquid",
+     "theme_marker": "bubbling liquid",
+     "moment": "lab",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white science lab bench",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass flask with bubbling purple liquid placed on a white science lab bench (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 42.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear flask on surface, but the heavy base and lightning badge make it feel a bit toy/UI-like rather than natural game prop.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but overly glossy with extra lab-panel decoration at the bottom that distracts from the flask.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Purple potion",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and category fit; still a little too glossy/plastic compared with the softer reference rendering.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "magic potion",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Grapple Hook",
+     "object": "a golden grappling hook with a coiled rope",
+     "theme_marker": "three hooks and rope",
+     "moment": "rooftops",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden grappling hook with a coiled rope, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear chunky golden grappling hook with rope on pink striped background; only top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "grappling hook",
+           "defects": [
+            "Rope wrapping is geometrically ambiguous and appears to intersect or fuse with the upper gold ring/collar instead of clearly passing around it.",
+            "Lower prongs are asymmetric: the left and right hooks have noticeably different curvature and size, and the central prong is much longer/differently shaped.",
+            "Hook bases are fused into a single melted-looking gold mass under the collar rather than having distinct connected prongs."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_object"
+          ],
+          "comment": "Reads more like a ship anchor than a grappling hook; otherwise clean and bright, but top clearance is tight.",
+          "mean": 9,
+          "hard": [
+           "wrong_object",
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Anchor",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_object"
+          ],
+          "comment": "Also reads as an anchor rather than a grappling hook; good mobile-game rendering, but too close to the top.",
+          "mean": 9,
+          "hard": [
+           "wrong_object",
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "anchor",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Robot Sidekick",
+     "object": "a small round sidekick robot with big eyes and little jet feet",
+     "theme_marker": "round robot with jet feet",
+     "moment": "HQ",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small round sidekick robot with big eyes and little jet feet standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cute robot with jet feet, but it reads as glossy plastic toy and the top margin is too tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "superhero robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable round robot on turquoise floor, but too toy-like/glossy and not enough free space at the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Superhero robot",
+           "defects": [
+            "Cape appears attached only on the left side and seems to grow from the head/neck area rather than from both shoulders"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well framed for category 2, but the finish is still glossy plastic superhero-toy rather than soft Township material; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "superhero robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Render the robot in softer matte painted metal with less toy gloss, a plain turquoise wall/floor, and leave clear empty space in the top 12%."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small round sidekick robot with big eyes and little jet feet standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Render the robot in softer matte painted metal with less toy gloss, a plain turquoise wall/floor, and leave clear empty space in the top 12%.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear round robot with jet feet on correct turquoise floor, but feels a bit glossy plastic/toy and superhero-like.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Superhero robot",
+           "defects": [
+            "Cape attachment is unclear and appears fused into the left side of the head/body instead of attached across the back or shoulders.",
+            "Left shoulder/upper arm is partly hidden and seems to intersect with the cape/body, making the joint construction ambiguous.",
+            "Boot flames are stylized and appear fused directly into the boot bottoms with no visible nozzle openings."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but the feet read more like boots than little jets and the finish is too toy-plastic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Superhero robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clear robot sidekick with visible jet feet and correct background, though still slightly glossy plastic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Superhero robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Hero Car",
+     "object": "a sleek red and black hero car with fins",
+     "theme_marker": "fins and glowing headlights",
+     "moment": "street",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "downtown city street with tall buildings",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek red and black hero car with fins in its real environment: downtown city street with tall buildings; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear hero car in a bright city setting, but the finish is a bit glossy toy-like rather than softly rendered real material.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sports car",
+           "defects": [
+            "Rear spoiler/fins are asymmetrical: the left rear fin and the center/right fin have different shapes, sizes, and attachment points.",
+            "Center/right rear fin appears to grow out of the roof area instead of the rear body.",
+            "Rear fin pieces look fused into the body rather than mounted as a plausible spoiler."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable silhouette with fins and good category-4 environment; slightly too polished/plastic for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sports car",
+           "defects": [
+            "Two rear fins are mismatched: the left fin is much larger and has a yellow inset, while the right fin is smaller, plain red, and differently shaped.",
+            "Rear fins appear fused into the roof/rear body with unclear attachment points.",
+            "Black horizontal rear spoiler/side piece on the left protrudes oddly and has no visible matching part on the other side.",
+            "Front grille supports are warped and uneven, with the center pieces angled inconsistently.",
+            "Wheel rims/spokes differ between the front and rear visible wheels.",
+            "Fantasy car design with oversized bat-like fins is not a realistic real-life car construction."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and dominant with clean colours, but surfaces feel somewhat toy-glossy and less like the soft reference rendering.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sports car",
+           "defects": [
+            "Rear spoiler/fins are asymmetric: a large left wing is paired with only a much smaller fin near the center/right, with no matching opposite wing visible.",
+            "Large left rear spoiler appears fused directly into the rear quarter panel instead of being mounted on clear supports.",
+            "Small red fin behind the roof appears partly floating or poorly connected to the car body.",
+            "Windshield and side window visually merge into one continuous dark glass area with unclear pillar separation."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Energy Core",
+     "object": "a round glass reactor core with a blue glowing center in a brass frame",
+     "theme_marker": "glowing core in a brass frame",
+     "moment": "lab",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white science lab bench",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass reactor core with a blue glowing center in a brass frame placed on a white science lab bench (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear reactor core on a surface with good red contrast, but it feels a bit glossy toy-like and intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "energy core",
+           "defects": [
+            "Internal gray fins/blades are uneven in size, shape, and spacing around the center.",
+            "Some internal fins appear to merge into or pass through the dark circular ring instead of being cleanly attached.",
+            "Left and right support arms are not fully symmetric in shape and attachment geometry.",
+            "Fictional/impossible device rather than a real-world object."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky soft brass/glass forms, very readable, correct category and bright red background; only the top clearance is slightly tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Energy Core",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but the glass/metal rendering is a little too glossy and the object is too close to the top edge.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "energy generator",
+           "defects": [
+            "left and right support legs are not perfectly symmetrical in shape and angle",
+            "inner spokes inside the glass sphere are unevenly spaced and slightly warped",
+            "central hub/spoke connections look partially fused into the glowing glass rather than cleanly attached"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Roof Signal",
+     "object": "a big rooftop signal spotlight projecting a star burst symbol into the sky",
+     "theme_marker": "spotlight with its own star burst symbol",
+     "moment": "rooftops",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "city rooftop at golden hour with a bright skyline",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big rooftop signal spotlight projecting a star burst symbol into the sky in its real environment: city rooftop at golden hour with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear rooftop signal spotlight with a visible star burst projected into the sky; style and colours fit, but the beam/star intrude into the top margin.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Searchlight",
+           "defects": [
+            "Right-side support/yoke arm lacks the visible circular hinge cap and orange pivot bolt present on the left side.",
+            "The two support arms are asymmetric in shape and attachment height."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Spotlight is clear and well styled, but the star burst reads as being on the lamp lens rather than projected into the sky; top margin is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Searchlight",
+           "defects": [
+            "Left and right side supports are not symmetrical: the left side has a large yellow pivot wheel, while the matching right pivot is missing or hidden and the right support appears to attach directly into the lamp body.",
+            "Rim bolts are unevenly spaced and slightly inconsistent in size/placement around the front ring.",
+            "Some red side casing ribs are warped and not evenly aligned around the cylindrical body."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Nice chunky game style and strong hero object, but the star symbol is inside the lens, not clearly projected; beam also occupies the top margin.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "searchlight",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Superheroes",
+   "context": "Superheroes",
+   "place": "hero headquarters with metal floors and big screens; training room; science lab; city rooftops with a bright skyline; downtown street",
+   "palette": "bold comic colours on bright clean backgrounds",
+   "motif": "small star burst",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Domino Mask",
+     "object": "a black domino mask with two oval eye holes and pointed corners",
+     "theme_marker": "pointed corners",
+     "moment": "rooftops",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black domino mask with two oval eye holes and pointed corners, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear mask on correct yellow rays, but stitching and leather texture make it a bit too detailed/realistic for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Masquerade mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and clean category-1 composition; slightly too realistic/leathery to be a perfect Township match.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Masquerade mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the leather grain/highlighting feels a little realistic; drop shadow is acceptable but less reference-like.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Masquerade mask",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Rescue Medal",
+     "object": "a golden rescue medal with a red ribbon",
+     "theme_marker": "medal with ribbon",
+     "moment": "hall",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a velvet display stand at headquarters",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden rescue medal with a red ribbon placed on a velvet display stand at headquarters (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like soft chunky render; medal and ribbon are clear, sky-blue background and wooden surface work well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lifebuoy Medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best fit: clear rescue medal with ribbon, warm rounded materials, clean blue background, good category-3 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good style and readability; cross emblem is acceptable pictorially, though slightly less iconic than the lifebuoy/star version.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rescue medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Hero Boots",
+     "object": "a pair of red hero boots with yellow tops",
+     "theme_marker": "tall boots with folded tops",
+     "moment": "HQ",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of red hero boots with yellow tops standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 13.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 25.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded boots, soft game rendering, clear pair on plain purple floor/background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Red boots",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear and well framed, but material looks a bit too rubbery/plastic with slight fine leather texture.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lightning boots",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correct setup, but surface texture and heavier realistic shading push it away from the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lightning boots",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Hero Emblem",
+     "object": "a round silver hero emblem with a blue star",
+     "theme_marker": "star emblem",
+     "moment": "HQ",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of small star burst silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round silver hero emblem with a blue star, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of small star burst silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear silver emblem with blue star on orange background; style is close but the metal is a bit too brushed/realistic and the yellow wings change the requested simple emblem.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star badge",
+           "defects": [
+            "Left and right yellow wings are not mirror-symmetric: the right upper wing has a flared hooked tip while the left upper wing is blunt and squared.",
+            "The lower yellow wing segments differ in length and shape between left and right sides.",
+            "The wing segments appear to enter the disk/star without visible slots, hinges, or attachment structure, making the construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable, but reads more like a medal with a ribbon than a simple round hero emblem; ribbon is an extra element and style is slightly too polished.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: round silver emblem with blue star, floating on orange background; only issue is the metal/rim texture feels a little too realistic for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star badge",
+           "defects": [
+            "Outer silver rim is slightly uneven in thickness and not perfectly circular, with a mild bulge on the lower-right side.",
+            "The four metal tabs around the rim are different sizes and shapes and are not evenly spaced.",
+            "Rivets on the tabs are slightly inconsistent in size and placement, with some not centered on their tabs.",
+            "The raised star is mildly asymmetric, with uneven point lengths and softened/warped edges."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Trophy Case",
+     "object": "a glass trophy case with golden cups and a villain's broken helmet",
+     "theme_marker": "trophies and a broken villain helmet",
+     "moment": "hall",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a polished stone floor of the hero hall",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a glass trophy case with golden cups and a villain's broken helmet placed on a polished stone floor of the hero hall (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Fits the soft chunky game style; trophy case, cups and cracked helmet read clearly on a green interior background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Trophy case",
+           "defects": [
+            "Small left trophy has asymmetrical, curled handles; the right handle appears to merge into the cup/body instead of attaching cleanly.",
+            "Small right trophy has asymmetrical handles; the left handle/scroll is partly obscured and appears fused into the cup or background.",
+            "The middle display shelf changes thickness and perspective at the ends, appearing to penetrate the side posts/glass rather than fitting cleanly inside the case.",
+            "The lower red cushion/shelf on the right side appears to run into or through the glass/side post with unclear support.",
+            "The helmet is intentionally cracked, but several crack lines look melted/irregular rather than like clean separated pieces."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: rounded wooden/glass case, clear golden cups and broken helmet, clean bright green background and good category 3 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Trophy case",
+           "defects": [
+            "Small trophy handles are inconsistent and warped; some curls look partly merged into the cups or hidden by the glass/posts.",
+            "The large center trophy handles are asymmetrical and the right handle visually overlaps/merges with the right small trophy handle area.",
+            "Helmet visor/face guard is an impossible stylized shape, with uneven prongs and openings that do not form a believable wearable helmet.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable trophy case with clear broken villain helmet; slightly darker helmet but still within the casual style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Trophy case",
+           "defects": [
+            "Central trophy handles are not perfectly symmetrical; the curled ends and attachment points differ slightly.",
+            "The helmet horns/side fins are asymmetrical, with one large purple horn on the right and only a partial/hidden protrusion on the left."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Comms Watch",
+     "object": "a chunky wrist communicator watch with a big screen",
+     "theme_marker": "big screen",
+     "moment": "HQ",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky wrist communicator watch with a big screen, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable chunky comms watch on correct pink simple background, but it feels a bit too glossy plastic-toy and sits too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "smart watch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear watch with big screen and signal icon, good colour contrast and category fit, but overly glossy toy-like finish and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Kids smartwatch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Nice chunky watch silhouette, but the communicator function is less instant with the blank screen; finish is too glossy toy-like and top margin is tight.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Smartwatch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the watch softer and less glossy, with a matte rubber/plastic Township-style finish and leave more empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky wrist communicator watch with a big screen, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the watch softer and less glossy, with a matte rubber/plastic Township-style finish and leave more empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Chunky rounded watch, clear silhouette, good pink simple background; slightly busy but fits the style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Toy smartwatch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clean Township-like chunky forms, strong readability, correct floating category 1 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "toy smartwatch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best communicator read thanks to simple screen icon; bright, chunky, clean, and category-correct.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Toy smartwatch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Supercomputer",
+     "object": "a big headquarters computer with three screens and chunky buttons",
+     "theme_marker": "three big screens",
+     "moment": "HQ",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big headquarters computer with three screens and chunky buttons standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear three-screen headquarters computer, but it reads a bit glossy plastic/toy-like; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Control Console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and clean object; still too shiny plastic compared with references, and top 12% is not fully free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correct setup, but the lever/details add clutter and it feels like glossy toy plastic; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make it less glossy and plastic, more softly painted metal with warm light, and leave clear empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big headquarters computer with three screens and chunky buttons standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make it less glossy and plastic, more softly painted metal with warm light, and leave clear empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky console, clear three-screen headquarters computer, bright turquoise cat-2 setup; attached emblem is acceptable decoration.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to reference style with soft rounded forms and clean materials; readable three-screen control computer on plain turquoise floor/background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good chunky game style, clear dominant computer console with three screens and buttons; colours and category framing fit well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Control console",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Rescue Copter",
+     "object": "a red and white rescue helicopter with a round cockpit above the city",
+     "theme_marker": "round cockpit and rotor",
+     "moment": "rooftops",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "city rooftops with a bright skyline",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and white rescue helicopter with a round cockpit above the city in its real environment: city rooftops with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear rescue helicopter hero in a city sky, but the finish feels a bit too glossy plastic-toy compared with the softer reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rescue helicopter",
+           "defects": [
+            "Landing skids are geometrically confused: the runners merge into one crooked bar with a bulbous joint instead of two clear parallel skids.",
+            "Landing gear supports are mismatched and attach at uneven angles/positions.",
+            "Main rotor blade roots blend into the hub at uneven heights with unclear separate connections.",
+            "Tail rotor blades inside the duct are uneven and blob-like rather than symmetrically shaped."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and instantly readable rescue copter with strong bright contrast; still somewhat toy-like and glossy rather than fully Township-rendered material.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rescue helicopter",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable, dominant helicopter in the right environment, but the shiny rounded surfaces look more like plastic toy rendering than the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rescue helicopter",
+           "defects": [
+            "Landing skids are malformed: the two skid rails appear to merge into a single continuous U-shaped tube at the front/center instead of staying as separate left and right rails.",
+            "Landing skid supports are asymmetric: the visible struts are unevenly placed and the right skid appears to have fewer/oddly angled supports than the left.",
+            "Tail rotor inside the circular housing is simplified and unclear, with blades appearing partially fused into the hub/ring rather than distinct separate blades."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Meteor Crystal",
+     "object": "a green meteor crystal under a glass dome",
+     "theme_marker": "crystal under glass",
+     "moment": "lab",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white science lab bench",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green meteor crystal under a glass dome placed on a white science lab bench (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear green meteor crystal under a dome on a surface, good red contrast; a bit too glossy/toy-like and top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Energy crystal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable dome display with green meteor, but the object feels more like a plastic toy asteroid than a softly rendered game material; top clearance tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Green meteorite",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable silhouette and colour, but overly glossy/plastic and less like a crystal meteor; top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Green meteorite",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": "Make the meteor crystal and display less glossy/plastic, with softer Township-style materials and a little more empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green meteor crystal under a glass dome placed on a white science lab bench (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the meteor crystal and display less glossy/plastic, with softer Township-style materials and a little more empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 22.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear green meteor crystal under a glass dome, good red background and tabletop; soft rounded game style fits well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "green crystal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but the cushion/emblem base makes it a bit more decorative and toy-like than the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "energy crystal",
+           "defects": [
+            "Gray rock chunks appear fused into the green crystal rather than attached as separate natural matrix pieces.",
+            "Some circular holes in the gray rock patches look like melted dents with unclear depth.",
+            "The crystal has no clearly visible stable contact point with the cushion, making it look slightly floating."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable with correct setup, but the crystal is a little neon/plastic and the emblem base feels slightly overdesigned.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Green crystal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Secret Base",
+     "object": "a secret base hidden in a mountain with a round door and a runway",
+     "theme_marker": "round door in a mountain",
+     "moment": "base",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "green mountain by the sea with a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Superheroes",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a secret base hidden in a mountain with a round door and a runway in its real environment: green mountain by the sea with a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky base in mountain, clear runway and round door; satellite makes the top area a bit busy.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Power station",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable secret mountain base with dominant round door and runway; clean bright colours and good game style.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Power Station",
+           "defects": [
+            "Upper beacon tower is partly buried in the grassy hill with no visible supporting wall or base.",
+            "Gray blocks/hinges around the circular door are not symmetric; the left and right pieces differ in size, angle, and placement.",
+            "Central circular door seams are uneven and do not mirror cleanly across the center.",
+            "Upper window band has irregular pane widths and frame angles rather than a consistent curved window structure."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best fit: simple, dominant hidden base in cliff, clear round door and runway, clean saturated palette.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Mountain tunnel",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a secret base hidden in a mountain with a round door and a runway in its real environment: green mountain by the sea with a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky Township-style mountain base with round door and runway; bright, clean, no defects.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Tunnel entrance",
+           "defects": [
+            "Closed circular door blocks what appears to be a road tunnel entrance, making the construction impractical as a drive-through tunnel.",
+            "Upper lantern/turret section is fused into the cliff-facing roofline and does not clearly connect as a real structural part.",
+            "Window panes in the upper tier are uneven trapezoids with inconsistent divider angles.",
+            "Rivets around the circular door are unevenly spaced and not perfectly symmetric.",
+            "Road center markings are misaligned with the door center and vary irregularly in size/spacing."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable secret base in mountain, but lightning emblems make it feel a bit superhero-specific; still clean and usable.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Power Station",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable base and runway, good category 4 framing; lightning symbol is unnecessary but pictorial, not text.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Tunnel gate",
+           "defects": [
+            "Circular door has hinge-like plates on both left and right sides, which would lock it in place and prevent it from opening as a normal hinged door.",
+            "Hinge plates appear to attach mostly to the door/ring surface rather than clearly connecting the door to a fixed frame.",
+            "Road leads directly into a closed solid door with no visible tunnel opening behind it."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 10,
+      "passed": false,
+      "hard": [
+       "not_recognized_blind"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 114,
+  "image_out": 140790,
+  "image_in": 130554,
+  "text_in_img": 43932,
+  "llm_calls": 266,
+  "llm_in": 162980,
+  "llm_out": 89469
+ }
+}

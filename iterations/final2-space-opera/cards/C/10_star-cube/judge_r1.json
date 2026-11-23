@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small transparent blue star-map cube containing a floating golden ringed planet and tiny orbit dots, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and faint repeating pattern of ringed planet silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 16.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 16.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong Township-like toy styling, clear floating star cube on bright pink background; no defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Planet cube",
+     "defects": [
+      "Cube is not geometrically consistent: faces and edges are bowed/warped instead of forming a clean solid cube.",
+      "Yellow corner protectors are inconsistent in size and shape rather than matching pairs.",
+      "A yellow pad appears on the right side edge, not on a cube corner, like an extra misplaced corner piece.",
+      "The small yellow cap on the upper-left edge does not clearly wrap a corner and looks partly fused onto the top edge.",
+      "Interior orbital lines and dots appear embedded in or fused with the cube surface rather than clearly floating inside.",
+      "No text or digits."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clean rounded stylized cube, very readable, correct floating category and bright contrasting colours.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Saturn cube",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [
+     "dark_or_photoreal"
+    ],
+    "comment": "Object is clear and stylish, but the dark vignette makes the card too dim and the object enters the top safe area.",
+    "mean": 8,
+    "hard": [
+     "dark_or_photoreal"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Saturn tile",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

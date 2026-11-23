@@ -1,0 +1,21 @@
+{
+ "theme": "Wild West",
+ "wishes": "Make exactly these variants, in this order, one place each: A = Frontier Town; B = Gold Rush Camp. Keep these places, do not swap them for others.",
+ "places": [
+  "Frontier Town",
+  "Gold Rush Camp"
+ ],
+ "models": [
+  "gpt-5.5",
+  "gpt-5.4-mini",
+  "gemini-4-argon",
+  "gemini-3.8-flash",
+  "file:runs/comp-02-claude/sets.json"
+ ],
+ "variants": 2,
+ "preview": [
+  "gpt-image-1-mini",
+  "medium",
+  "1024x1024"
+ ]
+}

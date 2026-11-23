@@ -1,0 +1,4277 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Heroic Fantasy",
+   "context": "Heroic fantasy",
+   "place": "stone castle on a green hill; wizard's tower room; enchanted forest; dragon's cave with gold; castle feast hall",
+   "palette": "jewel colours and warm gold on bright clean backgrounds",
+   "motif": "small crown",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Wizard Hat",
+     "object": "a tall purple felt wizard hat with a floppy brim and golden embroidered stars",
+     "theme_marker": "tall pointed bent tip",
+     "moment": "tower",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall purple felt wizard hat with a floppy brim and golden embroidered stars, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear wizard hat with good yellow rays, but felt fibers and stitched embroidery are a bit too detailed/soft-real compared with Township references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and clean composition; still slightly too plush/fuzzy and embroidered for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correctly framed, but fabric grain, wrinkles and stitched star details make it a little too realistic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Spellbook",
+     "object": "a thick leather spellbook with brass corners and a round gem on the cover",
+     "theme_marker": "brass corners and gem",
+     "moment": "tower",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a wooden desk in the wizard's tower",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a thick leather spellbook with brass corners and a round gem on the cover placed on a wooden desk in the wizard's tower (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 29.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky spellbook on wooden surface; warm orange background, good brass and leather rendering.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic book",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable spellbook with correct materials and category 3 setup; bookmark is acceptable, not a separate main object.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: dominant readable leather spellbook, soft game-like rendering, clean orange background and surface.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Castle",
+     "object": "a fairy-tale stone castle with round towers, blue cone roofs and banners",
+     "theme_marker": "round towers with cone roofs",
+     "moment": "castle",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "green hills with a winding road and a blue sky",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a fairy-tale stone castle with round towers, blue cone roofs and banners in its real environment: green hills with a winding road and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear fairy-tale castle in the right soft rounded game style; bright and readable, but flag reaches into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky soft forms, clean bright landscape, instantly readable castle; only the top flag intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good style and readability with strong central castle; minor safe-area issue from the top flag.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "castle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Treasure Chest",
+     "object": "a wooden treasure chest with golden corners, half open with gold coins and gems",
+     "theme_marker": "domed lid with gold inside",
+     "moment": "vault",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden treasure chest with golden corners, half open with gold coins and gems standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 36.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chest, good soft chunky game style and purple floor/background; top safe area is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "treasure chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-style; top safe area is slightly tight, shield emblem is acceptable pictorial decoration.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good object and colours, clear silhouette; top safe area is a bit crowded.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "treasure chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Potion",
+     "object": "a round glass potion bottle with pink liquid and a cork",
+     "theme_marker": "round flask with cork",
+     "moment": "tower",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass potion bottle with pink liquid and a cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear round potion bottle with pink liquid; good Township-like soft rendering, but cork enters the top safe area slightly.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable potion bottle, warm chunky materials and clean blue background; only minor top safe-area issue.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable potion silhouette and good colour contrast; decorative emblem is okay, but cork is a bit too close to the top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Sword Stone",
+     "object": "a shining knight's sword stuck in a mossy grey stone",
+     "theme_marker": "sword in a stone",
+     "moment": "forest",
+     "class": "weapon",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "forest moss and grass",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shining knight's sword stuck in a mossy grey stone placed on forest moss and grass (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear sword in mossy stone, bright green background and good game-like rendering, but the handle is too close to the top; grass adds some small detail.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sword in stone",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and close to the reference style with chunky forms and soft light; top clearance is insufficient.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sword in stone",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best balanced silhouette and clean soft rendering; correct object and category, but the pommel enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sword in stone",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Crown",
+     "object": "a golden royal crown with red and blue gems",
+     "theme_marker": "pointed golden rim with gems",
+     "moment": "castle",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "faint repeating pattern of small crown silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden royal crown with red and blue gems, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and faint repeating pattern of small crown silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky crown, floats on clean pink patterned background; fits the casual soft-rendered style well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "royal crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable royal crown with good colours, but the top ornament is slightly too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well styled, but the crown reaches into the top safe area a bit.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Royal crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Cauldron",
+     "object": "a black iron cauldron on three legs with bubbling green potion",
+     "theme_marker": "round belly and bubbling potion",
+     "moment": "forest",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black iron cauldron on three legs with bubbling green potion standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky cauldron with bright potion; decorative band and shield are a bit ornate but still fits the game style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable cauldron, good category-2 staging and colour; steam and details stay soft and game-like.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potion cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: simple dominant three-legged cauldron, clean silhouette, bright potion, no distracting extras.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Roast Feast",
+     "object": "a golden roast turkey with apples on a big pewter platter",
+     "theme_marker": "feast platter",
+     "moment": "hall",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a long wooden feast table",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden roast turkey with apples on a big pewter platter placed on a long wooden feast table (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear roast turkey with apples on pewter platter; warm chunky game style, good red background and table surface.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Roast turkey",
+           "defects": [
+            "Front center wing/drumstick shape is melted into the body with no clear joint or matching opposite piece visible.",
+            "Leg bone tips are stylized like dog-bone shapes rather than realistic poultry bones.",
+            "The rear/left drumstick is partly buried in the main body, making the connection ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable, clean silhouette, strong category 3 staging with bright red wall and wooden surface; fits the soft rounded reference style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Roast turkey",
+           "defects": [
+            "Two drumsticks are different sizes and shapes, with the right one much smaller and attached at an odd angle.",
+            "Drumsticks appear to grow out of the top/back of the roast rather than from clear hip joints.",
+            "Only one front wing-like piece is clearly visible; the matching wing on the other side is missing or hidden, making the bird asymmetric.",
+            "The front wing/lobe is melted smoothly into the body with no clear joint.",
+            "Left side has an extra long curved flap/ridge fused to the body that does not read as a normal turkey part."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Object reads well and style is close, but the decorative drawer/emblem adds unnecessary detail below the main object.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "roast turkey",
+           "defects": [
+            "Only one wing is visible on the front of the bird; the matching wing on the opposite side is absent or completely hidden.",
+            "The two drumstick bones protrude from the same upper-right area and their attachments are unclear/fused into the body rather than showing distinct leg joints.",
+            "The right drumstick meat is oversized and smoothly merged into the main body, making the separation between body and leg ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Dragon",
+     "object": "a friendly green dragon sleeping curled on a pile of gold coins",
+     "theme_marker": "wings, horns and gold pile",
+     "moment": "cave",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "a bright cave mouth with piles of gold and a blue sky outside",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly green dragon sleeping curled on a pile of gold coins in its real environment: a bright cave mouth with piles of gold and a blue sky outside; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 21.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear friendly sleeping dragon on coins, strong category 4 setting; cave arch crowds the top safe area a bit.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sleeping dragon",
+           "defects": [
+            "Only one wing is visible; the matching wing is missing or completely hidden without a clear attachment point.",
+            "Visible wing has an oddly thick, fused green rim and the orange membrane attaches to the body in an unclear, melted way.",
+            "Body, hind leg, and curled tail merge into one continuous green mass, making the anatomy hard to separate.",
+            "Some red back spikes appear partially embedded in or fused with the body rather than attached as separate spines.",
+            "Only one front paw is clearly visible; the other foreleg/paw is missing or hidden.",
+            "Dragon is a fantasy creature that does not exist in real life.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 7
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and close to the soft rounded game style; top edge is partly occupied by the cave arch.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sleeping dragon",
+           "defects": [
+            "Only one wing is visible; the matching wing is missing or completely hidden.",
+            "Visible wing structure is slightly fused into the back/neck area, with supports blending together unnaturally.",
+            "Some limbs are partly merged into the body coil, making the front paws/body connection unclear.",
+            "Tail/body coil connection is ambiguous, with the foreground tail wrapping in a slightly impossible-looking way."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best hero scale and clear silhouette, bright colours; cave arch slightly infringes on the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sleeping dragon",
+           "defects": [
+            "rear/left wing is ambiguous and appears fused into the body/other wing rather than having a clear separate shoulder joint",
+            "visible wing membranes and green outer rims merge into the back with unclear attachment points",
+            "curled body, tail, and hind leg blend together, making the limb boundaries hard to distinguish",
+            "only one hind foot/leg is clearly visible; the matching hind limb is missing or fully hidden",
+            "front paws are partly merged into the head/body, with some claws appearing crowded together"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Heroic Fantasy",
+   "context": "Heroic fantasy",
+   "place": "stone castle on a green hill; wizard's tower room; enchanted forest; dragon's cave with gold; castle feast hall",
+   "palette": "jewel colours and warm gold on bright clean backgrounds",
+   "motif": "small crown",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Knight Helmet",
+     "object": "a steel knight helmet with a visor and a red plume",
+     "theme_marker": "visor slits and plume",
+     "moment": "castle",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a steel knight helmet with a visor and a red plume, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear helmet, good turquoise rays and soft game-like rendering; plume is a bit close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Knight helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best chunky rounded form and clean readable silhouette; top plume slightly intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Knight helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and on-category with good colour, but the plume is close to the top and the metal is a touch more shiny.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Knight helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Dragon Egg",
+     "object": "a big speckled green dragon egg with a scaly shell in a straw nest",
+     "theme_marker": "scaly shell",
+     "moment": "cave",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a straw nest on a stone ledge",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big speckled green dragon egg with a scaly shell in a straw nest placed on a straw nest on a stone ledge (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 29.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear dragon egg in nest, good yellow contrast and category 3 surface; slightly too polished/detailed compared with references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [
+            "Fantasy egg covered in overlapping leaf-like scales; not a real-life egg construction."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but top margin is tight and rendering is a bit more glossy/detailed than the target style.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [
+            "Some egg scale plates are unevenly shaped and partly merge into the shell instead of being clearly separate layers.",
+            "The woven nest strands are thick ribbon-like pieces with several fused or intersecting overlaps, making the weave construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable object and colour, but top margin is a little tight and scale/straw texture feels slightly AI-detailed.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [
+            "Nest strands are stylized and partly merge into each other, making the weave physically ambiguous in places"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Crystal Ball",
+     "object": "a clear crystal ball with a soft purple glow on a golden claw stand",
+     "theme_marker": "golden claw stand",
+     "moment": "tower",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "orange",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a clear crystal ball with a soft purple glow on a golden claw stand standing on a plain flat floor of lighter orange, three-quarter view slightly from above. Behind it a plain vertical orange wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear object, chunky soft game rendering, good orange floor/background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal ball",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-category, but the ball sits a little too high, leaving the top safety area tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal ball",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but the gold is a bit too polished/realistic compared with the reference softness.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal ball",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Magic Wand",
+     "object": "a carved wooden magic wand with a golden star tip",
+     "theme_marker": "star tip",
+     "moment": "tower",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of small crown silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a carved wooden magic wand with a golden star tip, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and faint repeating pattern of small crown silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky wand, clear and bright; top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star wand",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear carved wooden magic wand, warm soft rendering, good purple background; slightly too close to top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star wand",
+           "defects": [
+            "Bottom point of the star is partially buried/fused into the top collar, making the star's base unclear",
+            "Lower red ribbon band and hanging tab are merged into the handle with an unclear attachment"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and stylistically close, but the star sits a little high for the safe top area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star wand",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Mushrooms",
+     "object": "a cluster of big red-capped fairy mushrooms with white spots",
+     "theme_marker": "spotted caps",
+     "moment": "forest",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "green moss on a forest log",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cluster of big red-capped fairy mushrooms with white spots placed on green moss on a forest log (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear mushroom cluster and good sky-blue contrast, but cap is too close to the top and the log/moss texture feels a bit AI-detailed.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Toadstools",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable cluster on a surface with bright clean colour; slightly too polished/AI-rendered in the wood and moss to fully match the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Mushrooms",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and readability, good category 3 setup; still a little too detailed/CG in the log and moss compared with the softer reference style.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Mushroom log",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Golden Apple",
+     "object": "a shiny golden apple with a green leaf",
+     "theme_marker": "golden apple",
+     "moment": "forest",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny golden apple with a green leaf, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating golden apple on green patterned background; a bit too glossy/painterly-realistic for exact Township style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "golden apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed, but the metallic shine and leaf rendering feel slightly too realistic/glossy.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correct category, though highlights and leaf details are a little too polished/realistic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Owl",
+     "object": "a round brown owl with big amber eyes sitting on a wooden perch",
+     "theme_marker": "big eyes and ear tufts",
+     "moment": "tower",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brown owl with big amber eyes sitting on a wooden perch standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear owl on perch with good pink card setup, but cape/medal are extra and the rendering is a bit too polished/detailed.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Cloaked owl",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: instantly readable round brown owl with amber eyes on a perch, clean bright pink background; slightly over-detailed/AI-polished feathers and glossy eyes.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Owl Trophy",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but cape/badge add an unwanted fantasy costume and style is a little too slick and detailed.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Owl",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brown owl with big amber eyes sitting on a wooden perch standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear owl on perch with good pink contrast, but ornate cape/medallion and glossy toy-like rendering feel less like the references; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Owl",
+           "defects": [
+            "Right foot shows fewer visible toes than the left, making the feet asymmetric.",
+            "No rear gripping toes are visible around the perch.",
+            "Eyebrow/ear-tuft feathers are asymmetrical, with one side forming a large swept horn and the other merging into the central face feathers."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and well framed for category 2, but the cape and emblem are extra decorative elements and the finish is a bit too polished/toy-like.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Owl",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable rounded owl and perch, clean colour, but too ornamental with cloak/badge and slightly AI-toy finish; top area is not very free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Cloaked owl",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the owl simpler and more natural: remove the cape and medallion, reduce the glossy toy finish and fine feather detail, and leave more empty space at the top."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Flying Carpet",
+     "object": "a red and gold patterned flying carpet with tassels gliding in the air",
+     "theme_marker": "floating carpet with tassels",
+     "moment": "sky",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sky above a castle and green hills with fluffy clouds",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and gold patterned flying carpet with tassels gliding in the air in its real environment: sky above a castle and green hills with fluffy clouds; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear flying carpet, strong hero scale, warm rounded game style; background supports it without clutter.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic carpet",
+           "defects": [
+            "Tassels and corner caps are inconsistent in size and shape from corner to corner",
+            "Lower-right tassel appears attached to a rounded gold block under the carpet rather than to the actual corner",
+            "Upper-left tassel attachment is slightly fused into the carpet edge",
+            "Flying unsupported carpet is not a real-life construction"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and scale; clean bright sky, readable red-gold carpet with tassels in the correct environment.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic carpet",
+           "defects": [
+            "Only three tassels are present; the lower-right corner has no matching tassel despite the other corners having tassels.",
+            "Corner tassel attachments are inconsistent in shape and placement: some attach through cylindrical bands, while the upper-left tassel is connected by a small bulb-like joint."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and attractive, though the wave shape is a bit busier than B; still fits the category and style well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic carpet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Lute",
+     "object": "a wooden lute with a round pear-shaped body and a bent neck",
+     "theme_marker": "pear-shaped body and bent neck",
+     "moment": "hall",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a wooden bench in the castle hall",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden lute with a round pear-shaped body and a bent neck placed on a wooden bench in the castle hall (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear lute in the right soft chunky style, but background is a bit busy and top area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lute",
+           "defects": [
+            "Tuning pegs are mismatched and uneven: there appear to be five pegs for about six strings.",
+            "Some tuning pegs are attached along the side of the neck instead of all being on a distinct pegbox.",
+            "Strings do not clearly connect to individual tuning pegs; several disappear into the neck/scroll area.",
+            "The frets are irregular in size and spacing, with some looking like raised rungs floating over or wrapping around the curved neck.",
+            "The neck is excessively warped/curved for a playable fretted instrument.",
+            "String spacing is inconsistent, and some strings do not line up cleanly between bridge, sound hole, neck, and pegs.",
+            "The bridge has uneven bead-like string anchors that do not correspond cleanly to the number of strings.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 8
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clean red background, readable wooden lute on a surface; only minor top-margin issue.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lute",
+           "defects": [
+            "Only three strings are present, but the headstock has four tuning pegs.",
+            "The strings do not visibly connect to or wrap around the tuning pegs; they disappear into the upper neck area.",
+            "The two left-side tuning pegs appear stuck onto the front/edge of the headstock rather than passing through it like real pegs.",
+            "The string endpoints at the bridge are shown as loose round balls sitting on or in front of the bridge instead of a realistic anchored tailpiece/bridge connection."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good style and clarity, but the neck nearly touches the top safety area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lute",
+           "defects": [
+            "Five strings are shown but only four tuning pegs are visible, so one string has no tuner.",
+            "Strings fade into the neck/head area and do not visibly connect to the tuning pegs.",
+            "The instrument is a hybrid fantasy shape: lute-like body with a fretted mandolin/violin-style neck and scroll, not a fully realistic construction."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Wizard Tower",
+     "object": "a tall crooked stone wizard tower with a purple cone roof and round windows",
+     "theme_marker": "crooked tower with cone roof",
+     "moment": "tower",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "enchanted forest clearing with giant trees and a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall crooked stone wizard tower with a purple cone roof and round windows in its real environment: enchanted forest clearing with giant trees and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear wizard tower and good hero framing, but a bit too smooth/toy-like and the roof reaches into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Wizard tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and category fit; reads instantly as a crooked wizard tower, but still slightly plastic/AI-smooth and too close to the top edge.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Wizard tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the star badge adds visual clutter and the rendering feels a little too glossy/toy-like; top safe area is not clear.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Wizard tower",
+           "defects": [
+            "Purple hat roof and stone tower are fused together with no clear structural joint under the brim.",
+            "Upper ring has uneven tooth-like stone blocks/brackets; several are different sizes and angles and appear melted into the wall or underside of the roof.",
+            "Small left-side round window is cut into the tower edge and appears partially flattened/embedded rather than fully circular.",
+            "Stone block courses are warped and inconsistent around the curved tower, especially near the upper taper."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": "Make the tower more like softly rendered real stone and fabric/wood, less glossy toy-like, and leave clear empty sky in the top 12%."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall crooked stone wizard tower with a purple cone roof and round windows in its real environment: enchanted forest clearing with giant trees and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the tower more like softly rendered real stone and fabric/wood, less glossy toy-like, and leave clear empty sky in the top 12%.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good Township-like soft rounded tower, clear and bright; hanging banner is an extra decorative object and slightly distracts.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wizard tower",
+           "defects": [
+            "Flag/banner support is not clearly anchored to the tower; it appears to hang from or merge with the curled roof tip.",
+            "The curled roof tip visually fuses with the flag bracket area, making the construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear wizard tower in the right environment with strong colours; flag and balcony add extra detail but not a hard failure.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Wizard tower",
+           "defects": [
+            "Flag mount is geometrically ambiguous: the pole and golden finial appear fused into the roof tip, and the lower pole segment does not clearly connect to a real support.",
+            "Balcony railing partially intersects/fuses with the tower wall and has uneven, inconsistent supports around the ring.",
+            "Upper roof tiles are slightly warped and uneven, with some tile edges melting into each other."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: dominant crooked stone wizard tower, purple roof, round windows, clean bright landscape, no distracting extras.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wizard tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Heroic Fantasy",
+   "context": "Heroic fantasy",
+   "place": "stone castle on a green hill; wizard's tower room; enchanted forest; dragon's cave with gold; castle feast hall",
+   "palette": "jewel colours and warm gold on bright clean backgrounds",
+   "motif": "small crown",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Crown",
+     "object": "a golden crown with emerald gems and red velvet inside",
+     "theme_marker": "golden points and gems",
+     "moment": "castle",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden crown with emerald gems and red velvet inside, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky crown on pink rays, but it sits too high so the top safe area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear crown and correct background, but the metal/fabric rendering is a bit too detailed and realistic; top ornament intrudes into the safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "royal crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable floating crown with good pink contrast and safe margins, though the faceted gems and shiny metal feel a bit more realistic than the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "royal crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Roast Feast",
+     "object": "a roast ham with apples on a wooden platter",
+     "theme_marker": "feast platter",
+     "moment": "hall",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "turquoise",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a long wooden feast table",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a roast ham with apples on a wooden platter placed on a long wooden feast table (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated turquoise wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Fits the soft rounded Township look; clear ham, apples and platter on wooden surface with clean turquoise background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Glazed ham",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky, warm, readable roast ham with apples on a wooden platter; correct category 3 setup and clean colour contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "glazed ham",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong style and colour; object is clear and dominant on a realistic wooden surface, with no visible defects.",
+          "mean": 10,
+          "hard": [
+           "severe_distortion"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Glazed ham",
+           "defects": [
+            "Cut face is divided into citrus-like wedge segments instead of realistic ham meat grain.",
+            "Center bone is shaped like a hollow doughnut/ring protruding from the slice, not a real ham bone structure.",
+            "Several clove studs look like clusters of fused brown balls rather than individual cloves."
+           ],
+           "distortion": "severe",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Castle Gate",
+     "object": "a castle gatehouse with two round towers and a wooden drawbridge",
+     "theme_marker": "drawbridge and towers",
+     "moment": "castle",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "castle moat with blue water and green hills",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a castle gatehouse with two round towers and a wooden drawbridge in its real environment: castle moat with blue water and green hills; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like rounded gatehouse, clear object and bright setting; flags intrude into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "castle gate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clean chunky forms, readable castle gate and drawbridge, warm bright colours; top flags slightly violate safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "castle gate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but roof/stone details feel a bit more toy-like/AI-polished; flags are too high.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Castle Gate",
+           "defects": [
+            "Portcullis bars under the arch appear to hang without a visible top rail or side tracks.",
+            "Lower drawbridge end appears to sit directly on water with no receiving bank or support visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Crest Shield",
+     "object": "a kite-shaped knight shield with a golden crown crest on blue",
+     "theme_marker": "kite shape and crown crest",
+     "moment": "castle",
+     "class": "weapon",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "orange",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a kite-shaped knight shield with a golden crown crest on blue standing on a plain flat floor of lighter orange, three-quarter view slightly from above. Behind it a plain vertical orange wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear crest shield, warm chunky game style, good orange category-2 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "royal shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on style; top margin is a little tight for the required free area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "royal shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable shield and crown, good colours; object sits too high, leaving little top clearance.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Royal shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Treasure Map",
+     "object": "a rolled parchment treasure map with a red wax seal",
+     "theme_marker": "wax seal and curled edges",
+     "moment": "vault",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of small crown silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rolled parchment treasure map with a red wax seal, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and faint repeating pattern of small crown silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like soft chunky parchment, clear treasure map and seal, clean purple patterned background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "treasure map",
+           "defects": [
+            "red X symbol printed on the map"
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear object and category fit; slightly busier/torn edges but still matches the casual soft style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure Map",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Nice soft style and clean colour, but at small size it reads more like a tied scroll than an open treasure map.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure map",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Crystal Cluster",
+     "object": "a cluster of big purple crystals",
+     "theme_marker": "sharp faceted crystals",
+     "moment": "forest",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a mossy stone in the forest",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cluster of big purple crystals placed on a mossy stone in the forest (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 21.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear purple crystal cluster, but the outdoor grassy base/extra tufts do not match category 3 surface-and-wall setup; crystals feel a bit glossy.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clear silhouette on wooden surface with green wall. Slightly too glossy/neon and faceted compared with the soft Township material style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the leafy outdoor scene adds extra objects and is less like the requested category 3 tabletop/interior composition.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Potion",
+     "object": "a tall glass potion bottle with blue liquid and a wax-sealed cork",
+     "theme_marker": "tall flask with seal",
+     "moment": "tower",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall glass potion bottle with blue liquid and a wax-sealed cork, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky potion bottle; clear and bright, but top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: simple rounded forms, clear silhouette, bright yellow background; only top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good style and readability, though the bottle shape is slightly bendy and top margin is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Blue potion",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Hourglass",
+     "object": "a golden hourglass with blue sand",
+     "theme_marker": "golden frame",
+     "moment": "tower",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "sky blue",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden hourglass with blue sand standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hourglass and good blue background, but too ornate/glossy toy-like and sits too close to the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Hourglass",
+           "defects": [
+            "The falling sand is rendered as a thick pale twisted ribbon/solid column rather than a thin stream of sand.",
+            "A golden rear support/central post appears to pass through the glass chamber and merge with the sand area, making the construction impossible.",
+            "The glass bulbs are slightly asymmetric and warped around the narrow waist.",
+            "The side columns and decorative shields are not perfectly matched in size/shape between left and right."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and category fit, but still a bit glossy/plastic and the top ornament is too near the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Hourglass",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and clean, but shiny toy-like rendering and the top decoration intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Hourglass",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Use a softer hand-painted golden hourglass with less glossy plastic shine and leave the top 12% of the image empty."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden hourglass with blue sand standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Use a softer hand-painted golden hourglass with less glossy plastic shine and leave the top 12% of the image empty.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky golden hourglass with blue sand; soft game-like rendering and correct simple sky-blue floor/background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Hourglass",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: very readable, rounded forms, warm gold material, blue sand, clean category-2 presentation.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Hourglass",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable hourglass, good colour contrast and category framing; slightly more shiny but still fits the reference style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "hourglass",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Spellbook",
+     "object": "an open spellbook with glowing pages on a lectern",
+     "theme_marker": "open glowing pages",
+     "moment": "tower",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a stone lectern in the wizard's tower",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of an open spellbook with glowing pages on a lectern placed on a stone lectern in the wizard's tower (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear spellbook on lectern, warm chunky materials, good red contrast and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic book",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: readable open glowing book, chunky soft Township-like rendering, correct floor and red background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Spellbook",
+           "defects": [
+            "Gold corner pieces appear attached to the open pages rather than to a cover, which would prevent pages from turning normally.",
+            "The red bookmark/ribbon emerges from the lower spine area as a stiff raised piece and is partly fused into the book/stand instead of lying between pages.",
+            "The wooden lectern has small front blocks/pegs placed asymmetrically and not clearly serving as supports or hinges."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable object with good soft materials and category depth; slightly more vignetted but still clean.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic book",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Unicorn",
+     "object": "a white unicorn with a golden horn and a pastel mane in a flower meadow",
+     "theme_marker": "spiral golden horn",
+     "moment": "forest",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "flower meadow at the edge of an enchanted forest with a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Heroic fantasy",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white unicorn with a golden horn and a pastel mane in a flower meadow in its real environment: flower meadow at the edge of an enchanted forest with a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear unicorn in the right meadow setting, but the rendering feels a bit like a glossy plastic toy rather than soft Township materials.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Unicorn",
+           "defects": [
+            "Far front leg is raised in an awkward curved shape with an unclear knee/ankle structure",
+            "Back legs are partly hidden and visually fused with the body/mane, making their attachments hard to read",
+            "Hooves are slightly mismatched in size and shape"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed as a category 4 hero in environment; style is close but still too polished/toy-like.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Unicorn",
+           "defects": [
+            "No clear geometric defects; stylized proportions, colored mane, and gold hooves are intentional fantasy design elements."
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong central silhouette, bright clean meadow, correct category; main weakness is the smooth glossy plastic-toy finish.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Unicorn",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 99,
+  "image_out": 122265,
+  "image_in": 116631,
+  "text_in_img": 38280,
+  "llm_calls": 231,
+  "llm_in": 141763,
+  "llm_out": 70405
+ }
+}

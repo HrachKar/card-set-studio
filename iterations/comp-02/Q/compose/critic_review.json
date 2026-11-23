@@ -1,0 +1,47 @@
+[
+ {
+  "card": "A3",
+  "problem": "An apple pie in a tin pan is a generic home/bakery dessert. Covered without its caption, a player would not instantly recognize the Wild West theme.",
+  "fix": "Replaced with iconic Western items and introduced the Chuckwagon Plate (blue speckled tin plate with cowboy beans and skillet cornbread) in Category 3."
+ },
+ {
+  "card": "A6",
+  "problem": "A wooden rocking chair is generic vintage porch furniture and fails to immediately read as Wild West without caption.",
+  "fix": "Replaced with iconic batwing louvred Saloon Doors set into a rustic timber doorframe on the boardwalk (Category 3)."
+ },
+ {
+  "card": "A8",
+  "problem": "A saddle placed alone directly on a plain floor in Category 2 defies physical common sense; saddles rest on racks or horses.",
+  "fix": "Changed to a hand-tooled Western Saddle resting properly on an X-frame timber saddle stand."
+ },
+ {
+  "card": "A - Missing hero item",
+  "problem": "The original set omitted the cowboy hat, which is the single most iconic silhouette in the entire Wild West theme.",
+  "fix": "Added a tan felt Cowboy Hat with cattleman crease and concho band as Card 1 in Category 1."
+ },
+ {
+  "card": "A6/A7",
+  "problem": "Peach and orange backgrounds were placed horizontally adjacent, reducing vibrant contrast in the window.",
+  "fix": "Rebalanced row 2 backgrounds using peach, turquoise, orange, pink, and green."
+ },
+ {
+  "card": "B1",
+  "problem": "Gold Pan is explicitly prohibited by the composition guidelines ('avoid objects that need a name to be recognized: a hand pump, a gold pan with nuggets, a sluice box').",
+  "fix": "Replaced with the bold, unmistakable Miner's Pickaxe with curved steel head and chisel blade."
+ },
+ {
+  "card": "B8",
+  "problem": "Rocker Box is a wooden sluice cradle, explicitly forbidden by the guidelines for low thumbnail clarity and lack of instant readability.",
+  "fix": "Replaced with a brass Miner's Lantern sitting on a weathered wooden riverbank supply crate."
+ },
+ {
+  "card": "B - Motif",
+  "problem": "Using pickaxe only as a faint motif wasted the most iconic gold mining tool silhouette as background decoration.",
+  "fix": "Promoted the Pickaxe to hero Card 1 and established 'star' as the clean thematic repeating motif."
+ },
+ {
+  "card": "B4/B5",
+  "problem": "Peach and orange backgrounds were adjacent in row 1, causing a muddy, similar-tone cluster.",
+  "fix": "Rebalanced backgrounds so all horizontal and vertical neighbours have clearly distinct, contrasting hues."
+ }
+]

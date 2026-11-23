@@ -1,0 +1,22 @@
+[
+ {
+  "card": "A4",
+  "problem": "“Castle Spire” reads like a pulled-out part of a building. A fixed architectural fragment is weak as a standalone hero object unless it is presented as a complete structure in its real environment.",
+  "fix": "Changed it to a complete fantasy castle tower with doorway, roof and pennants, still shown in the bright castle courtyard environment."
+ },
+ {
+  "card": "B3",
+  "problem": "The surface is an outdoor festival market stall, but the background treatment says “festival village interior,” which contradicts the set place.",
+  "fix": "Kept the cloak on the wooden market stall table and changed the cat3 background to a neutral plain wall with light glow."
+ },
+ {
+  "card": "C",
+  "problem": "The set name “Moonlit Oath” suggests night, while the rules require a bright daytime or golden-hour mood.",
+  "fix": "Renamed the variant to “Beacon Oath” and softened the motif to a bright crescent-leaf decorative silhouette."
+ },
+ {
+  "card": "C7",
+  "problem": "C6 and C7 were both equipment cards next to each other, breaking the class-diversity rule. The wand also felt like a replaceable catalogue magic item.",
+  "fix": "Replaced the wand with a mythic golden apple from the enchanted orchard: a food/nature object that belongs to this exact noon moment and gives the route a stronger day-story beat."
+ }
+]

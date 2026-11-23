@@ -1,0 +1,117 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek red and black hero car with fins in its real environment: downtown city street with tall buildings; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear hero car in a bright city setting, but the finish is a bit glossy toy-like rather than softly rendered real material.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Sports car",
+     "defects": [
+      "Rear spoiler/fins are asymmetrical: the left rear fin and the center/right fin have different shapes, sizes, and attachment points.",
+      "Center/right rear fin appears to grow out of the roof area instead of the rear body.",
+      "Rear fin pieces look fused into the body rather than mounted as a plausible spoiler."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong readable silhouette with fins and good category-4 environment; slightly too polished/plastic for the reference style.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "sports car",
+     "defects": [
+      "Two rear fins are mismatched: the left fin is much larger and has a yellow inset, while the right fin is smaller, plain red, and differently shaped.",
+      "Rear fins appear fused into the roof/rear body with unclear attachment points.",
+      "Black horizontal rear spoiler/side piece on the left protrudes oddly and has no visible matching part on the other side.",
+      "Front grille supports are warped and uneven, with the center pieces angled inconsistently.",
+      "Wheel rims/spokes differ between the front and rear visible wheels.",
+      "Fantasy car design with oversized bat-like fins is not a realistic real-life car construction."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and dominant with clean colours, but surfaces feel somewhat toy-glossy and less like the soft reference rendering.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "sports car",
+     "defects": [
+      "Rear spoiler/fins are asymmetric: a large left wing is paired with only a much smaller fin near the center/right, with no matching opposite wing visible.",
+      "Large left rear spoiler appears fused directly into the rear quarter panel instead of being mounted on clear supports.",
+      "Small red fin behind the roof appears partly floating or poorly connected to the car body.",
+      "Windshield and side window visually merge into one continuous dark glass area with unclear pillar separation."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "theme": "Wild West",
+ "wishes": "",
+ "variants": 3,
+ "text_model": "gpt-5.5",
+ "image_model": "gpt-image-2",
+ "candidates": 2,
+ "max_rounds": 2,
+ "pass_score": 7.0,
+ "started": "2026-11-18T21:05:07"
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "card": "A2",
+  "problem": "The stagecoach is strong and place-correct, but its moment contradicted the set context: the context says the stagecoach rolls in at golden hour while the card said it was only expected in late morning.",
+  "fix": "Keep the stagecoach, but make the moment the actual golden-hour arrival on the frontier main street."
+ },
+ {
+  "card": "B5",
+  "problem": "The enamel coffee pot is readable as camping, but not instantly Wild West without the caption; it relies too much on context and could be swapped for any camp kettle.",
+  "fix": "Replace it with a fold-out chuck box on the chuckwagon shelf, a more concrete object from the trail cook’s day with a stronger western silhouette."
+ },
+ {
+  "card": "B10",
+  "problem": "The lantern is a generic camp lantern and the cactus cutouts are only a surface decoration, not a strong silhouette marker.",
+  "fix": "Make it a wagon lantern seated in a wagon-wheel-shaped holder on the chuckwagon tailgate, so the western marker changes the overall silhouette."
+ },
+ {
+  "card": "C5",
+  "problem": "The Dutch oven is acceptable for a pioneer camp, but it needed a clearer frontier-camp setup so it does not read as a generic black pot.",
+  "fix": "Sharpen it as a three-legged cast-iron camp oven set over coals between river stones."
+ },
+ {
+  "card": "C6",
+  "problem": "The ox yoke is historically fitting but too obscure for kids and likely needs the caption to be understood at thumbnail size.",
+  "fix": "Replace it with a western scout saddle on a simple stand, which is more iconic and still belongs to the river-crossing scout’s day."
+ },
+ {
+  "card": "C9",
+  "problem": "The travel trunk risked reading as a generic antique trunk, with the wagon-wheel plates acting like pasted-on emblems.",
+  "fix": "Turn it into a rope-lashed prairie trunk with a canvas bedroll strapped on top, sitting on the covered-wagon tailgate."
+ }
+]

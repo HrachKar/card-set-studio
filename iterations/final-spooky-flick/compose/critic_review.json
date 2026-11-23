@@ -1,0 +1,22 @@
+[
+ {
+  "card": "B3",
+  "problem": "The cape is described as floating on a hidden hanger and marked as hand scale. A cape is not a small hand-held icon, and the hidden support hurts physical sense.",
+  "fix": "Make it a freestanding cloak on a simple display stand, move it to category 2, and keep the gothic high collar as the spooky marker."
+ },
+ {
+  "card": "B4",
+  "problem": "A normal three-arm candelabra is usually tabletop, but the card places it on the floor as a category 2 standing item.",
+  "fix": "Clarify it as a floor candelabra with a heavy base so it physically stands on its own."
+ },
+ {
+  "card": "B6",
+  "problem": "The hourglass is a gothic catalogue item and does not show the housekeeper's actual workday strongly enough.",
+  "fix": "Replace it with a gothic feather duster handled during the cleaning route, with a pointed-arch handle and dark plume for the manor-spooky silhouette."
+ },
+ {
+  "card": "B7",
+  "problem": "The coffin-shaped wardrobe is too death-coded for the requested cute family-friendly spooky world.",
+  "fix": "Replace it with a pointed-arch gothic wardrobe: still old-manor themed, but not a coffin."
+ }
+]

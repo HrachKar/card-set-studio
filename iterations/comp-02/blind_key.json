@@ -1,0 +1,7 @@
+{
+ "P": "file:runs/comp-02-claude/sets.json",
+ "Q": "gemini-3.8-flash",
+ "R": "gpt-5.4-mini",
+ "S": "gpt-5.5",
+ "T": "gemini-4-argon"
+}

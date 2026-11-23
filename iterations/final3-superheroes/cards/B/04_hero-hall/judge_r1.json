@@ -1,0 +1,125 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bright blue hero hall building with a giant arched entrance, cape-shaped roof and starburst window in its real environment: sunny downtown plaza with soft trees, pale sky and distant friendly skyscrapers; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close to reference style, clear blue hero hall with cape roof, giant entrance and starburst; bright and dominant. Top 12% is not free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Hero headquarters",
+     "defects": [
+      "Red cape-like roof is fused into the blue building facade and has no realistic structural support.",
+      "Yellow circular medallion overlaps/fuses with the red roof and front wall rather than being clearly mounted.",
+      "Left and right red roof/cape ends are asymmetric in size and shape; the left side hangs much lower and protrudes farther.",
+      "Side window sections are not matched symmetrically; the right side windows appear narrower and differently placed than the left.",
+      "Large central star window has uneven rays and slightly melted/merged-looking geometry where rays meet the circular frame.",
+      "Top cupola/lantern and finial appear slightly off-center relative to the main tower."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong readable hero hall, good toy-like forms and clean colours. Entrance is large and object fits category 4 well, but top safe area is not free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic theater",
+     "defects": [
+      "Central starburst window is irregular: spokes are uneven in length/thickness and some appear fused into the window frame rather than meeting cleanly.",
+      "The large arched doorway/window grid is not symmetrical: vertical mullions have uneven spacing and do not line up cleanly with the arch.",
+      "Left and right cream-colored roof brackets/capitals are different shapes and sizes, with small lower blocks hanging at different angles.",
+      "The red roof overhang is asymmetrical: the left and right rolled edges and underside openings have different shapes.",
+      "The yellow roof trim and the central yellow tab overlap awkwardly, making the tab look partly fused into the trim/roof instead of being a distinct piece.",
+      "Side tower windows are slightly mismatched in size and vertical placement."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear, polished Township-like building with correct elements and bright palette. Slightly less giant entrance than A/B, and top 12% is not free.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Magic observatory",
+     "defects": [
+      "Red roof/awning has an impossible soft, cape-like shape and appears fused into the upper facade rather than being a buildable roof.",
+      "Left and right ends of the red roof are different in height and curvature, making the side eaves asymmetric.",
+      "White column caps under the roof are mismatched: the left cap has an extra stacked slab and different proportions from the right cap.",
+      "Side wings/windows are not symmetric; the left and right window shapes, sizes, and ledges differ.",
+      "Circular star window has uneven spokes/panes and a slightly irregular star shape.",
+      "Top cupola details are inconsistent, with window bars and roof rings not evenly aligned.",
+      "Central entrance arch stones are uneven in size and spacing."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 7
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

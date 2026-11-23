@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a peach-orange crystal cluster growing from gray asteroid rock with small glowing moon pebbles floating around it placed on gray asteroid dust and flat rock beside the observatory path (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning browsing a neon star bazaar, noon on a royal landing terrace, afternoon aboard an orbital liner, and sunset at an asteroid observatory.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 21.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 16.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong stylized toy-like crystal cluster on a green background; clear object and good category 3 surface, but floating pebble enters the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal cluster",
+     "defects": [
+      "Several glowing yellow porous orbs float around the crystal cluster with no visible attachment or support."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 1
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very clear and dominant asteroid crystal, bright saturated colors and suitable surface; minor top-safe-area issue from a floating pebble.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal cluster",
+     "defects": [
+      "Several small glowing pebble/crystal pieces are floating around the cluster with no physical attachment.",
+      "The orange crystals are heavily fused together at the base, making some individual crystal stems unclear.",
+      "Some crystal tips and facets are rounded/melted rather than sharply cut."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable stylized crystal cluster with good green contrast and surface depth; a floating pebble is too close to the top edge.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal cluster",
+     "defects": [
+      "Several small orange ring-like pebble pieces float unconnected around the cluster.",
+      "Some crystal shards overlap and fuse into each other at the center with unclear individual bases.",
+      "Crystals merge directly into the stone base without distinct sockets or visible attachment points.",
+      "The stone base has overly smooth, round drilled-looking holes and melted contours."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

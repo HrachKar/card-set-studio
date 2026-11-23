@@ -1,0 +1,118 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white stone cliff temple with tall columns, blue crystal caps, and floating step stones in its real environment: bright cliff temple above soft clouds with warm sunlight and pale stone steps; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear chunky toy-like sky temple with columns, crystals and floating stones; background is blue rather than lilac and the top crystal sits too high for the safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Crystal temple",
+     "defects": [
+      "Floating stone steps are separate and unconnected to each other or the main staircase.",
+      "The temple/rock base is floating in clouds with no physical support.",
+      "Side crystals are not perfectly symmetric in size/placement."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable central temple in the right stylized mobile-game look; wrong background colour and top crystal intrudes into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Crystal Temple",
+     "defects": [
+      "Floating stepping stones in front are unconnected to any support, which is impossible construction in real life.",
+      "The temple appears to be built on a floating cliff/cloud platform, which is impossible in real life.",
+      "Central doorway/interior arch is asymmetric: the left inner column and arch details do not match the right side.",
+      "Several columns have slightly warped or uneven shafts rather than straight cylinders.",
+      "Side towers/side colonnades are not symmetrical; the left and right side structures differ in width, column placement, and roof alignment.",
+      "Some roof and cornice blocks are merged into adjacent columns/capitals instead of having clean separations.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 7
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong hero object and good materials, but the scene uses a blue sky instead of lilac and the top crystal is too close to the upper edge.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Crystal Temple",
+     "defects": [
+      "Temple is a fantasy/impossible construction floating above clouds on a rock island.",
+      "Several foreground stepping stones are floating unconnected in midair.",
+      "Blue crystals mounted on the roof/columns are not real architectural parts, but they are consistently attached and symmetric enough.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": "Use a clean lilac sky background and leave the top 12% of the image empty above the temple."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

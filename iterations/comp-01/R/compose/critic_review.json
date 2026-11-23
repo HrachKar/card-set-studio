@@ -1,0 +1,47 @@
+[
+ {
+  "card": "A2",
+  "problem": "Camp Skillet with cornbread reads as generic Southern or home cooking without the caption, failing Rule 1.",
+  "fix": "Replaced with Longhorn Skull mounted on weathered timber planks—an unmistakable Wild West symbol."
+ },
+ {
+  "card": "A5",
+  "problem": "A wild saguaro cactus growing directly out of a boardwalk town street feels physically out of place.",
+  "fix": "Replaced with Covered Wagon (prairie schooner), which naturally parks along the town street and has an iconic frontier silhouette."
+ },
+ {
+  "card": "A7",
+  "problem": "Camp Coffee pot on a shipping crate reads as campsite gear rather than an iconic town street item.",
+  "fix": "Replaced with Potbelly Stove, the quintessential cast-iron heating stove of frontier saloons and general stores."
+ },
+ {
+  "card": "A10",
+  "problem": "Porch Rocker with a blanket reads as generic rural porch furniture rather than an unmistakable Wild West object.",
+  "fix": "Replaced with Cowboy Boots with jangling spurs standing on the boardwalk planks."
+ },
+ {
+  "card": "B4",
+  "problem": "Barn Lantern is generic utility equipment found across nautical, farm, and Victorian themes with no distinct Western silhouette.",
+  "fix": "Replaced with Express Strongbox, the classic iron-banded Wells Fargo wooden treasure chest with a heavy brass padlock."
+ },
+ {
+  "card": "B5",
+  "problem": "Potted Agave looks like modern patio gardening rather than an iconic frontier element.",
+  "fix": "Replaced with Desert Saguaro standing naturally in dry red desert earth beside the depot staging area."
+ },
+ {
+  "card": "B6",
+  "problem": "Pocket Harp (harmonica) is a generic musical instrument that doesn't immediately signal Wild West without caption.",
+  "fix": "Replaced with Cowboy Bandanna—a folded crimson paisley bandanna secured with an engraved silver steer-head slide."
+ },
+ {
+  "card": "B7",
+  "problem": "Depot Telegraph key reads as generic Victorian or industrial technology.",
+  "fix": "Replaced with Hitching Post featuring a carved horse-head finial and heavy iron tether ring."
+ },
+ {
+  "card": "B10",
+  "problem": "Lattice Pie reads as generic Americana home baking, failing Rule 1.",
+  "fix": "Replaced with Frontier Canteen—a round tin canteen wrapped in canvas with a leather shoulder harness and cork on a chain."
+ }
+]

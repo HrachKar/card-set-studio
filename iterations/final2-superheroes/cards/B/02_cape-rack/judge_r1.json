@@ -1,0 +1,118 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a freestanding white rack shaped like a lightning arch holding three short capes in red, yellow, and blue standing on a plain flat floor of lighter orange, three-quarter view slightly from above. Behind it a plain vertical orange wall with faint repeating pattern of starburst silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city training route: morning at the academy courtyard, noon in the padded training hall, afternoon in the gadget workshop, and sunset at the downtown rescue booth.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 20.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear toy-like Cape Rack, bright orange background, good chunky shapes; slight extra decorative lightning badges but acceptable.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "superhero capes",
+     "defects": [
+      "Hanger loops appear to penetrate or wrap through the horizontal rod instead of hanging from an open hook.",
+      "Hangers are fused into the collars of the capes with no clear separate hanger necks.",
+      "The cape bottoms form stiff tube-like openings rather than natural cloth folds.",
+      "Top lightning-bolt emblem and red backing pieces intersect/overlap with each other and the arch in an unrealistic fused way."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clean rounded Township-like rack, three capes are instantly readable, strong colour contrast, no defects.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Super capes",
+     "defects": [
+      "Yellow lightning bolt above the rack appears to float or be stuck to the arch with no visible mount or connection.",
+      "The cape hooks disappear into the collars with no clear hanger or attachment point.",
+      "The right side of the horizontal rod appears to end inside/behind the arch without a clear support socket."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and polished; blue inset and bases make the rack less purely white, but still fits the requested object and style.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Cape rack",
+     "defects": [
+      "The capes are modeled as thick hollow tube-like shells rather than flat fabric sheets.",
+      "The lower folds/openings on the yellow and blue capes are asymmetric and somewhat melted together where they overlap.",
+      "The hanging loops/collars appear partly fused into the cape tops instead of being clearly separate pieces."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

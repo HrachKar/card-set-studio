@@ -1,0 +1,123 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky orange wrist communicator with a mask-shaped turquoise screen and two small lightning fin antennae, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of starburst silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city training route: morning at the academy courtyard, noon in the padded training hall, afternoon in the gadget workshop, and sunset at the downtown rescue booth.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 16.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.9,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong Township-like chunky toy style and clear wrist communicator; top antennae slightly intrude into the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "robot watch",
+     "defects": [
+      "Right wristband loop appears fused into the side/back of the robot face rather than attached with a clear hinge or lug.",
+      "Lower strap segment blends into the underside of the face, making the attachment point ambiguous.",
+      "Left and right side ear/button pieces are asymmetric: the right side has a full circular layered disk while the left side is only a partial oval with no matching inner circle.",
+      "The two lightning-bolt antenna shapes are not exact mirror pairs and sit at slightly different angles/heights."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very clear, bright, rounded and close to reference style; top fins are a bit too close to the top edge.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Hero wristwatch",
+     "defects": [
+      "Fantasy wrist device with a mask face and lightning-bolt antennas; not a normal real-life object.",
+      "The orange mask face, wristband, and front chest-like panels are fused into one continuous body rather than clearly separate assembled parts.",
+      "Top lightning-bolt decorations are asymmetrical in size, angle, and shape.",
+      "Lightning-bolt bases appear partially merged into the blue/orange collars instead of having clear mechanical mounts.",
+      "Left and right blue side pads are different shapes and sizes, with the left one mostly hidden/embedded and the right one larger and protruding.",
+      "Right-side yellow strap band has no visible matching band on the left side.",
+      "The wrist strap loop appears to merge into the main body with unclear attachment points."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 7
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and polished with correct object and background; slightly more small detailing on strap, and top fins enter the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Lightning watch",
+     "defects": [
+      "Wristband is fused directly into the round watch body with no visible lugs, pins, hinge, or buckle hardware.",
+      "Right-side strap loop connects ambiguously behind the case and appears to pass through or merge with the watch body.",
+      "Blue band/keeper on the right strap is only partially formed and blends into the strap/case instead of wrapping clearly around the band.",
+      "Strap holes are placed on the inner/side surface of the curved band and are unevenly shaped and spaced.",
+      "Bottom/front strap segment is warped and merges into the case, making the band attachment physically unclear.",
+      "Left and right blue side buttons are not a matched pair; they differ in visible size, placement, and shape beyond normal perspective.",
+      "The two yellow lightning-bolt antenna decorations are asymmetric in shape and angle, with unclear/fused bases on the blue mounts.",
+      "Fantasy construction: lightning-bolt antenna pieces on a wristwatch are decorative and not a normal real-world watch component."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 8
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

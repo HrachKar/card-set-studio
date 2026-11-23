@@ -1,0 +1,27 @@
+[
+ {
+  "card": "A6",
+  "problem": "The runestone is a fixed outdoor landmark but was placed in category 2 on an abstract floor, which breaks physical sense. Knot carvings also push it toward a specific Nordic fantasy flavor.",
+  "fix": "Moved it to category 3 on forest moss, changed the marker to non-letter sun and leaf glyphs, and kept it as a peaceful trail landmark inside the shared day."
+ },
+ {
+  "card": "A7",
+  "problem": "The background treatment said 'mountain ruins interior' although the shared place is outdoor mountain ruins with stone slabs.",
+  "fix": "Changed the treatment to a simple outdoor mountain ruins backdrop."
+ },
+ {
+  "card": "C7",
+  "problem": "Blue and violet crystals on a purple background reduce thumbnail contrast.",
+  "fix": "Changed the background color to red for stronger contrast while keeping neighbor colors distinct."
+ },
+ {
+  "card": "C8",
+  "problem": "The moment mentioned a cushion, but the card is a floating object with no cushion shown.",
+  "fix": "Reworded the moment so the crown is the visible courtyard reward emblem without adding an unseen prop."
+ },
+ {
+  "card": "C10",
+  "problem": "A blue-and-gold coffer on a sky blue background lacks contrast, and 'castle courtyard interior' is incorrect for the outdoor place.",
+  "fix": "Changed the background color to pink and the treatment to a simple castle courtyard backdrop."
+ }
+]

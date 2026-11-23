@@ -1,0 +1,4305 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Crystal Quest",
+   "context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+   "place": "castle courtyard with cobblestones and market tables; enchanted forest with moss and glowing plants; mountain ruins with flat ancient stones and a portal arch",
+   "concept": "A classic heroic quest route through a colorful kingdom, focused on magic, travel gear, treasure, and ancient places without copying any specific franchise look.",
+   "palette": "Sunny golds, jewel greens, turquoise magic glow, warm stone, and clean bright backgrounds.",
+   "motif": "faceted crystal",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Wizard Hat",
+     "object": "a deep blue pointed wizard hat with a curled tip, gold trim, and a crescent clasp",
+     "theme_marker": "tall pointed cone shape with curled tip and crescent clasp",
+     "moment": "morning in the castle courtyard, where the visitor notices magical travel gear before the quest begins",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a deep blue pointed wizard hat with a curled tip, gold trim, and a crescent clasp, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 13.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean toy-like wizard hat, readable silhouette, correct floating category 1 setup and bright yellow rays.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and polished in the reference style; correct object and background with no visible defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Matches the requested hat well with strong contrast and simple category 1 composition.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Wizard hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Spellbook",
+     "object": "a purple closed spellbook with brass corner guards, a green gem clasp, and no writing",
+     "theme_marker": "heavy ancient book shape with metal corners and a glowing gem clasp",
+     "moment": "the visitor receives the route from a sealed magical book on a courtyard pedestal",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of faceted crystal silhouettes",
+     "surface": "carved stone pedestal in the castle courtyard",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a purple closed spellbook with brass corner guards, a green gem clasp, and no writing placed on carved stone pedestal in the castle courtyard (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated turquoise wall with faint repeating pattern of faceted crystal silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 22.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky stylized spellbook, bright turquoise background, correct surface and no writing; slightly less centered/dominant than others but valid.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "spell book",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to reference style: rounded toy-like forms, clear purple closed spellbook with brass guards and green gem clasp, good category 3 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "magic book",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and polished, correct object and colours; large dominant book on pedestal, no text or cropping of the object.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Bubbling Cauldron",
+     "object": "a round black cauldron with three claw feet, turquoise bubbles, and a warm copper rim",
+     "theme_marker": "round potion cauldron with claw feet and magical colored bubbles",
+     "moment": "late morning near the courtyard market, a friendly potion stall prepares supplies for travelers",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "peach",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round black cauldron with three claw feet, turquoise bubbles, and a warm copper rim standing on a plain flat floor of lighter peach, three-quarter view slightly from above. Behind it a plain vertical peach wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear cauldron on correct peach floor/background, but rendering is a bit too glossy and polished compared with the simpler reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: very readable round cauldron with bubbles, claw feet and copper rim; slightly over-rendered/glossy for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and clean, but side handles add complexity and the glossy rendering is a little more polished than the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion Cauldron",
+           "defects": [
+            "Side handles are asymmetric: the left side has a full dangling ring and connector, while the right side shows only a partial orange protrusion with no visible matching ring or connector.",
+            "Clawed feet are inconsistent: the front foot has three claws, while the side feet show fewer/different-shaped claws."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Castle Tower",
+     "object": "a complete pale stone fantasy castle tower with an arched doorway, a teal pointed roof, and small golden pennants",
+     "theme_marker": "complete fairy-tale tower silhouette with pointed roof, arched doorway, and pennants",
+     "moment": "the visitor passes the bright courtyard tower before leaving the castle for the road",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "sky blue",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright castle courtyard with cobblestones, soft clouds, and distant walls",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a complete pale stone fantasy castle tower with an arched doorway, a teal pointed roof, and small golden pennants in its real environment: bright castle courtyard with cobblestones, soft clouds, and distant walls; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township-like toy style and clear castle tower; strong sky-blue contrast. Top flag/finial sits in the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle Tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Cleanest, most readable hero tower with correct teal roof and golden pennants; bright background. Top pennant is too close to the upper edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but side turrets and hanging banner make the silhouette a little busier than ideal; top pennant is in the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Crystal Amulet",
+     "object": "a green faceted crystal amulet in an ornate gold frame on a short chain",
+     "theme_marker": "large glowing faceted gemstone in a medieval gold setting",
+     "moment": "at the forest edge, the amulet starts to glow and marks the safe path",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "faint repeating pattern of faceted crystal silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green faceted crystal amulet in an ornate gold frame on a short chain, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and faint repeating pattern of faceted crystal silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky amulet, clear silhouette and bright pink background; chain sits a bit high so top clearance is not ideal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Emerald amulet",
+           "defects": [
+            "Several chain links are slightly melted/fused together with unclear interlocking holes",
+            "Chain links vary noticeably in size and shape around the loop"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean stylized toy-like rendering and very readable; slightly less ornate than requested and top clearance is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Emerald pendant",
+           "defects": [
+            "Several chain links intersect or appear fused instead of cleanly interlocking.",
+            "The chain attachment through the top bail is ambiguous, with links seeming to pass through solid gold in places.",
+            "Left and right side scroll ornaments are noticeably different in shape and size.",
+            "Bottom gold setting and small green gem are slightly warped/asymmetrical.",
+            "No text or digits."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable bright amulet in the right category; frame design is a bit simpler/less elegant and chain is close to the top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Emerald amulet",
+           "defects": [
+            "Several chain links overlap or intersect with unclear over-under order, making parts look partially fused.",
+            "The chain link through the pendant bail appears to penetrate the solid loop rather than pass cleanly through it."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Potion Flask",
+     "object": "a round glass flask of bright berry potion with a crystal stopper and a curled glass neck",
+     "theme_marker": "glowing colored liquid, round alchemy bottle, and crystal stopper",
+     "moment": "noon in the enchanted forest, the visitor sets out a small potion for the trail",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "mossy flat stone in the enchanted forest",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round glass flask of bright berry potion with a crystal stopper and a curled glass neck placed on mossy flat stone in the enchanted forest (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear potion flask on a cat 3 surface, but foliage/moss/rock detail feels a bit too busy and less reference-like; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Magic potion",
+           "defects": [
+            "Curled glass side handle/spout is attached only at the upper shoulder and ends in an open spiral, so it is not a functional handle and looks like a decorative appendage growing from the bottle",
+            "Crystal stopper appears to sit directly on the gold rim without a visible plug/cork section entering the bottle neck"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky stylized flask, clean purple background, readable silhouette and correct surface depth; only the top margin is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic potion",
+           "defects": [
+            "Curled side handle/spout attaches only to the upper neck and ends in a bulb, so it is not a functional handle or pouring spout.",
+            "Faceted crystal stopper sits on a gold disk with no visible cork or plug extending into the bottle neck."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the rendering is glossier/more detailed than the references and the added gold base makes the flask design slightly less simple; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Magic potion",
+           "defects": [
+            "Right-side glass handle/scroll has only one clear attachment to the bottle and curls into a free end, making it nonfunctional as a handle.",
+            "Liquid surface appears slightly tilted relative to the upright bottle and base.",
+            "Crystal stopper/cap seems partially fused into the gold collar rather than seated as a removable stopper."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Treasure Chest",
+     "object": "a small red treasure chest with an arched lid, gold bands, and a blue jewel lock",
+     "theme_marker": "arched treasure-chest lid with gold bands and jeweled lock",
+     "moment": "afternoon on the forest path, a harmless reward chest waits beside the route",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "green",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small red treasure chest with an arched lid, gold bands, and a blue jewel lock standing on a plain flat floor of lighter green, three-quarter view slightly from above. Behind it a plain vertical green wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong toy-like Township style, clear red arched treasure chest with gold bands and blue jewel; clean green floor/background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure Chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded forms, very readable silhouette, correct category 2 staging, bright clean colours, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear and polished in the right casual style; lock is large but still reads well and fits the requested object/category.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Treasure chest",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Magic Key",
+     "object": "a long gold key with a crystal bow, castle-shaped teeth, and soft blue glow",
+     "theme_marker": "oversized ornate key with crystal top and castle-shaped teeth",
+     "moment": "the visitor finds the key that opens the old mountain ruin gate",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a long gold key with a crystal bow, castle-shaped teeth, and soft blue glow, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky toy style; clear magic key with crystal bow and castle teeth, but it sits slightly too high for the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jeweled key",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean and readable, good colours and glow; crystal bow reads a bit more like a large gem cap than a bow, and top safe area is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jeweled key",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good style and colour; readable as a key, but the teeth are less castle-shaped and the object is a little high in frame.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jeweled key",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Stone Portal",
+     "object": "a circular ancient stone portal with floating blocks and a gentle blue magical center",
+     "theme_marker": "round standing portal ring made of ancient stones with a glowing center",
+     "moment": "golden hour in the mountain ruins, the day ends at the opened travel portal",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "round",
+     "category": 4,
+     "bg_color": "mint",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunlit mountain ruins with flat stones, soft grass, and distant warm cliffs",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a circular ancient stone portal with floating blocks and a gentle blue magical center in its real environment: sunlit mountain ruins with flat stones, soft grass, and distant warm cliffs; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear stone portal and strong hero framing; style is close, but the blue-sky background is not mint and red accents feel a bit too saturated.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic portal",
+           "defects": [
+            "Floating stone cubes around the portal are unconnected to any structure, though this may be an intentional magical effect.",
+            "The glowing blue portal/vortex is an impossible physical construction in real life.",
+            "Left and right red side plaques are slightly different in size and placement on the ring.",
+            "Stone blocks around the circular ring are unevenly sized and not perfectly aligned, with some seams not matching cleanly."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable circular portal with good chunky forms; background is clean but not mint, and the glow is slightly over-saturated.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic portal",
+           "defects": [
+            "Several stone blocks float unconnected above and beside the arch.",
+            "The object is a glowing magical portal, which is not a real-world construction.",
+            "Gold plaques contain spiral-like glyphs resembling stylized text/symbols."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clean toy-like stone portal, dominant in landscape, readable and polished; background is blue rather than mint.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic portal",
+           "defects": [
+            "Several stone blocks float unconnected around the top of the portal.",
+            "The glowing swirling portal surface is a magical/non-real physical element rather than a real constructed part."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Quest Lantern",
+     "object": "a bronze fantasy lantern with blue crystal panes, curled metal feet, and a tiny glowing flame",
+     "theme_marker": "ornate medieval lantern frame with crystal panes and curled metal feet",
+     "moment": "sunset at the ruins, the lantern is placed on the stones before heading home",
+     "class": "device",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat ancient stones in the mountain ruins",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bronze fantasy lantern with blue crystal panes, curled metal feet, and a tiny glowing flame placed on flat ancient stones in the mountain ruins (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_category"
+          ],
+          "comment": "Lantern is clear and appealing, but the ruined landscape is too deep/complex for category 3 and adds extra visual clutter; top clearance is tight.",
+          "mean": 7,
+          "hard": [
+           "wrong_category"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "lantern",
+           "defects": [
+            "Top carrying ring appears to penetrate/fuse into the round finial with no hinge or separate connector.",
+            "The lower feet are uneven and hard to parse: the center/front support and side curled feet merge into the base in an ambiguous way."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_category"
+          ],
+          "comment": "Best chunky toy-like lantern and very readable, with strong clean colours, but the outdoor ruins make the frame too scenic for category 3; top clearance is also tight.",
+          "mean": 8,
+          "hard": [
+           "wrong_category"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Magic Lantern",
+           "defects": [
+            "Top hanging ring appears fused into the round knob/top cap rather than connected by a distinct hinge or eyelet.",
+            "Bottom feet are slightly asymmetric: the curled front feet differ in shape/size, and an extra rear curled foot is visible on the right with no clear matching counterpart on the left.",
+            "Some foot scrolls merge directly into the base rim, making the support construction unclear."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_category"
+          ],
+          "comment": "Good stylized lantern and readable shape, but the ruin background is too deep and busy instead of a simple wall/interior; top clearance is tight.",
+          "mean": 8,
+          "hard": [
+           "wrong_category"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Lantern",
+           "defects": [
+            "Top hanging ring is fused into the round finial instead of being attached by a clear hinge or bracket.",
+            "Feet are asymmetric: the curled feet differ in size and shape, and the rear right foot appears partly merged into the base.",
+            "Small diamond ornament on the right side of the base protrudes awkwardly and has no matching visible counterpart."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": "Place the lantern on a simple textured stone or wooden surface with a clean red volumetric wall background, removing the ruin arches and distant landscape."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bronze fantasy lantern with blue crystal panes, curled metal feet, and a tiny glowing flame placed on flat ancient stones in the mountain ruins (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a bright heroic fantasy realm: a castle courtyard in the morning, an enchanted forest at noon, and mountain ruins with a glowing portal at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Place the lantern on a simple textured stone or wooden surface with a clean red volumetric wall background, removing the ruin arches and distant landscape.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear lantern on a category-3 stone surface, but the faceted panes/stone texture feel a bit more detailed than the reference style and the top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "lantern",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded toy-like lantern, very readable, bright red background and correct surface; only the top 12% clearance is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic lantern",
+           "defects": [
+            "Top hanging ring appears fused directly into the knob/cap with no separate hinge or connector.",
+            "Feet are asymmetrical: the two front curled feet differ in size/shape, and only one rear curled foot is visible while the matching rear foot is missing or hidden.",
+            "Some lower foot/base connections are ambiguous, with curled feet appearing partially melted into the lantern body."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good stylized lantern with clean materials and readable silhouette; top clearance is tight and it is slightly less distinctive than B.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lantern",
+           "defects": [
+            "Top carrying loop appears fused directly into the round knob/cap rather than attached by a clear hinge or bracket.",
+            "Front center foot/support is oddly shaped like a curled ornament and emerges from the middle of the base, making the support construction look unrealistic."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Skybound Realm",
+   "context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+   "place": "festival village square with cobblestones and wooden stalls; bright river bridge with carved stone rails; ancient grove with moss and giant mushrooms; cliff temple with broad stone steps",
+   "concept": "A festive, airy fantasy route about crowns, music, potions, magical nature, and a high temple in the clouds.",
+   "palette": "Light jewel tones, sunny stone, fresh greens, sky blues, and warm festival colors.",
+   "motif": "sun medallion",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Tiny Crown",
+     "object": "a small golden crown with rounded points, turquoise jewels, and a soft inner glow",
+     "theme_marker": "royal fantasy crown silhouette with jewel-tipped points",
+     "moment": "morning at the village festival, the visitor sees a ceremonial crown displayed for the day",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of sun medallion silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small golden crown with rounded points, turquoise jewels, and a soft inner glow, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and faint repeating pattern of sun medallion silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like golden crown, floating on turquoise patterned background; bright, rounded, and clean.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable rounded crown with good inner glow and saturated colours; matches the casual game style well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean stylized crown, strong silhouette and colour contrast; slightly simpler jewels but fully acceptable.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden crown",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Enchanted Harp",
+     "object": "a golden standing harp with a curled frame, blue crystal knobs, and thick glowing strings",
+     "theme_marker": "ornate fantasy harp frame with crystal knobs and magical strings",
+     "moment": "the village square fills with bright music before the visitor starts toward the river",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "soft gradient",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden standing harp with a curled frame, blue crystal knobs, and thick glowing strings standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with soft gradient. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized harp with good toy-like shapes and bright yellow card background; top margin is too tight for the required free area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden harp",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky polished game style, instantly readable silhouette, correct category 2 setup; top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "harp",
+           "defects": [
+            "Two short strings on the right are bent/warped instead of taut straight lines.",
+            "One right-side string appears to end in a small floating/isolated knob rather than clearly connecting to the soundboard.",
+            "Several string attachment knobs are unevenly spaced and partly merged into the top frame."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and on-style, though a bit busier with extra ornamentation; top margin is too small.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic harp",
+           "defects": [
+            "Several glowing strings have no visible lower attachment points and appear to vanish behind or into the body.",
+            "Upper tuning pegs/knobs do not clearly line up one-to-one with the strings.",
+            "Some strings appear to pass through or overlap the lower curved frame instead of attaching cleanly to it.",
+            "Decorative shapes on the base are asymmetric in size and placement."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Travel Cloak",
+     "object": "a folded emerald hooded cloak with a pointed hood, gold leaf clasp, and scalloped hem",
+     "theme_marker": "deep pointed hood and ornate clasp like fantasy travel clothing",
+     "moment": "the visitor picks up a light cloak from a festival stall for the road ahead",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "wooden market stall table in the festival village square",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a folded emerald hooded cloak with a pointed hood, gold leaf clasp, and scalloped hem placed on wooden market stall table in the festival village square (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean toy-like cloak, clear hood, clasp and scalloped hem; fits category 3 with bright purple wall and wooden surface.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Hooded cloak",
+           "defects": [
+            "Lower right side forms an odd sleeve-like tubular opening even though the object reads as a cloak, making the folded construction ambiguous.",
+            "Hood and body appear somewhat fused together at the neck/collar area with no clear seam or separate attachment point."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded forms, very readable folded hooded cloak, strong emerald/gold contrast, proper surface and background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "hooded cloak",
+           "defects": [
+            "Gold trim around the lower front edge is uneven and changes thickness, with some parts appearing merged into the green fabric.",
+            "Right lower edge forms a hollow rolled tube that reads like a sleeve or opening but is not clearly connected to any real cloak structure.",
+            "Folded base fabric is overly rounded and fused together, making the layers look partly melted rather than separate cloth folds."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong stylized cloak with clear pointed hood and scalloped hem; clasp is readable and no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Hooded cloak",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Star Flask",
+     "object": "a squat glass potion flask with pink juice, a star-shaped stopper, and a gold cord",
+     "theme_marker": "alchemy flask shape with glowing potion and star-shaped stopper",
+     "moment": "before crossing the bridge, the visitor tucks away a sparkling refreshment potion",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a squat glass potion flask with pink juice, a star-shaped stopper, and a gold cord, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and vertical stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like flask with correct green striped background; top of stopper is slightly too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [
+            "Rope loop and knot appear slightly fused/intersecting with the bottle neck instead of wrapping cleanly around it.",
+            "Dangling rope strands emerge from the knot at awkward overlapping angles, with unclear attachment geometry."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and matches the reference style well; object sits a bit high, leaving insufficient top free space.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky stylized flask and clean colours; stopper is too near the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion bottle",
+           "defects": [
+            "Star-shaped stopper has no visible plug or stem; it appears to sit directly on or penetrate the bottle mouth.",
+            "Rope knot and wrap are slightly fused/ambiguous, with the rope path not clearly continuous around the neck."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "River Bridge",
+     "object": "a pale arched stone bridge with carved gem lanterns and soft moss on the edges",
+     "theme_marker": "storybook stone arch bridge with jewel lanterns along the rail",
+     "moment": "noon, the visitor crosses the bright river on the old magical bridge",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "peach",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny river crossing with blue water, soft clouds, and green banks",
+     "view": "frontal, slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pale arched stone bridge with carved gem lanterns and soft moss on the edges in its real environment: sunny river crossing with blue water, soft clouds, and green banks; frontal, slightly from above; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 24.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like arched bridge with gems, lanterns and moss; strong hero framing, but background is blue/green rather than the requested peach.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stone bridge",
+           "defects": [
+            "Rear/top edge of the bridge appears to form a low wall across the walkway, making the crossing look partially blocked instead of open.",
+            "Side parapets and front arch stones merge together in places without clear structural joints.",
+            "Green moss patches are blob-like and fused onto stone edges, obscuring some block boundaries.",
+            "Left and right front pillars are not perfectly symmetric in block shapes and alignment."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to the reference style, readable pale stone bridge in landscape; colour is bright but misses the requested peach background.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stone bridge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and polished Township-like bridge; front lanterns are a bit dominant, and the background is not peach.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stone bridge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Glow Mushroom",
+     "object": "a single oversized violet mushroom with a turquoise glowing cap and tiny crystal spots",
+     "theme_marker": "giant luminous mushroom with crystal-like spots from an enchanted grove",
+     "moment": "afternoon in the ancient grove, the visitor follows the glow of a magical mushroom",
+     "class": "nature",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "mossy ground in the ancient grove",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a single oversized violet mushroom with a turquoise glowing cap and tiny crystal spots placed on mossy ground in the ancient grove (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear single glow mushroom with good bright blue background, but the grassy outdoor mound/rocks do not match category 3 interior/surface depth and the render feels a bit too glossy-AI.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Magic mushroom",
+           "defects": [
+            "Gem-like crystals are fused into the mushroom cap, an unrealistic/fantasy construction for a real mushroom",
+            "Underside gills are thick petal-like segments that merge irregularly into the stem"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and dominant object, but saturated grass/leaves compete with the mushroom and the outdoor setting misses the requested category 3 surface/interior feel.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal mushroom",
+           "defects": [
+            "Faceted crystals/gems protrude from the mushroom cap, which is a fantasy/non-real-life construction"
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best colour contrast and clear silhouette, but still an outdoor grassy mound rather than a proper category 3 textured tabletop/floor with soft wall background; style is close but visibly AI-glossy.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal mushroom",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Place one oversized violet glow mushroom on a simple wooden or stone surface in a soft blue interior background, with cleaner Township-style rounded forms and no outdoor grass or rocks."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a single oversized violet mushroom with a turquoise glowing cap and tiny crystal spots placed on mossy ground in the ancient grove (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Place one oversized violet glow mushroom on a simple wooden or stone surface in a soft blue interior background, with cleaner Township-style rounded forms and no outdoor grass or rocks.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like glow mushroom on wood with blue background; moss base is an extra prop and cap is a bit less turquoise.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal mushroom",
+           "defects": [
+            "Faceted crystal gems are embedded/growing out of the mushroom cap, which is not a real biological construction.",
+            "The underside gills are simplified into thick rounded lobes rather than thin natural mushroom gills."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky mushroom, clear and bright; top crystal is very close to the top safe area and moss base is extra.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal mushroom",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: dominant violet mushroom with turquoise glowing cap, clean blue background and wooden surface; only issue is the extra moss base.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "magic mushroom",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Magic Ring",
+     "object": "a thick silver ring with a large oval sapphire and small gold wings of filigree",
+     "theme_marker": "oversized jeweled ring with ornate medieval filigree",
+     "moment": "the ring shines when the visitor reaches the hidden path out of the grove",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "red",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a thick silver ring with a large oval sapphire and small gold wings of filigree, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: red with soft gradient and concentric circles. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky toy-like ring, clear oval sapphire and gold wing filigree on a clean red patterned background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jeweled ring",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear and polished, fits the category and background; sapphire is a bit rounder but still reads well as the requested ring.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Winged sapphire ring",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good stylized ring with clear sapphire and wings, clean colour and framing; slightly less distinctive silhouette than A.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "blue gemstone ring",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Copper Cauldron",
+     "object": "a bright copper cauldron with three stubby feet, green bubbles, and a blue jewel handle",
+     "theme_marker": "round magical cauldron with colored bubbles and jewel handle",
+     "moment": "near the cliff road, a small traveler’s cauldron warms a friendly brew",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "mint",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bright copper cauldron with three stubby feet, green bubbles, and a blue jewel handle standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky cauldron, clear and bright; bubbles come a little too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potion cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: rounded toy-like cauldron, clear silhouette, mint floor/background, bright copper and green bubbles, clean safe top.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potion cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good stylized cauldron with clear handle jewel and bubbles; slightly less centered on the requested jewel detail but no real defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potion cauldron",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Ancient Tome",
+     "object": "a teal closed tome with silver corner plates, a golden sun clasp, and no writing",
+     "theme_marker": "old magical book with metal corner plates and sun-shaped clasp",
+     "moment": "on the cliff temple steps, the visitor finds the final sealed page of the route",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of sun medallion silhouettes",
+     "surface": "broad pale stone step at the cliff temple",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a teal closed tome with silver corner plates, a golden sun clasp, and no writing placed on broad pale stone step at the cliff temple (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with faint repeating pattern of sun medallion silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear teal closed tome with sun clasp, strong toy-like style and correct orange interior/surface.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable, chunky stylized tome; clean colours and correct category 3 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sun spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clean rounded forms, dominant readable tome, good orange background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "spellbook",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Sky Temple",
+     "object": "a white stone cliff temple with tall columns, blue crystal caps, and floating step stones",
+     "theme_marker": "fantasy temple silhouette with crystal-topped columns and floating stones",
+     "moment": "golden hour, the visitor reaches the high temple above the clouds",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "lilac",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright cliff temple above soft clouds with warm sunlight and pale stone steps",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white stone cliff temple with tall columns, blue crystal caps, and floating step stones in its real environment: bright cliff temple above soft clouds with warm sunlight and pale stone steps; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 21.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like sky temple with columns, crystals and floating stones; background is blue rather than lilac and the top crystal sits too high for the safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal temple",
+           "defects": [
+            "Floating stone steps are separate and unconnected to each other or the main staircase.",
+            "The temple/rock base is floating in clouds with no physical support.",
+            "Side crystals are not perfectly symmetric in size/placement."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable central temple in the right stylized mobile-game look; wrong background colour and top crystal intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal Temple",
+           "defects": [
+            "Floating stepping stones in front are unconnected to any support, which is impossible construction in real life.",
+            "The temple appears to be built on a floating cliff/cloud platform, which is impossible in real life.",
+            "Central doorway/interior arch is asymmetric: the left inner column and arch details do not match the right side.",
+            "Several columns have slightly warped or uneven shafts rather than straight cylinders.",
+            "Side towers/side colonnades are not symmetrical; the left and right side structures differ in width, column placement, and roof alignment.",
+            "Some roof and cornice blocks are merged into adjacent columns/capitals instead of having clean separations.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 7
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong hero object and good materials, but the scene uses a blue sky instead of lilac and the top crystal is too close to the upper edge.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal Temple",
+           "defects": [
+            "Temple is a fantasy/impossible construction floating above clouds on a rock island.",
+            "Several foreground stepping stones are floating unconnected in midair.",
+            "Blue crystals mounted on the roof/columns are not real architectural parts, but they are consistently attached and symmetric enough.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": "Use a clean lilac sky background and leave the top 12% of the image empty above the temple."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white stone cliff temple with tall columns, blue crystal caps, and floating step stones in its real environment: bright cliff temple above soft clouds with warm sunlight and pale stone steps; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean lilac sky background and leave the top 12% of the image empty above the temple.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 20.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky temple, clear cliff and floating stones, bright lilac sky.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal temple",
+           "defects": [
+            "Left and right side towers/outer columns are not perfectly symmetric; their bases, rings, and crystal caps differ slightly in size and alignment.",
+            "Inner front columns are partly fused into the archway/entablature and their bases are obscured or merged with the stair rails.",
+            "Pediment sunburst pieces are uneven and some rays appear melted into the roof beam rather than being separate blocks.",
+            "Door arch blocks are irregular and slightly warped, with the glowing doorway not cleanly aligned to the outer arch.",
+            "Stair rails and lower platforms are asymmetric; the left and right sides have different shapes and connections.",
+            "Several foreground stepping stones appear to float separately with no visible support or connection.",
+            "Some stone seams are inconsistent or fade into the surface, especially on the steps and foreground stones."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 7
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable hero temple in sky setting; clean shapes and good colour contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal temple",
+           "defects": [
+            "Temple is on a floating rock island with no real-world support.",
+            "Foreground stepping stones float separately with no supports.",
+            "Side roof/beam sections appear to intersect or fuse into the round side towers rather than connecting cleanly.",
+            "Front lower plinth blocks and stair edges are slightly asymmetrical between left and right sides."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear central sky temple with columns, crystals and steps; polished casual-game style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sky Temple",
+           "defects": [
+            "Front stair side walls/rail blocks are asymmetrical in angle and length.",
+            "The paired front columns are not perfectly matched: capitals and shafts differ slightly in width and shape from left to right.",
+            "Some column bases and capitals appear partially embedded into the platform/roof blocks rather than cleanly joined.",
+            "Foreground stepping stones float unconnected from each other and from the staircase, if they are meant to be a physical walkway."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Beacon Oath",
+   "context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+   "place": "seaside citadel with cobblestones and pale arches; enchanted orchard with mossy stone benches and golden fruit trees; crystal cavern with daylight shafts and bright gems; hilltop beacon place with flat stone plinths",
+   "concept": "A coastal fantasy journey with noble armor, harmless magic, enchanted relics, glowing crystals, and a final beacon lighting.",
+   "palette": "Sea blues, pale stone, orchard greens, violet crystals, and warm peach sunset tones.",
+   "motif": "crescent leaf",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Mystic Egg",
+     "object": "a teal scaled dragon egg with golden cracks, a pearly glow, and a small crystal base",
+     "theme_marker": "large scaly magical egg with glowing cracks",
+     "moment": "morning at the seaside citadel, the visitor sees the relic displayed safely in the plaza",
+     "class": "other",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "blue",
+     "bg_treatment": "soft gradient",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a teal scaled dragon egg with golden cracks, a pearly glow, and a small crystal base, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: blue with soft gradient and soft gradient. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear egg and good blue background, but rendering is a bit too glossy/AI-polished for the reference style and the object enters the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correctly floating, but the pearly lighting and soft shadow feel more rendered than the simple toy-like references; top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and cleanest card fit; still slightly over-rendered/iridescent compared with the simpler reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Dragon egg",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Quest Boots",
+     "object": "a pair of brown pointed leather boots with curled toes, silver buckles, and leaf stitching",
+     "theme_marker": "curled pointed toes, silver buckles, and ornate fantasy stitching",
+     "moment": "the visitor steps across the citadel cobbles and gets ready for the long road",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of crescent leaf silhouettes",
+     "surface": "pale cobblestones in the seaside citadel",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown pointed leather boots with curled toes, silver buckles, and leaf stitching placed on pale cobblestones in the seaside citadel (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with faint repeating pattern of crescent leaf silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to reference style; clear pair of curled leather boots with buckles and leaf stitching on a stylized stone surface.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Elf boots",
+           "defects": [
+            "The ankle buckles are geometrically ambiguous: the leather strap/prong shapes appear fused into the buckle openings instead of being clearly hinged and threaded.",
+            "The two boots are slightly mismatched in shape and proportions, especially the cuffs and curled toe tips."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean chunky toy-like forms, readable boots, correct purple wall and textured surface; leaf stitching and buckles are clear.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "elf boots",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong style match and readability; requested details are clear, though the added toe leaves make it slightly busier.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Elf boots",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Herald Shield",
+     "object": "a red kite-shaped ceremonial shield with a gold rim, blue jewel boss, and scalloped top",
+     "theme_marker": "medieval kite shield shape with jewel boss and ornate rim",
+     "moment": "near the citadel arch, a ceremonial shield marks the visitor’s route out of town",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "mint",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red kite-shaped ceremonial shield with a gold rim, blue jewel boss, and scalloped top standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky shield, clear silhouette and colours; only slightly too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear and polished shield on correct mint floor/background; top margin is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good stylized shield with readable jewel and rim; slightly tight at the top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Shield",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Crescent Cup",
+     "object": "a silver chalice of glowing spring water with crescent handles and a blue gem stem",
+     "theme_marker": "ornate medieval chalice with crescent handles and glowing water",
+     "moment": "before leaving the seaside road, the visitor drinks cool magical spring water",
+     "class": "drink",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver chalice of glowing spring water with crescent handles and a blue gem stem, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating chalice, good orange rays, smooth toy-like rendering; slightly polished but fits well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "magic chalice",
+           "defects": [
+            "Left and right crescent handles are not symmetric in size, angle, or curvature.",
+            "Handle attachment knobs differ: the left connector is larger and more centered, while the right connector is smaller and set lower.",
+            "Decorative petal shapes on the bowl are uneven and partially fused into each other instead of being clean separate ornaments.",
+            "The faceted blue stem/gem is slightly off-center relative to the bowl and base."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but added flowers/petals in the water and extra gold ornamentation make it busier and less clean.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Moon chalice",
+           "defects": [
+            "Side crescent handles are ornamental horns attached at only one small cuff each, so they would not function as real handles.",
+            "Left and right crescent handles are not perfectly symmetric in size, curvature, and attachment height.",
+            "Gold scalloped trim around the bowl is slightly warped and uneven where the lobes meet the side cuffs."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: large dominant floating chalice, clean silhouette, bright contrast, smooth stylized materials.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic goblet",
+           "defects": [
+            "Left and right crescent handles are not symmetrical; they differ in size, curvature, and attachment height.",
+            "Crescent handles look more like solid horns than usable handles, with unclear/partly fused attachment points to the cup body.",
+            "Decorative petal shapes on the bowl are uneven and overlap/fuse into each other rather than forming clean separate pieces.",
+            "Lower petal decorations around the stem/base are asymmetric and partly melted into the support ring.",
+            "Stem construction is impractical: a faceted blue gem appears to be the main load-bearing connector between two rounded metal rings."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Citadel Gate",
+     "object": "a pale fantasy citadel gate with two rounded towers, teal roofs, and hanging pennants",
+     "theme_marker": "castle gate with paired towers, teal pointed roofs, and pennants",
+     "moment": "late morning, the visitor leaves the bright seaside citadel through the main gate",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "turquoise",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny seaside citadel entrance with pale stone, blue sea, and soft clouds",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pale fantasy citadel gate with two rounded towers, teal roofs, and hanging pennants in its real environment: sunny seaside citadel entrance with pale stone, blue sea, and soft clouds; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like toy style and very readable citadel gate; bright turquoise sky. Minor issue: top clearance is not free enough.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle gate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear fantasy gate in the right environment with good rounded forms and colours. Minor top-clearance issue.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle gate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: big dominant pale gate, teal roofs/doors and pennants, clean stylized materials. Minor top-clearance issue.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Castle gate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Sealed Scroll",
+     "object": "a rolled blank parchment scroll tied with green ribbon and a faceted wax seal",
+     "theme_marker": "curled parchment roll with ornate fantasy seal and ribbon, with no writing",
+     "moment": "noon in the enchanted orchard, the visitor checks the sealed route note on a bench",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "lilac",
+     "bg_treatment": "faint repeating pattern of crescent leaf silhouettes",
+     "surface": "mossy stone bench in the enchanted orchard",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rolled blank parchment scroll tied with green ribbon and a faceted wax seal placed on mossy stone bench in the enchanted orchard (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated lilac wall with faint repeating pattern of crescent leaf silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear scroll with good toy-like style, but the outdoor fruit trees/foliage add unnecessary extra detail.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Diploma scroll",
+           "defects": [
+            "Right end of the parchment is closed like a solid cylinder instead of showing a rolled paper edge or hollow spiral.",
+            "Left rolled end has an odd protruding central plug-like cylinder rather than a continuous paper spiral.",
+            "Green ribbon construction is ambiguous: the hanging tails seem to grow from behind the wax seal without a clear bow or attachment point.",
+            "Ribbon tails are asymmetrical, with an extra triangular flap on the right side."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable object, but background is busier with trees and fruits, making it less clean and less reference-like.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Sealed scroll",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clean lilac background, dominant readable scroll, chunky rounded game style, no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Scroll",
+           "defects": [
+            "Right end of the parchment is capped/smooth instead of showing the open rolled-paper spiral or hollow edge expected from the visible roll on the left.",
+            "Green ribbon wrap and hanging ribbon tails do not clearly connect; the tails appear to emerge from behind the wax seal rather than from a continuous tied ribbon.",
+            "Wax seal has a faceted gem-like center, which is not typical for a wax seal and makes the construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Golden Apple",
+     "object": "a shining golden orchard apple with a curled emerald leaf, tiny faceted crystal droplets, and a soft magical glow",
+     "theme_marker": "mythic glowing golden apple with crystal droplets and curled leaf",
+     "moment": "noon in the enchanted orchard, the visitor finds the bright fruit that marks the safe path onward",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shining golden orchard apple with a curled emerald leaf, tiny faceted crystal droplets, and a soft magical glow, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear golden apple, toy-like glossy style, sky-blue patterned background, no crop or extra objects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "golden apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-style, but the leaf comes a bit too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden Apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: dominant floating golden apple, curled emerald leaf, crystals and glow, clean sky-blue background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Golden apple",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Sky Mirror",
+     "object": "an oval standing mirror with a gold vine frame, blue glass, and small crescent feet",
+     "theme_marker": "ornate standing magic mirror with vine frame and crescent feet",
+     "moment": "at the crystal cavern entrance, the mirror reflects the safe glowing passage",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "peach",
+     "bg_treatment": "faint repeating pattern of crescent leaf silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of an oval standing mirror with a gold vine frame, blue glass, and small crescent feet standing on a plain flat floor of lighter peach, three-quarter view slightly from above. Behind it a plain vertical peach wall with faint repeating pattern of crescent leaf silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like mirror with good colours, but the top ornament is a bit too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "ornate mirror",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clean rounded Township-like styling, readable oval mirror, correct floor/background setup and no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic mirror",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong style and readability, but the object sits a little high/large with the top decoration close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Magic mirror",
+           "defects": [
+            "Two bottom feet are not symmetrical: the left foot is wider and curls differently from the right foot.",
+            "Gold vine/trim merges into the main frame in several places, making the construction unclear rather than separate attached pieces.",
+            "Some leaf clusters appear to grow directly out of the frame with no visible stem or attachment point."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Crystal Cluster",
+     "object": "a tall cluster of purple and blue crystals with broad facets and gentle inner light",
+     "theme_marker": "oversized glowing crystal cluster in a magical cavern",
+     "moment": "afternoon in the cavern road, the visitor follows the bright crystals toward the hill",
+     "class": "nature",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "green",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "friendly crystal cavern with daylight shafts, pale rocks, and glowing gem walls",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall cluster of purple and blue crystals with broad facets and gentle inner light in its real environment: friendly crystal cavern with daylight shafts, pale rocks, and glowing gem walls; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear hero crystal cluster in a matching stylized cave; bright and readable, but background is blue/stone rather than requested green.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best fit: chunky broad facets, strong central silhouette and dominant category-4 framing; colour is clean but lacks the requested green background.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and polished with good toy-like crystals, though side/background crystals make it a little busier and the background is not green.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Beacon Lantern",
+     "object": "a bronze beacon lantern with a faceted blue crystal flame and four curled feet",
+     "theme_marker": "large fantasy lantern with crystal flame and curled forged feet",
+     "moment": "sunset on the hilltop, the visitor lights the beacon to finish the day’s oath",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat stone plinth at the hilltop beacon place",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bronze beacon lantern with a faceted blue crystal flame and four curled feet placed on flat stone plinth at the hilltop beacon place (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear lantern with crystal and red background, but grass/stone detail feels a bit too illustrative and top space is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal lantern",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky toy-like lantern, clear silhouette, good red contrast; only the top safe area is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "magic lantern",
+           "defects": [
+            "Ornamental feet are asymmetric: the front foot is much larger and differently shaped than the left and right curled feet.",
+            "Foot connections are unclear and appear partly fused into the lower bowl/base rather than cleanly attached.",
+            "Glass panels are slightly warped and do not align evenly with the vertical frame supports."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but the small grass/stone details and slightly AI-polished rendering weaken style match; top space is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Crystal lantern",
+           "defects": [
+            "The feet are inconsistent: the left front foot is a wheel-like spiral, the front/right foot is a curled hook shape, and the rear/right foot is much smaller, so the matching set of legs is asymmetric.",
+            "Small dangling bumps under the lantern body read like extra partial legs or supports and are not clearly connected to any consistent structure.",
+            "The side glass panel/frame is warped and much narrower than the front panel, with uneven thickness compared to the other window frames."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 99,
+  "image_out": 122265,
+  "image_in": 120411,
+  "text_in_img": 38595,
+  "llm_calls": 233,
+  "llm_in": 153085,
+  "llm_out": 90733
+ }
+}

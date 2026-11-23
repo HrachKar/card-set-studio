@@ -1,0 +1,117 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space station with a ring and solar panels in its real environment: bright sky above a spaceport with soft clouds; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close Township style: chunky soft space station, clear ring and four panels, bright sky environment. Minor issue: antenna enters the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Space satellite",
+     "defects": [
+      "Main ring appears to intersect and fuse into the central sphere instead of attaching with clear supports.",
+      "The inner/rear parts of the ring are visible as separate curved pieces and look partly floating inside the outer rim.",
+      "Solar panels are not matching pairs: opposite panels differ in size, trapezoid shape, and grid layout more than perspective suggests.",
+      "Several solar-panel connector joints are asymmetric in length and angle, with struts seeming to grow directly out of the hull.",
+      "Window segments around the ring are unevenly sized and inconsistently spaced."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear hero space station with good rounded forms and bright clean colours. Slightly plastic but acceptable; top antenna is too close to the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "space satellite",
+     "defects": [
+      "Solar panel cell grids are inconsistent between panels: upper panels have different-looking cell layouts than the lower panels, and the lower-right panel has more cells than the lower-left.",
+      "Solar panels are not perfectly symmetric in size and shape; the lower-left panel appears shorter/wider than the lower-right panel.",
+      "The circular side ring appears to intersect/fuse into the central body instead of being clearly mounted with supports.",
+      "Ring lighting/details are asymmetric: the left side shows two glowing segments while the right side shows only one clearly visible segment.",
+      "Side ring/wing structure has warped perspective, with the left and right arcs not matching in thickness and curvature.",
+      "Some connector blocks between the body, arms, and panels are simplified/melted into adjacent parts rather than having clear mechanical joints."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and nicely dominant in the environment, with good warm game rendering. Only two panels visible and the antenna intrudes into the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "space station",
+     "defects": [
+      "No clear geometric defects visible.",
+      "No text or digits present."
+     ],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

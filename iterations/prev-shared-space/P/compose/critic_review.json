@@ -1,0 +1,37 @@
+[
+ {
+  "card": "HEADER",
+  "problem": "The shared place was mostly good, but category 3 objects needed clearer physical anchors for the spaceport concourse and canyon surfaces.",
+  "fix": "Kept one shared space-opera day and tightened the place line to include glossy info counters, cargo crates, stone counters, red sand and flat stones."
+ },
+ {
+  "card": "A2",
+  "problem": "The holo map moment happens while planning the route from the spaceport, but the object was placed on a star-cruiser hangar worktable, which weakens the one-day logic.",
+  "fix": "Moved it to a glossy information counter in the orbital spaceport concourse."
+ },
+ {
+  "card": "A9",
+  "problem": "Star Compass reads like an invented fantasy/sci-fi trinket and is close to the forbidden 'star disc' type of object.",
+  "fix": "Replaced it with macrobinoculars, a recognizable space-opera travel object with a clear twin-lens silhouette."
+ },
+ {
+  "card": "B6",
+  "problem": "Hydro Fruit is an invented food item and does not instantly read as space opera without the caption.",
+  "fix": "Replaced it with a sealed blue milk bottle with a spill-proof straw cap and magnetic base, keeping the market snack/drink moment."
+ },
+ {
+  "card": "C1",
+  "problem": "Flight Gloves were a little generic at thumbnail size; glowing panels alone were not a strong enough space-opera silhouette.",
+  "fix": "Strengthened them into magnetic flight gauntlets with wrist comm panels, chunky cuffs and glowing palm pads."
+ },
+ {
+  "card": "C9",
+  "problem": "Orbit Key was an invented object and too abstract for instant theme recognition.",
+  "fix": "Replaced it with nav goggles/macrobinocular-style travel gear with twin lenses, antenna and holographic range glow."
+ },
+ {
+  "card": "C10",
+  "problem": "Moon Cactus was an invented alien plant and could read as generic fantasy desert rather than space opera.",
+  "fix": "Replaced it with a meteorite shard on canyon stones, a real space object with a clear alien-planet moment."
+ }
+]

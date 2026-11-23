@@ -1,0 +1,126 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a slim white and red rooftop lookout tower with a rounded shield balcony and two small cape-like awnings in its real environment: sunny plaza skyline with warm clouds and distant soft city rooftops; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city patrol route: morning in a hidden gadget lab, late morning on a downtown sidewalk, midday across sunny rooftops, and sunset at a plaza lookout.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean pink sky/background and leave the top 12% empty above the tower.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 21.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 20.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 20.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close Township-like toy forms and clear pink sky setting; shield balcony and awnings read well. Top clearance is a bit tight.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Side awning-like roof pieces on the lantern room are unrealistic protrusions and appear oddly hollow/flared.",
+      "Left and right side awnings are not symmetric in shape and angle.",
+      "Front railing is fused into the central shield emblem instead of passing behind or attaching cleanly.",
+      "Railing posts are uneven and some appear merged into the glowing window panels.",
+      "Lantern-room window mullions are slightly warped and not evenly spaced.",
+      "Small support blocks under the balcony are asymmetric and look partly fused into the underside."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: clean rounded stylized tower, strong shield balcony, clear small awnings, bright pink background. Slightly tight at the top.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "The two flared red-and-white side pieces under the balcony look like horn-shaped awnings/brackets and are not realistic lighthouse parts.",
+      "Those side flared pieces are asymmetrical in shape and attachment, with the left and right ends curving differently.",
+      "The balcony railing is partly fused into a large front shield panel, interrupting the rail in an unusual construction.",
+      "Some vertical lantern-room posts and railing posts are unevenly spaced and do not align cleanly.",
+      "The tower and balcony rings look slightly warped/melted rather than perfectly cylindrical."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and polished, but a little chunkier and the awnings have extra yellow accents; top clearance is tight.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Side awnings are not symmetrical: the left droops and curls differently from the right, with different opening shapes.",
+      "Some lantern window mullions and glass panes are slightly uneven/warped rather than forming a clean circular lantern room.",
+      "Balcony wall panels vary irregularly in size and alignment around the front.",
+      "Under-balcony support blocks are unevenly shaped and spaced, with the center support looking partly fused into the red band.",
+      "No text or digits."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

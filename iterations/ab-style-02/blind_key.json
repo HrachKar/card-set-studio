@@ -1,0 +1,38 @@
+{
+ "1. Space Helmet": {
+  "W": "V3_both",
+  "X": "V2_noplastic",
+  "Y": "ctrl",
+  "Z": "V1_no3d"
+ },
+ "2. Potion": {
+  "W": "ctrl",
+  "X": "V3_both",
+  "Y": "V2_noplastic",
+  "Z": "V1_no3d"
+ },
+ "3. Pilot Seat": {
+  "W": "V1_no3d",
+  "X": "V2_noplastic",
+  "Y": "ctrl",
+  "Z": "V3_both"
+ },
+ "4. Saddle": {
+  "W": "V1_no3d",
+  "X": "ctrl",
+  "Y": "V2_noplastic",
+  "Z": "V3_both"
+ },
+ "5. Food Tray": {
+  "W": "V3_both",
+  "X": "V2_noplastic",
+  "Y": "ctrl",
+  "Z": "V1_no3d"
+ },
+ "6. Hero Jet": {
+  "W": "ctrl",
+  "X": "V3_both",
+  "Y": "V1_no3d",
+  "Z": "V2_noplastic"
+ }
+}

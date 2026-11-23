@@ -1,0 +1,102 @@
+[
+ {
+  "card": "A1",
+  "problem": "OK: sheriff star badge is iconic, readable, kid-friendly, and belongs to Frontier Town.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A2",
+  "problem": "OK: pointed boots with spurs and stitched shafts have a strong Wild West silhouette.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A3",
+  "problem": "Minor: the trough belongs in the town, but the category 3 background was too abstract for an outdoor main-street surface.",
+  "fix": "Kept the object and surface, changed the background treatment to a blurred frontier storefront exterior."
+ },
+ {
+  "card": "A4",
+  "problem": "OK: covered wagon is iconic and clearly sits in the Frontier Town street environment.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A5",
+  "problem": "OK: horseshoe is a strong Wild West icon and readable as a floating hand-sized object.",
+  "fix": "Kept, with a sharper concrete marker."
+ },
+ {
+  "card": "A6",
+  "problem": "Category 3 used diagonal stripes, which is a category 1/2 background treatment. The potted cactus is physically fine on a boardwalk, but it needed a matching town backdrop.",
+  "fix": "Kept the potted saguaro and boardwalk surface, changed the background to a blurred frontier storefront exterior."
+ },
+ {
+  "card": "A7",
+  "problem": "OK: honda loop and coiled rope silhouette make it read as a lasso, not a generic rope.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A8",
+  "problem": "OK: sheriff office with a star emblem is clear architecture inside the town environment and uses no text.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A9",
+  "problem": "OK: saddle on a stand is a complete freestanding object with strong western markers.",
+  "fix": "Kept."
+ },
+ {
+  "card": "A10",
+  "problem": "Batwing swinging doors read as saloon doors, which risks an alcohol association, and a doorway fragment is less satisfying as a single object.",
+  "fix": "Replaced with a whole hitching rail on the dusty ground beside the boardwalk, using horseshoe caps and a tied lasso as the theme marker."
+ },
+ {
+  "card": "B1",
+  "problem": "OK: gold pouch with visible nuggets and a pickaxe clasp reads Gold Rush clearly.",
+  "fix": "Kept."
+ },
+ {
+  "card": "B2",
+  "problem": "The oil lantern was too generic; the tiny nugget charm would disappear at thumbnail size, and the red object on orange background had weak contrast.",
+  "fix": "Rebuilt it as a lantern locked into a chunky crossed-pickaxe stand and changed the background to green."
+ },
+ {
+  "card": "B3",
+  "problem": "OK object and surface: tin coffee pot on campfire stones belongs in the creekside camp. Background rhythm needed adjustment after color fixes.",
+  "fix": "Kept the object and surface, changed the background color to peach and used a blurred creekside camp backdrop."
+ },
+ {
+  "card": "B4",
+  "problem": "OK: prospector tent is big, readable, and clearly inside the Gold Rush camp environment.",
+  "fix": "Kept."
+ },
+ {
+  "card": "B5",
+  "problem": "OK: pickaxe with a visible nugget is a clear Gold Rush tool, not a weapon.",
+  "fix": "Kept."
+ },
+ {
+  "card": "B6",
+  "problem": "OK: ore cart with gold rocks and chunky rail base is readable mining transport.",
+  "fix": "Kept."
+ },
+ {
+  "card": "B7",
+  "problem": "A nugget pile in a leather tray reads as generic treasure, not clearly Wild West/Gold Rush. Also, soft waves are not a valid category 3 treatment.",
+  "fix": "Replaced with a miner's ore bucket overflowing with ore and gold chunks on a rough camp crate, with a valid category 3 camp backdrop."
+ },
+ {
+  "card": "B8",
+  "problem": "The blank claim stake is text-dependent and too generic without a caption; a player may see only a flag on a post.",
+  "fix": "Replaced with a timber mine portal with chunky rails and a gold pile at the mouth, placed in the bright creekside Gold Rush camp."
+ },
+ {
+  "card": "B9",
+  "problem": "OK: wide-brim prospector hat with chin cord and nugget pin reads frontier/Gold Rush.",
+  "fix": "Kept."
+ },
+ {
+  "card": "B10",
+  "problem": "OK: balance scale weighing nuggets is a clear Gold Rush camp device and sits logically on an assay crate.",
+  "fix": "Kept."
+ }
+]

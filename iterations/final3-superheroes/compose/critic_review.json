@@ -1,0 +1,22 @@
+[
+ {
+  "card": "A10",
+  "problem": "The moment says the object is on the hero hall terrace, but the surface/background place says rooftop training terrace. The card drifts between two places in the shared day.",
+  "fix": "Keep the beacon, but place it physically on the hero hall open terrace: polished stone terrace floor beside a safety rail, with a simple hero hall terrace background."
+ },
+ {
+  "card": "B10",
+  "problem": "A landing pad is a fixed rooftop installation, but it is treated like a freestanding category 3 object on the training terrace while the moment is at sunset on the hero hall terrace. It also feels more like generic sci-fi infrastructure than a handled/seen object in this tourist day.",
+  "fix": "Replace it with a freestanding padded superhero landing mat on the hero hall terrace, with a starburst target and thick safety rim. This keeps the category, place and moment but makes the object physically sensible and kid-friendly."
+ },
+ {
+  "card": "C2",
+  "problem": "Rocket pack is the third wearable flight-pack type across the three variants, breaking the variant diversity rule. It also overlaps too closely with A2 Jetpack and B2 Glider Pack.",
+  "fix": "Replace it with a different rooftop training object: a tall padded kite-shaped rescue shield on a small display base. It is safe, superhero-readable, and not a protected round star shield."
+ },
+ {
+  "card": "C6",
+  "problem": "Power Crystal is an invented generic origin artifact and could be swapped for any random glowing object without changing the day. It is less concrete and less instantly superhero than the costume and city objects around it.",
+  "fix": "Replace it with a displayed superhero chest emblem under a clear dome on a hero hall plinth. The object is a familiar superhero archetype and fits the golden-hour hall exhibit moment."
+ }
+]

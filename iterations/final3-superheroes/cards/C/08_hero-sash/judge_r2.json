@@ -1,0 +1,125 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a diagonal red superhero sash with a big yellow starburst buckle and flared shoulder tab, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and faint repeating pattern of small flying cape silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 16.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 15.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 16.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong toy-like Township style and clear red sash with starburst buckle; object sits a little too high for the top-safe area.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero Headband",
+     "defects": [
+      "Star emblem has uneven, asymmetric points rather than a regular star shape.",
+      "Yellow stripe/trim changes form from a flat band on the left into two narrow rails on the right, making the construction unclear.",
+      "Right-side fan/cape decoration is physically ambiguous: red panels and yellow edging merge into the band with no clear attachment structure."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable and close to reference style, but the shoulder tab is too close to the top edge.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero belt",
+     "defects": [
+      "Right end of the strap splits into three rounded cape-like flaps instead of forming a normal belt end",
+      "The belt has no visible fastening mechanism such as holes, prong, snap, or clasp; the buckle is only decorative",
+      "Central buckle and side keeper loops appear fused into the strap rather than clearly threaded through it",
+      "Upper-right circular button is attached to a distorted folded end and does not correspond to any real belt construction"
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clean chunky stylized sash, clear silhouette, correct floating category 1 framing, bright pink background, no defects.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind",
+     "severe_distortion"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "superhero boot",
+     "defects": [
+      "Boot body is banana-shaped and tube-like instead of having a clear foot, ankle, heel, and sole.",
+      "Toe/front end appears hollow or open, like a cut tube, which is impossible for a boot.",
+      "No visible heel or flat sole, so it could not stand or be worn like a real boot.",
+      "Upper cuff opening and foot section blend into one continuous melted form, making the construction unclear.",
+      "Yellow side wing/fan ornament is fused into the upper boot edge rather than attached with a believable strap or seam.",
+      "Round star badge and side tabs intersect the boot surface and do not wrap around the boot consistently.",
+      "Left and right side tabs beside the star badge are asymmetric in size and shape."
+     ],
+     "distortion": "severe",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}
