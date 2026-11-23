@@ -1,0 +1,114 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of an open silver space-ration kit with molded hex compartments, sealed foil meal capsules and a clip-on blue water bulb placed on brushed metal cantina counter (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated lilac wall with faint repeating pattern of four-point star silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning arrival at an orbital starport, noon in the bright cantina concourse, afternoon in the hangar, and golden-hour departure from a desert moon outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clear open silver ration kit with hex compartments, foil capsules and blue bulb; slightly too glossy/detailed sci-fi metal for exact Township style.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Bento box",
+     "defects": [
+      "Blue bottle has an impossible gold handle/strap fused into the neck/cap and not clearly attached on both ends.",
+      "Bottle cap/neck is warped and not aligned cleanly with the round bottle body.",
+      "Hinge barrels are uneven and appear partially merged into the box edge rather than built as a continuous pin hinge.",
+      "Inner lid honeycomb panels are irregular and melted-looking, with uneven cell shapes."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear and colourful, good category 3 setup, but compartments are less convincingly hex-molded and the glossy metal/foil feels a bit over-rendered.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Lunch box",
+     "defects": [
+      "Blue bottle's handle/strap is constructed impossibly: it is a rigid bent tube with one end fused into a ring on the cap and the other end apparently floating or stuck onto the cap with no real attachment.",
+      "The bottle neck/cap area is ambiguous and partly melted together; the blue ring, gray cap, and handle do not connect like a real bottle closure.",
+      "Interior dividers form irregular, warped compartments and appear fused into the food/candy areas rather than being clean separate walls.",
+      "The left and right hinge barrels are not aligned symmetrically and appear only partially connected to the lid/base."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable open ration case on surface, but the water bulb placement is less natural and the tray compartments are less hex-like; rendering is a bit too shiny/detailed.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Lunch box",
+     "defects": [
+      "Hinge area is simplified: the two hinge blocks appear as separate rectangular lumps with no visible pin or continuous mechanical connection.",
+      "Bottle side clips are ambiguous and seem to partly float or merge into the bottle recess rather than clearly attaching to the lid."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

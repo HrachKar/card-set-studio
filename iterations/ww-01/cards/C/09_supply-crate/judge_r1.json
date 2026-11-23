@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a square wooden supply crate with pale metal corner plates placed on a rough stone mine floor (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 86.0,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 85.4,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 9,
+    "category": 10,
+    "readability": 9,
+    "object": 10,
+    "defects": [],
+    "comment": "Strong stylized 3D match with warm lighting, chunky crate, pale metal corner plates, pink volumetric background and textured stone surface; diagonal planks add slight visual busyness.",
+    "mean": 9.5,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 10,
+    "category": 10,
+    "readability": 10,
+    "object": 10,
+    "defects": [],
+    "comment": "Excellent match to reference style and category: clean chunky wooden supply crate, clear pale metal plates, readable silhouette, pink background, realistic textured stone surface.",
+    "mean": 10.0,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

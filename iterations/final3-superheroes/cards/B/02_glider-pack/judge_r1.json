@@ -1,0 +1,110 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white superhero glider backpack with folded blue cape-shaped wings and red shoulder straps standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 16.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 16.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear toy-like glider backpack, bright yellow cat-2 setup; matches style well.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "superhero backpack",
+     "defects": [
+      "Left red shoulder strap forms an oversized loop and its lower end disappears behind/into the backpack base, making the attachment point unclear.",
+      "Right rear red shoulder strap is only a short partial arch visible behind the handle and does not visibly match the full left strap.",
+      "Side connectors are asymmetric: the left side has a large yellow circular button, while the right side only shows a small pale connector with no matching yellow cap.",
+      "Blue cape-like side panels replace normal backpack side pockets/straps, making the construction somewhat fantastical rather than a standard real-life backpack."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded backpack with folded blue cape wings and red straps, clean readable silhouette.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "hero backpack",
+     "defects": [
+      "right shoulder strap is only a short arch behind the top and has no visible lower continuation or attachment",
+      "left shoulder strap buckle appears embedded in or floating over the strap rather than functioning as a real adjustable buckle",
+      "blue side panels look like stiff cape/wing pieces fused to the side rivets instead of usable backpack pockets or fabric"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Good style and colour; object reads well, though slightly more back-facing than B.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Superhero backpack",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

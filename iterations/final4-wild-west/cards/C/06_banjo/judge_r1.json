@@ -1,0 +1,116 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden banjo with a round drum body and a long neck placed on a hay bale (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear chunky wooden banjo in matching soft casual style; good pink background and floor, but the neck enters the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Banjo",
+     "defects": [
+      "Four strings converge awkwardly at the headstock and do not clearly connect to the four tuning pegs.",
+      "Tuning hardware and string anchors are decorative rather than functional: the strings appear attached to small pins on the face instead of to the side pegs.",
+      "Some fret bars are slightly warped and unevenly spaced along the neck."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 1,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and well styled, but the composition is too tight with little surface/interior depth and the headstock is too close to the top.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "banjo",
+     "defects": [
+      "Headstock has mismatched/extra tuning knobs: two on the left but about three on the right, while only four strings are present.",
+      "Strings do not clearly connect to matching tuning pegs; several terminate or merge near the headstock instead of wrapping around posts.",
+      "Tuning posts/knobs are irregularly placed and asymmetric between the two sides of the headstock.",
+      "The bridge appears too short and slightly misplaced, not clearly supporting all strings."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong readable banjo with good category-3 floor and pink wall; slight metal rim is acceptable, but the top safe area is not free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "banjo",
+     "defects": [
+      "Tuning hardware is inconsistent: four side tuner knobs are visible, but three round posts/caps appear on the headstock face and do not clearly match the strings.",
+      "Some strings do not terminate cleanly at individual tuning posts; they appear to converge or disappear near the headstock.",
+      "String count appears inconsistent along the instrument, with more/clearer string lines on the body than can be matched to the headstock hardware.",
+      "Frets are rendered as thick raised bands wrapped around the neck rather than thin metal fret wires set into the fingerboard.",
+      "The neck-to-body joint is slightly melted into the rim/body instead of having a clear constructed heel joint."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "A",
+  "fix": "Leave more empty pink background above the banjo so the top 12% is completely clear."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

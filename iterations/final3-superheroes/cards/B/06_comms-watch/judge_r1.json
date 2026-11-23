@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky yellow wrist communicator with a round red call button and tiny blue cape-fin antenna placed on brushed metal worktable in the rescue workshop (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with faint repeating pattern of small flying cape silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 18.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear object and good blue contrast, but too glossy/realistic with fine metallic table texture and repeated background emblems.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Smartwatch",
+     "defects": [
+      "Top blue antenna/flag-like protrusion grows out of the watch body and has an unrealistic melted cloth shape for a smartwatch antenna.",
+      "Watch strap and round case are fused together without proper lugs or pins.",
+      "Right-side blue/yellow side control is attached to a blue bridge that wraps into the strap instead of being a normal button on the case.",
+      "Rear wristband loop has inconsistent thickness and appears to merge into the watch case on the left side.",
+      "Front lower strap segment is partially swallowed by the case and does not align cleanly with the rear band loop.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best silhouette and strong category-3 setup, but still over-rendered/glossy with brushed-metal texture and extra cape pattern in the background.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Smartwatch",
+     "defects": [
+      "Blue flag-like antenna on top is an unrealistic watch part and appears fused to the crown",
+      "Bottom yellow lugs look slightly melted into the blue strap rather than clearly attached",
+      "Side blue buttons are not perfectly symmetric in size/placement"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and bright, but slightly too realistic/glossy, with fine table texture and decorative background icons.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Kids smartwatch",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": "Make it smoother and more toy-like, with a simple clean blue wall and less glossy/fine-textured metal surface."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

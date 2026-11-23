@@ -1,0 +1,127 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big round-nosed white and orange passenger starship with stubby wings in its real environment: sunny spaceport with landing pads and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 16.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 17.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 20.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear chunky orange-white passenger craft in a bright airport scene, but it reads a bit like glossy plastic toy airplane rather than soft rendered metal starship.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "airplane",
+     "defects": [
+      "Left main landing gear wheels are melted together and lack a clear connecting strut.",
+      "Rear landing gear positions are confusing: one small wheel set appears under the center of the fuselage while the opposite main gear is not clearly paired or symmetric.",
+      "Right wing is mostly missing/hidden, appearing only as a small stub compared with the large left wing.",
+      "Top of the fuselage has an odd orange hump/extra rounded piece that does not correspond to a normal airplane part.",
+      "Panel seams on the oversized nose are irregular and make the nose look like fused toy segments."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable and dominant with good bright contrast, but the shiny toy-like surfaces and golden windows push it away from the reference style.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "toy airplane",
+     "defects": [
+      "Left main landing gear appears as two fused wheels with no clear strut or axle connection to the airplane.",
+      "Front landing gear is offset to one side under the nose rather than centered, with an awkward bent strut.",
+      "Far/right engine is only loosely connected to the wing and appears partly floating behind it.",
+      "Horizontal tail stabilizers are missing; only the vertical tail fin is visible.",
+      "Wing and engine shapes merge into the fuselage in a soft, toy-like way with unclear attachment points."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong central silhouette and clean colours; closest overall, though still too plastic/airplane-like compared with Township-style softly rendered real materials.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Airplane",
+     "defects": [
+      "Missing horizontal tail stabilizers/elevators.",
+      "Landing gear uses blocky foot-like pads instead of wheels, which is impossible for a real airplane.",
+      "No visible nose wheel or tail wheel to support the aircraft.",
+      "Left and right landing gear are asymmetric in shape and angle.",
+      "Passenger windows are uneven in size, spacing, and alignment.",
+      "Cockpit windows are warped/asymmetric, with an extra narrow side pane on the right.",
+      "Engines/nacelles are heavily simplified and appear partially merged into the wings/fuselage."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 7
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

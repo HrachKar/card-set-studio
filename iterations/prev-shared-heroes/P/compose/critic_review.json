@@ -1,0 +1,77 @@
+[
+ {
+  "card": "Header",
+  "problem": "The shared place mentioned HQ display lockers and training floor, but some cards used an HQ workbench. That breaks the place rule unless the workbench is part of the shared day.",
+  "fix": "Added the HQ workbench to the shared place line in all variants, word for word."
+ },
+ {
+  "card": "A2",
+  "problem": "Teal object on a green background was close in hue and could lose readability at thumbnail size.",
+  "fix": "Changed the background to red for stronger contrast."
+ },
+ {
+  "card": "A3",
+  "problem": "Red boots on an orange background had weak colour separation.",
+  "fix": "Changed the background to lilac."
+ },
+ {
+  "card": "A4",
+  "problem": "Turquoise booth on a mint card colour was too close in hue.",
+  "fix": "Changed the card colour to yellow while keeping the downtown plaza environment."
+ },
+ {
+  "card": "A6",
+  "problem": "The moment says the mask is on a café table, but category 1 showed it floating with no surface. The object had a real day-moment that was not represented.",
+  "fix": "Moved it to category 3 on a downtown café table with a matching plaza background."
+ },
+ {
+  "card": "A8",
+  "problem": "A utility belt as category 2 on a plain floor is physically awkward; it is a hand-sized costume icon and reads better floating. The motif was also underused in the variant.",
+  "fix": "Changed it to category 1 and used the lightning-bolt pattern on the background."
+ },
+ {
+  "card": "A10",
+  "problem": "White-and-orange gauntlet on peach was low contrast and the workbench needed to be covered by the shared place.",
+  "fix": "Changed the background colour to mint and added the workbench to the shared place."
+ },
+ {
+  "card": "B1",
+  "problem": "Sky-blue mask on sky-blue background violates the contrast rule.",
+  "fix": "Changed the background to yellow."
+ },
+ {
+  "card": "B2",
+  "problem": "Red glove on orange background had weak contrast.",
+  "fix": "Changed the background to blue."
+ },
+ {
+  "card": "B5",
+  "problem": "The quick-change booth needed a cleaner contrast colour than a sky-like hue close to its mint body.",
+  "fix": "Changed the card colour to lilac while keeping the bright downtown environment."
+ },
+ {
+  "card": "B8",
+  "problem": "The flight board felt like an invented gadget and less like a familiar superhero archetype, so it failed the instant-theme test compared with stronger genre icons.",
+  "fix": "Replaced it with a bright hero jet pack with shoulder straps and cape-shaped fins."
+ },
+ {
+  "card": "C2",
+  "problem": "Teal details on a blue background were too close in hue.",
+  "fix": "Changed the background to red."
+ },
+ {
+  "card": "C3",
+  "problem": "The mint gauntlet on peach worked, but the surrounding row needed stronger colour rhythm after fixes.",
+  "fix": "Changed the background to purple for clearer contrast."
+ },
+ {
+  "card": "C5",
+  "problem": "The signal badge relied mainly on a small emblem; at thumbnail size it could read as a generic badge rather than superheroes.",
+  "fix": "Replaced it with a chunky superhero signal cuff whose silhouette has flared cuff and cape-fin sides."
+ },
+ {
+  "card": "C6",
+  "problem": "The skyboard was both same-hue with its turquoise background and less familiar as a superhero archetype.",
+  "fix": "Replaced it with a utility belt clipped around a display stand, with oversized pouches and cape-tab side flares."
+ }
+]

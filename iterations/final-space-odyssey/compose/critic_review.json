@@ -1,0 +1,152 @@
+[
+ {
+  "card": "A1",
+  "problem": "Pass: iconic astronaut helmet, clear lunar-day moment, strong space silhouette, no place or family-safety issue.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A2",
+  "problem": "Pass: life-support pack belongs to suiting-up routine and reads as space equipment without caption.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A3",
+  "problem": "Pass: lunar rock is generic only if isolated, but the cratered form plus lunar-dust surface and sample moment make it fit this cartographer's Moon-base day.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A4",
+  "problem": "Pass: glove is a complete hand-held suit item with a strong sealed wrist-ring marker.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A5",
+  "problem": "Pass: habitat dome clearly establishes the Moon base place and belongs in the crater-yard environment.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A6",
+  "problem": "Pass: sample capsule is handled during the cartographer's day and sits on a believable exterior work tray.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A7",
+  "problem": "Pass: thermos could be generic, but the hose straw, bulb body and magnetic feet make it read as zero-gravity space gear.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A8",
+  "problem": "Pass: boots are suit-specific with pressure locks and ribbed lunar soles; they are not modern generic boots.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A9",
+  "problem": "Pass: fixed hatch is placed in category 3 with the base wall and deck, so it is not incorrectly floating as a freestanding object.",
+  "fix": "Keep."
+ },
+ {
+  "card": "A10",
+  "problem": "Cross-variant conflict: the rover carried a dish antenna while C6 is a radio dish card; the same kind of space dish should not appear across variants.",
+  "fix": "Remove the dish detail from the rover and use a tall sensor mast/sample basket instead, keeping the rover's oversized ribbed wheels as the main theme marker."
+ },
+ {
+  "card": "B1",
+  "problem": "Pass: ringed-planet donut is readable, food-based, and directly belongs to the cook's breakfast routine.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B2",
+  "problem": "Pass: food synthesizer shows the cook's job and has a strong retro spacecraft appliance silhouette.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B3",
+  "problem": "Pass: sealed shake cup sits on a believable magnetic diner counter and reads as zero-gravity drink service.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B4",
+  "problem": "Pass: tray is part of the cook/server routine; floating snack cubes make the sci-fi marker visible.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B5",
+  "problem": "Moment issue: the old wording said the whole diner gleams outside the porthole, which is physically unclear if the cook is inside it.",
+  "fix": "Keep the exterior diner module as a category 4 establishing place card, but change the moment to the cook opening this module for the day rather than seeing the whole diner through its own porthole."
+ },
+ {
+  "card": "B6",
+  "problem": "Pass: rocket-shaped fridge is a diner device with fins and porthole handle, and it sits on the correct interior floor.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B7",
+  "problem": "Pass: cratered muffin with comet frosting is playful, food-safe and tied to the space cook's snack service.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B8",
+  "problem": "Colour conflict: the red stool was placed on a red background, so the object would lose contrast and break the no-same-hue rule.",
+  "fix": "Change the background colour to lilac while keeping diagonal stripes."
+ },
+ {
+  "card": "B9",
+  "problem": "Pass: counter and porthole are shown as an interior category 3 scene, with the cook's cleaning moment visible through objects.",
+  "fix": "Keep."
+ },
+ {
+  "card": "B10",
+  "problem": "Pass: supply pod is a believable closing-time ingredient delivery object in a bright orbital dock.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C1",
+  "problem": "Pass: goggles are a complete accessory with sealed visor styling and fit the keeper's morning lens-polish routine.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C2",
+  "problem": "Pass: telescope clearly shows observatory work and is readable at thumbnail scale.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C3",
+  "problem": "Pass: comet ice is stylized but readable as a safe display sample on the asteroid platform and supports the comet-watch day.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C4",
+  "problem": "Pass: handheld star chart has orbit rings and constellation dots, so it is not just a generic disc.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C5",
+  "problem": "Cross-variant and within-variant conflict: the satellite had a small dish while C6 is already a radio dish, and A10 also had a dish detail.",
+  "fix": "Replace the satellite dish with a gold sensor nose so the satellite remains readable through solar wings without repeating the dish object."
+ },
+ {
+  "card": "C6",
+  "problem": "Pass after dish de-duplication elsewhere: radio dish is now the single dish object and stands on a believable bolted asteroid platform.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C7",
+  "problem": "Pass: orbit compass is a small space-navigation accessory with a clear planet-and-ring marker tied to the keeper's walk between stations.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C8",
+  "problem": "Pass: planetarium projector belongs to the observatory keeper's lesson/prep routine and has a strong spherical star-projector silhouette.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C9",
+  "problem": "Pass: console is specific to comet logging with a circular orbit display and sits inside the shelter on a real desk surface.",
+  "fix": "Keep."
+ },
+ {
+  "card": "C10",
+  "problem": "Pass: tracking spire is a large place object in the asteroid environment and closes the day with a clear comet-tracking moment.",
+  "fix": "Keep."
+ }
+]

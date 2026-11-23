@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cream canvas prospector tent with brown wooden poles in its real environment: sunny camp clearing with sandy ground, small shrubs, and distant warm hills under a bright sky; frontal, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 82.2,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 85.2,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 9,
+    "category": 8,
+    "readability": 9,
+    "object": 8,
+    "defects": [],
+    "comment": "Strong stylized 3D match with warm lighting and clear hero tent; environment fits, though it reads a bit more like a teepee and the background is more desert than green.",
+    "mean": 8.5,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 9,
+    "category": 9,
+    "readability": 10,
+    "object": 9,
+    "defects": [],
+    "comment": "Excellent chunky stylized 3D tent, very readable silhouette, central in a landscape; only minor issue is the background is desert rather than distinctly green.",
+    "mean": 9.25,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky wrist communicator watch with a big screen, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the watch softer and less glossy, with a matte rubber/plastic Township-style finish and leave more empty space at the top.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 15.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 16.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 16.8,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Chunky rounded watch, clear silhouette, good pink simple background; slightly busy but fits the style.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Toy smartwatch",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very clean Township-like chunky forms, strong readability, correct floating category 1 setup.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "toy smartwatch",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best communicator read thanks to simple screen icon; bright, chunky, clean, and category-correct.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Toy smartwatch",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

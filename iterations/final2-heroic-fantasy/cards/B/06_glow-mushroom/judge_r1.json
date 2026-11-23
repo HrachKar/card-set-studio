@@ -1,0 +1,106 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a single oversized violet mushroom with a turquoise glowing cap and tiny crystal spots placed on mossy ground in the ancient grove (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 1,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear single glow mushroom with good bright blue background, but the grassy outdoor mound/rocks do not match category 3 interior/surface depth and the render feels a bit too glossy-AI.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Magic mushroom",
+     "defects": [
+      "Gem-like crystals are fused into the mushroom cap, an unrealistic/fantasy construction for a real mushroom",
+      "Underside gills are thick petal-like segments that merge irregularly into the stem"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 1,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable and dominant object, but saturated grass/leaves compete with the mushroom and the outdoor setting misses the requested category 3 surface/interior feel.",
+    "mean": 7,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Crystal mushroom",
+     "defects": [
+      "Faceted crystals/gems protrude from the mushroom cap, which is a fantasy/non-real-life construction"
+     ],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 1,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best colour contrast and clear silhouette, but still an outdoor grassy mound rather than a proper category 3 textured tabletop/floor with soft wall background; style is close but visibly AI-glossy.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Crystal mushroom",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "C",
+  "fix": "Place one oversized violet glow mushroom on a simple wooden or stone surface in a soft blue interior background, with cleaner Township-style rounded forms and no outdoor grass or rocks."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

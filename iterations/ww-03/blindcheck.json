@@ -1,0 +1,338 @@
+[
+ {
+  "card": "A1",
+  "name": "Cowboy Hat",
+  "guess": "cowboy hat",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A2",
+  "name": "Trail Saddle",
+  "guess": "Western saddle",
+  "defects": [
+   "Right stirrup appears attached to a short, odd front flap rather than a proper long stirrup leather/fender.",
+   "The two stirrups are noticeably different in size and shape beyond perspective.",
+   "Some leather straps/fenders merge into the saddle body with unclear attachment points."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A3",
+  "name": "Trail Kettle",
+  "guess": "camping kettle",
+  "defects": [
+   "Star-shaped opening on the lid is unusually large and irregular for a kettle vent.",
+   "Right handle segment is partly obscured by the bandana and appears slightly discontinuous/misaligned where it should connect to the side pivot."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A4",
+  "name": "Spur Boots",
+  "guess": "Cowboy boots",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A5",
+  "name": "Covered Wagon",
+  "guess": "Covered wagon",
+  "defects": [
+   "No obvious functional tow pole, shafts, or hitch for an animal are visible.",
+   "Wheel layout is ambiguous: only three wheels are clearly visible, with the fourth missing or completely hidden.",
+   "Visible wheels are different sizes; the center near wheel is much larger than the left and right wheels beyond normal perspective.",
+   "Right wheel is partly obscured and appears squeezed/merged into the wagon body and axle area."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A6",
+  "name": "Lasso Loop",
+  "guess": "Lasso",
+  "defects": [
+   "Large loop has no clear tied honda/knot or free end; both sides appear to merge into the red sleeve, making the lasso construction unclear.",
+   "Red sleeve/collar intersects the rope unrealistically, with rope segments seeming to enter or fuse into it rather than being tied around it.",
+   "Lower coil has no visible rope end and the rope path is ambiguous, making it look like a closed, fused spiral rather than one continuous rope.",
+   "Some rope strands in the lower coil appear to merge together instead of maintaining a consistent separate rope path."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A7",
+  "name": "Camp Lantern",
+  "guess": "Lantern",
+  "defects": [
+   "Right lower side support has no clear lower hinge; it appears to merge into the base/knob area.",
+   "Left and right side supports are slightly asymmetric in thickness and curvature.",
+   "Front adjustment knob is fused into the base with no visible shaft or mounting hardware."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A8",
+  "name": "Bean Pot",
+  "guess": "bean pot",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A9",
+  "name": "Canvas Tent",
+  "guess": "teepee tent",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "A10",
+  "name": "Lucky Shoe",
+  "guess": "horseshoe charm",
+  "defects": [
+   "Horseshoe tips have large rounded rectangular caps/blocks that look like extra fused parts rather than normal horseshoe ends.",
+   "Nail holes are not symmetrically paired: the left side shows more holes than the right, with an odd single hole at the bottom center.",
+   "Orange rope appears partially fused into the horseshoe tips instead of clearly wrapping around separate surfaces.",
+   "Central knot/loop construction is ambiguous and slightly melted together with the horizontal rope.",
+   "The turquoise bead hangs from the knot but its small orange connector is not clearly attached to a cord."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B1",
+  "name": "Sheriff Star",
+  "guess": "Star badge",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B2",
+  "name": "Porch Rocker",
+  "guess": "rocking chair",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B3",
+  "name": "Saddle Rail",
+  "guess": "saddle",
+  "defects": [
+   "Only one stirrup is visible; the matching stirrup on the opposite side is missing.",
+   "The visible stirrup strap/fender hangs from the center/front underside of the saddle instead of from the side, making the construction impossible.",
+   "No girth/cinch is shown to secure the saddle; it is just sitting on the wooden rail.",
+   "Several saddle panels, skirts, and flaps are smoothly fused together with unclear seams, giving a slightly melted construction."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B4",
+  "name": "Water Tower",
+  "guess": "water tower",
+  "defects": [
+   "Side spout pipe appears fused into the metal band/tank wall without a clear valve or mounting plate.",
+   "Support structure is incomplete/ambiguous: rear legs are mostly missing or hidden, leaving the tank looking supported by only the two front legs and a central dark post.",
+   "Cross braces under the tank intersect/fuse awkwardly and do not clearly attach to all legs.",
+   "Bottom of the wooden tank bulges downward unevenly in the center, making the tank base look warped."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B5",
+  "name": "Silver Spur",
+  "guess": "Cowboy spur",
+  "defects": [
+   "Rowel wheel is mounted as a solid decorative star on the side of the shank instead of sitting between a forked yoke, so it could not spin like a real spur.",
+   "Center axle/rivet of the rowel is fused into the shank and rowel face with no clear separable wheel mechanism.",
+   "Rowel points are uneven and melted-looking, with inconsistent sizes and spacing.",
+   "Buckle tongue/prong appears as a rounded blob on the outside of the buckle rather than passing through a belt hole.",
+   "Leather strap path through the buckle is unclear/impossible, with the strap end and buckle frame visually fused.",
+   "Right hanging leather section twists and narrows unnaturally and appears partly merged into the metal heel band.",
+   "Metal heel band has an overly smooth warped transition into the long shank, with no clear joint or separate neck structure."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B6",
+  "name": "Jailhouse",
+  "guess": "Sheriff's office",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "B7",
+  "name": "Holster Belt",
+  "guess": "cowboy holster belt",
+  "defects": [
+   "A mushroom-like handle/peg grows vertically from the middle of the belt instead of from the holster; it does not resemble a real revolver grip and is in the wrong place.",
+   "The holster appears empty or missing the actual pistol/revolver that the visible handle would imply.",
+   "The round sheriff badge buckle is decorative only: there is no functional buckle tongue, belt holes, or clear fastening construction, and the belt seems to continue behind/through it.",
+   "The front belt strap and belt loop overlap in an impossible/fused way near the center, making the belt path unclear.",
+   "The holster mouth is warped and irregular, with an unnatural wavy opening.",
+   "Several stitch marks are unevenly spaced and appear to float or not follow the leather edges consistently."
+  ],
+  "distortion": "severe",
+  "match": true
+ },
+ {
+  "card": "B8",
+  "name": "Wheel Bench",
+  "guess": "wagon wheel bench",
+  "defects": [
+   "Left wagon wheel is partly incomplete/obscured, with the hub mostly missing or hidden and spokes not clearly meeting at one center.",
+   "Right wagon wheel spokes are unevenly spaced and some appear to merge into the rim/arm support rather than connecting cleanly.",
+   "Armrests and wheel rims are fused together in places, making the construction look carved from one piece rather than separately joined parts.",
+   "The two side wheels do not match exactly in visible size and spoke layout.",
+   "No text or digits present."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B9",
+  "name": "Cactus Barrel",
+  "guess": "Potted cactus",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B10",
+  "name": "Stagecoach",
+  "guess": "Stagecoach",
+  "defects": [
+   "Front of the coach is malformed: the passenger cabin, front window, and front box/hood merge into an impossible single shape with no clear driver's seat or hitch area.",
+   "Right-side/front lantern is attached to the side of the window frame rather than a realistic bracket and appears partly floating.",
+   "Left/front lantern is embedded into the center pillar instead of mounted on a bracket.",
+   "Front axle and wheel assembly is inconsistent: the visible front wheels are different sizes and positions, and the axle does not align cleanly through both wheels.",
+   "Rear wheel and front wheel proportions are inconsistent, with the front-left wheel oversized compared with the far front wheel.",
+   "Roof railing posts are unevenly spaced and appear to pierce into the roof and luggage.",
+   "Top luggage pieces overlap the roof railing awkwardly and appear partially fused with it.",
+   "No visible horse pole, shafts, or towing connection for the carriage.",
+   "No text or digits visible."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C1",
+  "name": "Belt Buckle",
+  "guess": "belt buckle",
+  "defects": [
+   "Horseshoe nail holes are unevenly spaced and not mirrored between left and right sides.",
+   "The two squared top ends of the horseshoe are different shapes and angles.",
+   "Braided rope border has slightly inconsistent segment sizes around the oval."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C2",
+  "name": "Rodeo Barrel",
+  "guess": "Lucky barrel",
+  "defects": [
+   "Horseshoe emblem is not bilaterally symmetrical: the two arms have different curvature and thickness, the top ends are different shapes, and the nail holes vary in size and position.",
+   "Rope bands have uneven/melted twist geometry; several rope segments fuse together smoothly and change size around the barrel instead of forming a consistent rope.",
+   "Barrel stave grooves are irregular and do not align cleanly between the body and the top lid planks.",
+   "Top construction is ambiguous: it looks like an open rim with a flat sealed lid/plank surface recessed inside, rather than a clear real barrel opening or lid."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C3",
+  "name": "Fringed Chaps",
+  "guess": "Cowboy chaps",
+  "defects": [
+   "Belt/buckle construction is ambiguous: the strap, holes, and buckle tongue do not clearly interlock like a real belt.",
+   "Top waistband and leather panels are fused into a toy-like continuous piece with no clear rear straps or functional attachment points.",
+   "Left and right fringe strips are uneven in width and spacing, with some strips appearing partially fused together at their bases."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C4",
+  "name": "Corral Gate",
+  "guess": "Farm gate",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C5",
+  "name": "Prize Ribbon",
+  "guess": "award ribbon",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C6",
+  "name": "Tack Trunk",
+  "guess": "Treasure chest",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C7",
+  "name": "Rodeo Trophy",
+  "guess": "Lucky Horseshoe",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "C8",
+  "name": "Show Saddle",
+  "guess": "Western saddle",
+  "defects": [
+   "Only one stirrup is visible; the matching stirrup on the far side is missing or completely hidden.",
+   "The visible stirrup appears only loosely connected to the saddle fender, with no clear continuous stirrup leather/strap supporting it.",
+   "The buckled hanging strap on the right does not connect to the visible stirrup and appears to hang as an unrelated extra strap."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C9",
+  "name": "Chuck Wagon",
+  "guess": "covered wagon",
+  "defects": [
+   "No text or digits visible.",
+   "Front hitch/drawbar has no realistic hitch loop or yoke; it ends as a blunt metal-capped block.",
+   "Front right wheel is only partially visible and appears tucked under the wagon body without a clear axle connection.",
+   "Wheel axle/underframe construction is unclear; the visible wheels do not share an obvious continuous axle."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C10",
+  "name": "Rodeo Spurs",
+  "guess": "cowboy spurs",
+  "defects": [
+   "rowel wheels are shaped like soft flower petals instead of functional pointed spur wheels",
+   "rowel wheels appear fused directly to a single metal shank rather than mounted in a fork with a visible axle",
+   "leather straps/cuffs attach to the metal spur bodies in unclear, partially fused ways",
+   "no real buckle, tongue, or fastening mechanism is visible on the leather straps; the star medallions act like decorative buttons only",
+   "strap holes are uneven and placed inconsistently around the cuffs"
+  ],
+  "distortion": "minor",
+  "match": true
+ }
+]

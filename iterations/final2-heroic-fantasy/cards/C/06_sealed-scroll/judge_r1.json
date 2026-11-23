@@ -1,0 +1,110 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rolled blank parchment scroll tied with green ribbon and a faceted wax seal placed on mossy stone bench in the enchanted orchard (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated lilac wall with faint repeating pattern of crescent leaf silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy kingdom: a seaside citadel in the morning, an enchanted orchard at noon, a crystal cavern road in the afternoon, and a hilltop beacon at sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 22.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.7,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear scroll with good toy-like style, but the outdoor fruit trees/foliage add unnecessary extra detail.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Diploma scroll",
+     "defects": [
+      "Right end of the parchment is closed like a solid cylinder instead of showing a rolled paper edge or hollow spiral.",
+      "Left rolled end has an odd protruding central plug-like cylinder rather than a continuous paper spiral.",
+      "Green ribbon construction is ambiguous: the hanging tails seem to grow from behind the wax seal without a clear bow or attachment point.",
+      "Ribbon tails are asymmetrical, with an extra triangular flap on the right side."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable object, but background is busier with trees and fruits, making it less clean and less reference-like.",
+    "mean": 7,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Sealed scroll",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clean lilac background, dominant readable scroll, chunky rounded game style, no major defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Scroll",
+     "defects": [
+      "Right end of the parchment is capped/smooth instead of showing the open rolled-paper spiral or hollow edge expected from the visible roll on the left.",
+      "Green ribbon wrap and hanging ribbon tails do not clearly connect; the tails appear to emerge from behind the wax seal rather than from a continuous tied ribbon.",
+      "Wax seal has a faceted gem-like center, which is not typical for a wax seal and makes the construction ambiguous."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

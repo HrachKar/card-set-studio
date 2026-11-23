@@ -1,0 +1,2903 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Desert Camp",
+   "place": "cowboy camp in the desert: sandy ground, flat campfire stones, wooden crates, a hitching rail, canvas tent, covered wagon trail and red mesas",
+   "concept": "A warm cowboy trail camp set up in the desert after a long wagon ride.",
+   "palette": "Sunny sand colors with turquoise sky accents, red bandana details and friendly warm browns.",
+   "motif": "horseshoe",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Cowboy Hat",
+     "object": "a warm brown cowboy hat with a high creased crown, curled brim, red bandana band and silver horseshoe pin",
+     "theme_marker": "the high creased crown, curled brim and horseshoe pin of a classic cowboy hat",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a warm brown cowboy hat with a high creased crown, curled brim, red bandana band and silver horseshoe pin, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cowboy hat on correct sky-blue ray background, but slightly too textured/realistic and too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and very readable; correct category and colors, but material has subtle AI-like texture and top margin is a bit tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Make the cowboy hat smoother and more toy-like with no fine material texture, and leave the top 12% of the card empty."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a warm brown cowboy hat with a high creased crown, curled brim, red bandana band and silver horseshoe pin, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Make the cowboy hat smoother and more toy-like with no fine material texture, and leave the top 12% of the card empty.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like cowboy hat, floating on sky-blue rays; bandana and horseshoe read well, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear stylized cowboy hat with strong silhouette, bright clean background, correct category and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Trail Saddle",
+     "object": "a tan leather western saddle on a simple wooden stand, with a high horn, wide stirrups and turquoise tooling",
+     "theme_marker": "the high saddle horn, wide stirrups and western leather tooling",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "green",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan leather western saddle on a simple wooden stand, with a high horn, wide stirrups and turquoise tooling standing on a plain flat floor of lighter green, three-quarter view slightly from above. Behind it a plain vertical green wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close to the reference style: chunky, smooth, bright, and clearly a western saddle on a wooden stand. Top margin is a bit tight for the 12% safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good stylized toy-like rendering with clear saddle, horn, stirrups and turquoise tooling. Slightly less balanced silhouette and top margin is also tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Trail Kettle",
+     "object": "a black speckled tin trail coffee pot with a tall spout, horseshoe-shaped handle arch, sheriff-star punched lid and red bandana handle wrap",
+     "theme_marker": "the horseshoe-shaped handle arch, sheriff-star lid holes and campfire-stone placement",
+     "class": "device",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat campfire stones set into sandy desert ground",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black speckled tin trail coffee pot with a tall spout, horseshoe-shaped handle arch, sheriff-star punched lid and red bandana handle wrap placed on flat campfire stones set into sandy desert ground (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 23.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear kettle on a category-3 surface, but the side handle wrap is less faithful and the shiny metal/stone details feel a bit more realistic than the references; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky stylized trail kettle, clear silhouette, orange background and correct surface; top margin is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Spur Boots",
+     "object": "a pair of brown pointed cowboy boots with silver spurs, cactus stitching and pull straps",
+     "theme_marker": "the pointed toes, silver spurs and cactus stitching",
+     "class": "clothing",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown pointed cowboy boots with silver spurs, cactus stitching and pull straps standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like cowboy boots with spurs and cactus stitching; bright purple floor/background, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable pair of stylized boots, correct category framing, clean bright colours and requested details.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Covered Wagon",
+     "object": "a white canvas covered wagon with curved hoops, chunky wooden wheels and a red blanket roll tied to the side",
+     "theme_marker": "the arched canvas cover and large wooden wagon wheels of a western trail wagon",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "turquoise",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright desert camp trail with sand, canvas tent shapes and soft red mesas under a clear sky",
+     "view": "three-quarter view slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white canvas covered wagon with curved hoops, chunky wooden wheels and a red blanket roll tied to the side in its real environment: bright desert camp trail with sand, canvas tent shapes and soft red mesas under a clear sky; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 23.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like covered wagon, bright turquoise sky, dominant in landscape; no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable covered wagon with strong rounded forms, clean bright colour and correct category 4 environment.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Lasso Loop",
+     "object": "a tan coiled lasso with a large open honda loop and a small red leather wrap",
+     "theme_marker": "the oversized honda loop that makes it read as a cowboy lasso",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan coiled lasso with a large open honda loop and a small red leather wrap, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized lasso with good toy-like rounded rope, but tan rope has only moderate contrast on the very saturated yellow background and it intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable floating lasso, smooth and game-like; composition is a bit better than A, but the object is close to the top and the yellow/tan contrast is not strong enough.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Leave the top 12% empty and make the tan lasso slightly more saturated and contrasting against the yellow background."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan coiled lasso with a large open honda loop and a small red leather wrap, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Leave the top 12% empty and make the tan lasso slightly more saturated and contrasting against the yellow background.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 14.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized lasso on bright yellow background; good toy-like rope and red wrap, but the loop slightly intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable chunky lasso with clean colours and correct floating category-1 setup; minor top safe-area issue.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Camp Lantern",
+     "object": "a brass oil trail lantern with punched sheriff-star vents and a turquoise glass globe",
+     "theme_marker": "the old trail-lantern shape with punched sheriff-star vents",
+     "class": "device",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "rough wooden crate beside the sandy campfire area",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brass oil trail lantern with punched sheriff-star vents and a turquoise glass globe placed on rough wooden crate beside the sandy campfire area (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with faint repeating pattern of horseshoe silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky stylized lantern with good red contrast, but the background campfire is an extra object and the handle reaches into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and close to the reference style; red background works well, but the campfire is an extra object and the lantern is too close to the top edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Bean Pot",
+     "object": "a red speckled enamel chuckwagon bean pot full of baked beans, with a bold white horseshoe emblem and rope-wrapped bail handle",
+     "theme_marker": "the bold horseshoe emblem, rope-wrapped bail and chuckwagon-style enamel pot",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "weathered wooden crate sitting in desert sand near the campfire stones",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red speckled enamel chuckwagon bean pot full of baked beans, with a bold white horseshoe emblem and rope-wrapped bail handle placed on weathered wooden crate sitting in desert sand near the campfire stones (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 0,
+          "hard_defects": [
+           "several_main_objects"
+          ],
+          "comment": "Bean pot is clear and bright, but the crate, sand, and campfire add extra scene objects; wood/sand details feel a bit too busy for the reference style.",
+          "mean": 7,
+          "hard": [
+           "several_main_objects"
+          ],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 0,
+          "hard_defects": [
+           "several_main_objects"
+          ],
+          "comment": "Object reads well and colours are good, but the large campfire and crate compete with the pot, and the detailed wood/sand texture is not as clean as the references.",
+          "mean": 7,
+          "hard": [
+           "several_main_objects"
+          ],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Show only the red speckled bean pot on a simple clean wooden surface with a blue background, no campfire, crate, or extra props."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red speckled enamel chuckwagon bean pot full of baked beans, with a bold white horseshoe emblem and rope-wrapped bail handle placed on weathered wooden crate sitting in desert sand near the campfire stones (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Show only the red speckled bean pot on a simple clean wooden surface with a blue background, no campfire, crate, or extra props.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong match: chunky toy-like pot, clear beans, horseshoe and rope handle; bright blue background. Minor issue: handle enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good stylized bean pot with clear emblem and colours, but the tilted lid makes the silhouette busier and the handle is too high in the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Canvas Tent",
+     "object": "a beige A-frame cowboy canvas tent with rolled flaps and a horseshoe hanging by the entrance",
+     "theme_marker": "the trail-camp canvas tent with a horseshoe hanging at the flap",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "peach",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny desert camp with sand, wooden crates, campfire stones and blurred red mesas",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a beige A-frame cowboy canvas tent with rolled flaps and a horseshoe hanging by the entrance in its real environment: sunny desert camp with sand, wooden crates, campfire stones and blurred red mesas; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 24.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [
+           "several_main_objects"
+          ],
+          "comment": "Good chunky game style and clear tent, but campfire and crates compete; background is blue/desert rather than peach and fire is the most saturated spot.",
+          "mean": 8,
+          "hard": [
+           "several_main_objects"
+          ],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [
+           "several_main_objects"
+          ],
+          "comment": "Clear dominant canvas tent in the right style, but foreground fire/crates/cactus add competing objects; background is not peach and fire draws colour focus.",
+          "mean": 8,
+          "hard": [
+           "several_main_objects"
+          ],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a clean peach sky/background and remove extra props like the campfire, crates and cactus, keeping only a large beige A-frame canvas tent with rolled flaps and a horseshoe."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a beige A-frame cowboy canvas tent with rolled flaps and a horseshoe hanging by the entrance in its real environment: sunny desert camp with sand, wooden crates, campfire stones and blurred red mesas; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Use a clean peach sky/background and remove extra props like the campfire, crates and cactus, keeping only a large beige A-frame canvas tent with rolled flaps and a horseshoe.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township-like chunky tent, clear A-frame with horseshoe and rolled flaps; background is more blue than peach and the poles intrude into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear and well-stylized canvas tent in environment, but small stitch details are slightly busy, background is mostly blue rather than peach, and the top safe area is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Use a peach-toned background and leave the top 12% of the image empty above the tent."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Lucky Shoe",
+     "object": "a chunky silver horseshoe with nail holes and a small turquoise bead tied at the top",
+     "theme_marker": "the bold U-shaped horseshoe with nail holes",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "mint",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky silver horseshoe with nail holes and a small turquoise bead tied at the top, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky rounded toy-like horseshoe, clear silhouette, mint striped background, no cropping or extra defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Also fits the style and category well; clear and bright, though the bead is tied a bit less clearly at the top than requested.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Frontier Street",
+   "place": "western frontier town main street: dusty road, wooden boardwalks, hitching rails, jailhouse, water tower, barrel planters and a stagecoach stop",
+   "concept": "A cheerful frontier main street where western town icons line the sunny boardwalk.",
+   "palette": "Clean candy colors behind warm wood, gold badges, dusty browns and bright turquoise accents.",
+   "motif": "sheriff star",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Sheriff Star",
+     "object": "a shiny gold five-point sheriff badge with rounded tips and a turquoise center gem, with no letters",
+     "theme_marker": "the five-point western sheriff badge silhouette",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of sheriff star silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny gold five-point sheriff badge with rounded tips and a turquoise center gem, with no letters, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and faint repeating pattern of sheriff star silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like gold sheriff star with turquoise gem on bright turquoise patterned background; top safe area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable rounded sheriff badge, bright and polished in the reference style; top 12% is not fully empty.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Porch Rocker",
+     "object": "a honey-brown wooden rocking chair with a sheriff-star cutout on the back and horseshoe-shaped runners",
+     "theme_marker": "the sheriff-star cutout and horseshoe-shaped rockers on a frontier porch chair",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a honey-brown wooden rocking chair with a sheriff-star cutout on the back and horseshoe-shaped runners standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close chunky toy style, clear rocking chair with horseshoe runners and sheriff star; only issue is the object sits a little high, leaving slightly less than the required top free space.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but the back cutout/holes look a bit odd and the wood detail makes it slightly less like the reference style; also too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Saddle Rail",
+     "object": "a tan western saddle draped over a chunky hitching rail, with a high horn and red blanket pad",
+     "theme_marker": "the western saddle horn and stirrups hanging on a frontier hitching rail",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "wooden boardwalk planks beside the dusty main street",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan western saddle draped over a chunky hitching rail, with a high horn and red blanket pad placed on wooden boardwalk planks beside the dusty main street (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like saddle on hitching rail with red pad, good purple background and wood floor; slightly less complete saddle detail but fits well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear western saddle over chunky rail, strong rounded game style, clean colours, correct category 3 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Water Tower",
+     "object": "a squat wooden barrel water tower on thick timber supports, topped with a small sheriff-star weather vane",
+     "theme_marker": "the frontier barrel water tower with chunky timber legs and sheriff-star weather vane",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "green",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright dusty western main street with boardwalks, porch roofs and a pale blue sky",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a squat wooden barrel water tower on thick timber supports, topped with a small sheriff-star weather vane in its real environment: bright dusty western main street with boardwalks, porch roofs and a pale blue sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky water tower in a western environment, but wood grain/detail is a bit too textured and the weather vane intrudes into the top safe area; background is not green.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable hero object and good category-4 dominance, but still has visible wood-grain detail and the top weather vane is too close to the edge; background is not green.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use smoother toy-like materials with no wood-grain detail, leave the top 12% empty, and place it on a clean bright green background."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a squat wooden barrel water tower on thick timber supports, topped with a small sheriff-star weather vane in its real environment: bright dusty western main street with boardwalks, porch roofs and a pale blue sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Use smoother toy-like materials with no wood-grain detail, leave the top 12% empty, and place it on a clean bright green background.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 20.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong toy-like Township style and clear water tower, but background is blue/desert rather than requested green and the weather vane sits too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best hero framing and very readable squat barrel tower with sheriff-star vane; clean stylized look, but not a green background and top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a bright green background/environment and leave more empty space above the sheriff-star weather vane."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Silver Spur",
+     "object": "a shiny silver cowboy spur with a round rowel wheel, brown leather strap and turquoise concho",
+     "theme_marker": "the cowboy spur rowel wheel and leather boot strap",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny silver cowboy spur with a round rowel wheel, brown leather strap and turquoise concho, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and concentric circles. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating spur on pink patterned background; chunky smooth game style, good contrast and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear shiny silver spur with leather strap and turquoise concho; matches rounded toy-like style and category well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Jailhouse",
+     "object": "a small wooden frontier jailhouse with a barred window and a large sheriff-star emblem over the door, no text",
+     "theme_marker": "the barred frontier jailhouse window and sheriff-star emblem",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "orange",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny frontier town street with sandy ground, boardwalk posts and soft storefront shapes",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small wooden frontier jailhouse with a barred window and a large sheriff-star emblem over the door, no text in its real environment: sunny frontier town street with sandy ground, boardwalk posts and soft storefront shapes; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like wooden jailhouse with barred window and sheriff star; strong hero framing, but background is mostly blue rather than orange and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable stylized frontier jailhouse in the right environment; slightly less wooden than requested, blue background instead of orange, and top 12% is not fully free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Use a clean orange sky/background and leave the top 12% empty while keeping one chunky wooden jailhouse dominant."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small wooden frontier jailhouse with a barred window and a large sheriff-star emblem over the door, no text in its real environment: sunny frontier town street with sandy ground, boardwalk posts and soft storefront shapes; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Use a clean orange sky/background and leave the top 12% empty while keeping one chunky wooden jailhouse dominant.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like toy style, clear wooden jailhouse with sheriff star and barred openings, bright orange sky, dominant hero object.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear jailhouse silhouette with barred window and sheriff star, chunky rounded forms, clean bright orange background, no text or extra main objects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Holster Belt",
+     "object": "an empty brown leather cowboy holster belt looped around a small stand, with a big star-shaped buckle",
+     "theme_marker": "the empty western holster shape and star buckle, with no weapon",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of sheriff star silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of an empty brown leather cowboy holster belt looped around a small stand, with a big star-shaped buckle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and faint repeating pattern of sheriff star silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to the reference style: chunky, bright, floating on mint background, clear holster belt and stand; top area is free.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear and well styled, but the stand reaches into the top safe area, so the top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Wheel Bench",
+     "object": "a honey-brown wooden boardwalk bench with two chunky wagon-wheel side panels and a small sheriff-star carving on the back",
+     "theme_marker": "the chunky wagon-wheel side panels and sheriff-star carving make it read as frontier street furniture",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "blue",
+     "bg_treatment": "simple frontier storefront exterior",
+     "surface": "raised wooden boardwalk planks on the main street",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a honey-brown wooden boardwalk bench with two chunky wagon-wheel side panels and a small sheriff-star carving on the back placed on raised wooden boardwalk planks on the main street (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with simple frontier storefront exterior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 22.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear bench and toy-like forms, but the western street background is busy with extra scenery and the wood/detailing is a bit more illustrative than the references.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable Wheel Bench with good colour and scale, but the storefront/barrel background adds extra objects and the scene is busier than the simple category 3 references.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a simpler blue wall background with only a wooden floor surface, keeping the bench large and removing storefronts, barrels, and other extra scenery."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a honey-brown wooden boardwalk bench with two chunky wagon-wheel side panels and a small sheriff-star carving on the back placed on raised wooden boardwalk planks on the main street (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with simple frontier storefront exterior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Important: Use a simpler blue wall background with only a wooden floor surface, keeping the bench large and removing storefronts, barrels, and other extra scenery.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky stylized wooden bench, clear wagon-wheel sides and sheriff star, bright blue wall and wooden floor.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear and dominant wheel bench, good toy-like rounded forms, clean blue background, correct category 3 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Cactus Barrel",
+     "object": "a green saguaro cactus planted in a chunky wooden barrel with a small sheriff-star medallion",
+     "theme_marker": "the saguaro cactus in a frontier barrel planter with a sheriff-star medallion",
+     "class": "nature",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "faint repeating pattern of sheriff star silhouettes",
+     "surface": "dusty ground beside the wooden boardwalk",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green saguaro cactus planted in a chunky wooden barrel with a small sheriff-star medallion placed on dusty ground beside the wooden boardwalk (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with faint repeating pattern of sheriff star silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky cactus-in-barrel on red cat-3 setting; medallion reads more like a separate large star leaning outside, and the flower is an extra decoration.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: bright toy-like cactus barrel, clear silhouette and correct surface/wall depth; sheriff star is a bit large and appears separate rather than a small medallion on the barrel.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Stagecoach",
+     "object": "a red-and-gold stagecoach with arched cabin, luggage rack and four chunky wooden wheels, no lettering",
+     "theme_marker": "the classic western stagecoach cabin and large wooden wheels",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "lilac",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright dusty frontier street with boardwalks, water tower silhouette and clear sky",
+     "view": "three-quarter view slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red-and-gold stagecoach with arched cabin, luggage rack and four chunky wooden wheels, no lettering in its real environment: bright dusty frontier street with boardwalks, water tower silhouette and clear sky; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 22.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like stagecoach, dominant in environment; bright and clean, but background is blue western town rather than requested lilac.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable chunky red-and-gold stagecoach with rack and four wheels; strong category 4 hero framing, but background is not lilac.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Rodeo Yard",
+   "place": "sunny ranch rodeo corral: packed dirt arena, red wooden fences, hay bales, prize table, wide gate and parked chuck wagon",
+   "concept": "A friendly rodeo yard before the show, filled with colorful western gear and corral props.",
+   "palette": "Playful rodeo reds, denim blues, straw yellows and polished silver on bright clean backgrounds.",
+   "motif": "lariat loop",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Belt Buckle",
+     "object": "a large oval silver rodeo belt buckle with a raised horseshoe, tiny stars and a brown leather belt tab",
+     "theme_marker": "the oversized ornate rodeo buckle with raised horseshoe and star border",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a large oval silver rodeo belt buckle with a raised horseshoe, tiny stars and a brown leather belt tab, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 0,
+          "hard_defects": [
+           "object_cropped"
+          ],
+          "comment": "Strong toy-like style and clear buckle, but the belt tabs are cropped at the sides.",
+          "mean": 8,
+          "hard": [
+           "object_cropped"
+          ],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear correct belt buckle on a purple rays background, but metal/rope details feel a bit too realistic and finely rendered.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Rodeo Barrel",
+     "object": "a bright red rodeo barrel with rope trim and a big white horseshoe emblem, with no text or numbers",
+     "theme_marker": "the arena barrel shape with rope trim and a bold horseshoe emblem",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of lariat loop silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bright red rodeo barrel with rope trim and a big white horseshoe emblem, with no text or numbers standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with faint repeating pattern of lariat loop silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like red barrel with rope trim and horseshoe, good mint floor/background, no text or extra main objects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-style, but placed a bit too high/large so the top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Fringed Chaps",
+     "object": "tan leather cowboy chaps with long fringe, silver conchos and turquoise stitching draped over a red corral rail",
+     "theme_marker": "the long leather fringe, conchos and corral-rail display of rodeo chaps",
+     "class": "clothing",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "red painted corral rail above packed dirt arena ground",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of tan leather cowboy chaps with long fringe, silver conchos and turquoise stitching draped over a red corral rail placed on red painted corral rail above packed dirt arena ground (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky stylized rendering, clear chaps on red rail, bright sky-blue background; only issue is the belt slightly enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good toy-like style and clear object with correct rail and surface; top safe area is a little crowded by the belt.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Corral Gate",
+     "object": "a wide wooden rodeo corral gate with a rounded horseshoe arch and red painted side posts, no sign",
+     "theme_marker": "the rodeo corral gate with a horseshoe arch over packed dirt",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "blue",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright ranch rodeo arena with packed dirt, red fences, hay bales and sunny sky",
+     "view": "frontal, slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wide wooden rodeo corral gate with a rounded horseshoe arch and red painted side posts, no sign in its real environment: bright ranch rodeo arena with packed dirt, red fences, hay bales and sunny sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized corral gate with red posts and blue outdoor setting; toy-like and readable. Minor issue: top clearance is a bit tight and wood grain is slightly detailed.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very clear hero gate in the right environment with bright colours and good chunky forms. Minor issue: horseshoe sits too close to the top; wood texture is a little more detailed than ideal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Prize Ribbon",
+     "object": "a blue rodeo rosette ribbon with dangling tails and a white horseshoe emblem in the center, no text",
+     "theme_marker": "the prize rosette marked by a horseshoe emblem for a rodeo award",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue rodeo rosette ribbon with dangling tails and a white horseshoe emblem in the center, no text, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and concentric circles. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like blue rosette with white horseshoe, floating on bright orange background; fits the reference style well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and stylized, but the ribbon sits a bit too high, leaving less than the required top free space; yellow trim also slightly distracts from the requested blue-white design.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Tack Trunk",
+     "object": "a dark brown rodeo tack trunk with rope-wrapped corners, silver conchos and a large horseshoe-shaped handle on the front",
+     "theme_marker": "the horseshoe-shaped handle, rope corners and silver rodeo conchos",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark brown rodeo tack trunk with rope-wrapped corners, silver conchos and a large horseshoe-shaped handle on the front standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with diagonal stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean chunky toy-like tack chest on pink floor/background; readable horseshoe handle, rope corners and conchos, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable stylized tack trunk with correct details, bright clean pink background, good category-2 framing and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Rodeo Trophy",
+     "object": "a gold horseshoe-shaped rodeo trophy with red ribbon tails, tiny star studs and a chunky wooden base",
+     "theme_marker": "the large horseshoe trophy shape with star studs and rodeo ribbon tails",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "lilac",
+     "bg_treatment": "faint repeating pattern of lariat loop silhouettes",
+     "surface": "red cloth prize table set beside the packed dirt rodeo arena",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a gold horseshoe-shaped rodeo trophy with red ribbon tails, tiny star studs and a chunky wooden base placed on red cloth prize table set beside the packed dirt rodeo arena (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated lilac wall with faint repeating pattern of lariat loop silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky trophy, clear horseshoe silhouette, good lilac background and category-3 staging; slightly busy backdrop but acceptable.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean toy-like rendering, instantly readable rodeo trophy with ribbon and wooden base, good scale and bright lilac contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Show Saddle",
+     "object": "a dark brown decorated western show saddle resting on a red corral fence, with a tall horn and silver conchos",
+     "theme_marker": "the tall saddle horn, stirrups and shiny rodeo conchos on a corral fence",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "red painted corral fence rail over packed dirt",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark brown decorated western show saddle resting on a red corral fence, with a tall horn and silver conchos placed on red painted corral fence rail over packed dirt (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized western show saddle with red fence, good orange contrast and toy-like forms; minor issue: horn is a bit close to the top free area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 0,
+          "hard_defects": [
+           "object_cropped"
+          ],
+          "comment": "Readable and well styled, but the red fence is cropped at the sides in a category 3 card, causing a hard crop defect.",
+          "mean": 8,
+          "hard": [
+           "object_cropped"
+          ],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Chuck Wagon",
+     "object": "a compact wooden chuck wagon with a cream canvas canopy, cook box and chunky red wheels, no lettering",
+     "theme_marker": "the western chuck wagon canopy, cook box and wooden wagon wheels",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "green",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny rodeo yard with packed dirt, red corral fencing and hay bales under a light sky",
+     "view": "three-quarter view slightly from below",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a compact wooden chuck wagon with a cream canvas canopy, cook box and chunky red wheels, no lettering in its real environment: sunny rodeo yard with packed dirt, red corral fencing and hay bales under a light sky; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky stylized chuck wagon, bright green landscape setting, dominant hero object; cookware reads as cook box detail.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable compact chuck wagon with cream canopy, cook box and red wheels; clean toy-like Township style and bright outdoor setting.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Rodeo Spurs",
+     "object": "a pair of silver cowboy spurs with rounded rowel wheels, brown leather straps and star-shaped conchos",
+     "theme_marker": "the paired cowboy spur rowels, leather straps and star conchos",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "faint repeating pattern of lariat loop silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of silver cowboy spurs with rounded rowel wheels, brown leather straps and star-shaped conchos, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and faint repeating pattern of lariat loop silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky toy style; clear paired spurs with straps and star conchos on a clean yellow patterned background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clean stylized spurs, readable silhouette, correct floating category-1 setup and bright yellow background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 74,
+  "image_out": 91390,
+  "image_in": 87020,
+  "text_in_img": 24298,
+  "llm_calls": 39,
+  "llm_in": 56606,
+  "llm_out": 38089
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall teal crystal cluster rising from pale moon stone with tiny silver rock fragments floating around it placed on pale moon-stone floor of the crystal canyon nook (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with simple crystal canyon interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 22.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear teal crystal cluster on moon stone, good purple contrast; slightly busy with background crystals and many surface details.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal cluster",
+     "defects": [
+      "Several small beige rock fragments float around the cluster with no visible connection or support"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 1
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: chunky stylized crystal cluster, readable silhouette, correct surface and bright purple background; minor extra background crystal props.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal cluster",
+     "defects": [
+      "Several small stones float around the crystal cluster with no visible support or connection"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 1
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and nicely saturated, with correct category 3 staging; a bit busier from background crystals and cratered surface.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "crystal cluster",
+     "defects": [
+      "Several small gray rock fragments float around the cluster without any visible support or connection."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 1
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

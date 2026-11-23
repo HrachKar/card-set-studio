@@ -1,0 +1,15 @@
+{
+ "theme": "Wild West",
+ "wishes": "",
+ "models": [
+  "gpt-5.5",
+  "gpt-5.4-mini",
+  "gemini-3.8-flash"
+ ],
+ "variants": 2,
+ "preview": [
+  "gpt-image-1-mini",
+  "medium",
+  "1024x1024"
+ ]
+}

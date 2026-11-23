@@ -1,0 +1,115 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded sky-blue travel case hovering on four tiny glowing antigravity discs with a round porthole window standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning browsing a neon star bazaar, noon on a royal landing terrace, afternoon aboard an orbital liner, and sunset at an asteroid observatory.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 15.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear rounded hover luggage, strong toy-like Township style, bright yellow contrast, no major defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Space suitcase",
+     "defects": [
+      "Fictional hybrid object: a suitcase body has a spaceship porthole and rocket thrusters, which is not a real-life construction.",
+      "It appears to hover on glowing thrusters with no realistic support or propulsion hardware visible.",
+      "The side/front yellow decorative fins are not symmetrical: the left and right pairs differ in shape and placement."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable chunky travel case with antigravity discs; clean materials and good category-2 framing.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "space suitcase",
+     "defects": [
+      "The object is a fictional suitcase/capsule hybrid with a large porthole and glowing thruster-like feet, not a normal real-world suitcase.",
+      "The front porthole rim is not a continuous ring; the lower-left section appears broken or missing.",
+      "Bottom glowing feet/thrusters are unevenly placed and partly hidden, making the support layout unclear.",
+      "The left side raised blue ribs are decorative and do not align with any functional suitcase seam or latch."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and polished, with dominant rounded case and clear hover discs; fits the requested object well.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Space suitcase",
+     "defects": [
+      "Hybrid suitcase/space pod with rocket-like glowing feet is not a normal real-life construction.",
+      "Bottom supports/thrusters are inconsistent: there appear to be more than two visible feet, including a small central underside nozzle that does not match a normal four-corner layout.",
+      "Some bottom thrusters/feet look slightly detached or floating under the case because the glowing gaps obscure their connections.",
+      "Front corner cream panels are asymmetrical in size and shape."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

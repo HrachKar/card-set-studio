@@ -1,0 +1,116 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall hero headquarters tower with a round top and a big golden star burst emblem in its real environment: downtown city with tall buildings and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 17.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 19.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 20.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear hero tower with star emblem, bright and chunky; top of tower intrudes into the top safe area.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Upper window mullions are unevenly spaced and slightly different widths from left to right.",
+      "Cream support blocks under the upper red ring are irregular and appear partly fused into the ring/wall.",
+      "Yellow star emblem wings are asymmetric, with side bars not matching perfectly in length and alignment.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: tall dominant hero headquarters tower, readable star burst and warm casual rendering; flag/finial enter top safe area.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [
+      "Upper balcony/window ring is slightly warped, with unevenly sized glass panels and mullions.",
+      "White support blocks under the upper red ring are irregular in size and spacing, and appear partly fused into the ring.",
+      "Side wall columns have uneven segment sizes and slight asymmetry between left and right sides."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong readable tower and emblem, clean bright scene; top finial is too close to the frame edge.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Lighthouse",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

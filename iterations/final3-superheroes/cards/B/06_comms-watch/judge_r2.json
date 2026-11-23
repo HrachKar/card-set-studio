@@ -1,0 +1,116 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky yellow wrist communicator with a round red call button and tiny blue cape-fin antenna placed on brushed metal worktable in the rescue workshop (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with faint repeating pattern of small flying cape silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Make it smoother and more toy-like, with a simple clean blue wall and less glossy/fine-textured metal surface.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 17.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 18.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 19.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close toy-like Township style, clear watch communicator on a surface; minor issue with top clearance/background emblem pattern.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "smartwatch",
+     "defects": [
+      "Decorative blue plume/flag on top is not a normal smartwatch part and appears attached by a ball-and-stem ornament.",
+      "Watch strap connection is geometrically unclear: the band appears to attach mostly on the right side/back rather than through normal top and bottom lugs."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: chunky yellow watch, red call button and blue cape-fin antenna read clearly; only slight top-clearance concern.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Smartwatch",
+     "defects": [
+      "Blue wavy antenna/flag on top is an unrealistic part for a wristwatch and appears fused into the crown.",
+      "Watch strap construction is ambiguous: the front lower strap segment and the rear loop do not clearly connect into one continuous band.",
+      "Right-side rear strap loop is oversized and offset, making the watch band look warped and lopsided.",
+      "Side blue buttons are not symmetrical in placement or shape."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good stylized communicator and strong colours, but the blue strap competes with the requested yellow object and top clearance is tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "smart watch",
+     "defects": [
+      "Watch band construction is impossible: the rear loop attaches into the right side of the watch body instead of clear top and bottom lugs.",
+      "Front lower band and rear loop appear fused/merged at the bottom with no clear separation or hinge point.",
+      "Band is asymmetric: the left/front strap section is much wider and shaped differently from the right/rear loop.",
+      "Side buttons are asymmetric: left side is a plain yellow bulge, while right side is a yellow ring with a blue inset.",
+      "Yellow band keeper/buckle on the right side has no visible pin, holes, or functional clasp and looks like a solid sleeve fused around the strap.",
+      "Blue flag behind the antenna is attached ambiguously and appears to grow out of the top/back of the watch rather than from a clear pole connection."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

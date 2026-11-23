@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue chuck wagon with a cream canvas top and orange wheels in its real environment: sunny dirt ranch track with simple fence rails, green shrubs, and a bright clouded sky; three-quarter side view, slightly from below; the object is the clear central hero, large objects may be cropped by the bottom edge, environment simplified and softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 81.6,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 86.2,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 9,
+    "category": 10,
+    "readability": 9,
+    "object": 9,
+    "defects": [],
+    "comment": "Very close to reference style with soft chunky 3D shapes; clear blue covered chuck wagon in outdoor sky setting.",
+    "mean": 9.25,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 9,
+    "category": 10,
+    "readability": 9,
+    "object": 10,
+    "defects": [],
+    "comment": "Excellent stylized 3D wagon, clear cream canvas top and orange wheels, strong environment and silhouette.",
+    "mean": 9.5,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

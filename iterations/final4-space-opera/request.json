@@ -1,0 +1,11 @@
+{
+ "theme": "Космоопера",
+ "wishes": "как звездные войны, никаких клонов",
+ "variants": 3,
+ "text_model": "gpt-5.5",
+ "image_model": "gpt-image-2.6-sunburst",
+ "candidates": 3,
+ "max_rounds": 2,
+ "pass_score": 9,
+ "started": "2026-11-21T14:00:32"
+}

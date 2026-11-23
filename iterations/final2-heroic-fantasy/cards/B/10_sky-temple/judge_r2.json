@@ -1,0 +1,119 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white stone cliff temple with tall columns, blue crystal caps, and floating step stones in its real environment: bright cliff temple above soft clouds with warm sunlight and pale stone steps; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a heroic fantasy realm: a festival village in the morning, a bright river bridge at noon, an ancient grove in the afternoon, and a cliff temple by golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean lilac sky background and leave the top 12% of the image empty above the temple.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 20.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong Township-like chunky temple, clear cliff and floating stones, bright lilac sky.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal temple",
+     "defects": [
+      "Left and right side towers/outer columns are not perfectly symmetric; their bases, rings, and crystal caps differ slightly in size and alignment.",
+      "Inner front columns are partly fused into the archway/entablature and their bases are obscured or merged with the stair rails.",
+      "Pediment sunburst pieces are uneven and some rays appear melted into the roof beam rather than being separate blocks.",
+      "Door arch blocks are irregular and slightly warped, with the glowing doorway not cleanly aligned to the outer arch.",
+      "Stair rails and lower platforms are asymmetric; the left and right sides have different shapes and connections.",
+      "Several foreground stepping stones appear to float separately with no visible support or connection.",
+      "Some stone seams are inconsistent or fade into the surface, especially on the steps and foreground stones."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 7
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable hero temple in sky setting; clean shapes and good colour contrast.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal temple",
+     "defects": [
+      "Temple is on a floating rock island with no real-world support.",
+      "Foreground stepping stones float separately with no supports.",
+      "Side roof/beam sections appear to intersect or fuse into the round side towers rather than connecting cleanly.",
+      "Front lower plinth blocks and stair edges are slightly asymmetrical between left and right sides."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear central sky temple with columns, crystals and steps; polished casual-game style.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Sky Temple",
+     "defects": [
+      "Front stair side walls/rail blocks are asymmetrical in angle and length.",
+      "The paired front columns are not perfectly matched: capitals and shafts differ slightly in width and shape from left to right.",
+      "Some column bases and capitals appear partially embedded into the platform/roof blocks rather than cleanly joined.",
+      "Foreground stepping stones float unconnected from each other and from the staircase, if they are meant to be a physical walkway."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

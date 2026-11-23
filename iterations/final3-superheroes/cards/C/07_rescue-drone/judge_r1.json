@@ -1,0 +1,107 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky orange rescue drone with four ducted round fans, a blue visor front and red fin tail in its real environment: bright open sky above the hero hall terrace and soft distant skyscrapers; three-quarter view, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very clear chunky rescue drone, strong toy-like style and good hero framing; top clearance is a bit tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "rescue drone",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: clean rounded Township-like drone, instantly readable, dominant in a bright environment; minor top-clearance issue.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Rescue drone",
+     "defects": [
+      "Right-side upper ducted fan has no clear visible support arm to the fuselage and appears nearly floating/attached only by overlap.",
+      "Right-side lower ducted fan connection is mostly hidden/unclear, making the support geometry look incomplete.",
+      "Rotor blade counts/shapes are inconsistent between the four ducted fans; some appear to have three broad blades while others read as four or uneven blades.",
+      "Fan hubs are not consistently centered within the ducts, especially the lower-left and lower-right rotors.",
+      "Tail fin is fused directly into the top rear body with no clear tail boom or proper mounting structure."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good stylized form and readability, but the drone sits very close to the top edge.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "rescue drone",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

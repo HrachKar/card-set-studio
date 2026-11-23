@@ -1,0 +1,18 @@
+{
+ "Space Helmet": {
+  "X": "old",
+  "Y": "new"
+ },
+ "Saloon Piano": {
+  "X": "old",
+  "Y": "new"
+ },
+ "Spellbook": {
+  "X": "old",
+  "Y": "new"
+ },
+ "Hero Tower": {
+  "X": "new",
+  "Y": "old"
+ }
+}

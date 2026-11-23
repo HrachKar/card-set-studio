@@ -1,0 +1,110 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded orange rescue blimp with a blue mask-shaped windshield band and soft cape-tail fins in its real environment: bright sky over the superhero city skyline with soft white clouds; side view, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 17.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong match: rounded toy-like rescue blimp, clear blue mask windshield, cape-tail fins, bright sky environment. Slight issue: object sits high, top safe area not fully free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Airship",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good style and readability, central hero in environment. Medical shield emblem feels like an added detail not in request, and top area is tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Rescue blimp",
+     "defects": [
+      "Tail fins are stylized soft ribbon-like shapes rather than realistic airship stabilizers, with unclear attachment to the hull",
+      "Lower rear fin appears oversized and asymmetrical compared with the upper fin",
+      "Gondola attachment is simplified and slightly ambiguous, with supports blending into the hull/cabin"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good chunky mobile-game styling and clear silhouette. Extra medical shield detail and crowded top area make it slightly less clean.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Rescue blimp",
+     "defects": [
+      "Rear tail/fin assembly is confusing: red and yellow fins overlap and merge into each other instead of forming a clear symmetric tail structure.",
+      "Large red cape-like piece appears fused into the tail/body rather than attached as a separate part.",
+      "Underside cabin supports are uneven and attach at slightly different angles/sizes.",
+      "Gondola windows are inconsistent in size and shape."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

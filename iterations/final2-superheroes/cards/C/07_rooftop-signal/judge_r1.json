@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round turquoise signal projector with orange handles and a bright shield-shaped glow on its lens placed on flat concrete rooftop beside the plaza lookout railing (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city patrol route: morning in a hidden gadget lab, late morning on a downtown sidewalk, midday across sunny rooftops, and sunset at a plaza lookout.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 18.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong match: toy-like rounded projector, clear shield glow, clean orange background and rooftop surface.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Spotlight",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable and on-style; shield glow is clear, colours are bright, no major defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Spotlight",
+     "defects": [
+      "Orange side support arms and the central teal/yellow pivot bracket do not align into a coherent real hinge mechanism.",
+      "Lower ends of the orange support arms appear to merge into or disappear behind the base instead of attaching with clear matching pivots.",
+      "The right-side orange arm and side pivot are partly hidden/mismatched compared with the left side, making the pair asymmetric.",
+      "The yellow circular knob on the front teal bracket appears decorative and not connected to the lamp barrel or side arms."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best balance: big clear turquoise signal projector with orange handles, strong shield glow, clean category-3 setting.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Shield spotlight",
+     "defects": [
+      "Right orange support arm does not have the matching round hinge/pivot cap seen on the left side.",
+      "Left and right support arms attach to different-looking points on the lamp housing, making the yoke asymmetric.",
+      "Right support arm appears partly fused into or hidden behind the front lamp rim rather than clearly pinned to the side.",
+      "Small teal protrusion at the rear-left of the lamp housing reads like an unclear extra fin or half-formed rear part.",
+      "No text or digits."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

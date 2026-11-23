@@ -1,0 +1,38 @@
+{
+ "1. Space Helmet": {
+  "W": "new",
+  "X": "ctrl_post",
+  "Y": "ctrl",
+  "Z": "new_post"
+ },
+ "2. Potion": {
+  "W": "new_post",
+  "X": "new",
+  "Y": "ctrl_post",
+  "Z": "ctrl"
+ },
+ "3. Pilot Seat": {
+  "W": "new",
+  "X": "ctrl_post",
+  "Y": "new_post",
+  "Z": "ctrl"
+ },
+ "4. Saddle": {
+  "W": "new_post",
+  "X": "ctrl",
+  "Y": "ctrl_post",
+  "Z": "new"
+ },
+ "5. Food Tray": {
+  "W": "new",
+  "X": "ctrl",
+  "Y": "ctrl_post",
+  "Z": "new_post"
+ },
+ "6. Hero Jet": {
+  "W": "new_post",
+  "X": "ctrl",
+  "Y": "ctrl_post",
+  "Z": "new"
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big rooftop signal spotlight projecting a star burst symbol into the sky in its real environment: city rooftop at golden hour with a bright skyline; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 17.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: clear rooftop signal spotlight with a visible star burst projected into the sky; style and colours fit, but the beam/star intrude into the top margin.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Searchlight",
+     "defects": [
+      "Right-side support/yoke arm lacks the visible circular hinge cap and orange pivot bolt present on the left side.",
+      "The two support arms are asymmetric in shape and attachment height."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 1,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Spotlight is clear and well styled, but the star burst reads as being on the lamp lens rather than projected into the sky; top margin is not free.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Searchlight",
+     "defects": [
+      "Left and right side supports are not symmetrical: the left side has a large yellow pivot wheel, while the matching right pivot is missing or hidden and the right support appears to attach directly into the lamp body.",
+      "Rim bolts are unevenly spaced and slightly inconsistent in size/placement around the front ring.",
+      "Some red side casing ribs are warped and not evenly aligned around the cylindrical body."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 1,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Nice chunky game style and strong hero object, but the star symbol is inside the lens, not clearly projected; beam also occupies the top margin.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "searchlight",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

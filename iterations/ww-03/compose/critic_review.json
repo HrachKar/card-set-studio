@@ -1,0 +1,32 @@
+[
+ {
+  "card": "A1",
+  "problem": "The bandana/neckerchief is still a generic accessory if the caption is covered; the cowboy read depends on small pattern details that may disappear at thumbnail size.",
+  "fix": "Replace it with a cowboy hat: a stronger Wild West silhouette with a high creased crown, curled brim and horseshoe pin."
+ },
+ {
+  "card": "A3",
+  "problem": "A plain camp coffee pot reads as generic camping more than Wild West; the theme marker was partly in the text and surface, not strongly in the object silhouette.",
+  "fix": "Sharpen it into a trail coffee pot with a horseshoe-shaped handle arch, sheriff-star punched lid and clear campfire-stone placement."
+ },
+ {
+  "card": "A8",
+  "problem": "The bean pot was too generic; a tiny horseshoe charm is not enough at thumbnail size. Also the blue pot on a blue background risks poor contrast.",
+  "fix": "Make it a red speckled chuckwagon bean pot with a bold white horseshoe emblem and rope-wrapped bail on a camp crate."
+ },
+ {
+  "card": "B8",
+  "problem": "Batwing swing doors strongly imply a saloon, which risks an alcohol association, and they are a fixed building part rather than a satisfying standalone hero object.",
+  "fix": "Replace with a boardwalk wagon-wheel bench: still frontier-street specific, readable, kid-friendly and physically placed on the wooden boardwalk."
+ },
+ {
+  "card": "C6",
+  "problem": "The folded saddle blanket can read as a generic striped blanket or rug without the caption; the western marker is not strong enough at small size.",
+  "fix": "Replace with a rodeo tack trunk with a large horseshoe handle, rope corners and silver conchos."
+ },
+ {
+  "card": "C7",
+  "problem": "A hay bale is a generic farm object; the small horseshoe charm is too weak to make the card instantly read as Wild West or rodeo.",
+  "fix": "Replace with a horseshoe-shaped rodeo trophy on the prize table, using the set's packed-dirt rodeo yard surface."
+ }
+]

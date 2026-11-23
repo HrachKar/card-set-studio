@@ -1,0 +1,120 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek cream star skiff with a rounded nose, blue cockpit glass and three glowing rear engines in its real environment: desert moon outpost under a bright twin-sun sky with red rocks and a soft landing-pad shadow; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning arrival at an orbital starport, noon in the bright cantina concourse, afternoon in the hangar, and golden-hour departure from a desert moon outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.6,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [
+     "wrong_object"
+    ],
+    "comment": "Good toy-like style and clear skiff, but it shows only two rear engines instead of the requested three.",
+    "mean": 9,
+    "hard": [
+     "wrong_object"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "space jet",
+     "defects": [
+      "Rear thrusters are stacked on only the visible left side with no matching opposite-side thrusters visible, making the craft look asymmetrical.",
+      "The upper rear thruster appears partially fused into the vertical tail/upper rear body instead of being mounted on a clear support.",
+      "The lower rear thruster is much smaller than the upper thruster and appears offset, like an unmatched duplicate.",
+      "Left wing root visually merges into the side body and lower engine area, with unclear separation.",
+      "Landing feet/skids are asymmetrical: the left foot is farther back under the wing while the right foot is under the front body, with different strut shapes."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong match: chunky rounded cream skiff, blue cockpit, three glowing engines, bright blue environment, clear hero object.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "space jet",
+     "defects": [
+      "Three rear thruster nozzles are crowded together and appear partly fused/overlapping instead of mounted cleanly.",
+      "Rear engine cluster appears asymmetric, with visible nozzles only on one side of the fuselage.",
+      "Landing gear is odd: only two legs are visible and they are unevenly placed, with no clear nose or rear support.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very clean and readable, with the requested three rear engines and strong category-4 hero framing.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "space shuttle",
+     "defects": [
+      "Only one side wing is clearly visible; the opposite wing is missing or completely hidden, making the craft look asymmetric.",
+      "Rear engine cluster is awkwardly fused into the tail/body with no clear mounting structure.",
+      "Underside gray/brown panels are blobby and merged together, resembling undefined parts rather than functional landing gear or hull details."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

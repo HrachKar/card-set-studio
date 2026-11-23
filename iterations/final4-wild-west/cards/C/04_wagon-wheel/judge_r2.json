@@ -1,0 +1,109 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big wooden wagon wheel with thick spokes and an iron rim, standing upright standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with sunburst rays. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the wagon wheel slightly smaller with more empty space above it, and simplify the wood and metal surfaces to softer chunky mobile-game rendering with less visible grain.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 16.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 15.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 16.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear chunky wagon wheel with warm soft wood and metal; good yellow floor/background and no defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "wagon wheel",
+     "defects": [
+      "Rivets around the metal rim are unevenly spaced and not symmetrically paired.",
+      "Wooden spokes vary noticeably in width and shape instead of matching as identical radial pieces.",
+      "Some spoke ends appear slightly fused into the inner rim or hub rather than having clear separate joints."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable upright wagon wheel, strong rounded forms and clean bright category-2 presentation.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "wagon wheel",
+     "defects": [
+      "Spokes are unevenly spaced and have inconsistent widths/tapers.",
+      "Some spoke ends appear partially fused or melted into the inner rim instead of having clear separate joints.",
+      "Upper-left spokes overlap/merge visually, making the construction ambiguous."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and on-style, with soft materials and clean yellow backdrop; no hard defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "wagon wheel",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

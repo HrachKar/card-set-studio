@@ -1,0 +1,2884 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Frontier Law",
+   "context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+   "place": "frontier sheriff street: dusty road, wooden boardwalk, plank jailhouse, sheriff office with plank floor, bright desert hills beyond town",
+   "concept": "A friendly sheriff's day shown through the safe, iconic objects of a sunny frontier town.",
+   "palette": "Warm tan wood and dusty browns contrasted with cheerful turquoise, yellow, pink, green and purple backgrounds.",
+   "motif": "sheriff star",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Star Badge",
+     "object": "a shiny gold sheriff star badge with rounded tips and a small pin back",
+     "theme_marker": "the six-point sheriff star silhouette",
+     "moment": "morning opening of the sheriff office before patrol begins",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of sheriff star silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny gold sheriff star badge with rounded tips and a small pin back, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and faint repeating pattern of sheriff star silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong toy-like Township style and clear gold badge on turquoise, but the object intrudes into the top 12% safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear rounded sheriff star badge with visible pin back, clean turquoise patterned background, good spacing and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Iron Stove",
+     "object": "a black cast-iron potbelly stove with curved belly, short legs and a tall stovepipe",
+     "theme_marker": "old frontier potbelly shape with stovepipe and ornate iron legs",
+     "moment": "warming the office while checking the town from the doorway",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black cast-iron potbelly stove with curved belly, short legs and a tall stovepipe standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized potbelly stove on yellow category-2 floor/background; top pipe leaves less than the required 12% free space.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable chunky toy-like stove with good yellow contrast; top pipe is too close to the upper edge for the 12% safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Empty Holster",
+     "object": "a brown leather empty holster belt with brass buckle, stitched empty slots and a floppy western holster with no weapon",
+     "theme_marker": "empty western holster shape with no weapon and no cartridges",
+     "moment": "hung safely on the peg before doing peaceful paperwork",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown leather empty holster belt with brass buckle, stitched empty slots and a floppy western holster with no weapon, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating toy-like leather holster belt on pink patterned background; no weapon or text, good chunky game style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well styled, but the sheriff star is an unnecessary extra decorative object not requested.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Jailhouse",
+     "object": "a small sunlit wooden jailhouse with barred windows, porch posts and a plain star sign with no text",
+     "theme_marker": "frontier plank jailhouse, barred windows and sheriff-star sign",
+     "moment": "checking the quiet jail after the morning round",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "green",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright dusty frontier town street with boardwalks, blue sky and soft desert hills",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small sunlit wooden jailhouse with barred windows, porch posts and a plain star sign with no text in its real environment: bright dusty frontier town street with boardwalks, blue sky and soft desert hills; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 22.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear jailhouse and good hero framing, but a bit too detailed in plank seams and the background is not green.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky, readable wooden jailhouse with strong central framing; only misses the requested green background.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Deputy Boots",
+     "object": "a pair of brown pointed cowboy boots with stitched patterns, high heels and silver spurs",
+     "theme_marker": "pointed toes, tall shafts, western stitching and spur rowels",
+     "moment": "ready by the office chair before the sheriff steps onto the boardwalk",
+     "class": "clothing",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown pointed cowboy boots with stitched patterns, high heels and silver spurs standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like cowboy boots on a purple category-2 floor/background; clean, bright, and defect-free.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable pair of pointed cowboy boots with spurs, matching the rounded casual style and correct purple category-2 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Jail Keys",
+     "object": "a chunky ring of oversized iron jail keys with a small gold sheriff-star fob",
+     "theme_marker": "large old jail keys plus a sheriff-star fob",
+     "moment": "taken from the wall hook to unlock the cell for cleaning",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky ring of oversized iron jail keys with a small gold sheriff-star fob, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Chunky toy-like keys and sheriff fob, clear on orange rays; top margin is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable stylized jail keys with gold star fob, good bright orange background; object enters the top 12%.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Stagecoach",
+     "object": "a red and yellow western stagecoach with high wheels, curved roof, luggage rack and empty front shafts",
+     "theme_marker": "classic stagecoach body with curved roof, luggage rack and large wooden wheels",
+     "moment": "evening arrival on the dusty road in front of the sheriff office",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "blue",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny main street with dusty road, wooden storefronts and pale mesas in the distance",
+     "view": "three-quarter side view, slightly from below",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and yellow western stagecoach with high wheels, curved roof, luggage rack and empty front shafts in its real environment: sunny main street with dusty road, wooden storefronts and pale mesas in the distance; three-quarter side view, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like stagecoach in a bright blue western environment; dominant hero object with correct colours and details.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable rounded stagecoach, strong red/yellow saturation, good luggage rack and empty shafts, clean category 4 setting.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Sheriff Hat",
+     "object": "a tan wide-brim sheriff hat with curled brim, brown band and small gold star badge on the front",
+     "theme_marker": "cowboy hat silhouette plus sheriff star on the band",
+     "moment": "placed on the desk during a calm midday break",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "red",
+     "bg_treatment": "soft gradient",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan wide-brim sheriff hat with curled brim, brown band and small gold star badge on the front, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: red with soft gradient and soft gradient. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear sheriff hat on a red simple background, but the felt has a slightly fine/realistic texture so it is not fully reference-style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong toy-like rounded sheriff hat, clear silhouette, clean red background, no visible defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Hitching Rail",
+     "object": "a weathered wooden frontier hitching rail with two chunky posts, carved rope grooves and a low boardwalk step behind it",
+     "theme_marker": "old western hitching rail form placed at the dusty boardwalk edge",
+     "moment": "passed on the boardwalk patrol beside the dusty street",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "mint",
+     "bg_treatment": "simple sunlit frontier street backdrop",
+     "surface": "dusty street edge beside a raised wooden boardwalk",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a weathered wooden frontier hitching rail with two chunky posts, carved rope grooves and a low boardwalk step behind it placed on dusty street edge beside a raised wooden boardwalk (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with simple sunlit frontier street backdrop and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hitching rail with chunky posts and rope grooves, but the scene is a bit busy and the top area is not fully free; slightly AI-polished wood/weathering.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable, clean mint background and good category depth; however the rope grooves are simplified into rings and the rendered wood is a bit too AI-smooth/realistic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Quiet Cell",
+     "object": "a small wooden-and-iron jail cell block with thick black bars and plank walls",
+     "theme_marker": "barred frontier jail cell built from rough planks and iron bars",
+     "moment": "last evening check before locking up the empty jailhouse",
+     "class": "architecture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "peach",
+     "bg_treatment": "simple sheriff office interior",
+     "surface": "rough plank floor inside the wooden jailhouse",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small wooden-and-iron jail cell block with thick black bars and plank walls placed on rough plank floor inside the wooden jailhouse (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated peach wall with simple sheriff office interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a sheriff in a small Wild West town, from opening the wooden jailhouse in the morning to watching the evening stagecoach arrive.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like jail cell, good peach interior and floor; background window/star and beams are extra details.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and dominant object, bright clean colours; still has extra background props and slightly busy room detail.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Desert Camp",
+   "context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+   "place": "cowboy desert camp: sandy ground, campfire stones, canvas bedrolls, saddle stand, chuck wagon, saguaro cactus and red mesas",
+   "concept": "A cowhand's practical camp day told with riding gear, camp food and desert surroundings, without showing people or animals.",
+   "palette": "Sunny desert oranges and warm leather browns balanced by sky blue, mint, lilac and turquoise backgrounds.",
+   "motif": "saguaro",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Lasso",
+     "object": "a tan rawhide lasso coiled into a bold loop with a clear honda knot",
+     "theme_marker": "large lasso loop with honda knot",
+     "moment": "coiled neatly at sunrise before camp chores begin",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan rawhide lasso coiled into a bold loop with a clear honda knot, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear lasso with good sky-blue rays and chunky form, but the rope has subtle realistic grain and the top loop slightly enters the reserved top area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable coiled lasso and strong bright colour, but fine rope texture is a bit too realistic and the small top loop sits too high.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Make the lasso smoother and more toy-like with no fine rope texture, and leave more empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tan rawhide lasso coiled into a bold loop with a clear honda knot, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Make the lasso smoother and more toy-like with no fine rope texture, and leave more empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good bright toy-like rendering, but the bulky knot and stacked coils make it read a bit tangled rather than instantly as a lasso.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean Township-like rounded lasso, clear loop and knot, strong contrast on simple sky-blue rays background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Bedroll",
+     "object": "a rolled striped wool cowboy bedroll with leather saddle straps and a visible blanket flap",
+     "theme_marker": "frontier blanket stripes and leather saddle straps on a cowboy camp bedroll",
+     "moment": "rolled up after sleeping under the open desert sky",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "faint repeating pattern of saguaro silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rolled striped wool cowboy bedroll with leather saddle straps and a visible blanket flap standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with faint repeating pattern of saguaro silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like bedroll with strong silhouette, leather straps, visible flap and bright yellow card background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable rolled blanket with straps and flap, clean bright colours and correct category framing.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Camp Coffee",
+     "object": "a blue enamel cowboy coffee pot with a tall spout sitting on a ring of campfire stones",
+     "theme_marker": "tin enamel coffee pot on campfire stones like a cattle-drive breakfast",
+     "moment": "morning coffee heating before the day's ride",
+     "class": "drink",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat campfire stones set in sandy desert ground",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue enamel cowboy coffee pot with a tall spout sitting on a ring of campfire stones placed on flat campfire stones set in sandy desert ground (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky smooth toy-like coffee pot, clear silhouette, purple background, stones and surface fit category 3.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear and well framed, but the many tiny enamel speckles add fine detail that is less like the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Saguaro",
+     "object": "a tall green saguaro cactus with two arms growing from pale desert sand",
+     "theme_marker": "iconic saguaro cactus silhouette of the western desert",
+     "moment": "standing beside the camp while the sun climbs higher",
+     "class": "nature",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "orange",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright desert camp with sand, blue sky, soft clouds and red mesas",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green saguaro cactus with two arms growing from pale desert sand in its real environment: bright desert camp with sand, blue sky, soft clouds and red mesas; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky cactus and clear desert setting, but the sky is blue instead of the requested orange background; flower is an extra detail and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean toy-like saguaro, very readable and dominant in its environment; however the background is mostly blue rather than orange and the top free space is too small.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a clean orange desert sky/background and leave more free space at the top while keeping the cactus large and simple."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green saguaro cactus with two arms growing from pale desert sand in its real environment: bright desert camp with sand, blue sky, soft clouds and red mesas; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean orange desert sky/background and leave more free space at the top while keeping the cactus large and simple.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky toy-like cactus in desert; clear silhouette and environment, but background is mostly blue rather than orange and top safe space is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best clean stylized saguaro, big and dominant in the desert; lacks the requested orange background dominance and has little top free space.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a warmer orange desert-sunset background and leave more empty space at the top while keeping the big rounded toy-like saguaro central."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Fringed Chaps",
+     "object": "a pair of tan leather cowboy chaps with long side fringe and silver conchos",
+     "theme_marker": "open leather chaps with long fringe and conchos",
+     "moment": "hung on a peg after dusty morning work around camp",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "mint",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of tan leather cowboy chaps with long side fringe and silver conchos, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and vertical stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong toy-like rounded forms, clear tan fringed chaps with conchos, clean mint striped background, floats correctly.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correctly framed, but the leather has more wrinkled/realistic surface detail than the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Trail Saddle",
+     "object": "a brown western saddle on a simple wooden stand, with high horn and stirrups",
+     "theme_marker": "saddle horn, deep seat and hanging stirrups",
+     "moment": "set on its stand while the tack is checked at midday",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 2,
+     "bg_color": "red",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown western saddle on a simple wooden stand, with high horn and stirrups standing on a plain flat floor of lighter red, three-quarter view slightly from above. Behind it a plain vertical red wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like saddle on stand, smooth rounded forms, clean red category-2 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but stitching, wood grain and extra decorative detail make it less like the simple reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Chuck Wagon",
+     "object": "a green canvas chuck wagon with wooden wheels, rear cook box and rolled canvas cover",
+     "theme_marker": "western chuck wagon body with canvas cover and rear cook box",
+     "moment": "rolled into the camp circle for the afternoon meal",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "turquoise",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny sandy camp with campfire stones, scattered crates and distant red mesas",
+     "view": "three-quarter side view, slightly from below",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a green canvas chuck wagon with wooden wheels, rear cook box and rolled canvas cover in its real environment: sunny sandy camp with campfire stones, scattered crates and distant red mesas; three-quarter side view, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township toy style, clear green chuck wagon hero in turquoise desert setting; extra campfire/crates slightly clutter the card.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable wagon and good style/colour, but canvas cover is beige rather than green and the foreground campfire is an extra object.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Neckerchief",
+     "object": "a red cowboy neckerchief tied in a chunky western knot with triangular bandana ends",
+     "theme_marker": "cowboy bandana knot and triangular neckerchief silhouette",
+     "moment": "laid on a crate before washing up for supper",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of saguaro silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red cowboy neckerchief tied in a chunky western knot with triangular bandana ends, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of saguaro silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear red neckerchief on green background, but fabric weave and realistic folds are too detailed; object also sits too close to the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable chunky neckerchief with good colour contrast, but the material texture is too realistic/fibrous for the reference style and the top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Make the scarf smooth, chunky and toy-like with no fabric weave or realistic texture, and leave more empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red cowboy neckerchief tied in a chunky western knot with triangular bandana ends, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of saguaro silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Make the scarf smooth, chunky and toy-like with no fabric weave or realistic texture, and leave more empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 14.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Chunky smooth stylized red neckerchief, clear knot and triangular ends, floats on bright green patterned background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean toy-like render and readable neckerchief, though the right ends are a bit more leaf-like than triangular bandana tips.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Dutch Oven",
+     "object": "a black cast-iron Dutch oven with little legs and a domed lid resting on warm camp coals",
+     "theme_marker": "three-legged cowboy Dutch oven used on open campfire coals",
+     "moment": "beans simmer for the evening camp meal",
+     "class": "food",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "pink",
+     "bg_treatment": "soft gradient",
+     "surface": "campfire coals and flat stones in sandy desert ground",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black cast-iron Dutch oven with little legs and a domed lid resting on warm camp coals placed on campfire coals and flat stones in sandy desert ground (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with soft gradient and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 23.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear Dutch oven on coals with good category-3 setup, but the metal shading is a bit too realistic and the hot coals/background are more saturated than the object.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong chunky stylized Dutch oven, very readable and well framed on a surface with pink background; colour is slightly compromised because the coals/background are the most saturated spots.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Canvas Tent",
+     "object": "a small cream canvas A-frame cowboy tent with crossed wooden poles and tied front flaps",
+     "theme_marker": "frontier canvas tent with crossed poles and tied flaps",
+     "moment": "set up beside the chuck wagon before sunset",
+     "class": "architecture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "lilac",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "smooth sand with a few flat desert stones",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small cream canvas A-frame cowboy tent with crossed wooden poles and tied front flaps placed on smooth sand with a few flat desert stones (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated lilac wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cowhand at a bright desert camp, from coiling gear at sunrise to settling beside the chuck wagon at golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized canvas A-frame tent on lilac background; good toy-like forms. Minor extra stones on the surface.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable, dominant tent with strong Township-like rounded materials and correct lilac interior/surface setup. Minor extra stones.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Gold Claim",
+   "context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+   "place": "desert gold claim: rocky sand, timber mine portal, chunky timber headframe, short rail track, ore buckets, claim stakes and bright red cliffs",
+   "concept": "A cheerful gold-rush mining day in the Wild West, focused on iconic prospecting tools and the dusty desert claim.",
+   "palette": "Golden nuggets, rusty iron and weathered timber pop against mint, orange, blue, yellow and pink backgrounds.",
+   "motif": "pickaxe",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Pickaxe",
+     "object": "a dusty prospector pickaxe with a wooden handle and broad iron head",
+     "theme_marker": "classic gold-rush pickaxe silhouette with long handle and pointed iron head",
+     "moment": "picked up at dawn before inspecting the mine entrance",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dusty prospector pickaxe with a wooden handle and broad iron head, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and faint repeating pattern of pickaxe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear floating pickaxe on mint background, but wood grain and dirty metal texture are too realistic; object intrudes into top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and correct category, but realistic rust/dust and wood texture weaken Township style; top area is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Make the pickaxe smoother and more toy-like, removing realistic wood grain/rust texture and leaving clear empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dusty prospector pickaxe with a wooden handle and broad iron head, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: mint with soft gradient and faint repeating pattern of pickaxe silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Make the pickaxe smoother and more toy-like, removing realistic wood grain/rust texture and leaving clear empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean chunky toy-like pickaxe, clear silhouette, mint patterned background, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable stylized pickaxe with good colour contrast; slight dusty wrap detail but still fits the game style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Ore Cart",
+     "object": "a rusty iron ore cart with a deep tub, small rail wheels and chunky rivets on a short rail track",
+     "theme_marker": "mine ore cart tub on rail wheels, a gold-rush mining shape",
+     "moment": "waiting on the short track for the first load of the day",
+     "class": "transport",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "simple sunlit mine-yard backdrop",
+     "surface": "short rusty rail track laid in rocky sand at the desert claim",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rusty iron ore cart with a deep tub, small rail wheels and chunky rivets on a short rail track placed on short rusty rail track laid in rocky sand at the desert claim (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with simple sunlit mine-yard backdrop and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear ore cart on rails, but rusty/gritty mottling and small environmental rocks make it more detailed than the reference style; orange object blends somewhat into orange background.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable chunky cart with rivets and rail track, correct category, but rust texture and rocky desert details are too gritty/realistic; low colour contrast due orange-on-orange palette.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Make the ore cart more toy-like with smooth simplified rust, fewer gritty rock/background details, and stronger contrast against the orange background."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rusty iron ore cart with a deep tub, small rail wheels and chunky rivets on a short rail track placed on short rusty rail track laid in rocky sand at the desert claim (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with simple sunlit mine-yard backdrop and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Make the ore cart more toy-like with smooth simplified rust, fewer gritty rock/background details, and stronger contrast against the orange background.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 22.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear ore cart on rails, but rust/rock detailing is a bit too realistic and orange-on-orange contrast is weak.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and correct object, but the mottled rust texture and faceted ore feel too detailed for the reference style; background/object contrast is limited.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Make the ore cart more chunky toy-like with smoother stylized rust, simpler rocks, and stronger contrast against a clean bright orange background."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Nugget Pouch",
+     "object": "a brown leather drawstring pouch spilling a few bright gold nuggets",
+     "theme_marker": "gold-rush pouch with visible chunky nuggets",
+     "moment": "opened at midday to count the safe little finds from the claim",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "blue",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown leather drawstring pouch spilling a few bright gold nuggets, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: blue with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear pouch and nuggets, correct floating category and bright blue background, but leather has slightly realistic grain and the object sits too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close to reference style: chunky, smooth, readable pouch with gold nuggets on clean blue stripes; only issue is the object is a bit too high, leaving the top 12% not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Mine Portal",
+     "object": "a timber-framed mine entrance set into a sunlit red rock cliff with no sign or text",
+     "theme_marker": "rough wooden mine supports framing a shaded tunnel in desert rock",
+     "moment": "checked after breakfast before work begins inside the claim",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "yellow",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright desert claim with red rock cliff, pale sand, blue sky and small scrub plants",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a timber-framed mine entrance set into a sunlit red rock cliff with no sign or text in its real environment: bright desert claim with red rock cliff, pale sand, blue sky and small scrub plants; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear mine portal and good category 4 setup, but wood grain and faceted rock texture feel a bit too detailed; red cliff competes with the object and background is not very yellow.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable central mine entrance with correct environment, cleaner than A, but still has noticeable wood grain/faceted rock detail and the red rock/blue sky background reduces the requested yellow contrast.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use smoother chunky toy-like forms with minimal wood/rock texture and a brighter yellow sunlit background so the mine portal is the most saturated focus."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a timber-framed mine entrance set into a sunlit red rock cliff with no sign or text in its real environment: bright desert claim with red rock cliff, pale sand, blue sky and small scrub plants; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use smoother chunky toy-like forms with minimal wood/rock texture and a brighter yellow sunlit background so the mine portal is the most saturated focus.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear dominant mine portal in red cliff, bright toy-like stylized forms, no text or extra main objects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable mine entrance, strong category-4 environment, clean bright colours; rivets are acceptable decorative details.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Miner Lantern",
+     "object": "a brass miner lantern with thick wire guard, round glass globe and top hook",
+     "theme_marker": "old mining lantern with protective cage and hanging hook",
+     "moment": "set beside the portal for the shaded part of the mine check",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brass miner lantern with thick wire guard, round glass globe and top hook standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with faint repeating pattern of pickaxe silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like miner lantern with good purple floor/background and strong silhouette; hook is too close to the top so top 12% is not free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correct setup, but the metal has slightly too much realistic/brushed texture; hook also intrudes into the top 12%.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Claim Stake",
+     "object": "a weathered wooden claim stake with a blank tin tag and a pointed end stuck in gravel",
+     "theme_marker": "frontier mining claim stake with blank metal tag and rough timber point",
+     "moment": "re-planted in the sandy gravel to mark the safe work area",
+     "class": "other",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "rocky sand beside the desert mine claim",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a weathered wooden claim stake with a blank tin tag and a pointed end stuck in gravel placed on rocky sand beside the desert mine claim (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear claim stake with blank tag on gravel and bright red background, but wood grain and brushed metal are a bit too detailed/realistic for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable centered stake with correct surface and clean colour; still has overly detailed wood cracks and metal brushing compared with the smoother toy-like references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Mine Headframe",
+     "object": "a chunky timber mine headframe with a large solid wooden pulley wheel over a square shaft opening",
+     "theme_marker": "gold-rush mine headframe made from rough timbers with an overhead hoist wheel",
+     "moment": "used in the afternoon to raise small ore buckets from the claim shaft",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "turquoise",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny desert mine claim with rocky sand, timber supports, red cliffs and pale blue sky",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky timber mine headframe with a large solid wooden pulley wheel over a square shaft opening in its real environment: sunny desert mine claim with rocky sand, timber supports, red cliffs and pale blue sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky toy-like headframe and clear shaft, but the pulley is spoked rather than a large solid wooden wheel; object also sits too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky mine headframe with dominant solid wooden pulley and square shaft in a bright turquoise landscape; top safe area is a bit crowded.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Gold Scale",
+     "object": "a brass prospector balance scale with two shallow pans, one holding bright gold nuggets, on a chunky wooden base",
+     "theme_marker": "old gold-weighing balance with visible nuggets",
+     "moment": "used late in the day to weigh the best nuggets from the pouch",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brass prospector balance scale with two shallow pans, one holding bright gold nuggets, on a chunky wooden base standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky toy-like brass scale, clear pans and gold nuggets, good pink floor/background, no cropping or extra elements.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well styled, but the added gauge/needle makes it less like a pure prospector balance scale and adds unnecessary detail.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Ore Bucket",
+     "object": "a wooden ore bucket hanging from a rope pulley on a rough timber beam",
+     "theme_marker": "mine hoist bucket and pulley made from rough frontier timber",
+     "moment": "lowered beside the portal to lift small stones from the claim",
+     "class": "equipment",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of pickaxe silhouettes",
+     "surface": "rocky mine-floor planks and gravel under a timber beam",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden ore bucket hanging from a rope pulley on a rough timber beam placed on rocky mine-floor planks and gravel under a timber beam (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with faint repeating pattern of pickaxe silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 23.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close chunky toy-like game style, clear pulley and bucket on a textured surface; ore reads a bit like gold nuggets but acceptable.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear ore bucket and pulley beam, strong silhouette, bright green background and polished casual-game materials; best match overall.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Ore Crate",
+     "object": "a rough wooden ore crate filled with gray rocks streaked with bright gold and thick rope handles",
+     "theme_marker": "gold-streaked ore in a rough frontier mine crate",
+     "moment": "stacked near the supply pile after the final sorting before sunset",
+     "class": "other",
+     "scale": "furniture",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "peach",
+     "bg_treatment": "simple desert claim backdrop",
+     "surface": "sunny rocky sand beside the mine supply pile",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rough wooden ore crate filled with gray rocks streaked with bright gold and thick rope handles placed on sunny rocky sand beside the mine supply pile (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated peach wall with simple desert claim backdrop and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a gold prospector at a desert mine claim, from checking tools at dawn to raising ore buckets before sunset.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like ore crate with bright contrast; background is a bit busy but acceptable.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: readable rounded crate, clean saturated ore, peach background, no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 72,
+  "image_out": 88920,
+  "image_in": 82296,
+  "text_in_img": 27290,
+  "llm_calls": 39,
+  "llm_in": 63089,
+  "llm_out": 41578
+ }
+}

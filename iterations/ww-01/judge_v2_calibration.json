@@ -1,0 +1,302 @@
+[
+ [
+  "A",
+  1,
+  "Cowboy Hat",
+  "ok",
+  9,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  2,
+  "Water Pump",
+  "fail",
+  8,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 1
+  }
+ ],
+ [
+  "A",
+  3,
+  "Root Beer",
+  "ok_but",
+  7,
+  false,
+  {
+   "style": 0,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  4,
+  "Covered Wagon",
+  "disputed",
+  8,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  5,
+  "Star Badge",
+  "ok",
+  10,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  6,
+  "Tall Cactus",
+  "ok_but",
+  8,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 1
+  }
+ ],
+ [
+  "A",
+  7,
+  "Saloon Doors",
+  "ok",
+  9,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 1
+  }
+ ],
+ [
+  "A",
+  8,
+  "Gold Pan",
+  "fail",
+  7,
+  false,
+  {
+   "style": 0,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  9,
+  "Oil Lantern",
+  "ok",
+  10,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "A",
+  10,
+  "Water Trough",
+  "ok",
+  9,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  1,
+  "Coiled Lasso",
+  "ok",
+  9,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  2,
+  "Ranch Boots",
+  "ok",
+  8,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  3,
+  "Camp Coffee",
+  "fail",
+  8,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  4,
+  "Ranch Windmill",
+  "fail",
+  7,
+  false,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 1
+  }
+ ],
+ [
+  "B",
+  5,
+  "Hay Bale",
+  "fail",
+  7,
+  false,
+  {
+   "style": 0,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  6,
+  "Red Bandana",
+  "ok",
+  8,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 1
+  }
+ ],
+ [
+  "B",
+  7,
+  "Water Bucket",
+  "ok",
+  9,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  8,
+  "Chuck Wagon",
+  "fail",
+  9,
+  true,
+  {
+   "style": 1,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  9,
+  "Dinner Triangle",
+  "fail",
+  9,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 1,
+   "defects": 2
+  }
+ ],
+ [
+  "B",
+  10,
+  "Porch Rocker",
+  "ok",
+  10,
+  true,
+  {
+   "style": 2,
+   "readability": 2,
+   "category": 2,
+   "colour": 2,
+   "defects": 2
+  }
+ ]
+]

@@ -1,0 +1,2710 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Witch Porch",
+   "context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+   "place": "cozy witch cottage porch and garden: wooden porch boards, a little porch table, fire stones, soft garden soil, bright trees and a crooked cottage path",
+   "concept": "A friendly witch-cottage day told through the porch objects used from morning sweeping to evening lantern glow.",
+   "palette": "Bright Halloween candy colours with warm oranges, purples, greens and sunny golden accents.",
+   "motif": "crescent moon",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Pointed Hat",
+     "object": "a deep violet pointed witch hat with a curled tip, wide brim and lime ribbon",
+     "theme_marker": "tall pointed cone, curled tip and oversized witch brim",
+     "moment": "morning, taken from the porch peg before stepping outside to start the day",
+     "class": "clothing",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "faint repeating pattern of crescent moon silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a deep violet pointed witch hat with a curled tip, wide brim and lime ribbon, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and faint repeating pattern of crescent moon silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized witch hat with good toy-like rounded forms and bright purple background; object sits slightly into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-style, with strong colour contrast and correct floating category 1 framing; top curl is a little too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Bubble Cauldron",
+     "object": "a round black cauldron with three stubby legs, green bubbles and a curled purple steam puff",
+     "theme_marker": "three-legged witch cauldron with magical green bubbles",
+     "moment": "late morning, set to simmer on the garden fire stones for a cheerful porch brew",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain cottage wall with light glow",
+     "surface": "flat fire stones beside the cottage porch",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round black cauldron with three stubby legs, green bubbles and a curled purple steam puff placed on flat fire stones beside the cottage porch (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain cottage wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like cauldron, good green background and surface; top steam is a little too close to the top edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and polished, but the added belt/emblem and tight top margin make it slightly less clean than requested.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Carved Pumpkin",
+     "object": "a bright orange jack-o-lantern with a friendly crescent smile and a chunky green stem",
+     "theme_marker": "carved friendly face cut into a pumpkin",
+     "moment": "midday, placed by the front step as the first cute decoration",
+     "class": "nature",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "sky blue",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a bright orange jack-o-lantern with a friendly crescent smile and a chunky green stem standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky pumpkin, clear friendly jack-o-lantern, clean sky-blue wall and floor, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable rounded toy-like pumpkin with bright colours, correct simple category 2 setup, no visible defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Moon Broom",
+     "object": "a cinnamon-brown broomstick with straw bristles, a curled handle and a tiny crescent charm tied near the brush",
+     "theme_marker": "classic witch broom shape with straw bundle and curled riding handle",
+     "moment": "after lunch, used to sweep golden leaves from the porch boards",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cinnamon-brown broomstick with straw bristles, a curled handle and a tiny crescent charm tied near the brush, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear correct broom with charm on orange patterned background, but rendering is a bit too glossy/detailed with visible wood and bristle texture; top margin is borderline.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and correct object, strong colour and framing, but slightly too polished/realistic with material detail, and the curled handle sits too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Use smoother chunky toy-like shapes with less wood/straw texture and leave more empty space above the broom."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cinnamon-brown broomstick with straw bristles, a curled handle and a tiny crescent charm tied near the brush, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use smoother chunky toy-like shapes with less wood/straw texture and leave more empty space above the broom.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like rounded toy style, clear floating Moon Broom on orange patterned background; only issue is the handle enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean stylized broom, readable silhouette and correct category/background; slightly tight at the top, so top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Crooked Cottage",
+     "object": "a small lavender crooked witch cottage with a bent roof, round window and candy-orange door",
+     "theme_marker": "crooked fairy-tale roof and rounded witch-cottage shape",
+     "moment": "afternoon, seen from the garden path while decorations are carried outside",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "pink",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright witch cottage garden with sunny trees, soft grass and a curving stone path",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small lavender crooked witch cottage with a bent roof, round window and candy-orange door in its real environment: bright witch cottage garden with sunny trees, soft grass and a curving stone path; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good toy-like witch cottage, clear round window and orange door; background is not pink and roof intrudes into top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and closest to the requested cottage; bright and stylized, but background is blue/green instead of pink and top safe area is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "B",
+        "fix": "Use a clean bright pink background and leave the top 12% empty above the cottage roof."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small lavender crooked witch cottage with a bent roof, round window and candy-orange door in its real environment: bright witch cottage garden with sunny trees, soft grass and a curving stone path; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean bright pink background and leave the top 12% empty above the cottage roof.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky Township-like cottage, clear crooked witch roof, round window and orange door; top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and dominant, clean colours; roof is close to the top and flower boxes add some clutter, but no hard defect.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Potion Bottle",
+     "object": "a turquoise glass potion bottle with purple liquid, bubbly cork stopper and crescent-shaped glass handle",
+     "theme_marker": "glowing magic potion liquid, bubbles and crescent stopper",
+     "moment": "afternoon, picked from the porch table to colour the welcome lights",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a turquoise glass potion bottle with purple liquid, bubbly cork stopper and crescent-shaped glass handle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like potion bottle with correct yellow background; top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Matches the reference style well: rounded, readable, floating object, bright clean yellow background, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Crystal Globe",
+     "object": "a clear crystal ball on a golden crescent stand with soft mint sparkles inside",
+     "theme_marker": "fortune-teller crystal ball held by a crescent moon stand",
+     "moment": "late afternoon, checked on the porch to choose the best spot for the lanterns",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "round",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of crescent moon silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a clear crystal ball on a golden crescent stand with soft mint sparkles inside standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with faint repeating pattern of crescent moon silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like crystal globe on crescent stand; good colour and category, but object sits a bit high into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable, rounded Township-like globe and golden crescent stand; bright turquoise background, but top safe area is slightly tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Charm Book",
+     "object": "a chunky teal spell book with purple corner caps, a round moon clasp and ribbon tabs but no letters",
+     "theme_marker": "old magical book with metal corner caps and moon clasp",
+     "moment": "golden hour, opened on the porch table to follow a friendly decorating charm",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "faint repeating pattern of crescent moon silhouettes",
+     "surface": "weathered wooden porch table",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky teal spell book with purple corner caps, a round moon clasp and ribbon tabs but no letters placed on weathered wooden porch table (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with faint repeating pattern of crescent moon silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky toy book, clear silhouette, correct tabletop/interior setup, bright red background, no text or cropping.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but has a bit too much fine wood/page texture and slightly less smooth stylized material than the references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Glow Toadstool",
+     "object": "a plump red toadstool with cream spots, a tiny crescent cutout in the cap and a thick pale stem",
+     "theme_marker": "storybook magical mushroom with glowing crescent cutout",
+     "moment": "near sunset, found beside the steps while arranging the garden border",
+     "class": "nature",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "soft garden soil with a few golden leaves",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a plump red toadstool with cream spots, a tiny crescent cutout in the cap and a thick pale stem placed on soft garden soil with a few golden leaves (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close to the reference style: chunky smooth toy-like toadstool, clear blue background and correct surface. Leaves are extra objects, but not dominant.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good stylized rounded mushroom on a textured surface with strong blue contrast. Crescent reads more like a cream marking than a cutout, and leaves are extra objects.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Wish Well",
+     "object": "a little stone wishing well with a crooked purple shingle roof, rope bucket and golden crescent finial",
+     "theme_marker": "storybook witch-garden well with crooked roof and crescent finial",
+     "moment": "evening, the final lantern is hung near the garden well before going inside",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "peach",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny cottage garden path with flowers, porch edge and warm golden sky",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a little stone wishing well with a crooked purple shingle roof, rope bucket and golden crescent finial in its real environment: sunny cottage garden path with flowers, porch edge and warm golden sky; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a young cottage witch at a sunny crooked woodland porch, tidying the garden and preparing a cute pumpkin welcome before golden hour.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like rounded toy forms and clear wishing well silhouette; colours are bright and peachy. Top is a bit crowded by the crescent finial and background details are slightly busy.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable hero object with good purple roof, rope bucket and crescent. Clean saturated colours, but the crescent sits high in the frame and the environment is a little busy.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Manor Glow",
+   "context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+   "place": "sunlit gothic mansion hall: checkerboard floor, carved wood walls, tall arched windows, velvet furniture and a grand staircase",
+   "concept": "A cute haunted-manor world focused on harmless gothic household objects in a warm daytime hall.",
+   "palette": "Polished jewel tones with sunny yellow, mint, plum, teal and warm wood browns.",
+   "motif": "arched window",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Gothic Key",
+     "object": "a large brass key with a heart-shaped bow, pointed arch teeth and a small purple tassel",
+     "theme_marker": "oversized old manor key with gothic pointed-arch teeth",
+     "moment": "morning, lifted from the hall tray to unlock the sunny rooms for cleaning",
+     "class": "accessory",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "faint repeating pattern of arched window silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a large brass key with a heart-shaped bow, pointed arch teeth and a small purple tassel, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and faint repeating pattern of arched window silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky toy-like brass key, strong heart bow and purple tassel; yellow patterned background fits category 1.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable stylized key with good colour and floating category-1 framing; teeth are a bit less pointed/gothic than requested.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Pipe Organ",
+     "object": "a polished walnut pipe organ with tall silver pipes, pointed arch carvings and purple foot pedals",
+     "theme_marker": "gothic pipe organ pipes framed by pointed arches",
+     "moment": "morning, dusted after sunlight reaches the music corner of the hall",
+     "class": "device",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "simple gothic hall interior",
+     "surface": "black-and-white checkerboard mansion floor",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a polished walnut pipe organ with tall silver pipes, pointed arch carvings and purple foot pedals placed on black-and-white checkerboard mansion floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with simple gothic hall interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 22.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear toy-like pipe organ with rounded walnut body, silver pipes, arch carvings and purple pedals; good purple interior and tiled floor.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable polished pipe organ, dominant in frame, with clean rounded forms, purple pedals and suitable purple background on a textured floor.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "High Cloak",
+     "object": "a ruby velvet high-collar cloak draped on a simple black display stand, with a scalloped lower edge",
+     "theme_marker": "dramatic gothic high collar and scalloped cloak outline",
+     "moment": "late morning, shaken out and set on its stand before being returned to the wardrobe",
+     "class": "clothing",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of arched window silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a ruby velvet high-collar cloak draped on a simple black display stand, with a scalloped lower edge standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with faint repeating pattern of arched window silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized cloak on stand, good mint card setup; slightly too close to the top so top clearance is not ideal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky smooth toy-like cloak, very readable and correctly staged; top clearance is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Drip Candelabra",
+     "object": "a silver floor candelabra with three curling arms, lavender candles, friendly yellow flames and a heavy round base",
+     "theme_marker": "old gothic candelabra with curling arms and melting candles",
+     "moment": "noon, polished beside the hall wall before the afternoon glow",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver floor candelabra with three curling arms, lavender candles, friendly yellow flames and a heavy round base standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with sunburst rays. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear object and nice sky-blue card setup, but metal is a little too glossy/realistic and the flame intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable, correct category-2 floor/background and clean colours; only the silver material feels a bit too realistic/glossy for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Glass Arch",
+     "object": "a tall stained-glass arched window with amber, teal and purple panes and a crescent medallion",
+     "theme_marker": "pointed gothic arch window with jewel-colour stained glass",
+     "moment": "afternoon, opened to let bright garden light into the hall",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "orange",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright mansion hall with warm sunbeams, carved wall panels and a soft garden view beyond the glass",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall stained-glass arched window with amber, teal and purple panes and a crescent medallion in its real environment: bright mansion hall with warm sunbeams, carved wall panels and a soft garden view beyond the glass; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear stylized stained-glass arch in a warm interior; good colours and hero focus, but the top safe area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable chunky stained-glass arched window, dominant in its environment with bright warm colour; top safe area is crowded.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Feather Duster",
+     "object": "a fluffy purple-black feather duster with a silver pointed-arch handle and a tiny crescent knob",
+     "theme_marker": "dark gothic plume and pointed-arch manor handle",
+     "moment": "afternoon, used to sweep dust from carved frames and tall hall shelves",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of arched window silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a fluffy purple-black feather duster with a silver pointed-arch handle and a tiny crescent knob, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of arched window silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear feather duster and correct green card setup, but feathers are a bit too detailed/voluminous versus the simpler reference style; top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded stylized feather duster, clear silhouette, good green contrast; only minor issue is tight top clearance.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Arch Wardrobe",
+     "object": "a tall plum wardrobe with a pointed gothic arch top, golden hinges, tower-like knobs and a smiling crescent pull",
+     "theme_marker": "pointed gothic arch cabinet silhouette with tower-like knobs",
+     "moment": "mid-afternoon, closed neatly after the cloak is put away",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall plum wardrobe with a pointed gothic arch top, golden hinges, tower-like knobs and a smiling crescent pull standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear toy-like gothic plum wardrobe with correct golden hinges, knobs and crescent pull; top margin is too tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and polished, but the glass-like upper panels add a slightly less accurate extra detail; top margin is too tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Mantel Clock",
+     "object": "a dark teal mantel clock with a pointed roof, tiny tower knobs and a swinging crescent pendulum",
+     "theme_marker": "mini gothic clock tower shape with crescent pendulum",
+     "moment": "late afternoon, wound on the carved table before the hall tour",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "carved wooden hall side table",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark teal mantel clock with a pointed roof, tiny tower knobs and a swinging crescent pendulum placed on carved wooden hall side table (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close to reference style, clear mantel clock on a blue interior background and wooden surface; top finial enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like toy styling, instantly readable clock, good category 3 setup; top knob is too close to the top edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Velvet Chair",
+     "object": "a plush emerald armchair with a tall pointed back, curled wooden arms and purple cushion",
+     "theme_marker": "gothic throne-like pointed back and curled carved arms",
+     "moment": "golden hour, brushed clean near the big window for a cozy reading spot",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "peach",
+     "bg_treatment": "simple gothic hall interior",
+     "surface": "polished checkerboard mansion floor",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a plush emerald armchair with a tall pointed back, curled wooden arms and purple cushion placed on polished checkerboard mansion floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated peach wall with simple gothic hall interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 22.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: toy-like rounded chair, clear emerald plush armchair with pointed back, curled wooden arms and purple cushion; bright peach interior and tiled floor fit category 3.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and stylistically close, but the top finial sits too near the top edge so the required top free space is weak.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Grand Stairs",
+     "object": "a sweeping dark-wood staircase with curled banister ends, purple runner and pointed newel posts",
+     "theme_marker": "old mansion staircase with gothic pointed posts and curling banister",
+     "moment": "evening, the last place checked before the hall lights are lowered for sunset",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "turquoise",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright gothic mansion hall with tall windows, warm sunbeams and polished checkerboard floor",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sweeping dark-wood staircase with curled banister ends, purple runner and pointed newel posts in its real environment: bright gothic mansion hall with tall windows, warm sunbeams and polished checkerboard floor; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a cheerful manor housekeeper in a bright old spooky mansion hall, dusting gothic treasures from breakfast sunshine to golden-hour polish.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky stylized grand staircase, clear purple runner, curled banister ends and pointed posts in a bright interior.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean and readable in the right environment, but the banister ends are less curled, so it is slightly less specific to the request.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Candy Spells",
+   "context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+   "place": "bright spooky sweet shop and candy kitchen: striped counter, tiled floor, display shelves, sunny front window and a little candy cart outside",
+   "concept": "A family-friendly spooky candy-shop day where every object is either a Halloween treat or the cute equipment used to prepare it.",
+   "palette": "Sugary brights with turquoise, peach, purple, mint, lemon yellow and black-orange accents.",
+   "motif": "candy corn",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Candy Corn",
+     "object": "a plump triangular candy corn with white tip, orange middle and yellow base",
+     "theme_marker": "iconic Halloween candy-corn triangle colours and silhouette",
+     "moment": "morning, poured into the first bowl for the counter display",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "faint repeating pattern of candy corn silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a plump triangular candy corn with white tip, orange middle and yellow base, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and faint repeating pattern of candy corn silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear candy corn, good rounded toy style and turquoise patterned background; top margin is a little tight for the required free space.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: plump stylized candy corn, instantly readable, floating on clean turquoise background with enough top space.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Magic Oven",
+     "object": "a mint-green bakery oven with a pointed arched door, orange knobs and a striped awning-like top",
+     "theme_marker": "spooky arched oven door and Halloween orange-black trim",
+     "moment": "morning, warmed up before the first tray of web tarts goes in",
+     "class": "device",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 2,
+     "bg_color": "peach",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a mint-green bakery oven with a pointed arched door, orange knobs and a striped awning-like top standing on a plain flat floor of lighter peach, three-quarter view slightly from above. Behind it a plain vertical peach wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong match: toy-like mint oven, clear arched door, orange knobs and striped awning on peach background. Slight issue: top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Also fits the style and requested oven well, with good silhouette and colours. Top margin is slightly tight; Halloween-like cookies are a small distraction.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Web Tart",
+     "object": "a round berry tart with glossy purple filling and neat white cobweb icing lines on top",
+     "theme_marker": "clear cobweb pattern made from icing",
+     "moment": "late morning, cooled on the counter after baking",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 3,
+     "bg_color": "purple",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "striped candy-shop counter",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round berry tart with glossy purple filling and neat white cobweb icing lines on top placed on striped candy-shop counter (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean stylized toy-like tart, clear cobweb icing and glossy purple filling; fits category 3 with bright purple background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match overall; tart is clear and colourful, though the berry cluster is a bit busier than ideal.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Candy Cabinet",
+     "object": "a teal display cabinet with a crooked roofline, pointed shelves and jars of orange and purple sweets",
+     "theme_marker": "crooked haunted-shop silhouette with pointed gothic shelves",
+     "moment": "noon, restocked before the front window is opened",
+     "class": "furniture",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "mint",
+     "bg_treatment": "faint repeating pattern of candy corn silhouettes",
+     "surface": "cream-and-orange tiled shop floor",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a teal display cabinet with a crooked roofline, pointed shelves and jars of orange and purple sweets placed on cream-and-orange tiled shop floor (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated mint wall with faint repeating pattern of candy corn silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky cabinet, clear mint interior and tiled surface; requested sweets are readable, but top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very good toy-like candy cabinet with crooked roof, pointed shelf accents and clear orange/purple jars; top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Sweet Shop",
+     "object": "a tiny crooked candy-shop storefront with a candy-corn awning, round window and warm yellow door",
+     "theme_marker": "crooked spooky storefront plus candy-corn striped awning",
+     "moment": "early afternoon, seen from outside as the fresh treats are placed in the window",
+     "class": "architecture",
+     "scale": "big",
+     "silhouette": "vertical",
+     "category": 4,
+     "bg_color": "yellow",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright candy-shop street with warm sunlight, pastel paving stones and a cheerful front window",
+     "view": "frontal, slightly from below",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tiny crooked candy-shop storefront with a candy-corn awning, round window and warm yellow door in its real environment: bright candy-shop street with warm sunlight, pastel paving stones and a cheerful front window; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close toy-like Township style and instantly reads as a candy shop; strong hero framing, but background is blue rather than requested yellow and the roof/chimney enter the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable, rounded and game-like with correct environment depth; less crooked and has slightly distracting candy display details, plus blue rather than yellow background and top safe area is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": "Use a clean bright yellow background and leave the top 12% empty while keeping the candy shop large and simple."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tiny crooked candy-shop storefront with a candy-corn awning, round window and warm yellow door in its real environment: bright candy-shop street with warm sunlight, pastel paving stones and a cheerful front window; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a clean bright yellow background and leave the top 12% empty while keeping the candy shop large and simple.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close Township-like toy style, clear candy shop hero with crooked roof, candy-corn awning, round window and warm door. Yellow background is a bit too saturated and competes with the object.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 1,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean, readable, polished toy storefront with correct details and strong category-4 framing. Less crooked/tiny in character than requested, and the saturated yellow background competes slightly.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Moon Pop",
+     "object": "a crescent-shaped lemon lollipop on a striped stick with a purple bow wrapper",
+     "theme_marker": "crescent moon candy shape in Halloween colours",
+     "moment": "afternoon, added to the tall jar beside the register",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "round",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a crescent-shaped lemon lollipop on a striped stick with a purple bow wrapper, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear moon lemon lollipop with good orange rays, but lemon segment detail is a bit too realistic/fine and the object enters the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong chunky toy-like candy style, instantly readable, clean bright orange background; only issue is the top safe area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Icing Bag",
+     "object": "a black-and-orange striped piping bag squeezing a neat white cobweb curl from its silver nozzle",
+     "theme_marker": "cobweb-shaped icing trail coming from the decorating bag",
+     "moment": "afternoon, used to finish the last batch of spooky pastries",
+     "class": "equipment",
+     "scale": "hand",
+     "silhouette": "vertical",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black-and-orange striped piping bag squeezing a neat white cobweb curl from its silver nozzle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong match: toy-like striped piping bag, clear nozzle and cobweb icing on bright sky-blue patterned background. Only issue is the object sits too close to the top; top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky game style and category framing, but the icing shape reads more like a simple star/partial web than a neat cobweb curl. Also too close to the top margin.",
+          "mean": 8,
+          "hard": [],
+          "pass": false
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "House Cake",
+     "object": "a chocolate haunted-house cake with a crooked roof, purple icing windows and candy shutters",
+     "theme_marker": "edible haunted-house silhouette with crooked roof and glowing icing windows",
+     "moment": "late afternoon, centered on the display counter as the showpiece dessert",
+     "class": "food",
+     "scale": "furniture",
+     "silhouette": "vertical",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "striped candy-shop display counter",
+     "environment": "",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chocolate haunted-house cake with a crooked roof, purple icing windows and candy shutters placed on striped candy-shop display counter (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 23.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: chunky rounded toy-like cake, clear haunted-house silhouette, green clean background, sits properly on a tabletop.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Also very suitable: readable chocolate house cake with bright icing and candy shutters; slightly less crooked/haunted than A but still fits well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Treat Cart",
+     "object": "a small purple candy cart with crooked canopy posts, orange wheels and candy-corn bunting",
+     "theme_marker": "spooky crooked cart shape with Halloween candy-corn bunting",
+     "moment": "golden hour, rolled outside to share wrapped treats with passersby",
+     "class": "transport",
+     "scale": "big",
+     "silhouette": "horizontal",
+     "category": 4,
+     "bg_color": "pink",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny candy-shop sidewalk with pastel paving, front window glow and warm golden sky",
+     "view": "three-quarter view slightly from above",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small purple candy cart with crooked canopy posts, orange wheels and candy-corn bunting in its real environment: sunny candy-shop sidewalk with pastel paving, front window glow and warm golden sky; three-quarter view slightly from above; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township-like toy style, clear purple candy cart with crooked posts and candy-corn bunting; top ornament is a bit too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean chunky game style and very readable cart; posts are less crooked than requested and top finial slightly crowds the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Witch Shoe",
+     "object": "a crisp cookie shaped like a curled pointed witch shoe, dipped in purple icing with a tiny orange buckle",
+     "theme_marker": "curled pointed witch shoe silhouette",
+     "moment": "closing time, the final cookie is placed in a small gift box for the window display",
+     "class": "food",
+     "scale": "hand",
+     "silhouette": "horizontal",
+     "category": 1,
+     "bg_color": "blue",
+     "bg_treatment": "faint repeating pattern of candy corn silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "slightly tilted for dynamism",
+     "set_context": "One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a crisp cookie shaped like a curled pointed witch shoe, dipped in purple icing with a tiny orange buckle, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: blue with soft gradient and faint repeating pattern of candy corn silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a spooky sweet-shop confectioner in a cheerful Halloween candy kitchen, making cute treats for the afternoon window display.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear witch-shoe cookie, smooth toy-like materials, bright blue simple background, fully visible with good margins.",
+          "mean": 10,
+          "hard": [],
+          "pass": true
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and on-style, but the object sits a bit too close to the top so the top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 66,
+  "image_out": 81510,
+  "image_in": 76426,
+  "text_in_img": 24962,
+  "llm_calls": 35,
+  "llm_in": 53123,
+  "llm_out": 33552
+ }
+}

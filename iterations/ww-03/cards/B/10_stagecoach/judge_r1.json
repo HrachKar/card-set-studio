@@ -1,0 +1,58 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red-and-gold stagecoach with arched cabin, luggage rack and four chunky wooden wheels, no lettering in its real environment: bright dusty frontier street with boardwalks, water tower silhouette and clear sky; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 22.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear toy-like stagecoach, dominant in environment; bright and clean, but background is blue western town rather than requested lilac.",
+    "mean": 9,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 1,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very readable chunky red-and-gold stagecoach with rack and four wheels; strong category 4 hero framing, but background is not lilac.",
+    "mean": 9,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

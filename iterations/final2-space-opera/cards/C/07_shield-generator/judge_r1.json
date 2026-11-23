@@ -1,0 +1,107 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a squat white generator with a blue glass dome, three gold stabilizer feet and a faint glowing energy ring placed on dusty red canyon landing pad stones (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with faint repeating pattern of ringed planet silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong Township-like chunky toy style and clear generator; faint background emblems/top area keep defects from perfect.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Space pod",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best overall: clean rounded forms, instantly readable, good orange contrast and cat-3 surface; minor issue with decorative background icons/top area.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "space pod",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close style and good energy ring, readable and well framed; minor defect from repeated background emblems/top area.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "UFO",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

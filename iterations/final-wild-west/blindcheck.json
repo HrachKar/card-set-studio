@@ -1,0 +1,326 @@
+[
+ {
+  "card": "A1",
+  "name": "Star Badge",
+  "guess": "sheriff badge",
+  "defects": [
+   "Extra side appendage on the right: a small round disk/knob and short horizontal bar protrude from behind the badge, with no matching part on the left.",
+   "The right-side appendage appears embedded or fused into the star edge rather than attached like a real badge pin or clasp.",
+   "Outer points and ball tips are slightly asymmetric in length and placement."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A2",
+  "name": "Iron Stove",
+  "guess": "potbelly stove",
+  "defects": [
+   "Top vent slots are unevenly shaped and spaced, with some looking warped rather than cleanly cut.",
+   "Chimney elbow appears fused into the top rim/body instead of being a clearly separate pipe connection.",
+   "Legs are asymmetrical: the front legs and rear/right leg have different shapes and sizes, and a small central rear stump-like leg is visible under the body.",
+   "Door/hinge area is slightly melted together; the hinge blocks blend into the door frame and body rather than having clear separations."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A3",
+  "name": "Empty Holster",
+  "guess": "gun belt",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A4",
+  "name": "Jailhouse",
+  "guess": "Western jail",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A5",
+  "name": "Deputy Boots",
+  "guess": "cowboy boots",
+  "defects": [
+   "Pull tabs/loops are placed on the front/back of the boot openings instead of as side pull straps, making the construction unrealistic.",
+   "Spur assemblies attach to side buttons/straps rather than wrapping around the back of the heels with a proper yoke.",
+   "Left boot spur is partly hidden and appears only loosely connected to the boot.",
+   "The two boots have noticeably different visible spur placement and hardware shape/position."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A6",
+  "name": "Jail Keys",
+  "guess": "Key ring",
+  "defects": [
+   "The blue key heads overlap in the center and appear partially fused/penetrating each other rather than clearly separate pieces on the ring.",
+   "The thick blue key ring has no visible split or opening, making it unclear how the keys or charm could be added or removed.",
+   "The gold charm connector uses a very thin pale line that looks like a floating wire/string rather than a solid linked metal part, and it is not clearly attached to the star charm.",
+   "The gold loop and small bead near the charm look blobbed together, with unclear separation between connector parts."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A7",
+  "name": "Stagecoach",
+  "guess": "Stagecoach",
+  "defects": [
+   "Front pull shafts are not clearly connected to a central hitch or front axle; they appear to grow from the underside/side of the coach.",
+   "Visible wheels are inconsistent: two large near-side wheels plus a much smaller partial far-side wheel, making the wheel layout look uneven.",
+   "Wheel axles are mostly missing or hidden; the wheels appear attached directly to the body rather than to a clear axle structure.",
+   "Driver/front seat is fused into the side/front body with no clear footboard or support structure.",
+   "Roof railing posts and luggage slightly merge together in places."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A8",
+  "name": "Sheriff Hat",
+  "guess": "cowboy hat",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "A9",
+  "name": "Hitching Rail",
+  "guess": "Wooden railing",
+  "defects": [
+   "Horizontal rail appears to merge into the side faces of both posts instead of passing through visible holes or being held by brackets.",
+   "Left and right posts are noticeably different in proportions: the left post is thicker/taller with a larger cap, while the right post is slimmer and shaped differently.",
+   "Decorative ring bands around the posts are uneven and look molded/fused into the posts rather than separate clean pieces.",
+   "Horizontal rail is slightly warped and changes thickness along its length."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "A10",
+  "name": "Quiet Cell",
+  "guess": "Wooden cage",
+  "defects": [
+   "Lock is mounted on the front bars with no visible hasp or latch connecting it to the wooden frame, so it would not actually lock the door.",
+   "Left-side hinges appear as short metal cylinders attached to or floating beside the bars, without proper hinge leaves connecting the door to the wooden frame.",
+   "Several vertical bars have unclear/warped connections to the top and bottom horizontal rails, appearing to pass through or end behind them inconsistently.",
+   "The front barred door and the surrounding wooden frame are not clearly separated, making the opening/door construction physically ambiguous."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B1",
+  "name": "Lasso",
+  "guess": "Lasso",
+  "defects": [
+   "Main loop is not a clearly continuous single rope; it appears as multiple parallel rope tubes fused together.",
+   "Knot construction is impossible/ambiguous, with rope segments merging into smooth blobs instead of passing over and under correctly.",
+   "The hanging loop/tail grows out of the knot in an unclear way and does not trace as one continuous rope.",
+   "Several rope sections on the right side intersect or fuse rather than remaining separate strands."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B2",
+  "name": "Bedroll",
+  "guess": "rolled blanket",
+  "defects": [
+   "buckle tongues are simplified/fused into the buckles and do not appear to pass through real strap holes",
+   "front buckle straps are not clearly threaded through the buckles; they look like separate decorative plates attached on top",
+   "top patterned flap blends into the rolled side with unclear fabric layering"
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B3",
+  "name": "Camp Coffee",
+  "guess": "blue kettle",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B4",
+  "name": "Saguaro",
+  "guess": "cactus",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B5",
+  "name": "Fringed Chaps",
+  "guess": "Cowboy chaps",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B6",
+  "name": "Trail Saddle",
+  "guess": "saddle",
+  "defects": [
+   "Two stirrups/straps appear to hang from the same visible side instead of one on each side of the saddle.",
+   "The front/left stirrup strap attaches near the middle-front of the saddle rather than from the side fender position.",
+   "The two stirrups and their straps are noticeably different sizes and shapes.",
+   "The wooden stand has a side support/block protruding oddly through or into the saddle pad area on the left.",
+   "Some saddle parts are overly melted/fused together, especially around the horn, pommel, and seat."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B7",
+  "name": "Chuck Wagon",
+  "guess": "Covered wagon",
+  "defects": [
+   "Long hitch/drawbar protrudes from the end with the canvas opening, making the wagon's front/rear orientation confusing and likely attached to the wrong end.",
+   "A partial extra wheel is visible under the left end, giving the wagon more than the expected two visible side wheels.",
+   "Undercarriage shapes are muddy/merged, with wheel supports and shadows blending together under the wagon.",
+   "Right-side storage cabinet appears fused into the wagon body rather than clearly mounted as a separate box."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "B8",
+  "name": "Neckerchief",
+  "guess": "red bandana",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "B9",
+  "name": "Dutch Oven",
+  "guess": "cauldron",
+  "defects": [],
+  "distortion": "none",
+  "match": false
+ },
+ {
+  "card": "B10",
+  "name": "Canvas Tent",
+  "guess": "camping tent",
+  "defects": [
+   "Right side canvas is a single flat rectangular sheet that does not wrap over a visible rear frame like a real tent.",
+   "Small wooden peg protrudes from the upper right canvas edge but is not connected to any visible pole or frame.",
+   "Rear support structure is incomplete: only one small rear leg is visible and there is no matching rear pole on the other side.",
+   "Front teepee-style crossed poles and side A-frame canvas are combined in an impossible construction."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C1",
+  "name": "Pickaxe",
+  "guess": "Pickaxe",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C2",
+  "name": "Ore Cart",
+  "guess": "Mine cart",
+  "defects": [
+   "The visible wheels do not sit cleanly on the rail heads; the rails appear slightly misaligned with or passing behind/through the wheel bottoms.",
+   "The rear wheels and axle are partial dark shapes and are not clearly connected to the cart frame.",
+   "The wheel brackets are fused into the lower cart body with unclear separate axle mounts."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C3",
+  "name": "Nugget Pouch",
+  "guess": "bag of gold",
+  "defects": [
+   "Drawstring rope and knot are fused into simplified blob-like pieces rather than distinct strands passing through a real knot.",
+   "Cord appears to wrap into the bag fabric without visible holes, loops, or a proper channel.",
+   "Several gold nuggets are floating outside the bag with no contact or support, though they may be intended as spilling motion."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C4",
+  "name": "Mine Portal",
+  "guess": "Mine entrance",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C5",
+  "name": "Miner Lantern",
+  "guess": "Lantern",
+  "defects": [
+   "Hook is attached off-center to a side pivot rather than centered above the lantern.",
+   "Top hook support is asymmetrical: one upright bracket is visible on the left, while the right side becomes a round lump/pivot.",
+   "Horizontal cage ring appears to pass through or fuse into the vertical ribs instead of being clearly joined.",
+   "Left outer side rail/handle is partly hidden and awkwardly fused into the lower side block, making the cage construction unclear.",
+   "Ventilation slots around the top are uneven in size and spacing."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C6",
+  "name": "Claim Stake",
+  "guess": "Wooden stake",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C7",
+  "name": "Mine Headframe",
+  "guess": "wooden pulley",
+  "defects": [
+   "Central pulley wheel has no visible rope, groove, or functional winding path.",
+   "Metal hanger strap runs down the front of the wheel and into the hub, intersecting the wheel instead of forming a realistic axle bracket.",
+   "Pulley wheel appears fused to or pressed against the top beam with no clear clearance.",
+   "Wheel spokes are uneven in spacing and shape, with some spokes partly hidden or merged into the solid back disk.",
+   "The wheel is mounted on a solid wooden disk/plank surface rather than an open pulley/wheel construction.",
+   "Lower interior rails and box-like base form an ambiguous, partly enclosed opening that does not clearly connect to the pulley mechanism."
+  ],
+  "distortion": "minor",
+  "match": false
+ },
+ {
+  "card": "C8",
+  "name": "Gold Scale",
+  "guess": "balance scale",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ },
+ {
+  "card": "C9",
+  "name": "Ore Bucket",
+  "guess": "Bucket crane",
+  "defects": [
+   "Only one rope strand is visible from the pulley to the hook; there is no return/free rope end, so the pulley could not actually lift the bucket.",
+   "The hook and rope connection is simplified/melted together, with the rope ending directly into the hook instead of a clear knot or shackle."
+  ],
+  "distortion": "minor",
+  "match": true
+ },
+ {
+  "card": "C10",
+  "name": "Ore Crate",
+  "guess": "Gold ore crate",
+  "defects": [],
+  "distortion": "none",
+  "match": true
+ }
+]

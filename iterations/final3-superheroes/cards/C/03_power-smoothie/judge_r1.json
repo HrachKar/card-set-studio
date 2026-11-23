@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a blue smoothie cup with a red cape-shaped sleeve and a yellow starburst straw topper placed on painted wooden counter of a downtown plaza snack cart (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong Township-like style and clear object, but the extra yellow star emblem on the sleeve is not requested and the topper is very close to the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Superhero slushie",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: clear blue smoothie cup with red cape sleeve and yellow starburst straw topper; only issue is the straw/topper reaches into the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Superhero smoothie",
+     "defects": [
+      "Striped straw appears to pierce the clear dome lid without a visible hole or seal.",
+      "Yellow star topper is fused into/intersecting the straw rather than attached with a visible connector or hole."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 0,
+    "hard_defects": [
+     "frame_or_border"
+    ],
+    "comment": "Object is clear and stylish, but the scalloped decorative strip at the bottom reads like an added frame/border, and the straw intrudes into the top safe area.",
+    "mean": 8,
+    "hard": [
+     "frame_or_border"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Magic smoothie",
+     "defects": [
+      "Straw passes through the clear dome/topping without a clearly aligned hole; the visible oval opening in the dome is offset from the straw.",
+      "Yellow star topper appears fused directly around the straw with no visible connector or clean through-hole.",
+      "Red cape/belt is an impossible drink-cup attachment: the cape fabric seems fused into the cup/belt and has no clear back attachment or closure."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

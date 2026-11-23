@@ -1,0 +1,58 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green prickly pear cactus with a few pink blossoms placed on a sandy patch beside a wooden boardwalk (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with simple wooden boardwalk interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 21.0,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 21.5,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear stylized prickly pear on wood with blue wall; nice game-like forms, but small rocks/leaves and the top flower sit a bit too close to the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable tall cactus, bright blue background and correct category 3 setting; top blossom is too close to the upper edge, leaving the top 12% not fully free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

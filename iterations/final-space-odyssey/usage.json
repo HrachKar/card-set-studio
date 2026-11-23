@@ -1,0 +1,10 @@
+{
+ "images": 82,
+ "image_out": 101270,
+ "image_in": 102790,
+ "text_in_img": 32118,
+ "llm_calls": 44,
+ "llm_in": 70363,
+ "llm_out": 44932,
+ "usd_estimate": 4.56
+}

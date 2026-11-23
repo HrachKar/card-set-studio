@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a weathered blue wooden water trough with silver bands standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 78.4,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 77.3,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 9,
+    "category": 8,
+    "readability": 9,
+    "object": 9,
+    "defects": [],
+    "comment": "Strong stylized 3D match; clear blue wooden trough with silver bands, though background has wavy decoration instead of fully plain pink.",
+    "mean": 8.75,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 9,
+    "category": 8,
+    "readability": 9,
+    "object": 9,
+    "defects": [],
+    "comment": "Very readable trough with good chunky 3D rendering and correct materials; subtle patterned wall slightly reduces category match.",
+    "mean": 8.75,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

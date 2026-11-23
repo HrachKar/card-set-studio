@@ -1,0 +1,32 @@
+{
+ "1. Space Helmet": {
+  "A": "current",
+  "B": "soft_bg",
+  "township": "clean/cat1_bottle.png"
+ },
+ "2. Potion": {
+  "A": "soft_bg",
+  "B": "current",
+  "township": "clean/cat1_honey.png"
+ },
+ "3. Pilot Seat": {
+  "A": "current",
+  "B": "soft_bg",
+  "township": "arts/cat2_phone-booth_430x480.png"
+ },
+ "4. Saddle": {
+  "A": "soft_bg",
+  "B": "current",
+  "township": "clean/cat2_teacup.png"
+ },
+ "5. Food Tray": {
+  "A": "soft_bg",
+  "B": "current",
+  "township": "clean/cat3_cheeseplate.png"
+ },
+ "6. Hero Jet": {
+  "A": "soft_bg",
+  "B": "current",
+  "township": "arts/cat4_lighthouse_430x480.png"
+ }
+}

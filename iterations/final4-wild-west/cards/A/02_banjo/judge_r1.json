@@ -1,0 +1,115 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden banjo with a round white drum head, a long neck and tuning pegs placed on a hay bale by the saloon porch (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with faint repeating pattern of horseshoe silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear banjo in warm Township-like rendering, but the hay bale prop is quite prominent and the headstock sits close to the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "banjo",
+     "defects": [
+      "String count and tuner count do not clearly match: the instrument appears to have about five strings but only four obvious side tuning knobs and no separate fifth-string tuner on the neck.",
+      "Several strings do not visibly terminate at specific tuning posts; they appear to run into or over the headstock hardware ambiguously.",
+      "Tuning hardware on the headstock is asymmetrical and partly fused/overlapping, with small gold posts crowded together in unrealistic positions.",
+      "The bridge/saddle area is simplified and the strings appear to pass through or merge with the bridge instead of sitting cleanly on top."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: readable wooden banjo, soft rounded materials, strong orange contrast; minor issue is the large hay bale support and little top margin.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "banjo",
+     "defects": [
+      "Headstock tuner geometry is unclear: some cream tuning knobs and gold posts do not line up as connected mechanisms.",
+      "Strings do not clearly terminate at separate tuning posts; several converge ambiguously near the headstock.",
+      "Bridge appears like a flat wooden bar stuck to the drum head rather than an upright bridge supporting the strings."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good style and readability, but the hay bale is a sizable extra prop and the top safe area is tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "banjo",
+     "defects": [
+      "Headstock has more tuning pegs than visible strings, creating extra unmatched pegs.",
+      "Several tuning pegs are not connected to any string and appear as decorative balls rather than functional tuners.",
+      "Strings do not visibly attach to the individual tuning pegs; they disappear near the top of the neck/headstock.",
+      "One side of the headstock has a different number and spacing of pegs than the other side, making the pair layout asymmetric."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark metal gold pan with bright yellow nuggets placed on a dusty rough wooden table (realistic texture, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with faint repeating pattern of star silhouettes and a gentle light glow behind the object, softly blurred, no sun rays. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 80.7,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 84.2,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 8,
+    "category": 10,
+    "readability": 9,
+    "object": 10,
+    "defects": [],
+    "comment": "Clear dark metal gold pan with riffles and bright nuggets on a wood surface against a red soft background; slightly more realistic metal but very close.",
+    "mean": 9.25,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 9,
+    "category": 10,
+    "readability": 9,
+    "object": 8,
+    "defects": [],
+    "comment": "Strong chunky stylized rendering and clear thumbnail read, but the two side handles make it feel a bit like a cooking pan rather than a classic gold pan.",
+    "mean": 9.0,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

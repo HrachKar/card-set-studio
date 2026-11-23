@@ -1,0 +1,115 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a classic red and white rocket with three fins on a launch pad in its real environment: sunny spaceport with a launch tower and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear hero rocket on launch pad, good Township-like soft 3D style; top margin is a bit tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Rocket",
+     "defects": [
+      "Right-side launch support arms appear embedded into the rocket body instead of clearly attaching with separate clamps.",
+      "Lower front fin blends into the rocket body and base with unclear separation.",
+      "Side fins are slightly asymmetric in size/shape, though partly due to perspective.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best silhouette and clean composition, bright and readable; rocket tip slightly enters the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Rocket",
+     "defects": [
+      "Small blunt peg/antenna on the nose tip looks like an extra part for a rocket and is fused directly into the cone.",
+      "Front center fin is placed over the engine area and appears to merge into the lower body/engine rather than attach cleanly.",
+      "Launch gantry arm behind the rocket appears to penetrate or attach awkwardly into the rocket side with no clear connector.",
+      "Some tower/platform beams intersect each other in simplified, physically unclear ways."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong readable rocket and suitable launch environment, but top-left tower/antenna makes the top safe area less clean.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "rocket",
+     "defects": [
+      "Two rectangular launch gantry arms penetrate into the rocket's left side instead of visibly docking or stopping cleanly at a connector.",
+      "The circular collars around the gantry-arm contact points are only partial/oddly blended into the rocket body.",
+      "The front center fin is unusually oversized and positioned like a single blade directly on the front, making the fin layout look somewhat toy-like/impossible for a real rocket."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall white ceremonial navigation beacon with gold fins, a blue crystal core and two floating orbit rings standing on a plain flat floor of lighter green, three-quarter view slightly from above. Behind it a plain vertical green wall with faint repeating pattern of four-point star silhouettes. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning browsing a neon star bazaar, noon on a royal landing terrace, afternoon aboard an orbital liner, and sunset at an asteroid observatory.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong match: chunky toy-like white/gold beacon, clear blue core and two orbit rings; top clearance is a bit tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic tower",
+     "defects": [
+      "Two glowing rings float around the tower with no physical supports or attachment points.",
+      "The blue ring visually penetrates or clips through the central crystal/side supports instead of clearly passing around them.",
+      "The yellow ring has inconsistent occlusion and appears to merge into the upper side structure in places.",
+      "Lower gold side fins/panels are not fully symmetric in shape and placement."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clean and readable, good materials and colour; slightly busier orbit detail and tight top clearance.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal tower",
+     "defects": [
+      "Blue and gold orbit bands appear to pass through or intersect the tower body in places rather than clearly wrapping around it.",
+      "The gold orbital band is discontinuous/impossible: the rear curved segment and the front diagonal bar do not form a believable continuous ring.",
+      "Floating orbit pieces have no visible mechanical support, making the construction physically impossible."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable stylized beacon with good palette; orbit-ring ornaments add slight clutter and top clearance is tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Crystal tower",
+     "defects": [
+      "Blue spiral hoops float around the tower with no visible supports and appear to clip through the tower body/columns in places.",
+      "The spiral hoops do not read as one physically continuous tube; the front and rear segments align ambiguously like separate impossible loops.",
+      "Small gold diamond charms are embedded directly into the blue hoops with no clear connector and appear to partially intersect the tube.",
+      "Base fins/legs are slightly inconsistent in size and placement, especially the large front fin compared with the side fins."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

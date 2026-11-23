@@ -1,0 +1,121 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden cookie cut like a flowing superhero cape with red icing along the high collar placed on painted wooden counter of a downtown plaza snack cart (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated purple wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.6,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 21.2,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very close to reference style: rounded toy-like cape cookie, clear silhouette, bright purple background and proper tabletop depth.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Golden cloak",
+     "defects": [
+      "Cloak is freestanding upright with no wearer, stand, or visible support, so the fabric behaves like a rigid shell.",
+      "Left side curls forward into a boot-like toe/hook shape rather than hanging like cloth.",
+      "Bottom hem is overly thick and rounded like solid pastry, not a sewn fabric edge.",
+      "Scalloped lower edge is uneven and melted-looking, with folds fused into the hem.",
+      "Top opening and collar form an odd sack-like tube; the inside/back surface is not clearly separated from the front fabric.",
+      "Red collar/trim is fused into the yellow fabric with no clear seam or realistic stitching.",
+      "Front clasp/button appears attached to the side of the collar rather than joining two clear garment edges.",
+      "Draped folds are molded as rigid channels and terminate unnaturally into the bottom edge.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 9
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear and well framed, but the cookie has slightly fine sandy texture and looks a bit less polished than the references.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "yellow dress",
+     "defects": [
+      "The empty dress is standing upright by itself with no mannequin or support.",
+      "The left side of the skirt flares into a thick tube-like protrusion with a rounded end rather than a normal fabric hem.",
+      "The skirt and bodice look like one solid molded piece rather than separate flexible fabric panels."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Readable and correctly staged, but mild fine texture/realistic speckling keeps it from fully matching the smooth reference style.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Golden gown",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

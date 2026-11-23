@@ -1,0 +1,120 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky cream canyon shuttle with wide side fins, blue cockpit glass and four round glowing lift engines in its real environment: bright red canyon landing pad with orange dust, soft cliffs and pale blue sky; three-quarter view slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.7,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 17.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very close to reference style: chunky rounded shuttle, clear four glowing engines, strong canyon setting and clean sky-blue contrast.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "spaceship",
+     "defects": [
+      "Left and right wings are mismatched in shape and attachment; the viewer-left wing is a thick rounded block while the viewer-right wing is a thin triangular fin attached lower/front.",
+      "Bottom thrusters are unevenly placed and different apparent sizes; the four nozzles do not form a clean symmetric set.",
+      "Several thrusters appear partially fused into the underside with no clear mounts or pylons.",
+      "Top vertical tail fin is slightly off-center and blended into the roof/body rather than having a clear base.",
+      "Side vent panel is warped to fit the body surface, with uneven vent slots."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good chunky toy style and readable, but only three engines are clearly visible and the top clearance is tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Toy airplane",
+     "defects": [
+      "Right and left wings are not a matched pair: the left wing is large and rectangular while the right wing appears as a much smaller triangular stub.",
+      "Wing roots look fused into the fuselage with no clear structural joint.",
+      "Downward engine pods/thrusters are unevenly arranged under the body rather than in a symmetric pair layout.",
+      "One small center-bottom thruster appears offset and partially floating below the fuselage compared with the larger side thrusters.",
+      "Vertical tail fin is present, but horizontal tail stabilizers are missing.",
+      "The aircraft is an impossible hybrid of airplane and hovercraft/rocket with no landing gear or normal aerodynamic/engine layout."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 6
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and dominant with good colours, but the object pushes too close to the top UI-safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "spaceship",
+     "defects": [
+      "Underbody thrusters are unevenly arranged: two large front nozzles, one small center/rear nozzle, and a partly hidden left/rear nozzle instead of a clear symmetric set.",
+      "Left/rear lower thruster appears partially detached or attached to the other engine pod rather than clearly mounted to the fuselage.",
+      "Left and right wings are not symmetrical in visible shape and size; the left wing is much longer and bulkier while the right wing is short and stubby, beyond normal perspective.",
+      "Cockpit window framing is irregular, with mismatched panes and an uneven center divider.",
+      "Top fin is a blocky truncated shape fused into the fuselage with no clear aerodynamic base."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of tall blue superhero boots with white flared cuffs and small red wing fins at the ankles standing on a plain flat floor of lighter mint, three-quarter view slightly from above. Behind it a plain vertical mint wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 14.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 16.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 15.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very close to reference style: chunky rounded toy boots, clean mint background, clear silhouette and correct category 2 staging.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Winged boots",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear and polished, correct boots with cuffs and red wings; slightly heavier soles but still fits the game style well.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Winged boots",
+     "defects": [
+      "Both boots show the red wing ornament on the same visible side rather than being mirrored like a left/right pair."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 1
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Good stylized boots and readable form; yellow ankle buttons add a small extra design detail but not a hard defect.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "winged boots",
+     "defects": [
+      "The red feather wings are fantasy attachments and not a real functional boot part.",
+      "The wing attachments appear to grow from or be fused into the ankle buckle/strap rather than being mounted with a clear connector.",
+      "The left boot's wing is partly hidden and looks truncated compared with the right boot's wing.",
+      "The two boot openings are different shapes and angles, making the pair slightly asymmetrical.",
+      "The cream cuffs have soft, warped edges rather than crisp boot material construction."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

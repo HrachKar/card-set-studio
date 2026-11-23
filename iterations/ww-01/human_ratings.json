@@ -1,0 +1,4 @@
+{"rater": "Hrach", "date": "2026-11-19",
+ "A": {"1": ["ok", ""], "2": ["fail", "unclear object"], "3": ["ok_but", "not kid-friendly theme"], "4": ["disputed", "too detailed"], "5": ["ok", ""], "6": ["ok_but", "slightly off-style"], "7": ["ok", ""], "8": ["fail", "not readable without a caption"], "9": ["ok", ""], "10": ["ok", ""]},
+ "B": {"1": ["ok", ""], "2": ["ok", ""], "3": ["fail", "style off"], "4": ["fail", "style completely off"], "5": ["fail", "style off"], "6": ["ok", ""], "7": ["ok", ""], "8": ["fail", "style drifted"], "9": ["fail", "boring object, weak fit to theme"], "10": ["ok", ""]},
+ "C": "pending (given in the main chat)"}

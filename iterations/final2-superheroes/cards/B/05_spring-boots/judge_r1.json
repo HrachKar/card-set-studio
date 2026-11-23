@@ -1,0 +1,117 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of blue training boots with yellow wing fins, rounded toes, and chunky orange spring-shaped sole pads placed on soft blue training mat inside the academy hall (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city training route: morning at the academy courtyard, noon in the padded training hall, afternoon in the gadget workshop, and sunset at the downtown rescue booth.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 17.5,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Very close Township-like toy style, clear pair of spring boots on a textured surface; yellow background works well, though toe caps are more white than requested.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "winged spring shoes",
+     "defects": [
+      "orange spring soles are modeled as stacked squashed doughnut disks rather than real continuous helical springs",
+      "left shoe appears to have only one visible spring support while the right shoe has two, making the pair asymmetric",
+      "springs look fused directly into the soft shoe sole with no plates, brackets, or attachment hardware",
+      "decorative wings are attached to the ankle sides with round buttons and are fantasy parts, not functional real shoe construction",
+      "the two wings are not identical in feather shape and proportions"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: clean chunky rounded forms, instantly readable blue winged spring boots, correct category 3 surface and bright yellow background.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "winged spring boots",
+     "defects": [
+      "Left boot appears to have only one visible orange spring/bumper under the sole, while the right boot has two, making the pair asymmetric.",
+      "Left boot's yellow wing decoration lacks a visible circular connector/buckle and seems partly buried behind the boot.",
+      "Orange spring stacks are simplified into fused donut-like pads rather than clear mechanical springs."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong style and readability with correct surface/interior setup; slightly busier wall and beige toe caps, but no real defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "winged spring shoes",
+     "defects": [
+      "Orange pogo supports are not real helical springs; they are stacked thick donut-like rings with no continuous coil structure.",
+      "Shoes have no clear mechanical connector or central strut between the sole and the orange spring/base, so the spring units look fused or floating under the soles.",
+      "The rear shoe's spring/base is offset and much smaller than the front shoe's support, making the pair mechanically inconsistent.",
+      "The yellow wings grow directly out of the sides of the shoes and look fused into the collar/side panels rather than attached as separate parts.",
+      "The wing shapes are stylized and asymmetric, with feather lobes melted together rather than distinct feathers."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

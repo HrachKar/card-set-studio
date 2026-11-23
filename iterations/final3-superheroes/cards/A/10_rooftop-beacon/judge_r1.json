@@ -1,0 +1,116 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky blue rooftop beacon with a yellow starburst lens and red cape-fin side panels placed on polished stone terrace floor beside a safety rail (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with simple hero hall terrace interior and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 21.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 20.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear chunky toy-like beacon, strong red background, correct surface and framing.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "magic lantern",
+     "defects": [
+      "The red side fins/cape pieces are asymmetric: the left side has a different outline and extra upper fold compared with the right side.",
+      "The red fins appear merged into the blue body and gold band rather than being clearly attached with separate brackets.",
+      "The gold circular side knobs are not identical in size/shape and sit at slightly different heights.",
+      "The lower blue base blocks are uneven in width and shape, with the side blocks not matching symmetrically.",
+      "The orange glass/window surface is warped and does not align cleanly with the curved blue frame on both sides."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Good stylized beacon and readable silhouette, though one cape-fin dominates more than the pair.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Police siren",
+     "defects": [
+      "Red side fins are not symmetric: the right fin is a large wing-like blade while the left side shows only a small curved red piece.",
+      "The red fins appear to attach only at the circular side hubs, making the large right fin look structurally unsupported.",
+      "The object is a stylized fantasy siren with oversized wing-like side parts that do not correspond to a real-life siren design."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clean and readable, with nice materials; dome is a bit dominant but still fits the request.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "warning beacon",
+     "defects": [
+      "Left and right red side fins are not a matched pair: the right fin is long and swept while the left is short and blob-like.",
+      "A small red tab hangs under the left fin and appears fused into the blue body rather than being a clear separate part."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   }
+  ],
+  "best": "A",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

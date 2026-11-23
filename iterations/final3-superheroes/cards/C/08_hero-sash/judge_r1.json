@@ -1,0 +1,129 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a diagonal red superhero sash with a big yellow starburst buckle and flared shoulder tab, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and faint repeating pattern of small flying cape silhouettes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clean toy-like sash, clear star buckle and pink patterned background; fits category well.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind",
+     "severe_distortion"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero Belt",
+     "defects": [
+      "Main band is constructed like a hollow tube with open oval ends rather than a solid flat belt or bracelet strap.",
+      "The two open ends of the band are different sizes and shapes.",
+      "The upper end of the band appears to disappear into or fuse with the cape-like top piece instead of attaching cleanly.",
+      "Cape/fan ornament on the top is an impossible attachment for a belt and reads like a small umbrella or cape growing from the strap.",
+      "Yellow trim on the top ornament is warped and uneven, with lumpy asymmetric edges.",
+      "Right side of the top ornament has a yellow edge piece that appears partially detached or floating behind the red panels.",
+      "Central yellow stripe on the band bends into the top ornament and fuses into its trim without a clear seam.",
+      "Star buckle is slightly irregular, with uneven point lengths and asymmetric shape.",
+      "Circular ring behind the star is partially hidden and appears fused into the star rather than a separate clean buckle part."
+     ],
+     "distortion": "severe",
+     "match": false
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded forms, clear diagonal sash, dominant object, bright clean colours.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero Belt",
+     "defects": [
+      "The object construction is ambiguous: the red band is a continuous loop, but also has a large decorative cape/fan end attached as if it were a loose belt end.",
+      "The yellow stripe changes direction and width around the band and does not align cleanly through the buckle area.",
+      "The two yellow side blocks beside the star buckle are asymmetric in size and shape.",
+      "The top cape/fan decoration is fused into the band, with overlapping scalloped lobes that do not connect in a mechanically clear way.",
+      "No text or digits visible."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong style and colour; slightly less readable overlap at the buckle but still clear.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Hero Cape",
+     "defects": [
+      "The cloth is modeled like a thick hollow tube at the lower-left opening rather than a flat cape.",
+      "The cape body twists into an impossible rigid S-shaped band, with no clear neck attachment or wearable structure.",
+      "The yellow trim at the upper end curls into a hook-like loop and appears fused into the cape edge unnaturally.",
+      "The upper scalloped red panels are uneven in size and shape, making the hem asymmetrical."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

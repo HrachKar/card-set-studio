@@ -1,0 +1,57 @@
+[
+ {
+  "card": "A2",
+  "problem": "A cape alone cannot physically stand as a category 2 floor object; it reads like floating cloth rather than a complete freestanding item.",
+  "fix": "Show the cape hanging from a simple display stand so it can stand on the plain floor while keeping the superhero cape silhouette."
+ },
+ {
+  "card": "A9",
+  "problem": "The violet glove is too close in hue to the lilac background, hurting thumbnail readability.",
+  "fix": "Change the background to a contrasting clean yellow while keeping the lightning-fin glove."
+ },
+ {
+  "card": "B",
+  "problem": "The variant is a little too academy-only for a genre-wide superhero day, and the last card jumps back to the training hall after the downtown ending.",
+  "fix": "Reframe it as a city training tour that moves from plaza/courtyard to training hall, workshop, and downtown rescue booth; make the final shield belong to the downtown booth stop."
+ },
+ {
+  "card": "B1",
+  "problem": "The comet crest can read as space-themed rather than superhero-themed when seen without the caption.",
+  "fix": "Replace it with a clearer shield-shaped lightning chest crest, an iconic superhero suit emblem."
+ },
+ {
+  "card": "B3",
+  "problem": "The mint academy gate on a mint background has poor contrast, and the superhero marker needs to be stronger.",
+  "fix": "Make the gate white and red on a sky-blue environment, with a big shield arch and cape banners."
+ },
+ {
+  "card": "B5",
+  "problem": "Rocket/flame boots feel more like dangerous powered gear and are less friendly than needed for this casual set.",
+  "fix": "Change them to safe winged training boots with soft spring pads instead of flames."
+ },
+ {
+  "card": "B10",
+  "problem": "The purple shield on a lilac background lacks contrast, and the moment/surface returns to the hall after the downtown route has ended.",
+  "fix": "Move it to the downtown rescue booth stop on clean sidewalk paving and use a contrasting red background."
+ },
+ {
+  "card": "C",
+  "problem": "The variant is too rooftop/skyway-focused and does not cover enough of the superhero city day.",
+  "fix": "Add a downtown changing-booth stop and keep the route moving through lab, street, rooftops, and plaza lookout."
+ },
+ {
+  "card": "C1",
+  "problem": "A signet ring with a shield crest reads as generic jewelry/fantasy and can fail the superhero theme test at thumbnail size.",
+  "fix": "Replace it with a bold shield-shaped lightning chest emblem, which is a more recognizable superhero archetype."
+ },
+ {
+  "card": "C3",
+  "problem": "The skyway pod feels like an invented sci-fi transport and is not an iconic superhero object.",
+  "fix": "Replace it with a downtown changing booth with rounded glass and a visible cape inside."
+ },
+ {
+  "card": "C8",
+  "problem": "The mint tower against a turquoise background has weak contrast.",
+  "fix": "Use a white-and-red lookout tower on a pink background/environment for clearer separation."
+ }
+]

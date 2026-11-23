@@ -1,0 +1,113 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a hand-sized aqua beacon orb inside a silver orbit cage, projecting a tiny glowing moon above it, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: red with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a space opera world: morning at a moon trading post, noon in a chrome cantina, afternoon across a red canyon route, and sunset at a domed frontier outpost.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 16.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 17.9,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 16.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very close to reference style, clear orb cage and moon, strong red contrast; moon/glow enters the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Moon Orb",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best overall: chunky toy-like forms, clean materials, readable silhouette, correct floating category; top 12% is not fully free.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Magic orb",
+     "defects": [
+      "Small moon-like sphere floats above the top cap with no physical support, only a glow beam.",
+      "Gyroscope cage bands intersect and appear fused in places instead of being separate continuous rings.",
+      "Front horizontal band merges into the central circular node, making the ring construction mechanically unclear.",
+      "Vertical cage bands do not align cleanly with the top and bottom caps, giving an impossible/warped frame layout.",
+      "Rear/side ring segments appear to pass through the glowing orb and other bands with unclear depth order."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Good stylized Township-like render and readable object; slightly more crowded near the top safe area.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Moon projector",
+     "defects": [
+      "Yellow moon/ball is floating above the device with no physical support; it only appears connected by a light beam.",
+      "The object is a fantasy device with impossible real-world construction: a solid-looking moon sphere is being projected from a closed orb.",
+      "Top and bottom collars are not aligned on a clear common axis; the bottom collar is shifted down-left relative to the top.",
+      "Metal straps and bands visually merge into each other around the central hub, making the front construction ambiguous.",
+      "Glowing window cutouts on the top and bottom collars are uneven in size and spacing."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

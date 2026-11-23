@@ -1,0 +1,4374 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Wild West",
+   "context": "Wild West",
+   "place": "frontier town street with boardwalks; saloon; desert trail with cacti and red mesas; campfire by a canyon; railroad through the desert",
+   "palette": "warm wood, leather and brass on bright clean backgrounds",
+   "motif": "horseshoe",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Cowboy Hat",
+     "object": "a brown leather cowboy hat with a curled brim and a red woven band",
+     "theme_marker": "pinched crown and curled brim",
+     "moment": "town",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown leather cowboy hat with a curled brim and a red woven band, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 12.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating cowboy hat on sky-blue rays; forms are good, but leather/band texture is a bit too realistic and detailed for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: instantly readable, clean silhouette and background; still slightly over-rendered with realistic leather/fabric texture.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correctly staged, but the material texture and shading feel a little more realistic/AI-detailed than the game references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Banjo",
+     "object": "a wooden banjo with a round white drum head, a long neck and tuning pegs",
+     "theme_marker": "round drum body and long neck",
+     "moment": "saloon",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "a hay bale by the saloon porch",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden banjo with a round white drum head, a long neck and tuning pegs placed on a hay bale by the saloon porch (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with faint repeating pattern of horseshoe silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear banjo in warm Township-like rendering, but the hay bale prop is quite prominent and the headstock sits close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "banjo",
+           "defects": [
+            "String count and tuner count do not clearly match: the instrument appears to have about five strings but only four obvious side tuning knobs and no separate fifth-string tuner on the neck.",
+            "Several strings do not visibly terminate at specific tuning posts; they appear to run into or over the headstock hardware ambiguously.",
+            "Tuning hardware on the headstock is asymmetrical and partly fused/overlapping, with small gold posts crowded together in unrealistic positions.",
+            "The bridge/saddle area is simplified and the strings appear to pass through or merge with the bridge instead of sitting cleanly on top."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: readable wooden banjo, soft rounded materials, strong orange contrast; minor issue is the large hay bale support and little top margin.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "banjo",
+           "defects": [
+            "Headstock tuner geometry is unclear: some cream tuning knobs and gold posts do not line up as connected mechanisms.",
+            "Strings do not clearly terminate at separate tuning posts; several converge ambiguously near the headstock.",
+            "Bridge appears like a flat wooden bar stuck to the drum head rather than an upright bridge supporting the strings."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good style and readability, but the hay bale is a sizable extra prop and the top safe area is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "banjo",
+           "defects": [
+            "Headstock has more tuning pegs than visible strings, creating extra unmatched pegs.",
+            "Several tuning pegs are not connected to any string and appear as decorative balls rather than functional tuners.",
+            "Strings do not visibly attach to the individual tuning pegs; they disappear near the top of the neck/headstock.",
+            "One side of the headstock has a different number and spacing of pegs than the other side, making the pair layout asymmetric."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Saddle",
+     "object": "a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand",
+     "theme_marker": "saddle horn and tooled leather",
+     "moment": "ranch",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a brown tooled-leather western saddle with a saddle horn on a wooden saddle stand standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear western saddle on wooden stand, warm chunky game rendering, good purple floor/background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "western saddle",
+           "defects": [
+            "Only one full stirrup is visible; the opposite side has only a small U-shaped ring instead of a matching stirrup.",
+            "The visible stirrup hangs from a narrow central/front strap rather than from the side of the saddle, making the construction look off.",
+            "The wooden display rail appears to pass into/through the saddle padding rather than simply supporting it underneath.",
+            "The front saddle pad/blanket is an odd thick curved band that seems fused into the saddle opening."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable saddle and stand with suitable soft rounded materials; blanket pattern is acceptable and not text.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "saddle",
+           "defects": [
+            "Only one stirrup is visible; the matching stirrup on the far side is missing or completely hidden.",
+            "Visible stirrup leather appears to hang from the center/front of the saddle rather than from the side where a stirrup normally attaches.",
+            "The rear/right blanket roll appears to merge into the saddle skirt and stand rather than sitting as a separate folded pad."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear object, strong silhouette, bright clean purple background, and no cropping or text.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Saddle",
+           "defects": [
+            "Opposite stirrup is only a small partial gray loop peeking from behind, much smaller than the front stirrup and with no visible connecting strap.",
+            "Several leather panels around the rear/cantle overlap and appear fused together in an ambiguous way rather than being separate attached saddle parts.",
+            "The wooden support block appears to pass through or be partly embedded inside the saddle instead of simply supporting it."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Sheriff Star",
+     "object": "a golden six-point sheriff star badge with ball tips",
+     "theme_marker": "six points with round tips",
+     "moment": "town",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden six-point sheriff star badge with ball tips, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky soft sheriff badge on green; hat emblem is acceptable but the object intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable golden badge with clean green background, but the extra central star makes it a bit less like the requested sheriff star and top safe area is not free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear six-point sheriff badge, warm soft rendering and good contrast; only issue is the top safe area is not free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Apple Pie",
+     "object": "a golden lattice apple pie in a tin dish",
+     "theme_marker": "homemade lattice crust",
+     "moment": "town",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "pink",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a red-and-white checkered tablecloth on a porch table",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a golden lattice apple pie in a tin dish placed on a red-and-white checkered tablecloth on a porch table (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear apple pie, strong rounded Township-like rendering, good pink background and tabletop, no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "apple pie",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Pie reads well, but porch/railing details add extra background clutter and the top-left structure breaks the clean card space.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "lattice pie",
+           "defects": [
+            "lattice crust strips are not consistently woven; some crossings look fused or melted together instead of alternating over-under",
+            "several lattice strip ends disappear into the rim/filling without clear separate edges",
+            "pie tin fluting is uneven and slightly warped around the front"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well colored, but the wooden post/arch is extra clutter and intrudes into the top area; slightly more detailed than reference.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "apple pie",
+           "defects": [
+            "Lattice crust strips have inconsistent widths and thicknesses, with some bands swelling or narrowing unnaturally.",
+            "Several lattice crossings look fused/melted rather than separate strips woven over and under each other.",
+            "The over-under pattern of the lattice is not fully consistent, making the construction slightly impossible in places.",
+            "Crimped outer crust has irregular blob-like waves with some sections merged into the lattice/rim rather than clearly separate dough."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Revolver",
+     "object": "a silver six-shooter revolver with a wooden grip in a brown leather holster",
+     "theme_marker": "six-shooter in a tooled holster",
+     "moment": "town",
+     "class": "weapon",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver six-shooter revolver with a wooden grip in a brown leather holster, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": null,
+         "error": "Error code: 400 - Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_f366dc144a3b4b2f843668485fc47d1b. safety_violations=[illicit].",
+         "sec": 15.1
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky Township-like rendering and clear holster/revolver silhouette, but the object sits too high and intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "revolver",
+           "defects": [
+            "Revolver barrel/muzzle is not visible; the front of the gun appears to stop at the cylinder or disappear into the holster with no clear barrel continuation.",
+            "Cylinder is warped and simplified, with only two large vertical chamber grooves instead of a plausible set of evenly spaced chambers.",
+            "Cylinder appears partially fused into or buried behind the holster rim rather than sitting cleanly in the revolver frame.",
+            "Top frame/strap over the cylinder is melted and wavy, with an uneven black gap separating it from the cylinder.",
+            "Trigger and trigger guard are distorted and crowded into the grip area, with unclear attachment points.",
+            "Hammer is oversized and blobby compared with the rest of the revolver."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very clear revolver in holster with warm rounded materials and strong yellow contrast; top safe area is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "revolver",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Saloon Piano",
+     "object": "an old upright wooden saloon piano with brass candle holders",
+     "theme_marker": "upright piano with candle holders",
+     "moment": "saloon",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of an old upright wooden saloon piano with brass candle holders standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky wooden piano, clear silhouette, good turquoise contrast; brass candle holders read well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "upright piano",
+           "defects": [
+            "Black piano keys are irregularly spaced and do not follow the normal repeating 2-and-3 key pattern.",
+            "Some black keys differ noticeably in length/width.",
+            "The two front lower supports/legs are not matched in shape; the right one is much more warped and wavy than the left."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean, readable saloon piano with correct flat floor/background and warm wood; slight wood detail but still in style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "upright piano",
+           "defects": [
+            "Keyboard has far too few keys for a real upright piano.",
+            "Black keys are unevenly spaced and do not consistently follow the normal 2-and-3 grouping pattern.",
+            "Two pedals are different shapes and appear fused into a single central mounting block.",
+            "Decorative candle sconces are mounted directly on the wooden piano front, making an impractical/impossible fire hazard construction.",
+            "Sconce arms are melted/ambiguous curls rather than clear supports for the candle plates.",
+            "Left and right side supports under the keyboard are asymmetric in shape and curvature."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very clear upright saloon piano, dominant but not cropped, good bright colour and soft rounded rendering.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "upright piano",
+           "defects": [
+            "Black keys are unevenly spaced and do not follow the normal piano 2-3 grouping pattern.",
+            "White keys vary slightly in width and alignment.",
+            "Left and right candle sconces are not mirrored: the arms, backplates, candle positions, and heights differ.",
+            "Candle holders appear fused directly into the piano front rather than mounted as separate hardware.",
+            "Three pedals are unevenly spaced/angled and seem to grow out of a small front block with no visible hinge or slot mechanism.",
+            "Lower curved side supports/legs are lumpy and not perfectly symmetrical."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Stagecoach",
+     "object": "a red and yellow stagecoach with four big wooden wheels and a luggage rack",
+     "theme_marker": "high wheels and luggage rack",
+     "moment": "trail",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "desert trail with sand, cacti and red mesas under a blue sky",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and yellow stagecoach with four big wooden wheels and a luggage rack in its real environment: desert trail with sand, cacti and red mesas under a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 21.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear stagecoach hero in environment, but rendering is a bit glossy toy-like rather than fully matching the soft reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stagecoach",
+           "defects": [
+            "No visible hitch pole, horse shafts, or driver seat at the front, making it incomplete as a real stagecoach.",
+            "Far front wheel is noticeably smaller and lacks a clear central hub compared with the near front wheel; perspective does not fully explain it.",
+            "Front axle/undercarriage is simplified and partly disconnected-looking, with dark cylindrical pieces not clearly joined to both front wheels.",
+            "Right lantern has an awkward curved bracket that appears to attach ambiguously/fuse into the lamp top rather than a normal wall mount.",
+            "Roof luggage and railing intersect visually in places, especially around the right crate and rail posts.",
+            "Some roof rail posts and trim pieces are rounded/melted into the body rather than cleanly joined."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best readable stagecoach with luggage rack and four wheels; colours and framing work, though style is slightly plastic/glossy.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stagecoach",
+           "defects": [
+            "Three wheels are visible on one side/front area, making the wheel layout confusing for a normal four-wheeled coach.",
+            "The front wheel pair appears mismatched: the near front wheel is much larger than the small far/front wheel.",
+            "No tow pole, shafts, or hitch are present at the front, so the coach could not be pulled by horses.",
+            "The front driver's bench/footboard assembly looks partly fused into the side body instead of being clearly supported by a frame.",
+            "Some lantern mounts and yellow knobs are asymmetric, with extra paired knobs on one front corner but not the other."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but the dark rail/metal and shiny finish make it less like the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Stagecoach",
+           "defects": [
+            "Possible extra small partial wheel visible underneath the coach between the two large wheels; it is much smaller than the other wheels and not clearly attached to an axle.",
+            "Rear/side diagonal beam protrudes from the left side of the coach in an unclear direction, making the front/back construction ambiguous.",
+            "Front bench/seat area on the right is simplified and partly fused into the side body rather than having clear supports."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Saguaro",
+     "object": "a tall green saguaro cactus with two raised arms and small white flowers",
+     "theme_marker": "tall arms raised upward",
+     "moment": "trail",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "desert sand with small stones",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall green saguaro cactus with two raised arms and small white flowers placed on desert sand with small stones (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear saguaro on red background, soft rounded Township-like rendering; minor defect from added rocks and top flower too close to top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "flowering cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable cactus with good warm colours and surface; small rocks are extra props and the flower enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and strong object dominance, clean red contrast; minor defects from rocks and top flower not leaving the top 12% free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "flowering cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Saloon",
+     "object": "a two-storey wooden saloon with swinging half doors, a balcony and a stepped false front",
+     "theme_marker": "swinging half doors and false front",
+     "moment": "town",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny frontier main street with a dusty road and pale mesas",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a two-storey wooden saloon with swinging half doors, a balcony and a stepped false front in its real environment: sunny frontier main street with a dusty road and pale mesas; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky wooden saloon in bright desert setting; awning and sheriff star add clutter, and top clearance is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Western saloon",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean readable wooden western saloon with balcony, false front and swinging doors; good warm materials, only top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "western saloon",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Appealing and readable, with correct balcony and doors; sheriff star slightly shifts meaning, and top clearance is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Western saloon",
+           "defects": [
+            "Balcony balusters are unevenly spaced and slightly inconsistent in shape/height.",
+            "Upper window panes are not perfectly symmetrical, especially the arched center window.",
+            "Front swinging doors have slightly mismatched shapes and hinge placement between left and right sides.",
+            "Some trim and railing pieces are warped or softly fused at their intersections due to stylized rendering."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Wild West",
+   "context": "Wild West",
+   "place": "frontier town street with boardwalks; saloon; desert trail with cacti and red mesas; campfire by a canyon; railroad through the desert",
+   "palette": "warm wood, leather and brass on bright clean backgrounds",
+   "motif": "horseshoe",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Lasso",
+     "object": "a coiled golden rope lasso with a loop and a honda knot",
+     "theme_marker": "big open loop and coiled rope",
+     "moment": "ranch",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a coiled golden rope lasso with a loop and a honda knot, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear golden lasso on turquoise rays, soft chunky game style; top loop enters the reserved top area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lasso rope",
+           "defects": [
+            "Knot is a fused blob; individual rope strands and over/under crossings cannot be traced realistically.",
+            "Top loop appears fused into the knot rather than clearly passing through it like a real lasso/noose.",
+            "Lower coiled rope sections merge into each other, especially on the right side, making the continuous rope path impossible to follow.",
+            "No clear free rope end is visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and knot, bright and readable; slightly too close to the top margin.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lasso",
+           "defects": [
+            "Knot area has melted/fused rope segments with unclear over-under path.",
+            "Top loop appears to merge into the knot without a clearly visible sliding eye/opening.",
+            "Lower coiled rope has several turns fused together, with unclear separation between layers.",
+            "Connection from the vertical rope into the lower coil disappears behind/into the coil with no clear continuous path.",
+            "No visible rope end is shown, making the single-rope construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable lasso with good colour and floating category-1 setup; top margin is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lasso",
+           "defects": [
+            "Knot is a fused blob with unclear over-under structure; several rope segments appear to merge into it rather than pass through as a continuous rope.",
+            "No distinct rope ends are visible; the rope path cannot be followed from one end to the other.",
+            "Lower coil has ambiguous/impossible routing, with multiple concentric turns but no clear continuation or free end.",
+            "Some rope sections in the lower coil appear melted together or blended where they overlap.",
+            "Rope thickness varies slightly around the loops, especially near the knot and lower coil."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Bean Pot",
+     "object": "a black cast-iron pot of red beans with a wooden spoon",
+     "theme_marker": "cast-iron pot with a bail handle",
+     "moment": "campfire",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat campfire stones next to a small campfire",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a black cast-iron pot of red beans with a wooden spoon placed on flat campfire stones next to a small campfire (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good Township-like rounded rendering and clear bean pot, but campfire/rocks/logs are extra props and compete slightly.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Bean cauldron",
+           "defects": [
+            "Campfire is placed to the side of the cauldron rather than directly underneath it, so it would not realistically heat the pot.",
+            "Left handle attachment has an odd small yellow oval/hole that reads like a misplaced rivet or opening.",
+            "Bail handle appears to merge into the leather grip and side mounts without clear metal joints."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: pot is large, clear, warm and soft; extra campfire/logs/rocks keep defects from full score.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Chili pot",
+           "defects": [
+            "Left and right pot handles are asymmetric in size, height, and shape.",
+            "Right handle appears partly melted into the pot body with an irregular lower attachment.",
+            "Wooden spoon bowl/neck is partially merged into the stew surface rather than clearly entering it.",
+            "Campfire is offset to the side of the pot instead of underneath it, making the cooking setup unrealistic."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear readable bean pot in the right category, but the bright fire/logs are extra objects and draw attention.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "bean cauldron",
+           "defects": [
+            "campfire is offset to the side rather than positioned under the cauldron, so the cooking setup is not physically functional",
+            "right-side handle attachment is partly ambiguous and appears to blend into the pot wall"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Water Tower",
+     "object": "a round wooden water tower on four thick legs with a cone roof",
+     "theme_marker": "wooden barrel tank on stilts",
+     "moment": "town",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "edge of a frontier town with a dusty road and a blue sky",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round wooden water tower on four thick legs with a cone roof in its real environment: edge of a frontier town with a dusty road and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear water tower hero in environment, but wood grain and rendering feel a bit too AI-detailed/realistic for exact reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Water tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded wooden tower, clear silhouette, bright clean sky and landscape, no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "water tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but some proportions/underside geometry and wood detail feel slightly less like the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "water tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Spur Boots",
+     "object": "a pair of brown cowboy boots with pointed toes, stitched patterns and silver spurs",
+     "theme_marker": "spurs and pointed toes",
+     "moment": "town",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of brown cowboy boots with pointed toes, stitched patterns and silver spurs standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky cowboy boots with spurs, but leather/stitch texture is a bit too grainy and decorative.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy boots",
+           "defects": [
+            "Spurs are attached to the side/front ankle straps rather than centered at the back of the heels as real boot spurs would be.",
+            "Pull loops are placed on the front/top edges instead of as paired side pull straps; each boot shows only a single oversized loop."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clean rounded game style, readable pair of boots, correct purple floor/background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy boots",
+           "defects": [
+            "The two boots are not clearly mirrored as a left/right pair; they appear to be nearly identical same-foot boots with the visible spur hardware on the same side of each boot.",
+            "Pull loops/tabs are placed on the front-facing rim rather than clearly on the side of the shafts, making the boot construction look slightly unrealistic."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correct setup, but the stitched detailing and leather texture feel slightly too fine/realistic.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy boots",
+           "defects": [
+            "Both boots appear to be the same-foot boot rather than a mirrored left/right pair.",
+            "Pull loops/tabs are placed on the front of the boot shafts instead of on the sides.",
+            "The rear boot's spur rowel is partly hidden and appears to overlap very close to the foreground boot, making the connection to its own heel ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Horseshoe",
+     "object": "a shiny iron horseshoe with nail holes, open end up",
+     "theme_marker": "U shape with nail holes",
+     "moment": "ranch",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny iron horseshoe with nail holes, open end up, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear horseshoe with good orange background, but metal rendering is a bit too realistic/glossy for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Horseshoe",
+           "defects": [
+            "Asymmetric nail-hole pattern: three holes on the left branch and two on the right instead of mirrored pairs.",
+            "Nail holes vary noticeably in size, shape, and angle.",
+            "The two raised end caps are different shapes and angles, and appear fused into the shoe rather than cleanly attached.",
+            "Left and right branches are not perfectly matched in curvature and thickness."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded horseshoe, clear silhouette, clean orange patterned background, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "horseshoe",
+           "defects": [
+            "Nail holes are not mirrored: there are five holes, with an extra single hole near the bottom instead of matching left/right pairs.",
+            "The holes have uneven spacing and slightly different sizes between the two arms.",
+            "The two end caps are oversized rounded blocks fused onto the ends rather than normal tapered horseshoe heels, and they are not perfectly matching.",
+            "The U-shaped band thickness is slightly uneven along the inner curve and near the tips."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed, but the metallic texture/highlights feel slightly too realistic and AI-rendered.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Horseshoe",
+           "defects": [
+            "Left and right arms are noticeably asymmetric: the left arm is thicker and bows outward more, while the right arm is straighter and narrower.",
+            "Top end pads are unequal in size and shape; the left cap is larger and wider than the right.",
+            "Nail holes are unevenly spaced and not mirrored between the two sides; hole sizes vary slightly."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Oil Lantern",
+     "object": "a red metal oil lantern with a glass globe and a warm flame",
+     "theme_marker": "glass globe and wire handle",
+     "moment": "camp",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "the top of a wooden barrel",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red metal oil lantern with a glass globe and a warm flame placed on the top of a wooden barrel (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear red oil lantern on a wooden surface, strong Township-like soft rendering; handle slightly enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "lantern",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: readable lantern, warm soft materials, clean sky-blue background; only minor top safe-area crowding.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "oil lantern",
+           "defects": [
+            "right side of the yellow carry handle has no clear pivot/hinge connection; it disappears behind the red side bracket",
+            "left and right red side support loops are asymmetric in shape and attachment points",
+            "top vent slots are uneven sizes/shapes and not evenly spaced",
+            "side adjustment knob appears stuck directly onto the base with no visible shaft or bracket"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good readable lantern with suitable surface and colour, but the top handle is too close to the edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lantern",
+           "defects": [
+            "Left and right red side support frames are slightly asymmetric in shape and attachment points.",
+            "The small gold knob on the left lower frame has no matching counterpart and appears stuck onto the support rather than connected to a mechanism."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Bandana",
+     "object": "a red cotton bandana with a white paisley print, tied in a knot",
+     "theme_marker": "paisley print and knot",
+     "moment": "trail",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red cotton bandana with a white paisley print, tied in a knot, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear bandana on good green background, but cloth is a bit too realistic/textured and the top tail enters the safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best overall: readable red bandana with clear paisley, but fabric rendering is slightly too detailed/realistic and top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Red bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the cloth texture/folds feel a little realistic and the upper knot tail is too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Red bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the bandana more simplified and softly chunky with less fabric texture, and leave the top 12% of the image empty."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red cotton bandana with a white paisley print, tied in a knot, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the bandana more simplified and softly chunky with less fabric texture, and leave the top 12% of the image empty.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 14.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match: soft chunky fabric, clear bandana silhouette, clean green striped background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "red bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best overall: instantly readable, rounded Township-like rendering, good scale and contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Red bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Also fits well; clear object and clean colors, slightly less centered but no real issue.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Red bandana",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Barrel",
+     "object": "a sturdy wooden barrel with iron hoops",
+     "theme_marker": "oak staves and iron hoops",
+     "moment": "town",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sturdy wooden barrel with iron hoops standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear sturdy barrel, chunky soft game style, good pink floor/background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wooden barrel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: readable barrel silhouette, warm rounded wood and metal, correct category 2 staging.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wooden barrel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good barrel and colour, but it sits a little too high/large with the top margin slightly tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "barrel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Cactus Pot",
+     "object": "a round prickly pear cactus with pink flowers in a terracotta pot",
+     "theme_marker": "paddle pads and pink flowers",
+     "moment": "town",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a wooden saloon porch floor",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round prickly pear cactus with pink flowers in a terracotta pot placed on a wooden saloon porch floor (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear cactus pot on proper wooden surface with red wall; forms are a bit too glossy/plastic and the pot decoration competes slightly.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "flowering cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best overall: instantly readable, strong silhouette, correct category and colour; slightly toy-like glossy rendering keeps it from perfect style match.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "flowering cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed on a correct surface, but also somewhat plastic-smooth and less like natural terracotta/cactus material.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potted cactus",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Mustang",
+     "object": "a friendly brown horse with a white blaze and a saddle, standing at a hitching rail",
+     "theme_marker": "saddled horse at a hitching rail",
+     "moment": "town",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "frontier main street with boardwalks and a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly brown horse with a white blaze and a saddle, standing at a hitching rail in its real environment: frontier main street with boardwalks and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear friendly saddled horse at hitching rail in a suitable western environment, but the render feels a bit glossy toy-like rather than fully Township-soft.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "horse",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: readable brown horse with white blaze, saddle and hitching rail; strong hero framing, though still slightly plastic/AI-3D in finish.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "horse",
+           "defects": [
+            "Only one nostril is visible on the front of the muzzle despite the face being turned enough to show both sides.",
+            "The bridle/lead strap under the mouth has an odd extra vertical segment with a buckle, making the tether construction look confusing and partly impractical."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [
+           "wrong_object"
+          ],
+          "comment": "Readable horse scene, but the requested white blaze is missing, so it does not fully match the object.",
+          "mean": 8,
+          "hard": [
+           "wrong_object"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Horse",
+           "defects": [
+            "Lead rope/bridle connection is odd: the hanging strap from the mouth ring turns into a rope to the post in an unclear, partly fused way.",
+            "The tether appears wrapped around the fence rail/post but its attachment is ambiguous and slightly melted together.",
+            "Only one stirrup is visible, and its strap hangs in an awkward position that looks loosely attached to the saddle rather than properly connected."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Wild West",
+   "context": "Wild West",
+   "place": "frontier town street with boardwalks; saloon; desert trail with cacti and red mesas; campfire by a canyon; railroad through the desert",
+   "palette": "warm wood, leather and brass on bright clean backgrounds",
+   "motif": "horseshoe",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Cowboy Hat",
+     "object": "a light tan cowboy hat with a brown leather band",
+     "theme_marker": "pinched crown and curled brim",
+     "moment": "town",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "soft waves",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a light tan cowboy hat with a brown leather band, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and soft waves. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 14.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 13.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear stylized cowboy hat, warm rounded rendering, good purple background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: simple readable hat, soft game-like materials, clean contrast, floats correctly.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and on-style with good category framing and clean background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cowboy hat",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Cornbread",
+     "object": "golden cornbread in a black cast-iron skillet",
+     "theme_marker": "cast-iron skillet with a short handle",
+     "moment": "campfire",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "flat campfire stones",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of golden cornbread in a black cast-iron skillet placed on flat campfire stones (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 37.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cornbread in cast-iron skillet, good sky-blue contrast and surface; stone trivet feels like extra objects but not dominant.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "cornbread skillet",
+           "defects": [
+            "Skillet rim is uneven and lumpy instead of a clean circular/elliptical rim.",
+            "Small left-side pour spout/handle-like nub is blobby and fused into the rim; no clearly matching opposite pour spout is visible.",
+            "Main handle is slightly warped, with an irregular off-center hanging hole.",
+            "Cornbread cut/crack geometry is inconsistent: the wedge-shaped section does not form a clean removable slice and appears partly fused to the rest of the loaf.",
+            "Cornbread intersects the pan rim in places, with little clear separation between bread and skillet."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but added butter and stone trivet are extra details; still close to the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "skillet cornbread",
+           "defects": [
+            "skillet rim is uneven and wavy instead of a clean circular ellipse",
+            "left and right pour-lip shapes are asymmetric and lumpy",
+            "front wall of the skillet has a small warped protruding lip"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky, warm, readable skillet cornbread on a simple surface; minor issue is the extra stone trivet pieces.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Skillet cornbread",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Sheriff Office",
+     "object": "a small wooden sheriff office with a porch, a bench and a big golden star above the door",
+     "theme_marker": "golden star above the door",
+     "moment": "town",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny frontier town street with boardwalks",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a small wooden sheriff office with a porch, a bench and a big golden star above the door in its real environment: sunny frontier town street with boardwalks; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear wooden sheriff office with porch, bench and star; warm chunky Township-like rendering.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff Office",
+           "defects": [
+            "Right porch has a diagonal support brace, but the matching left-side brace is missing, making the porch supports asymmetric.",
+            "Upper false-front trim is uneven/asymmetric: the left and right horizontal red trim pieces do not match in length or height.",
+            "Some porch roof boards are slightly warped/uneven in spacing along the front edge."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: centered hero building, very readable sheriff star, clean bright environment.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff office",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable office in correct environment; slightly more toy-like but still fits the reference style.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff office",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Wagon Wheel",
+     "object": "a big wooden wagon wheel with thick spokes and an iron rim, standing upright",
+     "theme_marker": "thick spokes and iron rim",
+     "moment": "trail",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "yellow",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big wooden wagon wheel with thick spokes and an iron rim, standing upright standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with sunburst rays. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 34.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear wagon wheel with good chunky shape, but wood/metal rendering is a bit too detailed and the object enters the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best balanced silhouette and correct category setup, but still slightly over-rendered with visible wood grain and too little top free space.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the wheel is too close to the top and the material detail feels a little AI/realistic for the reference style.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the wagon wheel slightly smaller with more empty space above it, and simplify the wood and metal surfaces to softer chunky mobile-game rendering with less visible grain."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big wooden wagon wheel with thick spokes and an iron rim, standing upright standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with sunburst rays. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the wagon wheel slightly smaller with more empty space above it, and simplify the wood and metal surfaces to softer chunky mobile-game rendering with less visible grain.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky wagon wheel with warm soft wood and metal; good yellow floor/background and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [
+            "Rivets around the metal rim are unevenly spaced and not symmetrically paired.",
+            "Wooden spokes vary noticeably in width and shape instead of matching as identical radial pieces.",
+            "Some spoke ends appear slightly fused into the inner rim or hub rather than having clear separate joints."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable upright wagon wheel, strong rounded forms and clean bright category-2 presentation.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [
+            "Spokes are unevenly spaced and have inconsistent widths/tapers.",
+            "Some spoke ends appear partially fused or melted into the inner rim instead of having clear separate joints.",
+            "Upper-left spokes overlap/merge visually, making the construction ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and on-style, with soft materials and clean yellow backdrop; no hard defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "wagon wheel",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Sheriff Star",
+     "object": "a silver five-point star badge in a ring",
+     "theme_marker": "star in a ring",
+     "moment": "town",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of horseshoe silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver five-point star badge in a ring, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of horseshoe silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear sheriff star badge on orange background, but metal/gold rendering has slightly too much realistic brushed texture; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: chunky, soft, readable badge with clean orange background; only issue is the object sits a bit too high for the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and correctly framed, but the metal has more fine realistic texture and sharper faceting than the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sheriff badge",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Banjo",
+     "object": "a wooden banjo with a round drum body and a long neck",
+     "theme_marker": "round drum body",
+     "moment": "campfire",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "pink",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a hay bale",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden banjo with a round drum body and a long neck placed on a hay bale (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated pink wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky wooden banjo in matching soft casual style; good pink background and floor, but the neck enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Banjo",
+           "defects": [
+            "Four strings converge awkwardly at the headstock and do not clearly connect to the four tuning pegs.",
+            "Tuning hardware and string anchors are decorative rather than functional: the strings appear attached to small pins on the face instead of to the side pegs.",
+            "Some fret bars are slightly warped and unevenly spaced along the neck."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well styled, but the composition is too tight with little surface/interior depth and the headstock is too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "banjo",
+           "defects": [
+            "Headstock has mismatched/extra tuning knobs: two on the left but about three on the right, while only four strings are present.",
+            "Strings do not clearly connect to matching tuning pegs; several terminate or merge near the headstock instead of wrapping around posts.",
+            "Tuning posts/knobs are irregularly placed and asymmetric between the two sides of the headstock.",
+            "The bridge appears too short and slightly misplaced, not clearly supporting all strings."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable banjo with good category-3 floor and pink wall; slight metal rim is acceptable, but the top safe area is not free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "banjo",
+           "defects": [
+            "Tuning hardware is inconsistent: four side tuner knobs are visible, but three round posts/caps appear on the headstock face and do not clearly match the strings.",
+            "Some strings do not terminate cleanly at individual tuning posts; they appear to converge or disappear near the headstock.",
+            "String count appears inconsistent along the instrument, with more/clearer string lines on the body than can be matched to the headstock hardware.",
+            "Frets are rendered as thick raised bands wrapped around the neck rather than thin metal fret wires set into the fingerboard.",
+            "The neck-to-body joint is slightly melted into the rim/body instead of having a clear constructed heel joint."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         }
+        ],
+        "best": "A",
+        "fix": "Leave more empty pink background above the banjo so the top 12% is completely clear."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Gold Nugget",
+     "object": "a big shiny gold nugget with a few small ones",
+     "theme_marker": "lumpy shiny gold",
+     "moment": "mine",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big shiny gold nugget with a few small ones, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 14.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating gold nuggets on turquoise; a bit too faceted/shiny compared with reference softness.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Gold nugget",
+           "defects": [
+            "Several smaller nugget fragments are floating unconnected around the main nugget, making it read as multiple separate pieces rather than one solid object"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Good dominant nugget and clean background; rendering is slightly too realistic/faceted.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Gold nugget",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well framed with bright contrast; gold surface feels a little over-rendered.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Gold nuggets",
+           "defects": [
+            "Three smaller nuggets are floating separately from the main nugget, so the object is not one connected piece."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Rocking Chair",
+     "object": "a wooden porch rocking chair with curved runners and a red cushion",
+     "theme_marker": "curved rockers",
+     "moment": "town",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "green",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wooden porch rocking chair with curved runners and a red cushion standing on a plain flat floor of lighter green, three-quarter view slightly from above. Behind it a plain vertical green wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear rocking chair and correct setup, but wood/cushion rendering is a bit too polished and decorative.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rocking chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Fits the rounded Township look well, very readable, clean green card background, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rocking chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong match overall; clear wooden rocking chair with cushion, good colour and category framing.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Rocking chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Rattlesnake",
+     "object": "a friendly cartoon rattlesnake coiled on a rock, rattle raised",
+     "theme_marker": "coiled body and rattle",
+     "moment": "canyon",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a flat desert rock in the sand",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly cartoon rattlesnake coiled on a rock, rattle raised placed on a flat desert rock in the sand (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 21.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear friendly coiled rattlesnake on a rock with good warm rendering; top margin is a little tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rattlesnake",
+           "defects": [
+            "Tail tip/rattle is exaggerated into a stack of smooth rounded blobs, resembling a mitten or fingers rather than a real rattlesnake rattle.",
+            "Rattle segments are fused directly into the tail with no clear jointed hollow rattle structure.",
+            "Coiled body continuity is ambiguous where the neck, coils, and raised tail emerge, making the snake's exact path through the coils hard to follow."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and very readable rattlesnake pose; fits the soft rounded game style, but the head is slightly too close to the top.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rattlesnake",
+           "defects": [
+            "rattle segments are overly rounded and fused into bead-like blobs rather than distinct nested rattle shells",
+            "far eye is much smaller and differently shaped than the near eye due to awkward asymmetric placement"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and appealing, with correct rock surface and red background; object sits too high, leaving insufficient top free space.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rattlesnake",
+           "defects": [
+            "Tail rattle is shaped like a stack of rounded fingers or beads rather than realistic hollow rattle segments.",
+            "Rattle segments are fused together with no clear separations or shell openings.",
+            "Forked tongue tips are uneven and slightly melted together at the base."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Steam Train",
+     "object": "a red and black steam locomotive with a big funnel chimney and a cowcatcher",
+     "theme_marker": "funnel chimney and cowcatcher",
+     "moment": "railroad",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "railroad across the desert with red mesas and a blue sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Wild West",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and black steam locomotive with a big funnel chimney and a cowcatcher in its real environment: railroad across the desert with red mesas and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear steam train in the right environment, but it reads a bit like a glossy toy and the funnel crowds the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Steam train",
+           "defects": [
+            "Front cowcatcher slats are unevenly spaced and partially fused into the frame instead of being separate bars.",
+            "Headlight side brackets are asymmetric; one rectangular lug is visible without a matching opposite lug.",
+            "Driving-rod hardware is simplified and slightly misaligned, with the rod/caps not cleanly centered on matching crank points.",
+            "Small front wheel is partly buried under the body/pilot and lacks a clear suspension or axle connection.",
+            "Tender/rear car appears fused very close to the cab with no clear coupling gap."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and proportions for the requested locomotive, but still too polished/plastic-toy compared with the reference style; top area is crowded.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "steam locomotive",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well framed for category 4, but the rendering is overly smooth and toy-like, with the chimney too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Steam locomotive",
+           "defects": [
+            "Front cowcatcher slats are unevenly spaced and some appear fused into the top bumper and bottom rail at inconsistent angles.",
+            "Side connecting rod geometry is unclear: the yellow rod does not cleanly attach to all visible wheel hubs and appears to pass through or overlap the middle wheel assembly.",
+            "Visible driving wheels are not perfectly matched in size/shape; the rear large wheel and middle large wheel have slightly different proportions beyond perspective.",
+            "Small front wheel is partly tucked into the body with unclear clearance, making it look partially fused into the underside cylinder.",
+            "Top gold dome behind the smokestack is partially occluded/fused into surrounding parts, with an unclear base connection to the boiler.",
+            "No text or digits."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         }
+        ],
+        "best": "B",
+        "fix": "Make the locomotive feel like softly painted metal and wood rather than a glossy plastic toy, and leave more empty sky at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a red and black steam locomotive with a big funnel chimney and a cowcatcher in its real environment: railroad across the desert with red mesas and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Wild West. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the locomotive feel like softly painted metal and wood rather than a glossy plastic toy, and leave more empty sky at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 20.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear steam train in the right environment, but it feels a bit like a glossy toy render and the funnel intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "steam locomotive",
+           "defects": [
+            "front headlamp is mounted off to the side of the smokestack/smokebox rather than centered on the front",
+            "large smokestack/funnel is exaggerated and oddly shaped for a real locomotive",
+            "front gray cylinder under the boiler appears partly disconnected or floating beside the wheel area",
+            "small tender wheels at the rear are partially hidden and do not align clearly with the rail",
+            "cowcatcher slats are simplified and fused into the top and bottom frames"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and very readable locomotive with cowcatcher, but the finish is too plastic/glossy and the top 12% is not clear.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "steam train",
+           "defects": [
+            "Front headlight is mounted off to the side of the smokebox instead of centered on the front.",
+            "Small rear wheel under the cab appears only partly connected and not aligned with the other wheels.",
+            "Front small wheel is tucked behind the cowcatcher/boiler and appears slightly misaligned with the track.",
+            "Visible wheels are inconsistent in size and placement for a single side of the locomotive, giving the wheel layout an unrealistic toy-like construction."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and dominant, but slightly too shiny toy-like for the reference style, with insufficient top headroom.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Steam locomotive",
+           "defects": [
+            "Headlight is mounted off-center on the side edge of the smokebox rather than centered on the front.",
+            "Connecting rod attaches to the centers of the driving wheels instead of offset crank pins, so the mechanism would not work.",
+            "No visible front support wheel or truck under the smokebox/cowcatcher area.",
+            "Smokestack is an exaggerated inverted cone with no clear open chimney hole."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": "Make the train less glossy/plastic and more softly painted in Township style, with clear empty sky in the top 12%."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 98,
+  "image_out": 121030,
+  "image_in": 114196,
+  "text_in_img": 38112,
+  "llm_calls": 229,
+  "llm_in": 140791,
+  "llm_out": 76114
+ }
+}

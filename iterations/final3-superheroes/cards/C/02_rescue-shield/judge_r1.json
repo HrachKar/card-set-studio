@@ -1,0 +1,118 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall kite-shaped padded red rescue shield on a small blue display base, with a raised yellow starburst center and flared cape-like side edges standing on a plain flat floor of lighter yellow, three-quarter view slightly from above. Behind it a plain vertical yellow wall with sunburst rays. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city: a sunny downtown plaza in the morning, a rooftop training terrace at noon, the rescue workshop in the afternoon, and a golden-hour hero hall by the skyline.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 16.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Strong toy-like Township style, clear rescue shield on base; background is bright but top clearance is a bit tight.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "superhero shield",
+     "defects": [
+      "Left and right hanging cape flaps are not symmetric: the left flap is narrower and has a hollow rolled-looking end, while the right flap is broader with a curled solid edge.",
+      "Raised red border pieces do not match: the left border is much thicker and cuts diagonally across the shield face, while the right border follows the edge more evenly.",
+      "The bottom yellow end cap is fused into the shield point and pedestal with no clear connector or support stem.",
+      "The yellow star is slightly uneven/melted, with points of different lengths and rounded lumpy tips."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded shield, readable starburst and cape edges, correct base; minor issue with tight top clearance.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Hero shield",
+     "defects": [
+      "Cape, shoulder pads, and shield are fused together with no visible body, neck, straps, or mounting structure to support them.",
+      "The shoulder pads sit directly on the shield/cape and appear to float or grow out of the top corners rather than attach to a wearable torso.",
+      "The cape emerges from the sides of the shield instead of from a collar or shoulders.",
+      "The shield’s bottom point appears to penetrate or balance on the blue base without a clear connector or bracket.",
+      "Left and right cape folds are noticeably different: the left side forms a thick rolled tube-like opening while the right side is a flatter sheet."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and polished, with good colours, but the object sits too close to the top edge.",
+    "mean": 9,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "superhero shield",
+     "defects": [
+      "The red cape and shield side trim are fused together at the upper side attachments instead of having clear separate connections.",
+      "Left and right yellow side clasps are different sizes/shapes and attach at slightly different heights.",
+      "The two cape tails are asymmetric: the left tail is much wider and forms a thick hollow tube, while the right tail is narrower with a different rolled end.",
+      "The shield point appears to plug directly into or merge with the blue base without a clear support bracket or slot.",
+      "The quilted red shield panels are uneven and not mirrored left-to-right; some seams do not align cleanly with the shield centerline."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 5
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

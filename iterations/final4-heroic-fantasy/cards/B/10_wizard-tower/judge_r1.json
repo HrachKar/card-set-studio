@@ -1,0 +1,106 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a tall crooked stone wizard tower with a purple cone roof and round windows in its real environment: enchanted forest clearing with giant trees and a blue sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Heroic fantasy. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 18.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.8,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 18.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear wizard tower and good hero framing, but a bit too smooth/toy-like and the roof reaches into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Wizard tower",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Best silhouette and category fit; reads instantly as a crooked wizard tower, but still slightly plastic/AI-smooth and too close to the top edge.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Wizard tower",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and bright, but the star badge adds visual clutter and the rendering feels a little too glossy/toy-like; top safe area is not clear.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Wizard tower",
+     "defects": [
+      "Purple hat roof and stone tower are fused together with no clear structural joint under the brim.",
+      "Upper ring has uneven tooth-like stone blocks/brackets; several are different sizes and angles and appear melted into the wall or underside of the roof.",
+      "Small left-side round window is cut into the tower edge and appears partially flattened/embedded rather than fully circular.",
+      "Stone block courses are warped and inconsistent around the curved tower, especially near the upper taper."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "B",
+  "fix": "Make the tower more like softly rendered real stone and fabric/wood, less glossy toy-like, and leave clear empty sky in the top 12%."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

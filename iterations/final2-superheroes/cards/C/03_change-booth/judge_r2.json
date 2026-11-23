@@ -1,0 +1,121 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded white downtown changing booth with blue glass panels, a red cape visible inside, and a shield-shaped door handle in its real environment: bright downtown sidewalk with soft city towers, clean paving, and small white clouds; frontal, slightly from below; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city patrol route: morning in a hidden gadget lab, late morning on a downtown sidewalk, midday across sunny rooftops, and sunset at a plaza lookout.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day. Important: Use a bright yellow background/environment tint and leave more empty space at the top while keeping the booth large and central.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 18.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 18.3,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 20.3,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong match: chunky rounded booth, clear blue glass, cape and shield handle; bright yellow city setting and clean top space.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero cape",
+     "defects": [
+      "Shield-shaped front lock/emblem is floating on the glass seam with no visible hinge, latch, chain, or other attachment.",
+      "Horizontal support rod behind the cape has rounded end caps but does not clearly connect to the case walls and does not visibly support the cape.",
+      "Cape collar/clasp area is malformed: the yellow clasp appears embedded in the fabric rather than attached to a real neck opening.",
+      "Cape folds are slightly melted and asymmetrical, especially along the lower hem and side edges."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable and on-style, but the booth sits too high with the top 12% not fully free.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero cape",
+     "defects": [
+      "Cape is not clearly attached to the display rod; it appears to hang from two yellow buttons with no visible hanger or neck support.",
+      "The two yellow collar buttons are slightly asymmetric in size/placement.",
+      "The cape shape is ambiguous, with sleeve-like side panels even though it reads as a cape.",
+      "The horizontal rod and its round end mounts are slightly mismatched and not perfectly aligned left-to-right.",
+      "The shield badge is attached directly across the central door seam, which would block the two front doors from opening normally."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 5
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clean toy-like style, dominant category-4 object, clear cape and shield handle, bright yellow background.",
+    "mean": 10,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Superhero cape",
+     "defects": [
+      "Shield badge appears attached to the glass door seam/floating in front of the cape rather than attached to the cape itself.",
+      "Hanger hook/top support is ambiguous and appears partly floating, with no clear connection to the display case ceiling."
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 2
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

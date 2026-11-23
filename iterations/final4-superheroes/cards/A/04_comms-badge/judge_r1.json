@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round silver communicator badge with a blue light, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of small star burst silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Superheroes. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 15.2,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 18.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 16.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and bright, but the winged shield makes it busier and more toy-like than the references; top clearance is tight.",
+    "mean": 8,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Wi-Fi booster",
+     "defects": [
+      "gold wing plates are not symmetrical: the left side has straighter stacked feathers while the right side has a longer curved upper feather and a shorter lower feather",
+      "outer metal rim segments are uneven and do not align cleanly around the circle",
+      "top blue dome/cap is slightly off-center relative to the circular body",
+      "some gray rim pieces appear fused into the body rather than separate fitted panels"
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear communicator badge with good green background, but the metallic/plastic finish is a bit too glossy and top clearance is tight.",
+    "mean": 8,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Wi-Fi Beacon",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best overall: clear round badge, strong silhouette and colour contrast; still slightly too polished/toy-like for perfect Township style.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "Wi-Fi booster",
+     "defects": [],
+     "distortion": "none",
+     "match": false
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "C",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

@@ -1,0 +1,52 @@
+[
+ {
+  "card": "A9",
+  "problem": "The star-shaped nutrient bites feel like an invented catalogue sci-fi food rather than an iconic space-opera object from this visitor's day.",
+  "fix": "Changed it into a clearer travel ration kit with sealed foil meal capsules and a clip-on water bulb on a cantina counter."
+ },
+ {
+  "card": "A10",
+  "problem": "The mint object was on a mint background, reducing thumbnail readability.",
+  "fix": "Changed the background to pink while keeping the courier pod as the hand-held space-opera pickup object."
+ },
+ {
+  "card": "B2",
+  "problem": "The sky-blue hover luggage was on a sky-blue background, so the object would blend into the card.",
+  "fix": "Changed the background to yellow for contrast."
+ },
+ {
+  "card": "B3",
+  "problem": "Nebula Sundae is a cute invented food, but it is more of a catalogue gag than an iconic space-opera movie object.",
+  "fix": "Replaced it with a blue milk cantina cup in an anti-spill chrome ring, which reads more directly as space opera."
+ },
+ {
+  "card": "B8",
+  "problem": "The peach-orange crystal was on a peach background, weakening silhouette contrast.",
+  "fix": "Changed the background to green and clarified the asteroid-dust surface."
+ },
+ {
+  "card": "B10",
+  "problem": "The mint translator orb was on a mint background, and the wave symbols risked reading like graphic icons rather than a physical space device.",
+  "fix": "Changed the background to red and described projected cyan wave arcs from the orb."
+ },
+ {
+  "card": "C1",
+  "problem": "The turquoise hologram on the navigator cuff was placed on a turquoise background, so the main space marker could disappear.",
+  "fix": "Changed the background to purple for stronger contrast."
+ },
+ {
+  "card": "C3",
+  "problem": "Nebula Noodles with star dumplings felt invented and not immediately iconic from space-opera films.",
+  "fix": "Replaced it with a blue cantina milk cup with a domed lid and magnetic coaster."
+ },
+ {
+  "card": "C8",
+  "problem": "The card used a crystal canyon interior and cave floor, but the set place did not include that specific place.",
+  "fix": "Updated the place to include a shallow crystal canyon nook and kept the crystal growing from moon-stone there."
+ },
+ {
+  "card": "C10",
+  "problem": "The object was a cube but the silhouette was listed as round, and the object needed a stronger space-opera read.",
+  "fix": "Changed the silhouette to vertical and sharpened it as a transparent star-map cube with a holographic ringed planet inside."
+ }
+]

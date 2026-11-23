@@ -1,0 +1,114 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded space vending machine with colourful snack capsules standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 17.1,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 20.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 19.1,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Clear rounded space vending machine with snack capsules and good pink floor/background, but it reads a bit too glossy plastic-toy and the antenna occupies the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "Capsule vending machine",
+     "defects": [
+      "Capsules and treats inside the chamber overlap tightly and appear to intersect or float rather than sit in a clear mechanism",
+      "Left and right side circular yellow ornaments are not symmetrically placed; the left one is only a partial sliver while the right one is fully protruding",
+      "The dispenser chute has no visible internal path connecting it to the capsule chamber"
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Readable and bright, but closer to a glossy capsule/gumball toy than Township material rendering; top ornament is too close to the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "gumball machine",
+     "defects": [
+      "Front left and right yellow button/slot panels are asymmetric: the right side has a different number/spacing of slots than the left.",
+      "Lower feet are inconsistent in shape and size; the right front foot is taller/rounder while the left front foot is flatter and wider.",
+      "Top planet ornament has a ring that appears to clip through the sphere like a fused solid piece, rather than a separate ring around it."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 1,
+    "hard_defects": [],
+    "comment": "Very readable and colourful, but quite toy-like/glossy and more like a capsule machine than a vending bot; top decoration intrudes into the top safe area.",
+    "mean": 8,
+    "hard": [],
+    "pass": false,
+    "blind": {
+     "guess": "capsule machine",
+     "defects": [
+      "Some snack capsules appear intersecting/overlapping each other and the glass globe instead of occupying clear separate space.",
+      "The transparent globe edge is warped/asymmetric, with uneven side thickness.",
+      "The upper window panels are uneven in size and spacing, especially the small partial window on the right side.",
+      "The two yellow front indicator lights are different shapes/sizes."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   }
+  ],
+  "best": "A",
+  "fix": "Make the machine less glossy plastic-toy and more soft Township-style rounded material rendering, with extra empty pink space at the top."
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

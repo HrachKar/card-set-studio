@@ -1,0 +1,56 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a shiny silver metal bucket with a pale wooden handle standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with soft waves. No environment details. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 76.1,
+   "size": [
+    1152,
+    1280
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 74.2,
+   "size": [
+    1152,
+    1280
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 8,
+    "category": 9,
+    "readability": 9,
+    "object": 10,
+    "defects": [],
+    "comment": "Clear shiny metal bucket on pink wall and lighter floor; stylized 3D fits well, though metal is slightly realistic and wooden grip is off to one side.",
+    "mean": 9.0,
+    "hard": [],
+    "pass": true
+   },
+   {
+    "id": "B",
+    "style": 8,
+    "category": 9,
+    "readability": 10,
+    "object": 10,
+    "defects": [],
+    "comment": "Very readable silver bucket with centered pale wooden handle; matches category composition and pink background, with only slightly realistic metal rendering.",
+    "mean": 9.25,
+    "hard": [],
+    "pass": true
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png"
+ ]
+}

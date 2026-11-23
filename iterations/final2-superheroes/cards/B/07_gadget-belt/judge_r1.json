@@ -1,0 +1,112 @@
+{
+ "round": 1,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a lime utility belt with chunky blue rescue pods and a large smooth oval buckle placed on brushed metal gadget-workshop bench (stylized clean smooth texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated blue wall with faint repeating pattern of starburst silhouettes and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, stylized material textures with medium detail, soft diffuse warm lighting, glossy highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, toy-like simplified forms with smooth surfaces, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, animals. Context of this card set: One day of a visitor in a superhero city training route: morning at the academy courtyard, noon in the padded training hall, afternoon in the gadget workshop, and sunset at the downtown rescue booth.. Let this context shape only the surface, environment and background mood; show no people, no animals and no other objects from that day.",
+ "gens": [
+  {
+   "file": "r1_0.png",
+   "sec": 20.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_1.png",
+   "sec": 19.0,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r1_2.png",
+   "sec": 20.7,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong match: chunky smooth toy forms, clear lime belt with blue pods and large oval buckle on blue cat-3 tabletop scene.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "utility belt",
+     "defects": [
+      "Left and right blue side pouches are not perfectly symmetrical in shape and panel placement.",
+      "Green belt sections partially merge into the side pouches/connectors, making the attachment points a little unclear.",
+      "The large gold oval buckle appears to sit on top of the belt without a clearly modeled clasp, prong, or strap connection."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best balanced silhouette and very readable gadget belt; clean bright colours, correct surface and background, no visible defects.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Utility belt",
+     "defects": [
+      "Central oval buckle has no visible clasp, pin, holes, or pass-through strap, so it reads as a decorative oval fused to the front of the belt rather than a functional buckle.",
+      "Blue side pouches appear partially fused into the green belt/strap, with no clear loops, seams, or attachment points.",
+      "Far-left side shows a small extra yellow-green curved protrusion behind the left pouch that is not mirrored clearly on the right and has an unclear connection."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Good style and object match, readable and bright; composition is slightly lower/heavier than B but still valid.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Utility belt",
+     "defects": [
+      "Back clasp is made of overlapping/fused green rectangular blocks with no clear hinge, buckle pin, or functional connection.",
+      "The central gold oval looks like a decorative medallion rather than a usable belt buckle, with no visible slot, pin, or way for the strap to pass through."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 2
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r1_0.png",
+  "r1_1.png",
+  "r1_2.png"
+ ]
+}

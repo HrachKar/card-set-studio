@@ -1,0 +1,112 @@
+{
+ "round": 2,
+ "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white egg-shaped sleep pod with a glass lid standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the pod less glossy and toy-like, with softer matte white metal and glass, and leave more empty space at the top.",
+ "gens": [
+  {
+   "file": "r2_0.png",
+   "sec": 17.4,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_1.png",
+   "sec": 17.5,
+   "size": [
+    864,
+    960
+   ]
+  },
+  {
+   "file": "r2_2.png",
+   "sec": 16.4,
+   "size": [
+    864,
+    960
+   ]
+  }
+ ],
+ "judge": {
+  "candidates": [
+   {
+    "id": "A",
+    "style": 1,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Clear sleep pod on correct turquoise floor/background, but a bit too slick/plastic and slightly busy inside.",
+    "mean": 9,
+    "hard": [
+     "not_recognized_blind"
+    ],
+    "pass": false,
+    "blind": {
+     "guess": "space pod chair",
+     "defects": [
+      "transparent canopy/rim blends into the shell with no clear hinge or separation",
+      "top rear pink segment appears like an extra cushion/panel protruding from the shell and not clearly connected",
+      "base/feet are asymmetric: left and right gold supports differ in size and placement"
+     ],
+     "distortion": "minor",
+     "match": false
+    },
+    "minor_defects": 3
+   },
+   {
+    "id": "B",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Best match: chunky rounded form, clean soft rendering, clear glass-lid sleep pod, correct simple category 2 setup.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "Sleep pod",
+     "defects": [
+      "Transparent canopy is ambiguously fused into the cream shell with no clear hinge or opening mechanism.",
+      "Front gold latch/handle appears partly embedded in the glass and rim rather than mounted on a distinct bracket.",
+      "Top gold handle/cushion straddles the shell and canopy seam with unclear attachment.",
+      "Some shell seam panels on the side do not line up cleanly with the pod curvature."
+     ],
+     "distortion": "minor",
+     "match": true
+    },
+    "minor_defects": 4
+   },
+   {
+    "id": "C",
+    "style": 2,
+    "readability": 2,
+    "category": 2,
+    "colour": 2,
+    "defects": 2,
+    "hard_defects": [],
+    "comment": "Strong style and readability, clean background; decorative marks are okay, though a little more sci-fi emblem-like than needed.",
+    "mean": 10,
+    "hard": [],
+    "pass": true,
+    "blind": {
+     "guess": "sleep pod",
+     "defects": [],
+     "distortion": "none",
+     "match": true
+    },
+    "minor_defects": 0
+   }
+  ],
+  "best": "B",
+  "fix": ""
+ },
+ "judged_files": [
+  "r2_0.png",
+  "r2_1.png",
+  "r2_2.png"
+ ]
+}

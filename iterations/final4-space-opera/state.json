@@ -1,0 +1,4782 @@
+{
+ "variants": [
+  {
+   "id": "A",
+   "set_name": "Space Opera",
+   "context": "Space opera",
+   "place": "sunny spaceport with landing pads; starship deck with smooth metal panels; starship galley; alien planet with pink sand and a ringed planet in a light sky",
+   "palette": "white, steel and warm orange accents on bright clean backgrounds",
+   "motif": "small ringed planet",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Space Helmet",
+     "object": "a round white space helmet with an orange visor",
+     "theme_marker": "round visor and side lights",
+     "moment": "deck",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "sky blue",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space helmet with an orange visor, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: sky blue with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 15.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky space helmet with good sky-blue rays; top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Astronaut helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and nicely rounded; slightly tight at top but otherwise fits the card style well.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong simple silhouette and colours; top 12% is not quite free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "astronaut helmet",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Star Map",
+     "object": "a round brass projector showing a small holographic star map",
+     "theme_marker": "hologram of stars above a projector",
+     "moment": "bridge",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "the metal deck of a starship",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brass projector showing a small holographic star map placed on the metal deck of a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 23.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear brass star-map projector on a textured surface; good orange contrast, but metal/rendering is a bit too glossy and polished vs reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star projector",
+           "defects": [
+            "Left and right side pivots/yoke joints are not symmetrical; the left pivot is much smaller and partly buried behind the rim while the right pivot is large and protruding.",
+            "The gray support yoke is uneven: the right arm is much thicker and connects visibly to the base, while the left arm disappears behind the body with no clear lower attachment.",
+            "The circular gold frame is slightly warped/uneven in thickness around the lower edge."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best readable chunky silhouette and correct category; star map is clear, though the finish feels slightly too slick/glossy for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star projector",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Recognizable object with good color and setting, but extra rear detail complicates the silhouette and the brass is somewhat glossy/AI-polished.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Star projector",
+           "defects": [
+            "Left and right side pivot knobs are not matching in design/size; the right has a blue ring and protruding cap while the left appears as plain gold rings.",
+            "Top vented cap is partly fused into the tilted circular rim rather than clearly mounted on a separate housing.",
+            "Left support arm is mostly hidden and its connection to the base/pivot is ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Pilot Seat",
+     "object": "a padded orange starship pilot seat with chunky armrests",
+     "theme_marker": "armrests with buttons and headrest",
+     "moment": "bridge",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a padded orange starship pilot seat with chunky armrests standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear pilot chair and good purple card setup, but upholstery grain and metallic shine feel a bit too rendered/AI-detailed.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "spaceship chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded forms, clean soft materials, clear orange pilot seat silhouette, good contrast and no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong style and readable padded seat; slightly less explicitly starship-themed than B, but still fits the category well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Gaming chair",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Ray Gun",
+     "object": "a retro silver ray gun with red fins and a round emitter",
+     "theme_marker": "retro fins and round emitter",
+     "moment": "deck",
+     "class": "weapon",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "faint repeating pattern of small ringed planet silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a retro silver ray gun with red fins and a round emitter, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and faint repeating pattern of small ringed planet silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear ray gun on correct green patterned background, but metallic rendering is a bit realistic/glossy compared with the softer reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Ray gun",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded retro ray gun, clean silhouette, bright green background, no cropping or extra objects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "ray gun",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable ray gun with good colours and category fit; slightly more dominant in frame but still acceptable.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "ray gun",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Food Tray",
+     "object": "a metal space food tray with compartments of colourful food",
+     "theme_marker": "compartment tray",
+     "moment": "galley",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white galley table on a starship",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with compartments of colourful food placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear tray and food on yellow set, but metal/food rendering feels a bit too smooth 3D and plastic-like for exact reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "food tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded space food tray, clear compartments, bright yellow background, clean surface, no visible defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "bento tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and correctly staged, but the tray/handles feel a little toy-like with extra glossy saturated plastic accents.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "bento tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Communicator",
+     "object": "a chunky handheld communicator with a flip antenna",
+     "theme_marker": "flip antenna",
+     "moment": "deck",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a chunky handheld communicator with a flip antenna, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 15.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Good chunky Township-like communicator on clean pink striped background; readable, but antenna enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "walkie-talkie",
+           "defects": [
+            "Top antenna is shaped like a hinged flat blade/handle rather than a real walkie-talkie antenna.",
+            "The two lower orange buttons are different shapes and sizes despite appearing to be a left-right pair."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: simple rounded forms, clear handheld communicator silhouette, bright colours; top 12% is not fully free.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "walkie talkie",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear and clean, with good soft materials and contrast; antenna is close to the top edge/safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Walkie-talkie",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Retro Robot",
+     "object": "a friendly boxy retro robot of painted metal with round eyes and an antenna",
+     "theme_marker": "boxy body and antenna",
+     "moment": "hangar",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly boxy retro robot of painted metal with round eyes and an antenna standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear friendly retro robot, but the finish reads a bit glossy plastic toy rather than softly rendered painted metal; antenna is too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and correct simple turquoise card setup, but still looks like a shiny toy figure; top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and proportions, clean colour and category match, but material is slightly plastic/glossy and the antenna nearly touches the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Make the robot look like softly painted matte metal instead of a glossy plastic toy, and leave clear empty space in the top 12% of the card."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly boxy retro robot of painted metal with round eyes and an antenna standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the robot look like softly painted matte metal instead of a glossy plastic toy, and leave clear empty space in the top 12% of the card.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear friendly retro robot on correct turquoise floor/background, but a bit glossy plastic/toy-like rather than painted metal; antenna enters top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best overall: readable boxy robot with warm rounded forms and good colours, though still somewhat toy-plastic and top 12% is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and category-correct, but slightly more dominant/tall in frame and toy-like; antenna also violates top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "toy robot",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the robot look like softly painted metal instead of glossy plastic, and leave the top 12% of the card empty above the antenna."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Space Station",
+     "object": "a round white space station with a ring and solar panels",
+     "theme_marker": "ring and solar panels",
+     "moment": "sky",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "bright sky above a spaceport with soft clouds",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round white space station with a ring and solar panels in its real environment: bright sky above a spaceport with soft clouds; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close Township style: chunky soft space station, clear ring and four panels, bright sky environment. Minor issue: antenna enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Space satellite",
+           "defects": [
+            "Main ring appears to intersect and fuse into the central sphere instead of attaching with clear supports.",
+            "The inner/rear parts of the ring are visible as separate curved pieces and look partly floating inside the outer rim.",
+            "Solar panels are not matching pairs: opposite panels differ in size, trapezoid shape, and grid layout more than perspective suggests.",
+            "Several solar-panel connector joints are asymmetric in length and angle, with struts seeming to grow directly out of the hull.",
+            "Window segments around the ring are unevenly sized and inconsistently spaced."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hero space station with good rounded forms and bright clean colours. Slightly plastic but acceptable; top antenna is too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space satellite",
+           "defects": [
+            "Solar panel cell grids are inconsistent between panels: upper panels have different-looking cell layouts than the lower panels, and the lower-right panel has more cells than the lower-left.",
+            "Solar panels are not perfectly symmetric in size and shape; the lower-left panel appears shorter/wider than the lower-right panel.",
+            "The circular side ring appears to intersect/fuse into the central body instead of being clearly mounted with supports.",
+            "Ring lighting/details are asymmetric: the left side shows two glowing segments while the right side shows only one clearly visible segment.",
+            "Side ring/wing structure has warped perspective, with the left and right arcs not matching in thickness and curvature.",
+            "Some connector blocks between the body, arms, and panels are simplified/melted into adjacent parts rather than having clear mechanical joints."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and nicely dominant in the environment, with good warm game rendering. Only two panels visible and the antenna intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space station",
+           "defects": [
+            "No clear geometric defects visible.",
+            "No text or digits present."
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Alien Plant",
+     "object": "a strange alien plant with round purple pods in a ceramic pot",
+     "theme_marker": "round pods",
+     "moment": "greenhouse",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a metal shelf on a starship deck",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a strange alien plant with round purple pods in a ceramic pot placed on a metal shelf on a starship deck (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clean Township-like chunky plant in pot on a shelf; red background, readable pods and no major defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Potted flower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: rounded soft forms, clear alien potted plant silhouette, good category-3 surface and clean red background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potted flowers",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Plant reads well and style is close, but the space window/background detail is an extra distracting object.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "potted alien flower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Starship",
+     "object": "a big round-nosed white and orange passenger starship with stubby wings",
+     "theme_marker": "round nose and stubby wings",
+     "moment": "spaceport",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny spaceport with landing pads and a light sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big round-nosed white and orange passenger starship with stubby wings in its real environment: sunny spaceport with landing pads and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky white-orange craft in an environment, but it reads more like a toy airplane and is a bit glossy; top clearance is tight.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "airplane",
+           "defects": [
+            "No visible tail fin or horizontal tail stabilizers at the rear.",
+            "Landing gear ends in blocky foot pads instead of wheels, which would not function as real aircraft landing gear.",
+            "Side passenger windows are inconsistent in size and shape, with some warped/uneven openings.",
+            "Engine nacelles appear fused into the wings/body rather than clearly mounted on pylons.",
+            "Top orange fin/antenna-like piece is oddly placed and not a functional aircraft part."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and dominant, but too plastic-toy/glossy and more airplane than starship; tail crowds the top area.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind",
+           "severe_distortion"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "airplane",
+           "defects": [
+            "Landing gear are blocky pedestal feet instead of airplane wheels.",
+            "There are four uneven support legs/feet under the fuselage, giving the plane an impossible table-like construction.",
+            "Under-wing engines are asymmetric in apparent size and placement; the left engine looks much larger and more forward than the right.",
+            "Left engine/nacelle appears partly fused into the wing and lower fuselage.",
+            "Wings are asymmetric: the right wing is much shorter/stubbier than the left visible wing.",
+            "Tail section lacks clear horizontal stabilizers."
+           ],
+           "distortion": "severe",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best composition and colour, clear central hero in a spaceport-like scene, but still looks like a glossy toy airplane rather than the reference style.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind",
+           "severe_distortion"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "airplane",
+           "defects": [
+            "Landing gear is replaced by four gray leg-like struts with flat block feet instead of wheels/skids.",
+            "Landing struts are asymmetric in placement and shape; some appear to grow directly out of the belly and engine area.",
+            "Horizontal tail stabilizers are missing; only the vertical tail fin is visible.",
+            "Engines are oddly merged into the wing/fuselage area rather than mounted cleanly on pylons.",
+            "Right engine appears attached to a tiny stub wing and is not symmetrically matched to the left wing/engine assembly.",
+            "Nose is an oversized smooth sphere fused into the fuselage, giving the plane an unrealistic construction.",
+            "Top roof intake/scoop is an extra aircraft part and is blended into the fuselage in an unrealistic way."
+           ],
+           "distortion": "severe",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a big round-nosed white and orange passenger starship with stubby wings in its real environment: sunny spaceport with landing pads and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky orange-white passenger craft in a bright airport scene, but it reads a bit like glossy plastic toy airplane rather than soft rendered metal starship.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "airplane",
+           "defects": [
+            "Left main landing gear wheels are melted together and lack a clear connecting strut.",
+            "Rear landing gear positions are confusing: one small wheel set appears under the center of the fuselage while the opposite main gear is not clearly paired or symmetric.",
+            "Right wing is mostly missing/hidden, appearing only as a small stub compared with the large left wing.",
+            "Top of the fuselage has an odd orange hump/extra rounded piece that does not correspond to a normal airplane part.",
+            "Panel seams on the oversized nose are irregular and make the nose look like fused toy segments."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and dominant with good bright contrast, but the shiny toy-like surfaces and golden windows push it away from the reference style.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "toy airplane",
+           "defects": [
+            "Left main landing gear appears as two fused wheels with no clear strut or axle connection to the airplane.",
+            "Front landing gear is offset to one side under the nose rather than centered, with an awkward bent strut.",
+            "Far/right engine is only loosely connected to the wing and appears partly floating behind it.",
+            "Horizontal tail stabilizers are missing; only the vertical tail fin is visible.",
+            "Wing and engine shapes merge into the fuselage in a soft, toy-like way with unclear attachment points."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 5
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong central silhouette and clean colours; closest overall, though still too plastic/airplane-like compared with Township-style softly rendered real materials.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Airplane",
+           "defects": [
+            "Missing horizontal tail stabilizers/elevators.",
+            "Landing gear uses blocky foot-like pads instead of wheels, which is impossible for a real airplane.",
+            "No visible nose wheel or tail wheel to support the aircraft.",
+            "Left and right landing gear are asymmetric in shape and angle.",
+            "Passenger windows are uneven in size, spacing, and alignment.",
+            "Cockpit windows are warped/asymmetric, with an extra narrow side pane on the right.",
+            "Engines/nacelles are heavily simplified and appear partially merged into the wings/fuselage."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 7
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 9,
+      "passed": false,
+      "hard": [
+       "not_recognized_blind"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "set_name": "Space Opera",
+   "context": "Space opera",
+   "place": "sunny spaceport with landing pads; starship deck with smooth metal panels; starship galley; alien planet with pink sand and a ringed planet in a light sky",
+   "palette": "white, steel and warm orange accents on bright clean backgrounds",
+   "motif": "small ringed planet",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Food Tube",
+     "object": "a silver astronaut food tube with a squeezed end",
+     "theme_marker": "squeezed metal tube",
+     "moment": "galley",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "purple",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver astronaut food tube with a squeezed end, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: purple with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 1,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable as a squeezed silver tube, but the planet label makes the astronaut-food idea less instant; metal is a bit too glossy.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "paint tube",
+           "defects": [
+            "Bottom sealed end is uneven and scalloped, with toe-like crimp folds instead of a clean straight crimp.",
+            "Tube body is slightly warped/asymmetric around the lower half, though it could read as soft metal squeezing.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear floating food tube with astronaut emblem and good purple background; slightly too shiny/realistic metallic rendering.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "squeeze tube",
+           "defects": [
+            "Bottom crimp/sealed end is warped into uneven lumpy segments rather than a continuous sealed fold.",
+            "Right side of the bottom crimp appears hollow/open, like an exposed tube opening, which conflicts with a sealed squeeze tube.",
+            "No text or digits."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clear squeezed astronaut food tube, strong silhouette and clean colours; metal finish is still a little too glossy for the reference style.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "paint tube",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Space Mug",
+     "object": "a white space mug with a sipping lid and a handle",
+     "theme_marker": "sipping lid",
+     "moment": "galley",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "yellow",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white galley table on a starship",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white space mug with a sipping lid and a handle placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated yellow wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky space mug on a surface with warm yellow background; slightly shiny but fits well.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "mug",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: simple rounded mug, readable sipping lid and handle, clean space emblem, good colour contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space mug",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and on-style, though the front badge and stripe make it a bit busier than B.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "travel mug",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Spacesuit",
+     "object": "a white and orange spacesuit on a stand with a round helmet",
+     "theme_marker": "round helmet and chest panel",
+     "moment": "airlock",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "sky blue",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white and orange spacesuit on a stand with a round helmet standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky spacesuit on a stand, good sky-blue category-2 setup and clean colours.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "astronaut",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: simple rounded forms, very readable silhouette, correct plain floor/background and no defects.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Astronaut",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and on-category; slightly more toy-like base, but still fits the soft rounded game style.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "Astronaut",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white and orange spacesuit on a stand with a round helmet standing on a plain flat floor of lighter sky blue, three-quarter view slightly from above. Behind it a plain vertical sky blue wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear spacesuit on stand, but a bit glossy toy-like and too close to the top.",
+          "mean": 8,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "astronaut",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and correct setup, but still reads slightly like a polished plastic figurine; top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "astronaut figurine",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean silhouette and good category/background, but helmet and suit are a little too glossy toy-like; top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "toy astronaut",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Make the spacesuit look more like soft fabric and matte painted metal, less like a glossy plastic toy, with extra empty space above the helmet."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": [
+       "not_recognized_blind"
+      ]
+     }
+    },
+    {
+     "n": 4,
+     "name": "Fleet Medal",
+     "object": "a round brass fleet medal with a ringed planet and a blue ribbon",
+     "theme_marker": "ringed planet emblem",
+     "moment": "bridge",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "orange",
+     "bg_treatment": "faint repeating pattern of small ringed planet silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brass fleet medal with a ringed planet and a blue ribbon, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of small ringed planet silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 13.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear floating fleet medal on orange background, but metal/fabric texture is a bit too realistic and the ribbon intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "space medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable medal with strong colour contrast, but the cloth weave and rendered metal feel slightly too detailed; top 12% is not free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "space medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match to the requested brass medal and simple emblem, readable and bright, but still has subtle realistic fabric/metal texture and sits too high.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Saturn medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Make the medal and ribbon smoother and more simplified in soft casual game style, with no fine fabric or metal texture, and leave the top 12% of the image empty."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brass fleet medal with a ringed planet and a blue ribbon, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: orange with soft gradient and faint repeating pattern of small ringed planet silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the medal and ribbon smoother and more simplified in soft casual game style, with no fine fabric or metal texture, and leave the top 12% of the image empty.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 16.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear chunky medal with planet and blue ribbon; fits orange simple background, but object intrudes into top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space medal",
+           "defects": [
+            "The blue ribbon is geometrically ambiguous: the two upper loops appear fused into one central tab without a clearly continuous strap path."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: simple, readable brass fleet medal with soft rounded forms; only the top safe area is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Saturn medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and on-style, though small star emblems add slight extra detail; top safe area is tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Alien Pet",
+     "object": "a round fluffy alien creature with three eyes and tiny antennae",
+     "theme_marker": "three eyes and antennae",
+     "moment": "hangar",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "green",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a cargo crate in a spaceport hangar",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round fluffy alien creature with three eyes and tiny antennae placed on a cargo crate in a spaceport hangar (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cute three-eyed alien, but fur is a bit AI-fuzzy/detailed and the large crate plus wall markings add unnecessary extra elements.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "fluffy alien",
+           "defects": [
+            "fantastical three-eyed furry creature with antennae does not exist in real life",
+            "front paws are stub-like and merge into the fur with no distinct legs",
+            "crate has decorative yellow slash marks that resemble text but are not readable characters"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and bright with good green background, but the fluffy texture is too strand-like and the crate/plaque is an extra prop.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Fluffy alien",
+           "defects": [
+            "The creature is a fantasy/non-real animal with three eyes and antennae."
+           ],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable, warm and game-like, but fur has too much fine feathered detail and the big crate is an extra object.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "furry monster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the alien pet sit directly on a simple wooden or cloth surface, with smoother chunky fluffy forms and no crate or extra props."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round fluffy alien creature with three eyes and tiny antennae placed on a cargo crate in a spaceport hangar (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated green wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the alien pet sit directly on a simple wooden or cloth surface, with smoother chunky fluffy forms and no crate or extra props.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear cute alien, but fur is a bit too strand-like/detailed and the crate reads as an extra prop; antennae leave little top clearance.",
+          "mean": 7,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Fuzzy monster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: clear silhouette, green background and good category setup, but fluffy fur is still too finely layered/AI-plush and top clearance is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Fuzzy monster",
+           "defects": [
+            "Fantasy creature that does not exist in real life.",
+            "Has three eyes instead of a normal paired-eye arrangement.",
+            "Feet are stubby and fused directly into the round body with no visible legs or clear joints.",
+            "Antennae are fused into the fur with no clear sockets or structural attachment."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 1,
+          "colour": 1,
+          "defects": 0,
+          "hard_defects": [
+           "several_main_objects"
+          ],
+          "comment": "Creature is readable, but the sci-fi room/window/ship and crate add distracting extra objects; background is busier and less clean.",
+          "mean": 5,
+          "hard": [
+           "several_main_objects"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "fluffy alien",
+           "defects": [
+            "right side has two orange cheek spots while the left side has only one, creating an asymmetric marking pattern",
+            "the three eyes are crowded and slightly fused/overlapping at their rims"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 2
+         }
+        ],
+        "best": "B",
+        "fix": "Make the alien pet with smoother chunky rounded fur clumps, no extra props, and more empty green space at the top."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 7,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Jetpack",
+     "object": "a silver jetpack with two orange thrusters and shoulder straps",
+     "theme_marker": "twin thrusters",
+     "moment": "spaceport",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "pink",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a silver jetpack with two orange thrusters and shoulder straps, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: pink with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong Township-like chunky jetpack, clear and bright; top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jetpack",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clear floating jetpack, warm soft materials, good pink background and clean margins.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "jetpack",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and stylistically close, but top straps sit slightly too high in the safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Jetpack",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Cryo Pod",
+     "object": "a white egg-shaped sleep pod with a glass lid",
+     "theme_marker": "glass lid",
+     "moment": "deck",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "turquoise",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white egg-shaped sleep pod with a glass lid standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.0,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.0,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear sleep pod on turquoise floor/background, but too glossy toy-like and fills the top too much.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "space pod bed",
+           "defects": [
+            "Transparent canopy has no visible hinge or opening mechanism and appears fused into the gold rim/body.",
+            "Interior mattress/blanket seems to clip under the front rim and into the pod shell.",
+            "Back cushions and pillow are softly merged together with unclear separation from the rear wall.",
+            "Side circular port/button is decorative and does not connect to any functional mechanism."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable egg-shaped pod with glass lid; closest overall, but still too plastic/glossy and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "space pod bed",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but overly glossy sci-fi toy styling and object sits too close to the top.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "sleep pod",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": "Make the pod less glossy and toy-like, with softer matte white metal and glass, and leave more empty space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white egg-shaped sleep pod with a glass lid standing on a plain flat floor of lighter turquoise, three-quarter view slightly from above. Behind it a plain vertical turquoise wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the pod less glossy and toy-like, with softer matte white metal and glass, and leave more empty space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 16.4,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear sleep pod on correct turquoise floor/background, but a bit too slick/plastic and slightly busy inside.",
+          "mean": 9,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "space pod chair",
+           "defects": [
+            "transparent canopy/rim blends into the shell with no clear hinge or separation",
+            "top rear pink segment appears like an extra cushion/panel protruding from the shell and not clearly connected",
+            "base/feet are asymmetric: left and right gold supports differ in size and placement"
+           ],
+           "distortion": "minor",
+           "match": false
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: chunky rounded form, clean soft rendering, clear glass-lid sleep pod, correct simple category 2 setup.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Sleep pod",
+           "defects": [
+            "Transparent canopy is ambiguously fused into the cream shell with no clear hinge or opening mechanism.",
+            "Front gold latch/handle appears partly embedded in the glass and rim rather than mounted on a distinct bracket.",
+            "Top gold handle/cushion straddles the shell and canopy seam with unclear attachment.",
+            "Some shell seam panels on the side do not line up cleanly with the pod curvature."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong style and readability, clean background; decorative marks are okay, though a little more sci-fi emblem-like than needed.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "sleep pod",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Observatory",
+     "object": "a white observatory dome with a big telescope",
+     "theme_marker": "dome with a telescope",
+     "moment": "planet",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "alien planet with a ringed planet in a light sky",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white observatory dome with a big telescope in its real environment: alien planet with a ringed planet in a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 20.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 18.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky observatory with dominant telescope, warm soft materials and bright readable background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Observatory",
+           "defects": [
+            "Telescope mount is simplified and appears partially fused into the telescope tube instead of clearly cradling it with separate pivots.",
+            "Rear end of the telescope is unclear/occluded and seems to merge into the left side support rather than forming a complete tube.",
+            "Dome opening edges are slightly asymmetric, with the top white cap/rim not matching cleanly on both sides."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very close to reference style; strong hero observatory, clean silhouette, bright colours, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Observatory",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and polished in the right casual style; object is large and central with good contrast.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Observatory",
+           "defects": [
+            "Telescope support/mount is partially fused into the underside of the telescope and the floor pedestal, with unclear connection geometry.",
+            "Back end of the telescope disappears into the dark dome opening instead of having a visible rear barrel/eyepiece assembly.",
+            "Dome opening edges and red arch ribs are asymmetric and do not align cleanly with the dome curvature.",
+            "Some dome and wall block seams are warped and uneven, with brick lines not wrapping consistently around the cylindrical building."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Meteorite",
+     "object": "a dark round meteorite with orange crystal veins",
+     "theme_marker": "crystal veins",
+     "moment": "planet",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "pink alien sand",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a dark round meteorite with orange crystal veins placed on pink alien sand (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear chunky meteorite on textured surface, warm game lighting, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Molten meteor",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best balance: simple rounded form, readable meteorite, strong orange veins, clean red background.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Lava meteor",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and on-category, slightly busier vein/crater pattern but still fits the style.",
+          "mean": 10,
+          "hard": [
+           "not_recognized_blind"
+          ],
+          "pass": false,
+          "blind": {
+           "guess": "lava rock",
+           "defects": [],
+           "distortion": "none",
+           "match": false
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Hover Bike",
+     "object": "a sleek orange hover bike floating above the sand",
+     "theme_marker": "no wheels, floating",
+     "moment": "planet",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "alien planet with pink sand and a ringed planet in a light sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a sleek orange hover bike floating above the sand in its real environment: alien planet with pink sand and a ringed planet in a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 18.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear dominant hover bike in a bright environment, but the surface feels a bit glossy plastic/toy-like compared with the softer material style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "hover bike",
+           "defects": [
+            "No clear ground-contact or lift mechanism is visible; it floats like a hoverbike rather than a real vehicle.",
+            "Handlebar assembly is partly hidden and appears to merge into the windshield/body instead of having a clear central steering column.",
+            "Left and right side thruster pods are not symmetrical: the visible left pod is large and set back with an extra gray cylinder, while the right pod is much smaller/partly embedded in the front body."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and clean composition; object reads instantly and fits category, though still too slick and plastic compared with Township references.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Hover bike",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and well-framed with good colour contrast, but the bike rendering is overly glossy and toy-like for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "hover bike",
+           "defects": [
+            "Futuristic hover-bike design does not correspond to a real-life vehicle type.",
+            "Handlebars are asymmetric: the left and right metal stems attach at different heights/angles and the grips differ in apparent size and orientation.",
+            "Near-side hover pod/engine is visible, but a matching far-side pod is missing or completely hidden, making the vehicle look unbalanced.",
+            "Lower front grille/intake slots are uneven in size and spacing.",
+            "Side intake slats are irregular and slightly melted-looking."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 5
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "set_name": "Space Opera",
+   "context": "Space opera",
+   "place": "sunny spaceport with landing pads; starship deck with smooth metal panels; starship galley; alien planet with pink sand and a ringed planet in a light sky",
+   "palette": "white, steel and warm orange accents on bright clean backgrounds",
+   "motif": "small ringed planet",
+   "concept": "",
+   "cards": [
+    {
+     "n": 1,
+     "name": "Pilot Goggles",
+     "object": "a pair of pilot goggles with round orange lenses and a brown leather strap",
+     "theme_marker": "round lenses and leather strap",
+     "moment": "spaceport",
+     "class": "costume",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "turquoise",
+     "bg_treatment": "sunburst rays",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": true,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a pair of pilot goggles with round orange lenses and a brown leather strap, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: turquoise with soft gradient and sunburst rays. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.8,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear goggles with correct turquoise ray background and good framing; leather is a bit too finely textured/realistic for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Aviator goggles",
+           "defects": [
+            "Buckle is stuck onto the front of the lower strap instead of having the strap threaded through it; no prong or adjustment holes are visible.",
+            "Right side strap connector looks like a short hollow leather loop fused to the lens frame rather than a clearly functional strap attachment.",
+            "Leather around the nose bridge is melted/fused into the lens frames with an indistinct construction."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and close to the chunky game style, but the strap intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "aviator goggles",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable goggles in the right style and colours, but the buckle/strap sits too high in the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Aviator goggles",
+           "defects": [
+            "Center bridge/padding between the two eyepieces is slightly lumpy and fused into the rims instead of being a clean separate connector.",
+            "Top buckle/strap construction is ambiguous: the strap appears to pass through a partly solid-filled buckle with no clear tongue or functional slot.",
+            "Left and right side attachments are asymmetric: the right side has a rectangular riveted plate, while the visible left side only shows a small round button/partial fitting."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "A",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 2,
+     "name": "Food Tray",
+     "object": "a metal space food tray with colourful food cubes",
+     "theme_marker": "compartment tray",
+     "moment": "galley",
+     "class": "food/drink",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "orange",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "a white galley table on a starship",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a metal space food tray with colourful food cubes placed on a white galley table on a starship (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated orange wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 19.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.6,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear tray and cubes on a proper surface, but metal/food rendering is a bit too realistic and less chunky-game-like.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "bento tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable and bright, but the side handles/panels make it feel more like a plastic toy lunchbox than a soft-rendered metal tray.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "bento tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: simple chunky forms, soft metal, clear colourful food cubes, correct orange cat-3 setting.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Bento tray",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 3,
+     "name": "Robot Dog",
+     "object": "a friendly robot dog of painted metal with floppy metal ears",
+     "theme_marker": "metal dog with floppy ears",
+     "moment": "deck",
+     "class": "creature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "purple",
+     "bg_treatment": "concentric circles",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a friendly robot dog of painted metal with floppy metal ears standing on a plain flat floor of lighter purple, three-quarter view slightly from above. Behind it a plain vertical purple wall with concentric circles. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.9,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear friendly robot dog on correct purple floor/background, but feels more like a glossy plastic toy than softly painted metal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "robot puppy",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable and well framed; best metal-panel construction, but still a bit too shiny toy-like for the reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "robot puppy",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable, bright, and correctly staged; has nice metal details, but the finish is still too polished/plastic and slightly toy-like.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "robot puppy",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 4,
+     "name": "Communicator",
+     "object": "a wrist communicator with a big round screen",
+     "theme_marker": "big round screen",
+     "moment": "deck",
+     "class": "artifact",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "yellow",
+     "bg_treatment": "faint repeating pattern of small ringed planet silhouettes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a wrist communicator with a big round screen, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: yellow with soft gradient and faint repeating pattern of small ringed planet silhouettes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 16.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.3,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Chunky rounded wrist communicator on a clean yellow patterned background; clear and usable, though the screen is a bit plain.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space watch",
+           "defects": [
+            "Wrist strap has no visible buckle, clasp, holes, or functional closure despite having a keeper loop.",
+            "Right-side strap appears to grow directly out of the case/side body rather than attaching cleanly between two lugs.",
+            "Lower strap attachment is partly hidden/fused into the underside of the case, making the connection ambiguous."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable communicator with good colours and category fit, but the antenna comes too close to the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space watch",
+           "defects": [
+            "Upper-left antenna/nozzle is fused into the watch body at an odd angle with no clear socket or seam.",
+            "Blue strap appears to merge into or pass behind the lower case instead of attaching cleanly to visible lugs.",
+            "Lower cream-colored case/lug extensions are uneven and melted-looking, especially around the bottom left and bottom right.",
+            "Right-side ridged crown is partly embedded in the case/bezel rather than clearly attached on a stem."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best match: clear single floating wrist communicator, bright yellow background, strong silhouette, no defects.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space watch",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 5,
+     "name": "Cargo Crate",
+     "object": "a white metal cargo crate with orange corner guards",
+     "theme_marker": "orange corners",
+     "moment": "hangar",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "sky blue",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "the metal floor of a spaceport hangar",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white metal cargo crate with orange corner guards placed on the metal floor of a spaceport hangar (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated sky blue wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 21.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 20.8,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear cargo crate on correct floor/wall setup, but material reads a bit plastic/wood-grained rather than soft white metal.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Supply crate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Very readable white cargo crate with orange guards, soft chunky game rendering, clean sky-blue background and correct category depth.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "loot crate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Strong readable crate, good rounded forms and colour contrast; orange stripe emblem is pictorial, not text.",
+          "mean": 10,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "supply crate",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 10,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 6,
+     "name": "Fleet Badge",
+     "object": "a round brass fleet badge with a small ringed planet emblem",
+     "theme_marker": "ringed planet emblem",
+     "moment": "deck",
+     "class": "symbol",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 1,
+     "bg_color": "green",
+     "bg_treatment": "diagonal stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a round brass fleet badge with a small ringed planet emblem, floating in the air, slightly tilted for dynamism, no surface, no ground. Plain background: green with soft gradient and diagonal stripes. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 15.4,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 14.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 13.9,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear floating brass badge on green background; decorative laurel/star make it a bit busier, and top ring enters the reserved top area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 1,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and well rendered, but the large wings make it feel less like a simple round fleet badge; top ring is too high.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "space medal",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best match: simple round brass badge with clear planet emblem, bright green background; only issue is the top ring intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "space medal",
+           "defects": [
+            "Top hanging loop appears to intersect or be embedded behind the solid rectangular tab instead of passing through a visible hole or hinge."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 1
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 7,
+     "name": "Vending Bot",
+     "object": "a rounded space vending machine with colourful snack capsules",
+     "theme_marker": "capsule window",
+     "moment": "spaceport",
+     "class": "household",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 2,
+     "bg_color": "pink",
+     "bg_treatment": "vertical stripes",
+     "surface": "",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded space vending machine with colourful snack capsules standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear rounded space vending machine with snack capsules and good pink floor/background, but it reads a bit too glossy plastic-toy and the antenna occupies the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Capsule vending machine",
+           "defects": [
+            "Capsules and treats inside the chamber overlap tightly and appear to intersect or float rather than sit in a clear mechanism",
+            "Left and right side circular yellow ornaments are not symmetrically placed; the left one is only a partial sliver while the right one is fully protruding",
+            "The dispenser chute has no visible internal path connecting it to the capsule chamber"
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Readable and bright, but closer to a glossy capsule/gumball toy than Township material rendering; top ornament is too close to the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "gumball machine",
+           "defects": [
+            "Front left and right yellow button/slot panels are asymmetric: the right side has a different number/spacing of slots than the left.",
+            "Lower feet are inconsistent in shape and size; the right front foot is taller/rounder while the left front foot is flatter and wider.",
+            "Top planet ornament has a ring that appears to clip through the sphere like a fused solid piece, rather than a separate ring around it."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and colourful, but quite toy-like/glossy and more like a capsule machine than a vending bot; top decoration intrudes into the top safe area.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "capsule machine",
+           "defects": [
+            "Some snack capsules appear intersecting/overlapping each other and the glass globe instead of occupying clear separate space.",
+            "The transparent globe edge is warped/asymmetric, with uneven side thickness.",
+            "The upper window panels are uneven in size and spacing, especially the small partial window on the right side.",
+            "The two yellow front indicator lights are different shapes/sizes."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         }
+        ],
+        "best": "A",
+        "fix": "Make the machine less glossy plastic-toy and more soft Township-style rounded material rendering, with extra empty pink space at the top."
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      },
+      {
+       "round": 2,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a rounded space vending machine with colourful snack capsules standing on a plain flat floor of lighter pink, three-quarter view slightly from above. Behind it a plain vertical pink wall with vertical stripes. No environment details. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day. Important: Make the machine less glossy plastic-toy and more soft Township-style rounded material rendering, with extra empty pink space at the top.",
+       "gens": [
+        {
+         "file": "r2_0.png",
+         "sec": 17.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_1.png",
+         "sec": 18.5,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r2_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear rounded space vending machine on pink cat-2 floor, but it feels a bit glossy/toy-like and top margin is tight.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "Gacha Machine",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very readable and good composition, but still reads as smooth plastic toy rather than soft Township painted material; top 12% is not fully free.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "capsule vending machine",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and object clarity, good pink background, but material is too glossy plastic and the top ornament sits too high.",
+          "mean": 8,
+          "hard": [],
+          "pass": false,
+          "blind": {
+           "guess": "capsule vending machine",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": "Make the vending machine more like softly rendered matte painted metal in Township style, less glossy plastic, with a little more empty space at the top."
+       },
+       "judged_files": [
+        "r2_0.png",
+        "r2_1.png",
+        "r2_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r2_0.png",
+      "score": 8,
+      "passed": false,
+      "hard": []
+     }
+    },
+    {
+     "n": 8,
+     "name": "Landing Tower",
+     "object": "a white spaceport control tower with a round glass top",
+     "theme_marker": "round glass top",
+     "moment": "spaceport",
+     "class": "building",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "spaceport with landing pads and a light sky",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a white spaceport control tower with a round glass top in its real environment: spaceport with landing pads and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.7,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 20.6,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 17.7,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Very close to reference style and clearly a spaceport control tower; strong hero scale, but the antenna intrudes into the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "control tower",
+           "defects": [
+            "Upper glass-room window supports are unevenly spaced and not perfectly symmetric between left and right sides.",
+            "Red circular balcony/window bands are slightly warped and not perfectly concentric.",
+            "White bracket blocks under the observation deck vary in size and angle, with some appearing partly fused into the wall or underside of the ring.",
+            "Dome panel divisions are uneven, with red and white panels not matching symmetrically around the top.",
+            "Lower base flares and red foot blocks are slightly asymmetric in shape and size.",
+            "Door arch and double doors are a little uneven, with the center seam and arch not perfectly aligned."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 6
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clean, readable, correct environment and warm rounded rendering; top antenna is too close to the frame edge.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Control tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best balance of chunky game style, clear tower silhouette, and bright spaceport setting; still slightly violates the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Control tower",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_1.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 9,
+     "name": "Alien Crystal",
+     "object": "a cluster of turquoise alien crystals",
+     "theme_marker": "faceted crystals",
+     "moment": "planet",
+     "class": "nature",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 3,
+     "bg_color": "red",
+     "bg_treatment": "plain wall with light glow",
+     "surface": "pink alien sand with small stones",
+     "environment": "",
+     "view": "",
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a cluster of turquoise alien crystals placed on pink alien sand with small stones (stylized soft painted texture, bright and warm, the surface occupies the lower quarter of the frame), the whole object visible with space around it, three-quarter view slightly from above. Behind it a volumetric background: a saturated red wall with plain wall with light glow and a gentle light glow behind the object, softly blurred, no sun rays, bright and cheerful, no dark vignette. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 28.3,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 16.2,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Clear turquoise crystal cluster on red background, but crystal faces have fine AI-like streak texture and slightly too realistic faceting.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "B",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Readable object and good category setup, but the internal wavy crystal texture feels AI-generated and less like the soft chunky reference style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         },
+         {
+          "id": "C",
+          "style": 1,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 2,
+          "hard_defects": [],
+          "comment": "Best silhouette and cleanest composition, with bright contrast; still a bit too finely faceted/textured to fully match Township style.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Crystal cluster",
+           "defects": [],
+           "distortion": "none",
+           "match": true
+          },
+          "minor_defects": 0
+         }
+        ],
+        "best": "C",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_0.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    },
+    {
+     "n": 10,
+     "name": "Rocket",
+     "object": "a classic red and white rocket with three fins on a launch pad",
+     "theme_marker": "pointed nose and three fins",
+     "moment": "spaceport",
+     "class": "vehicle",
+     "scale": "hand",
+     "silhouette": "",
+     "category": 4,
+     "bg_color": "",
+     "bg_treatment": "",
+     "surface": "",
+     "environment": "sunny spaceport with a launch tower and a light sky",
+     "view": "",
+     "hero": true,
+     "wearable": false,
+     "set_context": "Space opera",
+     "history": [
+      {
+       "round": 1,
+       "prompt": "Using the attached images ONLY as a style reference (rendering, materials, lighting, palette, composition, background treatment) — do not copy their objects — create a new card illustration of a classic red and white rocket with three fins on a launch pad in its real environment: sunny spaceport with a launch tower and a light sky; the object is the clear central hero and fills about 70-80% of the frame, tall or wide objects may be cropped by the frame edge, the environment is recognizable but simplified: a few large shapes of the landscape and sky with fluffy clouds, only a little secondary detail, softly blurred, bright daylight, no characters. Style: stylized 3D casual mobile game collectible card art, warm animated-movie look, soft rounded chunky shapes, slightly exaggerated proportions, no outlines, every object keeps its real material (painted wood, brass, iron, leather, fabric, ceramic, glass, baked food) with soft hand-painted texture and medium detail, matte or satin surfaces, warm soft diffuse lighting like a sunny afternoon, gentle soft highlights, soft contact shadow, the object is the most saturated element, background slightly softer, single object centered, fills about 75% of the width, top 12% of the frame kept clear, simplified forms, thick chunky parts instead of thin lattices or wires, no fine fibers or strands, no small scattered details. Vertical 9:10 composition. No text, letters, numbers, logos, frames, borders, rounded corners, card UI, stars, outlines, photorealism, dark gloomy tones, clutter, people, glossy plastic toy look, wet shine, chrome or mirror reflections, neon glow. Context of this card set: Space opera. Let this context shape only the surface, environment and background mood; show no people and no other objects from that day.",
+       "gens": [
+        {
+         "file": "r1_0.png",
+         "sec": 19.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_1.png",
+         "sec": 17.1,
+         "size": [
+          864,
+          960
+         ]
+        },
+        {
+         "file": "r1_2.png",
+         "sec": 18.2,
+         "size": [
+          864,
+          960
+         ]
+        }
+       ],
+       "judge": {
+        "candidates": [
+         {
+          "id": "A",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Clear hero rocket on launch pad, good Township-like soft 3D style; top margin is a bit tight.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Rocket",
+           "defects": [
+            "Right-side launch support arms appear embedded into the rocket body instead of clearly attaching with separate clamps.",
+            "Lower front fin blends into the rocket body and base with unclear separation.",
+            "Side fins are slightly asymmetric in size/shape, though partly due to perspective.",
+            "No text or digits visible."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "B",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Best silhouette and clean composition, bright and readable; rocket tip slightly enters the top safe area.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "Rocket",
+           "defects": [
+            "Small blunt peg/antenna on the nose tip looks like an extra part for a rocket and is fused directly into the cone.",
+            "Front center fin is placed over the engine area and appears to merge into the lower body/engine rather than attach cleanly.",
+            "Launch gantry arm behind the rocket appears to penetrate or attach awkwardly into the rocket side with no clear connector.",
+            "Some tower/platform beams intersect each other in simplified, physically unclear ways."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 4
+         },
+         {
+          "id": "C",
+          "style": 2,
+          "readability": 2,
+          "category": 2,
+          "colour": 2,
+          "defects": 1,
+          "hard_defects": [],
+          "comment": "Strong readable rocket and suitable launch environment, but top-left tower/antenna makes the top safe area less clean.",
+          "mean": 9,
+          "hard": [],
+          "pass": true,
+          "blind": {
+           "guess": "rocket",
+           "defects": [
+            "Two rectangular launch gantry arms penetrate into the rocket's left side instead of visibly docking or stopping cleanly at a connector.",
+            "The circular collars around the gantry-arm contact points are only partial/oddly blended into the rocket body.",
+            "The front center fin is unusually oversized and positioned like a single blade directly on the front, making the fin layout look somewhat toy-like/impossible for a real rocket."
+           ],
+           "distortion": "minor",
+           "match": true
+          },
+          "minor_defects": 3
+         }
+        ],
+        "best": "B",
+        "fix": ""
+       },
+       "judged_files": [
+        "r1_0.png",
+        "r1_1.png",
+        "r1_2.png"
+       ]
+      }
+     ],
+     "final": {
+      "file": "r1_2.png",
+      "score": 9,
+      "passed": true,
+      "hard": []
+     }
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "images": 111,
+  "image_out": 137085,
+  "image_in": 130866,
+  "text_in_img": 42903,
+  "llm_calls": 259,
+  "llm_in": 158839,
+  "llm_out": 85947
+ }
+}

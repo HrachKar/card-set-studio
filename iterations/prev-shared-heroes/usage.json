@@ -1,0 +1,24 @@
+{
+ "composers": {
+  "P": {
+   "images": 0,
+   "image_out": 0,
+   "image_in": 0,
+   "text_in_img": 0,
+   "llm_calls": 2,
+   "llm_in": 11099,
+   "llm_out": 20392,
+   "usd_estimate": 0.67
+  }
+ },
+ "preview_images": {
+  "images": 30,
+  "image_out": 31680,
+  "image_in": 8682,
+  "text_in_img": 10587,
+  "llm_calls": 0,
+  "llm_in": 0,
+  "llm_out": 0,
+  "usd_estimate": 1.07
+ }
+}

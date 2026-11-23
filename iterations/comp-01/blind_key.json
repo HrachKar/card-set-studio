@@ -1,0 +1,6 @@
+{
+ "P": "gpt-5.4-mini",
+ "Q": "gpt-5.5",
+ "R": "gemini-3.8-flash",
+ "S": "claude (in-skill, composed by Claude Code itself, no critic pass)"
+}
