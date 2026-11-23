@@ -39,8 +39,10 @@ def main():
     s = sub.add_parser("sheets"); s.add_argument("--run", required=True)
     args = ap.parse_args()
 
+    from .envfile import load_env
+    load_env()  # OPENAI_API_KEY from .env (setup.sh) if it is not in the environment
     if not os.environ.get("OPENAI_API_KEY") and getattr(args, "stop_after", None) != "dry":
-        sys.exit("OPENAI_API_KEY is not set. Put it into the environment (see README).")
+        sys.exit("OPENAI_API_KEY is not set. Run: bash setup.sh (saves the key to .env), see README.")
     from . import config, pipeline
     if getattr(args, "candidates", None):
         config.CANDIDATES = args.candidates
