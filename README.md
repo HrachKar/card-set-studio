@@ -9,48 +9,59 @@
 
 ---
 
-## Установка за 5 минут (Mac)
+## Установка (Mac)
 
-Нужно один раз.
+Два равноценных способа: **A — приложение Claude** и **B — Терминал**. Скилл и команды одни и те же, выбирайте, где удобнее общаться. Подготовка общая и нужна один раз.
 
-**1. Python 3.10+.** Проверьте в Терминале:
+### Подготовка (один раз, в Терминале)
+
+**1. Python 3.10+.** Проверка: `python3 --version`. Если команды нет, поставьте с https://www.python.org/downloads/ (или `brew install python`).
+
+**2. Репозиторий и установка:**
 ```bash
-python3 --version
-```
-Если команды нет, поставьте с https://www.python.org/downloads/ (или `brew install python`).
-
-**2. Claude Code.** Инструкция: https://docs.claude.com/en/docs/claude-code/setup. Проверка: `claude --version`.
-
-**3. Репозиторий и зависимости:**
-```bash
-git clone <ссылка на репозиторий> card-set-studio
+cd ~/Documents
+git clone https://github.com/HrachKar/card-set-studio card-set-studio
 cd card-set-studio
+bash setup.sh
+```
+`setup.sh` сам создаёт `.venv`, ставит зависимости и просит ключ OpenAI (https://platform.openai.com/api-keys). Ключ вводится скрыто и сохраняется в файл `.env` в папке репозитория. Этот файл в `.gitignore` и в git не попадает. В конце скрипт бесплатно проверяет, что OpenAI принял ключ. Запускать повторно безопасно.
+
+Ключ никогда не вставляйте в чат с Claude и не коммитьте в репозиторий. Ключ Gemini (`GEMINI_API_KEY`) не нужен: он был только для сравнения моделей (`studio/bench.py`).
+
+### A. Приложение Claude
+
+1. Поставьте приложение Claude для Mac (https://claude.ai/download) и войдите.
+2. Откройте вкладку **Code** и выберите локальную папку `~/Documents/card-set-studio`.
+3. Напишите задачу, например:
+
+> Сделай набор «Космоопера». Пожелания: как Звёздные войны, но без клонов.
+
+Ключ берётся из `.env`, окружение `.venv` скилл находит сам. Терминал для работы не нужен.
+
+### B. Терминал
+
+1. Claude Code: https://docs.claude.com/en/docs/claude-code/setup. Проверка: `claude --version`.
+2. Запуск:
+```bash
+cd ~/Documents/card-set-studio
+claude
+```
+3. Напишите задачу, как в способе A.
+
+<details><summary>Установка вручную, без setup.sh</summary>
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+echo 'OPENAI_API_KEY=sk-...' > .env
 ```
-
-**4. Ключ OpenAI.** Генерация картинок и судья работают через OpenAI API. Ключ: https://platform.openai.com/api-keys. Добавьте его в профиль, чтобы не вводить каждый раз:
-```bash
-echo 'export OPENAI_API_KEY="sk-..."' >> ~/.zshrc
-source ~/.zshrc
-```
-Ключ Gemini (`GEMINI_API_KEY`) не нужен. Он использовался только для сравнения моделей (`studio/bench.py`).
-
-Ключ никогда не вставляйте в чат с Claude и не коммитьте в репозиторий.
+Ключ можно и экспортировать в `~/.zshrc` (`export OPENAI_API_KEY=...`), переменная окружения важнее `.env`. Но приложение Claude, запущенное из Dock, `~/.zshrc` может не прочитать, поэтому для способа A надёжнее `.env`.
+</details>
 
 ---
 
 ## Как пользоваться
-
-```bash
-cd card-set-studio
-source .venv/bin/activate
-claude
-```
-И напишите задачу, например:
-
-> Сделай набор «Космоопера». Пожелания: как Звёздные войны, но без клонов.
 
 ### Первые 5 минут: как выглядит диалог
 
@@ -94,6 +105,7 @@ claude
 
 ### Без Claude Code
 ```bash
+source .venv/bin/activate
 python3 -m studio new --theme "Wild West" --wishes "уютный, побольше еды"
 ```
 Список объектов тогда составляет GPT-5.5 по тем же правилам. Этот путь запасной и после правил 21.11 не перепроверялся. Основной путь — через Claude Code.

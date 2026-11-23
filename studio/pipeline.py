@@ -39,6 +39,8 @@ def process_card(run_dir, vid, card, usage, rounds=None, start_round=1, note="")
     hist = card.setdefault("history", [])
     fix = note
     for rnd in range(start_round, start_round + (rounds or config.MAX_ROUNDS)):
+        if render.ABORT:
+            break
         if rnd > start_round and config.MAX_RUN_USD and usage.usd() >= config.MAX_RUN_USD:
             card["budget_stop"] = dict(round=rnd, usd=usage.usd(), cap=config.MAX_RUN_USD)
             print(f"[budget] {vid}{card['n']} {card['name']}: run cost ~${usage.usd()} >= cap ${config.MAX_RUN_USD}, "
@@ -242,6 +244,7 @@ def new_run(theme, wishes="", variants=None, name=None, sets_file=None, stop_aft
             c = f.result()
             print(f"[card] {c['name']}: {c.get('final')}")
             save_state(run_dir, sets, usage)
+    render.stop_if_aborted()
     build_sheets(run_dir, sets)
     write_report(run_dir, sets, usage, time.time() - t0)
     save_state(run_dir, sets, usage)
@@ -269,6 +272,7 @@ def regen(run_dir, vid, n, obj=None, name=None, note="", category=None, pick=Non
         start = max([e["round"] for e in card.get("history", [])], default=0) + 1
         process_card(run_dir, vid, card, usage, rounds=1, start_round=start, note=note)
     save_state(run_dir, sets, usage)
+    render.stop_if_aborted()
     build_sheets(run_dir, sets)
     write_report(run_dir, sets, usage)
     print(f"[regen] {vid}{n} {card['name']}: {card.get('final')}")
@@ -295,6 +299,7 @@ def retest(src, card_ids, name):
     with ThreadPoolExecutor(len(jobs)) as ex:
         list(ex.map(lambda j: process_card(run_dir, j[0], j[1], usage, rounds=1), jobs))
     save_state(run_dir, variants, usage)
+    render.stop_if_aborted()
     build_sheets(run_dir, variants)
     write_report(run_dir, variants, usage, time.time() - t0)
     print(f"[done] {run_dir}  cost ~${usage.usd()}")

@@ -8,8 +8,8 @@ description: Generate collection card sets (10 object cards, reference-game styl
 You run the pipeline in this repository for a game designer. They give a theme and optional wishes; you deliver 3-5 set variants, 10 cards each, as images plus contact sheets. The designer does not need to know the code: you run commands, show pictures, and translate their feedback into commands.
 
 ## 1. Check setup (once per session)
-- `python3 -c "import openai, PIL"` works, otherwise `pip install -r requirements.txt`.
-- `OPENAI_API_KEY` is set (`test -n "$OPENAI_API_KEY"`). If not, ask the user to set it; never ask them to paste the key into chat.
+- Python: if `.venv/bin/python` exists, use `.venv/bin/python` instead of `python3` in EVERY command of this skill (the desktop app does not activate the venv). Check `.venv/bin/python -c "import openai, PIL"`. If `.venv` is missing or the import fails, ask the user to run `bash setup.sh` once in Terminal in this folder.
+- Key: `OPENAI_API_KEY` is in the environment (`test -n "$OPENAI_API_KEY"`) or in `.env` (`grep -q '^OPENAI_API_KEY=.' .env`). The CLI reads `.env` itself. If neither, ask the user to run `bash setup.sh` in Terminal; never ask them to paste the key into chat and never print `.env`.
 
 ## 2. Ask only what is missing
 - Theme (required), e.g. "Wild West", "Space Odyssey".
