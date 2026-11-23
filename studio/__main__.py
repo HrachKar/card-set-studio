@@ -43,6 +43,12 @@ def main():
     load_env()  # OPENAI_API_KEY from .env (setup.sh) if it is not in the environment
     if not os.environ.get("OPENAI_API_KEY") and getattr(args, "stop_after", None) != "dry":
         sys.exit("OPENAI_API_KEY is not set. Run: bash setup.sh (saves the key to .env), see README.")
+    stop = getattr(args, "stop_after", None)
+    needs_api = args.cmd in ("new", "regen", "retest", "bench", "composers") and not (
+        stop == "dry" or (stop == "compose" and getattr(args, "sets", None)))
+    if needs_api:
+        from .preflight import check_openai
+        check_openai()  # free: models.list; stops at once on a bad key or no network
     from . import config, pipeline
     if getattr(args, "candidates", None):
         config.CANDIDATES = args.candidates

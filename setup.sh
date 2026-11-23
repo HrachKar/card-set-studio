@@ -52,6 +52,11 @@ if [ "$write_key" = 1 ]; then
   echo "OK: ключ сохранён в .env (файл в .gitignore, в git не попадёт)."
 fi
 
+if [ -n "$OPENAI_API_KEY" ]; then
+  echo "Внимание: OPENAI_API_KEY уже задан в окружении (обычно из ~/.zshrc). Он важнее .env, проверяю именно его."
+  echo "Если проверка ниже не пройдёт, исправьте или удалите строку export OPENAI_API_KEY в ~/.zshrc и откройте новое окно Терминала."
+fi
+
 # Free check: listing models costs nothing, it only tells whether the key is accepted.
 if .venv/bin/python - <<'PY'
 import sys
